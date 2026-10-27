@@ -125,6 +125,40 @@ To produce data for a different student (for example a Data Science student, or 
 cohort), copy the file, edit it, and rebuild. The `student_context` used is embedded in
 `catalog.json`.
 
+## Scope
+
+The data is resolved for one kind of student, so answering for anyone else would be confidently
+wrong, not merely unsupported. Programme changes the rules: CS2109HS, CS2040HS and MA2001 are
+closed to CS Hons but open to other students, and some rules mention the CS second major or minor.
+
+**In scope:** a BComp (CS) Hons student (`0300CSHON`), undergraduate, single major, no second
+major, no minor, no DDP, double major or concurrent degree, under AY2026/27 rules.
+**Everything else is OUT_OF_SCOPE.** That includes a CS student who mentions a minor or second
+major, because those can change the rules too. Requests are never partly answered.
+
+That makes three answer types for the checker:
+
+| Status | When | Must contain |
+|---|---|---|
+| `PLAN` / eligibility answer | in scope, a valid answer exists | the plan or yes/no |
+| `INFEASIBLE` | in scope, no valid plan | "no valid plan" + the rules that conflict |
+| `OUT_OF_SCOPE` | the student or request is outside the scope above | the reason, and a pointer to an advisor |
+
+`m1_data/scope.py` provides:
+- `check_scope(profile)`: a structured check, e.g. on pipeline B's spec. It understands `programme`, `second_major`,
+  `minor`, `ddp`, `double_major`, `program_type` and `acad_year`. `.as_answer()` gives
+  `{"status": "OUT_OF_SCOPE", "reasons": [...], "message": "..."}`.
+- `scan_request(text)`: a keyword screen for natural-language requests ("DDP", "second major",
+  "minor", "data science student", …). Use it only to sanity-check instance labels. It flags
+  phrases and does not understand them.
+- `OUT_OF_SCOPE_MESSAGE`: the reference wording. It says what is covered, why this request isn't,
+  and to check with an advisor (the doc's Responsible AI point: advise and defer).
+
+Suggested use: M3 adds about 8–10 such requests to the out-of-schema set (DDP, second major, minor,
+non-CS major). Pipeline B's schema restricts `programme` to BComp CS Hons or "other", and the
+solver returns `OUT_OF_SCOPE` for "other". A pipeline is graded wrong if it plans for an
+out-of-scope student or silently treats them as CS Hons.
+
 ## Interpretation decisions
 
 These are judgement calls the raw data forces. Each one is applied the same way everywhere

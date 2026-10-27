@@ -21,6 +21,11 @@ This file covers what you need to avoid mistakes.
    rule written in the report. Don't add fields like `available` or `reachable` that do the
    reasoning for the model unless that is the condition being tested.
 
+6. **Out-of-scope students get OUT_OF_SCOPE, never a plan.** The data covers BComp (CS) Hons,
+   single major, AY2026/27 only. DDP, second majors, minors and other programmes are declined
+   with a reason (`m1_data/scope.py`, `docs/DATA_SCHEMA.md#scope`). Never answer "the CS part
+   anyway".
+
 ## Finding things fast
 
 | Need | Where |

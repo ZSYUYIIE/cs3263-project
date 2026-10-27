@@ -13,7 +13,22 @@
     "acad_level": null,
     "units_completed": null,
     "gpa": null,
-    "unknown_policy": "assume_true"
+    "unknown_policy": "assume_true",
+    "scope": {
+      "_comment": "Requests outside this are answered OUT_OF_SCOPE, never planned. Enforced by m1_data/scope.py; see docs/DATA_SCHEMA.md#scope.",
+      "programme": "0300CSHON (BComp Computer Science Hons)",
+      "single_major_only": true,
+      "excluded": [
+        "double degree (DDP)",
+        "double major",
+        "second major",
+        "minor",
+        "concurrent degree",
+        "other majors / programmes",
+        "graduate or non-graduating students",
+        "other academic years"
+      ]
+    }
   },
   "nodes": [
     {

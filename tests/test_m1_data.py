@@ -141,3 +141,24 @@ def test_every_full_course_has_a_page(cat):
     assert all((d / f"{c}.html").exists() for c in full)
     html = (d / "CS3263.html").read_text(encoding="utf-8")
     assert 'role="img"' in html and "cs3263-title" in html and "EXCLUDES" in html
+
+
+# --- scope ------------------------------------------------------------------
+def test_scope_structured():
+    from m1_data.scope import check_scope
+    assert check_scope({"programme": "BComp CS Hons", "acad_year": "AY2026/27"}).in_scope
+    assert check_scope({}).in_scope
+    r = check_scope({"programme": "Data Science and Analytics"})
+    assert not r.in_scope and r.as_answer()["status"] == "OUT_OF_SCOPE"
+    assert not check_scope({"programme": "CS", "second_major": "Mathematics"}).in_scope
+    assert not check_scope({"programme": "CS", "minor": ["Economics"]}).in_scope
+    assert not check_scope({"ddp": True}).in_scope
+    assert not check_scope({"acad_year": "2025/2026"}).in_scope
+
+
+def test_scope_request_scan():
+    from m1_data.scope import scan_request
+    assert not scan_request("I'm in the CS + Business DDP, plan my remaining semesters").in_scope
+    assert not scan_request("I have a second major in Maths, can I take CS3263?").in_scope
+    assert not scan_request("As a data science student can I take CS3263?").in_scope
+    assert scan_request("Done CS1101S, CS1231S, CS2040S. Can I take CS3263?").in_scope

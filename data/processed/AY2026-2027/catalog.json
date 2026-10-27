@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "acad_year": "2026-2027",
-  "generated_at": "2026-10-27T13:56:04+00:00",
+  "generated_at": "2026-10-27T14:13:25+00:00",
   "fetched_at": "2026-10-27T13:22:51+00:00",
   "source": "https://api.nusmods.com/v2/2026-2027",
   "student_context": {
@@ -16,7 +16,22 @@
     "acad_level": null,
     "units_completed": null,
     "gpa": null,
-    "unknown_policy": "assume_true"
+    "unknown_policy": "assume_true",
+    "scope": {
+      "_comment": "Requests outside this are answered OUT_OF_SCOPE, never planned. Enforced by m1_data/scope.py; see docs/DATA_SCHEMA.md#scope.",
+      "programme": "0300CSHON (BComp Computer Science Hons)",
+      "single_major_only": true,
+      "excluded": [
+        "double degree (DDP)",
+        "double major",
+        "second major",
+        "minor",
+        "concurrent degree",
+        "other majors / programmes",
+        "graduate or non-graduating students",
+        "other academic years"
+      ]
+    }
   },
   "conventions": {
     "logic_nodes": "course | and | or | n_of (at least n of args). See docs/DATA_SCHEMA.md.",

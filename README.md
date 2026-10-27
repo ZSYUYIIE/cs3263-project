@@ -68,6 +68,9 @@ Without Python, open `data/processed/AY2026-2027/COURSES.md` and search for `###
 The diagrams follow the diagram-design skill (dependency-graph type, default skin) and pass its
 `self_check.py` and `verify-geometry.py`.
 
+**Scope:** BComp (CS) Hons, single major, AY2026/27. Requests about DDPs, second majors,
+minors or other programmes are answered `OUT_OF_SCOPE` with a reason (`m1_data/scope.py`).
+
 **Field reference and every interpretation decision: [`docs/DATA_SCHEMA.md`](docs/DATA_SCHEMA.md).**
 
 ### Rebuild the data
@@ -98,7 +101,8 @@ conditions are resolved for in `data/config/student_context.json`. Hand fixes go
 ## Repository layout
 
 ```
-m1_data/            data pipeline package (fetch, rules, resolve, build, check, catalog)
+m1_data/            data pipeline package (fetch, rules, resolve, build, check, catalog,
+                    graph, diagrams, scope)
 data/config/        scope.json, student_context.json
 data/raw/           NUSMods responses, kept so results are reproducible (data drifts year to year)
 data/processed/     generated outputs (do not edit)
