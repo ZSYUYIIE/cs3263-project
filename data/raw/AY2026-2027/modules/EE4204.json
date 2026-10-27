@@ -1,0 +1,62 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true
+ },
+ "department": "Electrical and Computer Engineering",
+ "description": "This course provides an in-depth treatment of fundamental topics of computer networks by exploring the underlying principles of sound network design. This course covers topics including network requirements, network architectures, internetworking, and network protocol stack models. Specifically, the course covers the following: (i) Link layer topics such as Ethernet and WiFi, bridges, and switching, (ii) Network layer topics such as IP addressing and routing in IP networks, (iii) Transport layer topics such as end-to-end reliability, TCP/UDP. In addition to the fundamental concepts, students will gain experience in analysing and designing computer networking protocols through laboratory projects and activities.",
+ "faculty": "College of Design and Engineering",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "EE4204",
+ "moduleCredit": "4",
+ "preclusion": "(If undertaking a Graduate Degree Coursework OR if undertaking an Undergraduate Degree) THEN must not have completed 1 of CEG5101/CS2105/EE3204/EE5310/EE6310/TEE3204/TEE4204 at a grade of at least D",
+ "preclusionRule": "(PROGRAM_TYPES IF_IN Graduate Degree Coursework OR PROGRAM_TYPES IF_IN Undergraduate Degree) THEN COURSES (1) EE3204:D, CS2105:D, EE5310:D, EE6310:D, TEE3204:D, TEE4204:D, CEG5101:D",
+ "prerequisite": "If undertaking an Undergraduate Degree THEN ( must have completed 1 of EE2012/EE2012A/ESP2107/ST2334 at a grade of at least D OR (must be undertaking 2001CEGHON Bachelor of Engineering (Computer Engineering) (Hons) AND must be Year 2,3 or 4))",
+ "prerequisiteAdvisory": "Advisory: CEG students are encouraged to take ST2334 (as UEM) to better prepare themselves for EE4204. Otherwise, they need to self-study the necessary topics in ST2334 relevant to EE4204.",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) EE2012A:D, EE2012:D, ST2334:D, ESP2107:D OR (PROGRAMS MUST_BE_IN (1) 2001CEGHON AND SPECIAL MUST_BE_IN \"ACAD_LEVEL=2-3-4\"))",
+ "title": "Computer Networks",
+ "workload": [
+  2,
+  1,
+  1,
+  1.5,
+  4.5
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1,
+   "examDate": "2026-11-30T01:00:00.000Z",
+   "examDuration": 120
+  },
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-05-04T01:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": {
+  "or": [
+   "EE2012A:D",
+   "EE2012:D",
+   "ST2334:D",
+   "ESP2107:D"
+  ]
+ },
+ "fulfillRequirements": [
+  "EE5310",
+  "EE5902",
+  "EE5132",
+  "CS3103",
+  "CS3235",
+  "CS4226",
+  "CS4222",
+  "CS5422"
+ ]
+}

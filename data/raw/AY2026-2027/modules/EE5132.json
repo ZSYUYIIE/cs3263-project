@@ -1,0 +1,33 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "grsu": true,
+  "lab": true,
+  "mpes2": true
+ },
+ "department": "Electrical and Computer Engineering",
+ "description": "This course aims to expose students to the principles of wireless and sensor networks, as well as to some recent advances in these areas. The first part of the course provides the concepts and operational details of cellular networks, wireless local area networks (WLAN), multi-hop and ad hoc wireless networks, and covers aspects such as medium access control, routing and transport protocols. The second part covers the fast emerging field of wireless sensor networks that enables visibility into physical processes in a convenient manner. Pertinent issues such as energy management and distributed information processing will be covered. The distinguishing feature about this course is the engineering emphasis on the coupled relationship between wireless and sensor network protocols and the underlying physical layer and energy considerations.",
+ "faculty": "College of Design and Engineering",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "EE5132",
+ "moduleCredit": "4",
+ "preclusion": "( if undertaking a Graduate Degree Coursework then ( must not have completed 1 of \"EE5406\"/\"EE5913\"/CS4222/EE5023/EE5024 at a grade of at least D ) ) or ( if undertaking an Undergraduate Degree then must not have completed 1 of \"EE5406\"/\"EE5913\"/CS4222/EE5023/EE5024 at a grade of at least D )",
+ "preclusionRule": "(PROGRAM_TYPES IF_IN Graduate Degree Coursework THEN (COURSES (1) EE5406:D, EE5913:D, EE5023:D, EE5024:D, CS4222:D)) OR (PROGRAM_TYPES IF_IN Undergraduate Degree THEN COURSES (1) EE5406:D, EE5913:D, EE5023:D, EE5024:D, CS4222:D)",
+ "prerequisite": "if undertaking an Undergraduate Degree then ( must have completed 1 of EE4204/EE4210 at a grade of at least D )",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) EE4204:D, EE4210:D)",
+ "title": "Wireless and Sensor Networks",
+ "workload": [
+  3,
+  0,
+  0,
+  3,
+  4
+ ],
+ "semesterData": [],
+ "prereqTree": {
+  "or": [
+   "EE4204:D",
+   "EE4210:D"
+  ]
+ }
+}

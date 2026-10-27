@@ -1,0 +1,4 @@
+{
+    "_comment": "Hand fixes applied after parsing. Key = course code. Allowed fields: prereq_logic (logic tree, null or false), preclusion_courses (list of codes), offered, mc, available, unavailable_reasons. Always give a reason. See docs/DATA_SCHEMA.md#overrides.",
+    "courses": {}
+}

@@ -1,0 +1,33 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes2": true,
+  "su": true
+ },
+ "department": "Engineering Science Programme",
+ "description": "This course introduces students to the fundamental electronic principles of sensor systems for a variety of different disciplines. Particular emphasis will be given to circuits that are used in research and development, such as sensor amplifiers, filters, and data-acquisition. The course has both analogue and digital circuit principles, and involves project activities that involve hands-on construction of sensors, their circuits and translating their signals into digital data on to a computer.",
+ "faculty": "College of Design and Engineering",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "ESP2111",
+ "moduleCredit": "4",
+ "title": "Sensor System Electronics",
+ "workload": [
+  3,
+  1,
+  1,
+  0,
+  5
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2
+  }
+ ],
+ "fulfillRequirements": [
+  "EE4513",
+  "CG2027"
+ ]
+}

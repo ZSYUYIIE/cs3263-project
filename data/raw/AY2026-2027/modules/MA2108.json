@@ -1,0 +1,77 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true
+ },
+ "department": "Mathematics",
+ "description": "This course is a continuation of MA1100. The main objective is to further develop the student's mastery of the mathematical language, concepts, and methods. The focus here is more on the analytic and topological notions such as convergence and continuity, which are essential for a rigorous treatment of mathematical analysis. The student's ability to read and write mathematical proofs is also further developed in this course. Main topics: real numbers, sequences and series of real numbers, metrics in Euclidean spaces, open and closed sets, continuous functions, compact sets, connected sets, sequences of functions. Major applications include: intermediate value theorem, extreme value theorem.",
+ "faculty": "Science",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "MA2108",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate Degree THEN ( must not have completed 1 of MA2108S/YSC3206 at a grade of at least D)",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) MA2108S:D, YSC3206:D)",
+ "prerequisite": "If undertaking an Undergraduate Degree THEN (( must have completed 1 of CS1231/CS1231S/MA1100/MA1100T at a grade of at least D) AND ( must have completed 1 of MA1505/MA1511/MA1521/MA2002 at a grade of at least D))",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN ((COURSES (1) CS1231:D, CS1231S:D, MA1100:D, MA1100T:D) AND (COURSES (1) MA1505:D, MA1511:D, MA1521:D, MA2002:D))",
+ "title": "Mathematical Analysis I",
+ "workload": [
+  3,
+  1,
+  0,
+  0,
+  6
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1,
+   "examDate": "2026-12-01T09:00:00.000Z",
+   "examDuration": 120
+  },
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-05-05T01:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": {
+  "and": [
+   {
+    "or": [
+     "CS1231:D",
+     "CS1231S:D",
+     "MA1100:D",
+     "MA1100T:D"
+    ]
+   },
+   {
+    "or": [
+     "MA1505:D",
+     "MA1511:D",
+     "MA1521:D",
+     "MA2002:D"
+    ]
+   }
+  ]
+ },
+ "fulfillRequirements": [
+  "MA3291",
+  "MA4207",
+  "MA3220",
+  "MA4229",
+  "MA3233",
+  "MA3211S",
+  "MA3211",
+  "MA3209",
+  "MA3238S",
+  "MA5210",
+  "MA3264",
+  "MA3210"
+ ]
+}

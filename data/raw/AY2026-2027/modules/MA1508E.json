@@ -1,0 +1,101 @@
+{
+ "acadYear": "2026/2027",
+ "additionalInformation": "This course is open only to Engineering students.",
+ "attributes": {
+  "mpes2": true,
+  "su": true
+ },
+ "department": "Mathematics",
+ "description": "This course is targeted at Engineering students from the College of Design and Engineering (CDE) and it provides the basic fundamental principles of Linear Algebra relevant to the field of Engineering. Topics include: System of linear equations and their solutions, Gaussian elimination, Matrices, Matrix operations and Invertibility, Determinant of a matrix, Euclidean space and vectors, Subspaces, Linear combinations and linear span, Linear independence, Basis and coordinate vectors, Dimension of a vector space, Rank and nullity theorem for matrices, Linear approximation and least squares solution to a linear system, Orthogonal projection, Eigenvalues, eigenvectors and diagonalisation, Complex numbers and Applications of eigenvalues and eigenvectors to differential equations.",
+ "faculty": "Science",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "MA1508E",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate Degree THEN ( must not have completed 1 of MA1311/MA1513/MA1522/MA2001/YSC2232 at a grade of at least D)",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) MA1311:D, MA1513:D, MA1522:D, MA2001:D, YSC2232:D)",
+ "prerequisite": "If undertaking an Undergraduate Degree THEN (( must have completed 1 of 06 MATHEMATICS/07 FURTHER MATHEMATICS at a grade of at least E) OR ( must have completed 1 of MA1301/MA1301X at a grade of at least D))",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN ((SUBJECTS (1) 06:E, 07:E) OR (COURSES (1) MA1301:D, MA1301X:D))",
+ "title": "Linear Algebra for Engineering",
+ "workload": [
+  3,
+  2,
+  0,
+  0,
+  5
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-04-24T01:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": {
+  "or": [
+   "MA1301:D",
+   "MA1301X:D"
+  ]
+ },
+ "fulfillRequirements": [
+  "ME3142",
+  "RB2202",
+  "EE4212",
+  "EE2211",
+  "EE4115",
+  "CS3242",
+  "CS4235",
+  "CS5241",
+  "CS5249",
+  "CS5478",
+  "CS6244",
+  "CS4278",
+  "CS4268",
+  "CS5461",
+  "CS4261",
+  "CS4277",
+  "CS5477",
+  "CS5246",
+  "CS5332",
+  "CS3264",
+  "CS5284",
+  "BT4240",
+  "CS4347",
+  "CS5647",
+  "CS5275",
+  "CS5240",
+  "CS4234",
+  "CS2251",
+  "CP4282",
+  "CS3244",
+  "CS3218",
+  "CS3263",
+  "CS4243",
+  "IT3011",
+  "CS2108",
+  "MA3229",
+  "MA2219",
+  "MA3252",
+  "MA3220",
+  "MA2214",
+  "DSA2102",
+  "MA2213",
+  "ST3236",
+  "PC2130",
+  "MA3238",
+  "PC2451",
+  "DSA4212",
+  "QF2104",
+  "MA3270",
+  "MA2101",
+  "MA2101S",
+  "PC3236",
+  "PC3274A",
+  "DSA3102",
+  "DSA2101",
+  "DSA3361",
+  "PC3221"
+ ]
+}

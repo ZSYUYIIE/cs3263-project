@@ -1,0 +1,50 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes2": true
+ },
+ "department": "Electrical and Computer Engineering",
+ "description": "The objective of this course is to familiarise students with the fundamentals of computing devices. Through this course, students will understand the basics of data representation, and how the various parts of a computer work, separately and with each other. This allows students to design and analyse computer systems, and propose solutions to problems involving computing hardware. Topics covered include basic computer organisation and data representation systems, combinational and sequential circuit design, assembly language, design of processor datapath and control, performance evaluation, basics of pipelining for performance enhancement, memory hierarchy, input/output systems, and operating system basics.",
+ "faculty": "College of Design and Engineering",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS2100DE",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate Degree THEN (( must not have completed 1 of CG2028/CS2100/CS2100R at a grade of at least D) AND (must not be undertaking 0300CSMIN Computer Science (Minor)) AND (must not be undertaking 0300CS2MJ Computer Science (2nd Major)))",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN ((COURSES (1) CG2028:D, CS2100:D, CS2100R:D) AND (MINOR MUST_NOT_BE_IN 0300CSMIN) AND (2ND_MAJOR MUST_NOT_BE_IN 0300CS2MJ))",
+ "prerequisite": "If undertaking an Undergraduate Degree THEN ( must have completed 1 of CS1010/CS1010A/CS1010E/CS1010J/CS1010S/CS1010X/CS1101S at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CS1010:D, CS1010E:D, CS1010X:D, CS1101S:D, CS1010S:D, CS1010J:D, CS1010A:D)",
+ "title": "Computer Organisation",
+ "workload": [
+  2,
+  2,
+  3,
+  2,
+  1
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-04-27T09:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": {
+  "or": [
+   "CS1010:D",
+   "CS1010E:D",
+   "CS1010X:D",
+   "CS1101S:D",
+   "CS1010S:D",
+   "CS1010J:D",
+   "CS1010A:D"
+  ]
+ },
+ "fulfillRequirements": [
+  "CS2106",
+  "CS3237",
+  "CS3210"
+ ]
+}

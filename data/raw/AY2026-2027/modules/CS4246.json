@@ -1,0 +1,83 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "lab": true,
+  "mpes1": true,
+  "mpes2": true
+ },
+ "department": "Computer Science",
+ "description": "Many tasks performed by AI agents can be formulated as sequential decision making problems. Machine learning in sequential decision making is often done using reinforcement learning. With the prevalence of AI agents, reinforcement learning is becoming increasingly important in many application areas such as large language and other foundation models, robotics, games, and multi-agent systems. This course covers the fundamentals of reinforcement learning, methods for scaling up the learning and sequential decision making processes, as well as selected applications. Topics include model-based and model-free reinforcement learning, exploration, Monte Carlo tree search, function approximation, and concept and techniques from the selected application area.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS4246",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate DegreeTHEN( must not have completed CS5446 at a grade of at least D)",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CS5446:D)",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHEN(( must have completed 1 of EE2012/EE2012A/ST2132/ST2334 at a grade of at least DOR( must have completed 1 of MA2116/MA2116T/MA2216/ST2131 at a grade of at least DANDmust have completed 1 of DCS2008/ST1131/ST1131A/ST1232 at a grade of at least D))ANDmust have completed 1 of CS3243/CS3263 at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN ((COURSES (1) EE2012A:D, EE2012:D, ST2132:D, ST2334:D OR (COURSES (1) ST2131:D, MA2116:D, MA2116T:D, MA2216:D AND COURSES (1) ST1131:D, ST1232:D, DCS2008:D, ST1131A:D)) AND COURSES (1) CS3243:D, CS3263:D)",
+ "title": "Reinforcement Learning and Sequential Decision Making",
+ "workload": [
+  2,
+  1,
+  0,
+  4,
+  3
+ ],
+ "aliases": [
+  "CS5446"
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1
+  },
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-05-04T09:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": {
+  "and": [
+   {
+    "or": [
+     "EE2012A:D",
+     "EE2012:D",
+     "ST2132:D",
+     "ST2334:D",
+     {
+      "and": [
+       {
+        "or": [
+         "ST2131:D",
+         "MA2116:D",
+         "MA2116T:D",
+         "MA2216:D"
+        ]
+       },
+       {
+        "or": [
+         "ST1131:D",
+         "ST1232:D",
+         "DCS2008:D",
+         "ST1131A:D"
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "or": [
+     "CS3243:D",
+     "CS3263:D"
+    ]
+   }
+  ]
+ }
+}

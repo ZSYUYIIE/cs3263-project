@@ -1,0 +1,41 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "lab": true,
+  "mpes1": true
+ },
+ "department": "Computer Science",
+ "description": "Before software can be designed, its requirements must be well understood. This in turns requires a thorough understanding of the application domain. Based on the requirements, software engineers construct design models, and then use these design models as guide to construct software implementations. This course will cover formal specification and verification techniques for accurately capturing and reasoning about requirements, model and code. The topics covered include modeling notations, temporal logics, model checking, software model checking, theorem proving, and symbolic execution based analysis. Most importantly, the course will attempt to inculcate an appreciation and understanding of formal thinking in software design and construction.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS4211",
+ "moduleCredit": "4",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHEN( must have completed 1 of CS2103/CS2103DE/CS2103T/CS2113/CS2113T/YSC3232 at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CS2103:D, CS2103T:D, CS2103DE:D, YSC3232:D, CS2113:D, CS2113T:D)",
+ "title": "Formal Methods for Software Engineering",
+ "workload": [
+  2,
+  1,
+  0,
+  3,
+  4
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1
+  }
+ ],
+ "prereqTree": {
+  "or": [
+   "CS2103:D",
+   "CS2103T:D",
+   "CS2103DE:D",
+   "YSC3232:D",
+   "CS2113:D",
+   "CS2113T:D"
+  ]
+ }
+}

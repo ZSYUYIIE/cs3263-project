@@ -1,0 +1,33 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "lab": true,
+  "mpes2": true,
+  "sfs": true,
+  "ssgf": true
+ },
+ "department": "Electrical and Computer Engineering",
+ "description": "Sensor networks feature prominently in the Internet of things (IoT). This course covers the principles of wireless sensor networks that enables visibility into the physical processes happening around us. Pertinent issues such as energy management and distributed information processing leading to applications such as event detection will be covered. The coupled relationship between wireless sensor network performance, information processing, e.g. at edge computing nodes, and networking protocols, together with energy considerations will be emphasized.",
+ "faculty": "College of Design and Engineering",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "EE5024",
+ "moduleCredit": "2",
+ "title": "IoT Sensor Networks",
+ "workload": [
+  3,
+  0,
+  0,
+  3,
+  4
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-04-30T01:00:00.000Z",
+   "examDuration": 120
+  }
+ ]
+}

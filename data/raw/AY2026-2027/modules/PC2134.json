@@ -1,0 +1,38 @@
+{
+ "acadYear": "2026/2027",
+ "department": "Physics",
+ "description": "This course aims to give students the necessary mathematical skills for other physics courses. The topics to be covered include: complex numbers and hyperbolic functions; multivariable calculus; elements of vector calculus; Taylor series; Fourier series, Dirac delta-function, Fourier transforms, Laplace transforms, physical applications; second-order ordinary and partial differential equations, wave equation, diffusion equation, Poisson’s equation; Green’s functions; Sturm-Liouville theory; special functions associated with physical systems, Hermite polynomials, Bessel functions, Legendre functions.",
+ "faculty": "Science",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "PC2134",
+ "moduleCredit": "4",
+ "preclusion": "if undertaking an Undergraduate Degree then ( must not have completed 1 of MA1511/MA1512 at a grade of at least D )",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) MA1511:D, MA1512:D)",
+ "prerequisite": "if undertaking an Undergraduate Degree then ( must have completed all of \"MA1101R\"/\"MA1102R\" at a grade of at least D )",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (2) MA1101R:D, MA1102R:D)",
+ "title": "Mathematical Mtds in Physics I",
+ "workload": [
+  3,
+  1,
+  0,
+  1,
+  5
+ ],
+ "semesterData": [],
+ "prereqTree": {
+  "nOf": [
+   2,
+   [
+    "MA1101R:D",
+    "MA1102R:D"
+   ]
+  ]
+ },
+ "fulfillRequirements": [
+  "EE4603",
+  "PC3274",
+  "PC3130",
+  "PC3270",
+  "PC4274A"
+ ]
+}

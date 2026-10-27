@@ -1,0 +1,40 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "sfs": true,
+  "ssgf": true
+ },
+ "department": "SCALE Dean's Office",
+ "description": "This course introduces computer systems to students from the perspective of a programmer. Students learn about the computer systems, focusing on the hardware and operating systems, and how they impact the design, implementation, and performance of a programme. Topics covered include data representations, machine-level representations of C programmes, processor architecture, memory hierarchy, programme optimisation, linking, interrupts and signals, memory management, system-level I/O, and concurrency.",
+ "faculty": "Cont and Lifelong Education",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "TIC2401",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate Degree THEN ( must not have completed 1 of TCX3222/TEE4214 at a grade of at least D)",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) TEE4214:D, TCX3222:D)",
+ "prerequisite": "If undertaking an Undergraduate Degree THEN ( must have completed TIC1002 at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) TIC1002:D)",
+ "title": "Introduction to Computer Systems",
+ "workload": [
+  2,
+  1,
+  0,
+  3,
+  4
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-05-04T01:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": "TIC1002:D",
+ "fulfillRequirements": [
+  "TIC3302",
+  "TIC4005"
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true
+ },
+ "department": "Computer Science",
+ "description": "This course explores fundamental challenges in deploying Responsible AI solutions in real-world applications, focusing on issues of privacy, fairness, and trustworthiness. Students will investigate both existing and cutting-edge technical approaches to preserving privacy, ensuring fairness, and verifying AI behavior. The course covers statistical, computational, algorithmic, and systems-oriented strategies, equipping students with the tools to understand and address the challenges to make AI solutions responsible-by-design.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS3268",
+ "moduleCredit": "4",
+ "prerequisite": "If undertaking an Undergraduate Degree THEN (( must have completed 1 of CS2109HS/CS2109S/CS3243 at a grade of at least D) AND (( must have completed ST2334 at a grade of at least D) OR (( must have completed 1 of MA2116/MA2116T/ST2131 at a grade of at least D) AND ( must have completed ST2132 at a grade of at least D))))",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN ((COURSES (1) CS2109S:D, CS2109HS:D, CS3243:D) AND ((COURSES (1) ST2334:D) OR ((COURSES (1) ST2131:D, MA2116:D, MA2116T:D) AND (COURSES (1) ST2132:D))))",
+ "title": "Responsible AI: from Algorithms to Impact",
+ "workload": [
+  2,
+  1,
+  0,
+  4,
+  3
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1
+  }
+ ],
+ "prereqTree": {
+  "and": [
+   {
+    "or": [
+     "CS2109S:D",
+     "CS2109HS:D",
+     "CS3243:D"
+    ]
+   },
+   {
+    "or": [
+     "ST2334:D",
+     {
+      "and": [
+       {
+        "or": [
+         "ST2131:D",
+         "MA2116:D",
+         "MA2116T:D"
+        ]
+       },
+       "ST2132:D"
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,34 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "lab": true,
+  "mpes2": true
+ },
+ "department": "Computer Science",
+ "description": "This course provides a general treatment of real-time and offline rendering techniques in 3D computer graphics. Specific topics include the raster graphics pipeline, viewing and transformation, real-time mapping techniques, real-time shadow algorithms, local reflection models, global illumination, distributed ray tracing, photon mapping, radiosity, volume rendering, image-based rendering and modelling, and strategies for anti-aliasing and photo-realism.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS4247",
+ "moduleCredit": "4",
+ "prerequisite": "if undertaking an Undergraduate Degree then ( must have completed CS3241 at a grade of at least D )",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CS3241:D)",
+ "title": "Graphics Rendering Techniques",
+ "workload": [
+  3,
+  0,
+  0,
+  3,
+  4
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-04-26T01:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": "CS3241:D"
+}

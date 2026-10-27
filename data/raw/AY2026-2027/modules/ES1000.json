@@ -1,0 +1,43 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true
+ },
+ "department": "Center for Engl Lang Comms",
+ "description": "This is a required course for students whose Qualifying English Test results show that they would benefit from basic English language skills support. Students in the course must pass it before they are allowed to read the next required English course, English for Academic Purposes (ES1103). The purpose of ES1000 is to improve the students' English language skills in reading, writing and grammar. Topics covered include paragraph unity, coherence, sentence patterns, and academic integrity. Students will integrate diverse vocabulary, sentence structures, and grammatical elements to synthesise academic ideas, construct cohesive paragraphs, and reflect critically on their writing process.",
+ "faculty": "Center for Engl Lang Comms",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "ES1000",
+ "moduleCredit": "0",
+ "preclusion": "if undertaking an Undergraduate Degree then ( must not have completed EP ENGLISH LANGUAGE PROFICIENCY TEST at a grade of at least Y )",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (SUBJECTS (1) EP:Y)",
+ "prerequisite": "if undertaking an Undergraduate Degree then ( must have completed EP ENGLISH LANGUAGE PROFICIENCY TEST at a grade of at least W )",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (SUBJECTS (1) EP:W)",
+ "title": "Foundation Academic English",
+ "workload": [
+  2,
+  2,
+  0,
+  4,
+  2
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1
+  },
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2
+  }
+ ],
+ "fulfillRequirements": [
+  "ES1103",
+  "ES2002"
+ ]
+}

@@ -1,0 +1,84 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true
+ },
+ "department": "Statistics and Data Science",
+ "description": "This course introduces students to the theoretical underpinnings of statistical methodology and concentrates on inferential procedures within the framework of parametric models. Topic include: random sample and statistics, method of moments, maximum likelihood estimate, Fisher information, sufficiency and completeness, consistency and unbiasedness, sampling distributions, x2-, t- and Fdistributions, confidence intervals, exact and asymptotic pivotal method, concepts of hypothesis testing, likelihood ratio test, Neyman-Pearson lemma. This course is targeted at students who are interested in Statistic and are able to meet the prerequisite.",
+ "faculty": "Science",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "ST2132",
+ "moduleCredit": "4",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHEN( must have completed ST2334 at a grade of at least DORmust have completed ST2131 at a grade of at least DORmust have completed MA2116 at a grade of at least DORmust have completed MA2116T at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES ST2334:D OR COURSES ST2131:D OR COURSES MA2116:D OR COURSES MA2116T:D)",
+ "title": "Mathematical Statistics",
+ "workload": [
+  3,
+  1,
+  0,
+  3,
+  3
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1,
+   "examDate": "2026-11-26T05:00:00.000Z",
+   "examDuration": 120
+  },
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-04-26T01:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": {
+  "or": [
+   "ST2334:D",
+   "ST2131:D",
+   "MA2116:D",
+   "MA2116T:D"
+  ]
+ },
+ "fulfillRequirements": [
+  "CS5346",
+  "CS4257",
+  "CS5332",
+  "BT3017",
+  "IS4242",
+  "CS5228",
+  "CS5275",
+  "CS4246",
+  "CS5446",
+  "CS5340",
+  "CS5233",
+  "CS2251",
+  "CS3268",
+  "ST4232",
+  "ST4241",
+  "ST4252",
+  "ST4253",
+  "DSA4299C",
+  "DSA4299",
+  "DSA4199",
+  "ST3246",
+  "ST4234",
+  "DSA3101",
+  "DSE3101",
+  "ST3232",
+  "ST3243",
+  "DSA4212",
+  "DSA4288",
+  "ST4231",
+  "ST4288",
+  "ST3248",
+  "DSA4288S",
+  "DSA4288M"
+ ]
+}

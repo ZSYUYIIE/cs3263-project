@@ -1,0 +1,65 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes2": true
+ },
+ "department": "Computing and Engineering Programme",
+ "description": "Real-time systems must respond quickly to inputs from the environment in order to work effectively and safely, and realtime operating systems (RTOS) are a critical part of such systems. In this course the student is exposed to basic RTOS concepts like tasks, scheduling algorithms, RTOS customisation and concurrent real-time programming. By the end of this course a student will not only understand how an RTOS is built, but will also gain practical hands-on experience in customising RTOSs and in writing real-time programs.",
+ "faculty": "Multi-Disciplinary Prog (CEG)",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CG2271",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate DegreeTHEN( must not have completed 1 of CS2106/CS2271 at a grade of at least D)",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CS2271:D, CS2106:D)",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHEN( must have completed 1 of CS2040/CS2040C/CS2040S at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CS2040C:D, CS2040:D, CS2040S:D)",
+ "title": "Real-Time Operating Systems",
+ "workload": [
+  2,
+  1,
+  2,
+  3,
+  2
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1,
+   "examDate": "2026-11-21T05:00:00.000Z",
+   "examDuration": 120
+  },
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-04-28T09:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": {
+  "or": [
+   "CS2040C:D",
+   "CS2040:D",
+   "CS2040S:D"
+  ]
+ },
+ "fulfillRequirements": [
+  "CS3235",
+  "CS3271",
+  "CS4223R",
+  "CS4344",
+  "CS5250",
+  "CS5271",
+  "CS5272",
+  "CS3211",
+  "CS5239",
+  "CS5462",
+  "CS4223",
+  "CS4262",
+  "CS4310",
+  "CG3002"
+ ]
+}

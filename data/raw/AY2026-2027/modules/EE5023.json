@@ -1,0 +1,31 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "lab": true,
+  "mpes2": true,
+  "sfs": true,
+  "ssgf": true
+ },
+ "department": "Electrical and Computer Engineering",
+ "description": "This course will cover wireless networks that are relevant to Internet of Things (IoT). The course provides the concepts and operational details of multi-hop, mesh, ad hoc and personal area networks. It also covers aspects such as medium access control, routing and transport protocols.",
+ "faculty": "College of Design and Engineering",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "EE5023",
+ "moduleCredit": "2",
+ "title": "Wireless Networks",
+ "workload": [
+  3,
+  0,
+  0,
+  3,
+  4
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2
+  }
+ ]
+}

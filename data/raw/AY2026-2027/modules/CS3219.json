@@ -1,0 +1,54 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true
+ },
+ "department": "Computer Science",
+ "description": "This course provides an in-depth, hands-on experience in key aspects of software engineering that accompany the development of software. Based on proven principles and best practices, this course focuses on software architectural design from the perspective of the software process. It covers techniques for requirement elicitation and specification that provide sound base for architectural design. The course covers design decision exploration as well as patterns that explicate principles and best practices in replicable form.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS3219",
+ "moduleCredit": "4",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHEN( must have completed 1 of CS2103/CS2103DE/CS2103T/CS2113/CS2113T/YSC3232 at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) YSC3232:D, CS2103:D, CS2103T:D, CS2103DE:D, CS2113T:D, CS2113:D)",
+ "title": "Software Design and Architecture",
+ "workload": [
+  2,
+  1,
+  0,
+  3,
+  4
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1,
+   "examDate": "2026-11-28T05:00:00.000Z",
+   "examDuration": 90
+  },
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-04-29T09:00:00.000Z",
+   "examDuration": 90
+  }
+ ],
+ "prereqTree": {
+  "or": [
+   "YSC3232:D",
+   "CS2103:D",
+   "CS2103T:D",
+   "CS2103DE:D",
+   "CS2113T:D",
+   "CS2113:D"
+  ]
+ },
+ "fulfillRequirements": [
+  "CS4218"
+ ]
+}

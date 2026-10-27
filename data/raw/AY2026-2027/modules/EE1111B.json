@@ -1,0 +1,40 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "su": true,
+  "year": true
+ },
+ "department": "Electrical and Computer Engineering",
+ "description": "This course exposes high school students to electrical and computer engineering principles through experiential learning. It focuses on the engineering principles and practice of how computer-aided systems are designed and built. They are first taught the fundamental principles of electronic circuits through laboratory sessions and group discussions. Through the experiential learning activities, students also build up their hands-on skills. They are then guided to apply these principles and skills to build a sensor-assisted autonomous robotic vehicle as a grand finale challenge. Upon completing the course, they can appreciate the importance of circuits, signals, and sensors in system implementation.",
+ "faculty": "College of Design and Engineering",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "EE1111B",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate Degree THEN ( must not have completed 1 of CG1111A/EE2111A at a grade of at least D)",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) EE2111A:D, CG1111A:D)",
+ "title": "Electrical & Computer Engineering Principles & Practice",
+ "workload": [
+  0,
+  1,
+  5,
+  1.5,
+  2.5
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "Unknown"
+   ],
+   "semester": 3
+  }
+ ],
+ "fulfillRequirements": [
+  "EE2027",
+  "EE2029",
+  "EE2022",
+  "EE2026",
+  "EE2028",
+  "EE4513",
+  "CG2027"
+ ]
+}

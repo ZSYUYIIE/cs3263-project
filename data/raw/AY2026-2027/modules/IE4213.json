@@ -1,0 +1,59 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes2": true
+ },
+ "department": "Industrial Systems Engineering and Management",
+ "description": "This course teaches students data analytics and machine learning techniques for solving large scale engineering problems. The course covers statistics and machine learning concepts and algorithms such as linear regression, support vector machine, decision trees, feature engineering, deep learning, and reinforcement learning. How these algorithms are scaled up and incorporated in data engineering pipelines to tackle large scale problems will be covered. Students will be exposed to practical case studies of engineering problems with realistic datasets or streaming data, and perform data engineering operations using software tools.",
+ "faculty": "College of Design and Engineering",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "IE4213",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate DegreeTHENmust not have completed 1 of CG3201/CS3244/EE4211/EE4802/IT3011 at a grade of at least D",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN COURSES (1) EE4211:D, CS3244:D, IT3011:D, EE4802:D, CG3201:D",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHEN( must have completed 1 of any Courses beginning with CS1010 at a grade of at least DANDmust have completed 1 of BN2102/CE2407/CE2407A/EE2012/EE2012A/IE3101/ST1131/ST2131/ST2334 at a grade of at least D)",
+ "prerequisiteAdvisory": "Minor in Data Engineering students should take EE3801 before EE4802 Engineering students should take EE4802/IE4213* Familiarity with scientific programming language such as Python. All assignments in class will be done in Python. EE4802/IE4213 targets undergraduate students with engineering backgrounds who want to pursue a future position or degree in data engineering, data science, or machine learning. *Students who are from the ISE programme should take IE4213 instead of EE4802 to meet the requirements for the Minor in Data Engineering.",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CS1010%:D AND COURSES (1) IE3101:D, ST2334:D, EE2012:D, CE2407:D, CE2407A:D, BN2102:D, EE2012A:D, ST1131:D, ST2131:D)",
+ "title": "Learning from Data",
+ "workload": [
+  3,
+  1,
+  0,
+  2,
+  4
+ ],
+ "aliases": [
+  "EE4802"
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-04-28T01:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": {
+  "and": [
+   "CS1010%:D",
+   {
+    "or": [
+     "IE3101:D",
+     "ST2334:D",
+     "EE2012:D",
+     "CE2407:D",
+     "CE2407A:D",
+     "BN2102:D",
+     "EE2012A:D",
+     "ST1131:D",
+     "ST2131:D"
+    ]
+   }
+  ]
+ },
+ "fulfillRequirements": [
+  "IE5603"
+ ]
+}

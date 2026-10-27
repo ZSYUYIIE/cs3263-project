@@ -1,0 +1,85 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "lab": true,
+  "mpes1": true
+ },
+ "department": "Computer Science",
+ "description": "This course introduces the core algorithms and system architectures of intelligent robots. It examines the main system components for sensing, decision making, and motion control and importantly, their integration for core robot capabilities, such as navigation and manipulation. It covers the key algorithms for robot intelligence through inference, planning, and learning, and also provides some practical experiences with modern robot systems. A variety of Illustrative examples are given, e.g., self-driving cars, aerial drones, and object manipulation.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS4278",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate DegreeTHEN( must not have completed CS5478 at a grade of at least D)",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CS5478:D)",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHEN( must have completed 1 of CS3243/CS3263 at a grade of at least DANDmust have completed 1 of MA1101R/MA1311/MA1508E/MA1513/MA1522/MA2001 at a grade of at least DANDmust have completed 1 of EE2012/EE2012A/MA2116/MA2116T/MA2216/ST2131/ST2334 at a grade of at least DAND( must have completed 1 of MA1102R/MA1505/MA1507/MA1521/MA2002 at a grade of at least DOR( must have completed all of MA1511/MA1512 at a grade of at least D)))",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CS3263:D, CS3243:D AND COURSES (1) MA2001:D, MA1522:D, MA1101R:D, MA1311:D, MA1508E:D, MA1513:D AND COURSES (1) EE2012:D, EE2012A:D, ST2131:D, ST2334:D, MA2116:D, MA2116T:D, MA2216:D AND (COURSES (1) MA2002:D, MA1102R:D, MA1505:D, MA1507:D, MA1521:D OR (COURSES (2) MA1512:D, MA1511:D)))",
+ "title": "Intelligent Robots: Algorithms and Systems",
+ "workload": [
+  2,
+  1,
+  0,
+  5,
+  2
+ ],
+ "aliases": [
+  "CS5478"
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1
+  }
+ ],
+ "prereqTree": {
+  "and": [
+   {
+    "or": [
+     "CS3263:D",
+     "CS3243:D"
+    ]
+   },
+   {
+    "or": [
+     "MA2001:D",
+     "MA1522:D",
+     "MA1101R:D",
+     "MA1311:D",
+     "MA1508E:D",
+     "MA1513:D"
+    ]
+   },
+   {
+    "or": [
+     "EE2012:D",
+     "EE2012A:D",
+     "ST2131:D",
+     "ST2334:D",
+     "MA2116:D",
+     "MA2116T:D",
+     "MA2216:D"
+    ]
+   },
+   {
+    "or": [
+     "MA2002:D",
+     "MA1102R:D",
+     "MA1505:D",
+     "MA1507:D",
+     "MA1521:D",
+     {
+      "nOf": [
+       2,
+       [
+        "MA1512:D",
+        "MA1511:D"
+       ]
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

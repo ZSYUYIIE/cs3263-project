@@ -1,0 +1,35 @@
+{
+ "acadYear": "2026/2027",
+ "department": "Chemical and Biomolecular Engineering",
+ "description": "This module considers the classification of fluids and their properties, followed by the analysis of static fluid. The integral and differential forms of the fundamental equations – Continuity, Momentum and Energy equations are then studied. The concept of momentum transfer by the shear stress is introduced in this course. Dimensional analysis and model theory are studied. The concept about boundary layer theory, flow with pressure gradient, viscous flow and turbulence are also described. Practical aspect involves the consideration of flows in closed conduits. At the end of the course, basic concepts regarding fluid machinery is also covered.",
+ "faculty": "College of Design and Engineering",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CN2122A",
+ "moduleCredit": "4",
+ "prerequisite": "if undertaking an Undergraduate Degree then ( must have completed all of MA1511/MA1512 at a grade of at least D )",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (2) MA1511:D, MA1512:D)",
+ "title": "Fluid Mechanics",
+ "workload": [
+  3,
+  1,
+  0,
+  0,
+  5
+ ],
+ "semesterData": [],
+ "prereqTree": {
+  "nOf": [
+   2,
+   [
+    "MA1511:D",
+    "MA1512:D"
+   ]
+  ]
+ },
+ "fulfillRequirements": [
+  "CN3101",
+  "CN3101A",
+  "CN3135",
+  "CN4122"
+ ]
+}

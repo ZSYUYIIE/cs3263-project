@@ -1,0 +1,40 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes2": true,
+  "su": true
+ },
+ "department": "Electrical and Computer Engineering",
+ "description": "This course is the second part of a two-part course Electrical Engineering Principles and Practice (EPP) I and II and follows closely the same learning objectives. While it introduces alternating current circuits to the students, integration of a DC-powered engineering system is continued by enhancing the system’s capability to sense the environment and to make changes in the environment. So, sensors, actuators, and actuator control occupy a significant part of the knowledge segment. Students also learn the skills of using a microcontroller. They design a complex engineering system from user specifications and build a prototype by integrating different components. Students learn how to analyse AC circuits using phasor and impedance.",
+ "faculty": "College of Design and Engineering",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "EE2111A",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate DegreeTHEN( must not have completed 1 of CG1111A/EE1111B/ESP2111/ME2104/ME2105/RB2101 at a grade of at least D)",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) EE1111B:D, CG1111A:D, ME2104:D, ESP2111:D, ME2105:D, RB2101:D)",
+ "title": "Electrical Engineering Principles and Practice II",
+ "workload": [
+  0,
+  0,
+  3.5,
+  1.5,
+  5
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2
+  }
+ ],
+ "fulfillRequirements": [
+  "EE2027",
+  "EE2029",
+  "EE2022",
+  "EE2026",
+  "EE2028",
+  "EE4513",
+  "CG2027"
+ ]
+}

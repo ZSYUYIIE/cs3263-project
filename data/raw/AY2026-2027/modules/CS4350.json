@@ -1,0 +1,39 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "lab": true,
+  "mpes1": true
+ },
+ "department": "Computer Science",
+ "description": "The objective of this project-based course is to provide an opportunity for the students to work in a group to design and develop a game following the main stages of game development process. The course will focus on the design of core dynamic, game mechanics, strategy, progression, balancing, game levels, interface and technical features including 3D graphics, animation, AI, physics, and networking. In addition, software engineering principles will be practised in developing the game software.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS4350",
+ "moduleCredit": "4",
+ "prerequisite": "If undertaking an Undergraduate Degree THEN ( must have completed 1 of CS3247/NM3216/NM4260/NM4260HM at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CS3247:D, NM3216:D, NM4260:D, NM4260HM:D)",
+ "title": "Game Development Project",
+ "workload": [
+  0,
+  2,
+  0,
+  6,
+  2
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1
+  }
+ ],
+ "prereqTree": {
+  "or": [
+   "CS3247:D",
+   "NM3216:D",
+   "NM4260:D",
+   "NM4260HM:D"
+  ]
+ }
+}

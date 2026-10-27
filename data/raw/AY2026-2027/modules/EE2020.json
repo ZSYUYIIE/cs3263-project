@@ -1,0 +1,36 @@
+{
+ "acadYear": "2026/2027",
+ "corequisite": "if undertaking an Undergraduate Degree then ( must be enrolled in 1 of \"CS1010FC\"/CS1010/CS1010E/CS1010X )",
+ "corequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CS1010E, CS1010FC, CS1010, CS1010X)",
+ "department": "Electrical and Computer Engineering",
+ "description": "This is a first course that introduces fundamental digital logic, digital circuits, and programmable devices. The course also provides an overview of computer systems. This course provides students with an understanding of the building blocks of modern digital systems and methods of designing, simulating and realizing such systems. The emphasis of this module is on understanding the fundamentals of digital design across different levels of abstraction using hardware description languages.",
+ "faculty": "College of Design and Engineering",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "EE2020",
+ "moduleCredit": "5",
+ "preclusion": "if undertaking an Undergraduate Degree then ( must not have completed 1 of \"EE2006\"/\"EE2020E\"/EE2026 at a grade of at least D )",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) EE2006:D, EE2020E:D, EE2026:D)",
+ "prerequisite": "if undertaking an Undergraduate Degree then ( must have completed 1 of \"CG1108\"/\"EE1002\"/\"EG1108\"/\"EG1112\" at a grade of at least D )",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) EG1112:D, EE1002:D, CG1108:D, EG1108:D)",
+ "title": "Digital Fundamentals",
+ "workload": [
+  3,
+  1,
+  2,
+  0,
+  4.5
+ ],
+ "semesterData": [],
+ "prereqTree": {
+  "or": [
+   "EG1112:D",
+   "EE1002:D",
+   "CG1108:D",
+   "EG1108:D"
+  ]
+ },
+ "fulfillRequirements": [
+  "EE2024",
+  "EE4415"
+ ]
+}

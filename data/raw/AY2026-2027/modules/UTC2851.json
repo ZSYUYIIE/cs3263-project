@@ -1,0 +1,80 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "su": true
+ },
+ "department": "Acacia College",
+ "description": "This course introduces students to the fundamental computing concepts and programming skills to enhance their problem-solving ability. Ultimately, students will learn how to design solutions that incorporate basic Artificial Intelligence (AI) and implement these solutions using an imperative programming language. This course is equivalent to CS1010X Programming Methodology, as it offers a gradual but critical progression from computational thinking, fundamental programming constructs, coding, to testing and debugging. Upon mastery, students will apply computing fundamentals to solve diverse problems, including AI-related challenges such as planning and learning. The course is suitable for students from computing, engineering and related disciplines.",
+ "faculty": "Residential College",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "UTC2851",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate DegreeTHEN( must not have completed 1 of any Courses beginning with CS1010 at a grade of at least D, CS1101S/UTC2852 at a grade of at least D)",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CS1010%:D, CS1101S:D, UTC2852:D)",
+ "title": "Problem Solving for Computing and AI",
+ "workload": [
+  0,
+  0,
+  0,
+  7,
+  3
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1,
+   "examDate": "2026-12-01T01:00:00.000Z",
+   "examDuration": 120
+  },
+  {
+   "covidZones": [
+    "Unknown"
+   ],
+   "semester": 2,
+   "examDate": "2027-05-03T09:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "fulfillRequirements": [
+  "EE2028",
+  "EE2211",
+  "CS2040HS",
+  "GI3102",
+  "GI4101",
+  "GI4102",
+  "BT2102",
+  "IS4241",
+  "CS2040",
+  "CS2107",
+  "IT2001",
+  "IT2002",
+  "IT3010",
+  "CP2106",
+  "CP2107",
+  "CS2040C",
+  "BT4221",
+  "CS2040S",
+  "IS3221",
+  "BT3017",
+  "BT4222",
+  "BT4212",
+  "IS2102",
+  "CS2111",
+  "CS2100",
+  "CS3237",
+  "IS2109",
+  "CS2030S",
+  "IT3011",
+  "CS2030",
+  "QF3101",
+  "DSA3102",
+  "DSA2111",
+  "DSA2112",
+  "QF2103",
+  "CS2100HS",
+  "CS2030HS",
+  "CG2028"
+ ]
+}

@@ -1,0 +1,64 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true
+ },
+ "department": "Computer Science",
+ "description": "The objective of this course is to familiarise students with the fundamentals of computing devices. Through this course students will understand the basics of data representation, and how the various parts of a computer work, separately and with each other. This allows students to understand the issues in computing devices, and how these issues affect the implementation of solutions. Topics covered include data representation systems, combinational and sequential circuit design techniques, assembly language, processor execution cycles, pipelining, memory hierarchy and input/output systems.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS2100",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate DegreeTHEN(( must not have completed 1 of CS2100DE/CS2100HS at a grade of at least D)OR(must not be undertaking 0604ELEHON Bachelor of Engineering (Electrical Engineering) (Hons), 2001CEGHON Bachelor of Engineering (Computer Engineering) (Hons)))",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN ((COURSES (1) CS2100DE:D, CS2100HS:D) OR (PROGRAMS MUST_NOT_BE_IN 0604ELEHON, 2001CEGHON))",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHEN( must have completed 1 of CS1010/CS1010A/CS1010E/CS1010HS/CS1010J/CS1010S/CS1010X/CS1101S/UTC2851/YSC1212 at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) YSC1212:D, CS1010:D, CS1010J:D, CS1010E:D, CS1010S:D, CS1010X:D, CS1101S:D, CS1010A:D, CS1010HS:D, UTC2851:D)",
+ "title": "Computer Organisation",
+ "workload": [
+  3,
+  1,
+  1,
+  3,
+  2
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C",
+    "Unknown"
+   ],
+   "semester": 1,
+   "examDate": "2026-11-25T09:00:00.000Z",
+   "examDuration": 120
+  },
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-04-27T09:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": {
+  "or": [
+   "YSC1212:D",
+   "CS1010:D",
+   "CS1010J:D",
+   "CS1010E:D",
+   "CS1010S:D",
+   "CS1010X:D",
+   "CS1101S:D",
+   "CS1010A:D",
+   "CS1010HS:D",
+   "UTC2851:D"
+  ]
+ },
+ "fulfillRequirements": [
+  "CS6280",
+  "CS2106",
+  "CS3237",
+  "CS3210"
+ ]
+}

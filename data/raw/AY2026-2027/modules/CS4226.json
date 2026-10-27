@@ -1,0 +1,60 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "lab": true,
+  "mpes1": true
+ },
+ "department": "Computer Science",
+ "description": "This course covers advanced networking concepts pertaining to the modern Internet architecture and applications. It covers four main topics: (i) network performance modeling and analysis (throughput, delay, Little’s Law and M/M/1 queuing, Jackson networks, and resource allocation); (ii) software defined networking (programmable control and data planes, OpenFlow, P4); (iii) inter-domain routing and policies (AS interconnection, BGP); and (iv) peer-to-peer network architectures and design principles (BitTorrent, DHTs).",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS4226",
+ "moduleCredit": "4",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHEN( must have completed 1 of CS2105/EE3204/EE3204E/EE4204 at a grade of at least DANDmust have completed 1 of EE2012/EE2012A/MA2116/MA2116T/MA2216/ST2131/ST2334 at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CS2105:D, EE3204:D, EE3204E:D, EE4204:D AND COURSES (1) EE2012A:D, EE2012:D, MA2216:D, ST2131:D, ST2334:D, MA2116:D, MA2116T:D)",
+ "title": "Internet Architecture",
+ "workload": [
+  2,
+  1,
+  0,
+  4,
+  3
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1,
+   "examDate": "2026-12-01T05:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": {
+  "and": [
+   {
+    "or": [
+     "CS2105:D",
+     "EE3204:D",
+     "EE3204E:D",
+     "EE4204:D"
+    ]
+   },
+   {
+    "or": [
+     "EE2012A:D",
+     "EE2012:D",
+     "MA2216:D",
+     "ST2131:D",
+     "ST2334:D",
+     "MA2116:D",
+     "MA2116T:D"
+    ]
+   }
+  ]
+ },
+ "fulfillRequirements": [
+  "CS5229",
+  "CS5248"
+ ]
+}

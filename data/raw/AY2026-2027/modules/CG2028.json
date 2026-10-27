@@ -1,0 +1,61 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true
+ },
+ "department": "Computing and Engineering Programme",
+ "description": "This course familiarizes students with the fundamentals of computing devices. It introduces microprocessor concepts, memory-mapped I/O systems, and interfacing techniques. Topics include ARM architecture and assembly programming, and memory-mapped peripherals. The course culminates in an assignment where students design and implement a system that integrates hardware and software to deliver an efficient engineering solution",
+ "faculty": "Multi-Disciplinary Prog (CEG)",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CG2028",
+ "moduleCredit": "2",
+ "preclusion": "If undertaking an Undergraduate DegreeTHEN( must not have completed CS2100/CS2100DE/EE2028)",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES CS2100, CS2100DE, EE2028)",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHEN( must have completed 1 of CS1010/CS1010A/CS1010E/CS1010S/CS1010X/CS1101S/UTC2851 at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CS1010:D, CS1010A:D, CS1010E:D, CS1010S:D, CS1010X:D, CS1101S:D, UTC2851:D)",
+ "title": "Computer Organization",
+ "workload": [
+  3,
+  1,
+  1,
+  2,
+  3
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C",
+    "Unknown"
+   ],
+   "semester": 1,
+   "examDate": "2026-09-29T06:00:00.000Z",
+   "examDuration": 90
+  },
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-03-01T05:00:00.000Z",
+   "examDuration": 90
+  }
+ ],
+ "prereqTree": {
+  "or": [
+   "CS1010:D",
+   "CS1010A:D",
+   "CS1010E:D",
+   "CS1010S:D",
+   "CS1010X:D",
+   "CS1101S:D",
+   "UTC2851:D"
+  ]
+ },
+ "fulfillRequirements": [
+  "EE4218",
+  "CS3237",
+  "CS3210",
+  "CG3207"
+ ]
+}

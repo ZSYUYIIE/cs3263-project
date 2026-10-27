@@ -1,0 +1,41 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true,
+  "su": true
+ },
+ "department": "Center for Engl Lang Comms",
+ "description": "SP1541 aims to enable students to communicate science to the non-specialist audience in a comprehensible and engaging manner through science popularised discourses. Students are introduced to four models of science communication which shed light on the evolving assumptions made about the roles of and interactions between scientists, policymakers, and the public in society. Drawing upon these models, students critically analyse and evaluate how communication strategies are employed in both written and spoken sources, and apply them. The cornerstone of the course is students demonstrating a deepened appreciation of the audience’s level(s) of knowledge through engagement opportunities with the public.",
+ "faculty": "Center for Engl Lang Comms",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "SP1541",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate Degree THEN (( must not have completed 1 of ES2531, ES2631, ES2660, FAS1101, SP2271, any Courses beginning with UTW1001, any Courses beginning with UTW2001, SP1541/SP1541X at a grade of at least D AND must not be undertaking 1 of 1501TMBSPL UTown College Programme - Tembusu, 1501TMRSPL UTown Resident - Tembusu, 1502ANGSPL UTown College Programme - CAPT, 1502ANRSPL UTown Resident - CAPT, 1503R4RSPL UTown Resident - RC4, 1503RC4SPL UTown College Programme - RC4, 1520RVCSPL Ridge View Residential College Programme))",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN ((COURSES (1) SP1541:D, FAS1101, ES2531, ES2631, ES2660, SP2271, UTW1001%, UTW2001%, SP1541X:D AND SPECIAL_PROGRAMME MUST_NOT_BE_IN (1) 1501TMBSPL, 1501TMRSPL, 1502ANGSPL, 1502ANRSPL, 1503R4RSPL, 1503RC4SPL, 1520RVCSPL))",
+ "prerequisite": "If undertaking an Undergraduate Degree THEN must have completed EP ENGLISH LANGUAGE PROFICIENCY TEST at a grade of at least N",
+ "prerequisiteAdvisory": "Only for CHS Students",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN SUBJECTS EP:N",
+ "title": "Communication Practices in Popular Science",
+ "workload": [
+  0,
+  3,
+  0,
+  3,
+  4
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1
+  },
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2
+  }
+ ]
+}

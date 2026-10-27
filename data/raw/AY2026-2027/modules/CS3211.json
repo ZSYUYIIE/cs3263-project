@@ -1,0 +1,43 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes2": true
+ },
+ "department": "Computer Science",
+ "description": "CS3211 teaches principles and paradigms of concurrent programming essential for modern software development. Through hands-on experience in various programming languages, students experiment with multiple concurrency techniques, such as lock-based synchronization and lock-free programming, message-passing, and asynchronous programming. Students learn to reason about threads, synchronization, memory models, and safety properties required for correct concurrent programs. The course emphasizes writing robust, thread-safe code free from data races, deadlocks, and undefined behaviour. By examining how different paradigms address concurrency challenges, students gain transferable knowledge to design and implement safe, correct concurrent systems with confidence in any programming environment.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS3211",
+ "moduleCredit": "4",
+ "prerequisite": "if undertaking an Undergraduate Degree then ( must have completed 1 of CG2271/CS2106 at a grade of at least D )",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CS2106:D, CG2271:D)",
+ "title": "Concurrent Programming",
+ "workload": [
+  2,
+  2,
+  0,
+  3,
+  3
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-05-03T01:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": {
+  "or": [
+   "CS2106:D",
+   "CG2271:D"
+  ]
+ },
+ "fulfillRequirements": [
+  "CS6202",
+  "CS6213",
+  "CS5223"
+ ]
+}

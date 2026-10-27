@@ -1,0 +1,38 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true
+ },
+ "department": "Design",
+ "description": "This course provides an overview of User Interface (UI) and User Experience (UX) design principles and methodologies. Students will be provided grounding in the principles of human-computer interaction, user research, and design thinking as applied to mobile, desktop, and emerging tangible user interfaces. The course will culminate in a group project where students will design and prototype a user-centered solution for a real-world problem.",
+ "faculty": "College of Design and Engineering",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "ID3131",
+ "moduleCredit": "4",
+ "title": "Techniques in Interaction Design and User Experience",
+ "workload": [
+  2,
+  2,
+  0,
+  6,
+  0
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1
+  },
+  {
+   "covidZones": [
+    "Unknown"
+   ],
+   "semester": 2
+  }
+ ],
+ "fulfillRequirements": [
+  "CS4353"
+ ]
+}

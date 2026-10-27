@@ -1,0 +1,36 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "su": true
+ },
+ "department": "Electrical and Computer Engineering",
+ "description": "This is the first of a two-part course Electrical Engineering Principles and Practice (EPP) I and II that introduces first year EE students to the world of electrical engineering. They learn to analyse complex systems, and to conduct basic experiments. They learn fundamental principles that explain how electrical components interact with one another to make a system work, and how they may fail. They learn how systems get energy, and how to determine the size of energy source. Students learn how to use circuit simulation software and microcontroller-based system development tools. Students also learn about safety, and how to effectively communicate technical contents.",
+ "faculty": "College of Design and Engineering",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "EE1111A",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate Degree THEN ( must not have completed 1 of BN1111/EE1111/ESP1111/ME1102/ME2105/RB2101 at a grade of at least D)",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) EE1111:D, BN1111:D, ESP1111:D, ME1102:D, ME2105:D, RB2101:D)",
+ "title": "Electrical Engineering Principles and Practice I",
+ "workload": [
+  0,
+  0,
+  3.5,
+  1.5,
+  5
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1
+  }
+ ],
+ "fulfillRequirements": [
+  "EE2026",
+  "EE4513",
+  "CM4254"
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true,
+  "su": true
+ },
+ "department": "Center for Engl Lang Comms",
+ "description": "This course equips students with competencies that enable students to analyze, critique, and communicate engineering and design ideas in a systematic and thoughtful manner. Students will be introduced to the Engineering Reasoning Framework (Paul, Niewoehner and Elder, 2019), as well as key principles of effective academic communication. Students will learn to apply the critical thinking framework and communication principles to critique ideas expressed in different genres and to convey these in critique essays. They will also engage in a group project aimed at promoting critical analysis and communication in teams that will culminate in a team academic oral presentation.",
+ "faculty": "Center for Engl Lang Comms",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "ES2631",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate DegreeTHEN(( must not have completed 1 of ES1531/ES2531 at a grade of at least D, GEK1549/GET1021/any Courses beginning with UTW1001)AND(must not be undertaking 1 of 1504ACASPL UTown College Programme - Acacia, 1501TMBSPL UTown College Programme - Tembusu, 1501TMRSPL UTown Resident - Tembusu, 1502ANRSPL UTown Resident - CAPT, 1502ANGSPL UTown College Programme - CAPT, 1503RC4SPL UTown College Programme - RC4, 1503R4RSPL UTown Resident - RC4, 1520RVCSPL Ridge View Residential College Programme))",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN ((COURSES (1) UTW1001%, ES1531:D, ES2531:D, GEK1549, GET1021) AND (SPECIAL_PROGRAMME MUST_NOT_BE_IN (1) 1504ACASPL, 1501TMBSPL, 1501TMRSPL, 1502ANRSPL, 1502ANGSPL, 1503RC4SPL, 1503R4RSPL, 1520RVCSPL))",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHEN((must be undertaking 1 of 2001CEGHON Bachelor of Engineering (Computer Engineering) (Hons), 0607ISEHON Bachelor of Engineering (Industrial and Systems Engineering) (Hons), 0609MEHON Bachelor of Engineering (Mechanical Engineering) (Hons), 0613EVEHON Bachelor of Engineering (Environmental Engineering) (Hons), 0605ESPHON Bachelor of Engineering (Engineering Science) (Hons), 0601BMEHON Bachelor of Engineering (Biomedical Engineering) (Hons), 0604ELEHON Bachelor of Engineering (Electrical Engineering) (Hons), 0608MSEHON Bachelor of Engineering (Materials Science and Engineering) (Hons), 0613CEHON Bachelor of Engineering (Civil Engineering) (Hons), 0602CHEHON Bachelor of Engineering (Chemical Engineering) (Hons), 0616IPMHON BEng (Infrastructure and Project Management) (Hons), 0616PFMHON BSc (Project and Facilities Management) (Hons), 0609RMIHON Bachelor of Engineering (Robotics and Machine Intelligence) (Hons), 0613ESHON Bachelor of Engineering (Environmental and Sustainability Engineering) (Hons))AND(must be in one of the cohorts prior to 2013 inclusiveORmust be in one of the cohorts from 2016 inclusive )ANDmust have completed EP ENGLISH LANGUAGE PROFICIENCY TEST at a grade of at least N)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN ((PROGRAMS MUST_BE_IN (1) 2001CEGHON, 0607ISEHON, 0609MEHON, 0613EVEHON, 0605ESPHON, 0601BMEHON, 0604ELEHON, 0608MSEHON, 0613CEHON, 0602CHEHON, 0616IPMHON, 0616PFMHON, 0609RMIHON, 0613ESHON) AND (COHORT_YEARS MUST_BE_IN E:2013 OR COHORT_YEARS MUST_BE_IN S:2016) AND SUBJECTS EP:N)",
+ "title": "Critique and Communication of Thinking and Design",
+ "workload": [
+  0,
+  3,
+  0,
+  3,
+  4
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1
+  },
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2
+  }
+ ],
+ "prereqTree": {
+  "or": [
+   {
+    "cohort": {
+     "rule": "MUST_BE_IN",
+     "years": [
+      "E:2013"
+     ]
+    }
+   },
+   {
+    "cohort": {
+     "rule": "MUST_BE_IN",
+     "years": [
+      "S:2016"
+     ]
+    }
+   }
+  ]
+ },
+ "fulfillRequirements": [
+  "CP3880",
+  "CP3880E",
+  "CP3881",
+  "CP3880X"
+ ]
+}

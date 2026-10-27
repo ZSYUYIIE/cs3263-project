@@ -1,0 +1,67 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true
+ },
+ "department": "Computer Science",
+ "description": "This course serves as an introductory course on information security. It illustrates the fundamentals of how systems fail due to malicious activities and how they can be protected. The course also places emphasis on the practices of secure programming and implementation. Topics covered include classical/historical ciphers, introduction to modern ciphers and cryptosystems, ethical, legal and organisational aspects, classic examples of direct attacks on computer systems such as input validation vulnerability, examples of other forms of attack such as social engineering/phishing attacks, and the practice of secure programming.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS2107",
+ "moduleCredit": "4",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHEN( must have completed 1 of CS1010/CS1010A/CS1010E/CS1010HS/CS1010J/CS1010S/CS1010X/CS1101S/UTC2851/YSC1212 at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) YSC1212:D, CS1010J:D, CS1101S:D, CS1010:D, CS1010E:D, CS1010S:D, CS1010X:D, CS1010A:D, CS1010HS:D, UTC2851:D)",
+ "title": "Introduction to Information Security",
+ "workload": [
+  2,
+  1,
+  0,
+  3,
+  4
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C",
+    "Unknown"
+   ],
+   "semester": 1,
+   "examDate": "2026-12-01T01:00:00.000Z",
+   "examDuration": 120
+  },
+  {
+   "covidZones": [
+    "C",
+    "Unknown"
+   ],
+   "semester": 2,
+   "examDate": "2027-05-04T01:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": {
+  "or": [
+   "YSC1212:D",
+   "CS1010J:D",
+   "CS1101S:D",
+   "CS1010:D",
+   "CS1010E:D",
+   "CS1010S:D",
+   "CS1010X:D",
+   "CS1010A:D",
+   "CS1010HS:D",
+   "UTC2851:D"
+  ]
+ },
+ "fulfillRequirements": [
+  "CS3235",
+  "IS4231",
+  "IS5151",
+  "CS4257",
+  "IS4238",
+  "IFS4101",
+  "CS4236",
+  "CS4352"
+ ]
+}

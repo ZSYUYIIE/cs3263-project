@@ -1,0 +1,36 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "su": true
+ },
+ "department": "Mathematics",
+ "description": "This is a course providing students fundamental mathematical knowledge that is useful in a wide range of scientific disciplines. The scope of this course covers the basic mathematical concepts and techniques in linear algebra, calculus, and probability. Major topics include: matrices and vectors, solving linear systems, diagonalisation of matrices, differentiation and integration, random variables and probability density functions, law of large numbers, and central limit theorem.",
+ "faculty": "Science",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "MA2301",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate Degree THEN (( must not have completed 1 of MA2116/MA2216/ST2131/ST2334 at a grade of at least D) AND ( must not have completed 1 of MA1508E/MA1513/MA2001 at a grade of at least D) AND ( must not have completed 1 of MA1312/MA1505/MA1511/MA1521/MA2002 at a grade of at least D) AND (must not be undertaking 1 of 1003MAHON Bachelor of Science - Mathematics (Hons), 1003QFNHON Bachelor of Science - Quantitative Finance (Hons), 1006STHON Bachelor of Science - Statistics (Hons), 1006DSAHON Bachelor of Science (Data Science and Analytics) (Hons)) AND (must not be undertaking 1 of 1003MA2MJ Mathematics (2nd Major), 1003QF2MJ Quantitative Finance (2nd Major), 1006ST2MJ Statistics (2nd Major), 1006DA2MJ Data Analytics (2nd Major)))",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN ((COURSES (1) MA2116:D, MA2216:D, ST2131:D, ST2334:D) AND (COURSES (1) MA1508E:D, MA1513:D, MA2001:D) AND (COURSES (1) MA1312:D, MA1505:D, MA1511:D, MA1521:D, MA2002:D) AND (PROGRAMS MUST_NOT_BE_IN (1) 1003MAHON, 1003QFNHON, 1006STHON, 1006DSAHON) AND (2ND_MAJOR MUST_NOT_BE_IN (1) 1003MA2MJ, 1003QF2MJ, 1006ST2MJ, 1006DA2MJ))",
+ "prerequisite": "If undertaking an Undergraduate Degree THEN (( must have completed 1 of 06 MATHEMATICS/07 FURTHER MATHEMATICS at a grade of at least E) OR ( must have completed 1 of MA1301/MA1301X at a grade of at least D))",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN ((SUBJECTS (1) 06:E, 07:E) OR (COURSES (1) MA1301:D, MA1301X:D))",
+ "title": "Basic Applied Mathematics",
+ "workload": [
+  3,
+  1,
+  0,
+  1,
+  5
+ ],
+ "semesterData": [],
+ "prereqTree": {
+  "or": [
+   "MA1301:D",
+   "MA1301X:D"
+  ]
+ },
+ "fulfillRequirements": [
+  "QF3103",
+  "QF2104"
+ ]
+}

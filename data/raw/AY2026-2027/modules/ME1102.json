@@ -1,0 +1,45 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "su": true
+ },
+ "department": "Mechanical Engineering",
+ "description": "This is the first of two courses that introduces students to what engineers do and the engineer's thought process. This course focuses on how systems work and fail, and how they are designed. Through both theory and hands-on activities, students are introduced to the fundamental concepts that govern engineering systems (such as forces and motion, energy, fluid flow, heat transfer and material properties). At the end of the course, students will have developed an understanding of the major topics relevant to engineering. Students will also learn to use software (e.g. Excel) to process and present data.",
+ "faculty": "College of Design and Engineering",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "ME1102",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate Degree THEN must not have completed RB1101 at a grade of at least D",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN COURSES RB1101:D",
+ "prerequisite": "If undertaking an Undergraduate Degree THEN (must be in one of the cohorts from 2019 inclusive )",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COHORT_YEARS MUST_BE_IN S:2019)",
+ "title": "Engineering Principles and Practice I",
+ "workload": [
+  3,
+  1,
+  0,
+  0,
+  6
+ ],
+ "semesterData": [],
+ "prereqTree": {
+  "cohort": {
+   "rule": "MUST_BE_IN",
+   "years": [
+    "S:2019"
+   ]
+  }
+ },
+ "fulfillRequirements": [
+  "ME2115",
+  "ME2112",
+  "ME2134",
+  "ME3115",
+  "ME2116",
+  "ME3252",
+  "ME2121",
+  "ME3122",
+  "EE4513"
+ ]
+}

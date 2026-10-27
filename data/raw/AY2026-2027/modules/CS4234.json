@@ -1,0 +1,54 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "lab": true,
+  "mpes1": true
+ },
+ "department": "Computer Science",
+ "description": "This course covers common algorithmic techniques for solving optimisation problems, and introduces students to approaches for finding good-enough solutions to NP-hard problems. Topics covered include linear and integer programming, network flow algorithms, local search heuristics, approximation algorithms, and randomized algorithms. Through analysis and application of the techniques to a variety of canonical problems, students develop confidence to (i) appropriately model a given optimisation problem, (ii) apply appropriate algorithmic techniques to solve the problem, (iii) analyse the properties of the problem and candidate algorithms, such as time and space complexity, convergence, approximability, and optimality bound.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS4234",
+ "moduleCredit": "4",
+ "prerequisite": "If undertaking an Undergraduate Degree THEN ( must have completed 1 of MA1101R/MA1311/MA1508E/MA1513/MA1522/MA2001/YSC2232 at a grade of at least D AND must have completed 1 of CS3230/YSC3203 at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) MA2001:D, MA1101R:D, YSC2232:D, MA1311:D, MA1508E:D, MA1522:D, MA1513:D AND COURSES (1) YSC3203:D, CS3230:D)",
+ "title": "Optimisation Algorithms",
+ "workload": [
+  2,
+  1,
+  0,
+  4,
+  3
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1,
+   "examDate": "2026-11-23T01:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": {
+  "and": [
+   {
+    "or": [
+     "MA2001:D",
+     "MA1101R:D",
+     "YSC2232:D",
+     "MA1311:D",
+     "MA1508E:D",
+     "MA1522:D",
+     "MA1513:D"
+    ]
+   },
+   {
+    "or": [
+     "YSC3203:D",
+     "CS3230:D"
+    ]
+   }
+  ]
+ }
+}

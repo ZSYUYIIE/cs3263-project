@@ -1,0 +1,51 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "su": true
+ },
+ "department": "Center for Engl Lang Comms",
+ "description": "The challenges of a global engineer increasingly call upon engineers to think critically and communicate effectively to undertake developmental leadership. This course aims to develop and practise students’ critical thinking and writing skills through analysing case studies in engineering leadership, constructing complex engineering-related problems and solutions, presenting arguments effectively and reflecting on personal leadership development. Relevance to engineering practice is emphasized with references to grounded theories of engineering leadership and the seven missing basics of engineering education.",
+ "faculty": "Center for Engl Lang Comms",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "ES2531",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate Degree THEN (( must not have completed 1 of EG1413, ES1601, ES1601A, FAS1101, GEK1549, GEK1901, GET1021, any Courses (Modules) beginning with UTW1001, ES1531 at a grade of at least D) AND must not be undertaking 1501TMBSPL UTown College Programme - Tembusu, 1501TMRSPL UTown Resident - Tembusu, 1502ANGSPL UTown College Programme - CAPT, 1502ANRSPL UTown Resident - CAPT, 1503R4RSPL UTown Resident - RC4, 1503RC4SPL UTown College Programme - RC4, 1520RVCSPL Ridge View Residential College Programme)",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN ((COURSES (1) EG1413, UTW1001%, GEK1901, ES1531:D, GEK1549, GET1021, ES1601, ES1601A, FAS1101) AND SPECIAL_PROGRAMME MUST_NOT_BE_IN 1501TMBSPL, 1501TMRSPL, 1502ANGSPL, 1502ANRSPL, 1503R4RSPL, 1503RC4SPL, 1520RVCSPL)",
+ "prerequisite": "If undertaking an Undergraduate Degree THEN (must be undertaking 1 of 0601BMEHON Bachelor of Engineering (Biomedical Engineering) (Hons), 0602CHEHON Bachelor of Engineering (Chemical Engineering) (Hons), 0604ELEHON Bachelor of Engineering (Electrical Engineering) (Hons), 0605ESPHON Bachelor of Engineering (Engineering Science) (Hons), 0607ISEHON Bachelor of Engineering (Industrial and Systems Engineering) (Hons), 0608MSEHON Bachelor of Engineering (Materials Science and Engineering) (Hons), 0609MEHON Bachelor of Engineering (Mechanical Engineering) (Hons), 0613CEHON Bachelor of Engineering (Civil Engineering) (Hons), 0613EVEHON Bachelor of Engineering (Environmental Engineering) (Hons), 2001CEGHON Bachelor of Engineering (Computer Engineering) (Hons) AND (must be in one of the cohorts prior to 2013 inclusive OR must be in one of the cohorts from 2016 inclusive ) AND ( must have completed EP ENGLISH LANGUAGE PROFICIENCY TEST at a grade of at least N))",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (PROGRAMS MUST_BE_IN (1) 0600ENGMAJ, 0601BMEHON, 0602CHEHON, 0604CPEHON, 0604ELEHON, 0605ESPHON, 0607ISEHON, 0608MSEHON, 0609MEHON, 0613CEHON, 0613EVEHON, 2001CEGHON AND (COHORT_YEARS MUST_BE_IN E:2013 OR COHORT_YEARS MUST_BE_IN S:2016) AND (SUBJECTS (1) EP:N))",
+ "title": "Critical Thinking And Writing",
+ "workload": [
+  0,
+  2,
+  0,
+  8,
+  4
+ ],
+ "semesterData": [],
+ "prereqTree": {
+  "or": [
+   {
+    "cohort": {
+     "rule": "MUST_BE_IN",
+     "years": [
+      "E:2013"
+     ]
+    }
+   },
+   {
+    "cohort": {
+     "rule": "MUST_BE_IN",
+     "years": [
+      "S:2016"
+     ]
+    }
+   }
+  ]
+ },
+ "fulfillRequirements": [
+  "CP3880",
+  "CP3880E",
+  "CP3881",
+  "CP3880X"
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true
+ },
+ "department": "Electrical and Computer Engineering",
+ "description": "This course covers data analytics for the Internet of Things. It starts with an introduction to the Internet of Things (IoT) systems, including the enabling technologies, IoT network architectures and protocols. IoT systems have applications such as semiconductor manufacturing, smart power grids, and healthcare. The course then covers data science fundamentals such as Bayesian statistics, classification, supervised learning, unsupervised learning, and deep learning. The course also covers basic machine learning algorithms such as decision trees, logistic regression, support vector machines, and neural networks. Students will visualise and analyse real-world data sets via practical IoT case studies.",
+ "faculty": "College of Design and Engineering",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "EE4211",
+ "moduleCredit": "4",
+ "preclusion": "(If undertaking a Graduate Degree CourseworkTHEN( must not have completed EE5020 at a grade of at least D))OR(if undertaking an Undergraduate DegreeTHENmust not have completed 1 of EE4802/IT3011 at a grade of at least D)",
+ "preclusionRule": "(PROGRAM_TYPES IF_IN Graduate Degree Coursework THEN (COURSES (1) EE5020:D)) OR (PROGRAM_TYPES IF_IN Undergraduate Degree THEN COURSES (1) EE4802:D, IT3011:D)",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHEN(( must have completed 1 of EE2211/EE2213 at a grade of at least D)AND( must have completed 1 of CE2407A/EE2012/ST2334 at a grade of at least D))",
+ "prerequisiteAdvisory": "Familiarity with scientific programming language such as Python. All assignments in the class will be done in Python.",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN ((COURSES (1) EE2211:D, EE2213:D) AND (COURSES (1) EE2012:D, ST2334:D, CE2407A:D))",
+ "title": "Data Science for the Internet of Things",
+ "workload": [
+  4,
+  0,
+  0,
+  2,
+  4
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1
+  }
+ ],
+ "prereqTree": {
+  "and": [
+   {
+    "or": [
+     "EE2211:D",
+     "EE2213:D"
+    ]
+   },
+   {
+    "or": [
+     "EE2012:D",
+     "ST2334:D",
+     "CE2407A:D"
+    ]
+   }
+  ]
+ }
+}

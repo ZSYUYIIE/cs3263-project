@@ -1,0 +1,37 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes2": true,
+  "su": true
+ },
+ "department": "Mechanical Engineering",
+ "description": "This introductory course in robotics covers electrical analysis, sensors, microcontrollers, and DC motors, exploring how these components can be integrated to build a mobile platform capable of autonomous behavior using low-cost sensors. Through a combination of theoretical learning and hands-on activities, students gain essential knowledge that provides a solid foundation for further studies in robotics.",
+ "faculty": "College of Design and Engineering",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "RB2101",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate DegreeTHENmust not have completed ME2104 at a grade of at least DANDmust not have completed ME2105 at a grade of at least DANDmust not have completed CG1111A at a grade of at least DANDmust not have completed EE1111B at a grade of at least DANDmust not have completed EE2111A at a grade of at least D",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN COURSES ME2104:D AND COURSES ME2105:D AND COURSES CG1111A:D AND COURSES EE1111B:D AND COURSES EE2111A:D",
+ "title": "Fundamentals of Robotics II",
+ "workload": [
+  3,
+  1,
+  0.5,
+  1.5,
+  4
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "Unknown",
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-05-05T05:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "fulfillRequirements": [
+  "CG2027"
+ ]
+}

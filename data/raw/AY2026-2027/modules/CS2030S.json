@@ -1,0 +1,80 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true
+ },
+ "department": "Computer Science",
+ "description": "This course is a follow up to CS1010. It explores two modern programming paradigms, object-oriented programming and functional programming. Through a series of integrated assignments, students will learn to develop medium-scale software programs in the order of thousands of lines of code and tens of classes using object-oriented design principles and advanced programming constructs available in the two paradigms. Topics include objects and classes, composition, association, inheritance, interface, polymorphism, abstract classes, dynamic binding, lambda expression, effect-free programming, first class functions, closures, continuations, monad, etc.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS2030S",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate Degree THEN ( must not have completed 1 of CS2030/CS2030DE/CS2030HS at a grade of at least D)",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CS2030:D, CS2030DE:D, CS2030HS:D)",
+ "prerequisite": "If undertaking an Undergraduate Degree THEN ( must have completed 1 of CS1010/CS1010A/CS1010E/CS1010HS/CS1010J/CS1010S/CS1010X/CS1101S/UTC2851 at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CS1010:D, CS1010E:D, CS1010X:D, CS1101S:D, CS1010S:D, CS1010J:D, CS1010A:D, CS1010HS:D, UTC2851:D)",
+ "title": "Programming Methodology II",
+ "workload": [
+  2,
+  1,
+  2,
+  3,
+  2
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1,
+   "examDate": "2026-11-30T09:00:00.000Z",
+   "examDuration": 120
+  },
+  {
+   "covidZones": [
+    "C",
+    "Unknown"
+   ],
+   "semester": 2,
+   "examDate": "2027-04-27T01:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": {
+  "or": [
+   "CS1010:D",
+   "CS1010E:D",
+   "CS1010X:D",
+   "CS1101S:D",
+   "CS1010S:D",
+   "CS1010J:D",
+   "CS1010A:D",
+   "CS1010HS:D",
+   "UTC2851:D"
+  ]
+ },
+ "fulfillRequirements": [
+  "CS2103DE",
+  "IS3261",
+  "CS2113T",
+  "CS5239",
+  "CS4215",
+  "CS3241",
+  "CS3233",
+  "CS3226",
+  "CS3218",
+  "CS2309",
+  "CS2104",
+  "CS2103T",
+  "CS2103",
+  "CS2102",
+  "BT3102",
+  "CP3107",
+  "IS4302",
+  "IS2108",
+  "IS2103",
+  "CS4243",
+  "NST2056"
+ ]
+}

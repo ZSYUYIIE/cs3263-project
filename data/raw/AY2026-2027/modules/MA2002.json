@@ -1,0 +1,96 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true,
+  "su": true
+ },
+ "department": "Mathematics",
+ "description": "This is a course in single-variable calculus. We will introduce precise definitions of limit, continuity, derivative, and the Riemann integral. Students will be exposed to computational techniques and applications of differentiation and integration. This course concludes with an introduction to first order differential equations. Major topics: Functions; limit and continuity; derivative; Intermediate Value Theorem; chain rule; implicit differentiation; higher derivatives; Mean Value Theorem; Riemann integral; Fundamental Theorem of Calculus; elementary transcendental functions and their inverses; techniques of integration; computation of area, volume and arc length using definite integrals; first order differential equations.",
+ "faculty": "Science",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "MA2002",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate Degree THEN (( must not have completed 1 of MA1312/MA1505/MA1521/YSC1216 at a grade of at least D) AND (must not be undertaking 1 of 0601BMEHON Bachelor of Engineering (Biomedical Engineering) (Hons), 0602CHEHON Bachelor of Engineering (Chemical Engineering) (Hons), 0604ELEHON Bachelor of Engineering (Electrical Engineering) (Hons), 0613CEHON Bachelor of Engineering (Civil Engineering) (Hons), 0605ESPHON Bachelor of Engineering (Engineering Science) (Hons), 0613EVEHON Bachelor of Engineering (Environmental Engineering) (Hons), 0607ISEHON Bachelor of Engineering (Industrial and Systems Engineering) (Hons), 0608MSEHON Bachelor of Engineering (Materials Science and Engineering) (Hons), 0609MEHON Bachelor of Engineering (Mechanical Engineering) (Hons), 2001CEGHON Bachelor of Engineering (Computer Engineering) (Hons), 0300CSHON Bachelor of Computing (Computer Science) (Hons), 0300ISCHON Bachelor of Computing (Information Security) (Hons), 0300ISHON Bachelor of Computing (Information Systems) (Hons), 0300BZAHON Bachelor of Science (Business Analytics) (Hons), 0616IPMHON BEng (Infrastructure and Project Management) (Hons)))",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN ((COURSES (1) MA1312:D, MA1505:D, MA1521:D, YSC1216:D) AND (PROGRAMS MUST_NOT_BE_IN (1) 0601BMEHON, 0602CHEHON, 0604ELEHON, 0613CEHON, 0605ESPHON, 0613EVEHON, 0607ISEHON, 0608MSEHON, 0609MEHON, 2001CEGHON, 0300CSHON, 0300ISCHON, 0300ISHON, 0300BZAHON, 0616IPMHON))",
+ "prerequisite": "If undertaking an Undergraduate Degree THEN (( must have completed 1 of 06 MATHEMATICS/07 FURTHER MATHEMATICS at a grade of at least E) OR ( must have completed 1 of MA1301/MA1301X at a grade of at least D))",
+ "prerequisiteAdvisory": "IB Math AA HL or Polytechnic Diploma Plus (or Related) Certification in Mathematics or AP Calculus BC",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN ((SUBJECTS (1) 06:E, 07:E) OR (COURSES (1) MA1301:D, MA1301X:D))",
+ "title": "Calculus",
+ "workload": [
+  3,
+  1,
+  1,
+  0,
+  5
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1,
+   "examDate": "2026-11-21T01:00:00.000Z",
+   "examDuration": 120
+  },
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-04-30T01:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": {
+  "or": [
+   "MA1301:D",
+   "MA1301X:D"
+  ]
+ },
+ "fulfillRequirements": [
+  "BT2103",
+  "CS3242",
+  "CS5241",
+  "CS5249",
+  "CS5478",
+  "CS4278",
+  "CS5332",
+  "CS5284",
+  "IS4242",
+  "BT4240",
+  "BT3104",
+  "CS4347",
+  "CS5647",
+  "CS5240",
+  "CS2251",
+  "CP4282",
+  "BT2101",
+  "CS3244",
+  "CS3218",
+  "CS4248",
+  "CS2109S",
+  "CS4243",
+  "IT3011",
+  "MA2219",
+  "MA2108S",
+  "DSA2102",
+  "MA2213",
+  "DSA4299C",
+  "DSA4299",
+  "DSA4199",
+  "ST2334",
+  "MA4275",
+  "MA2108",
+  "MA2116",
+  "MA2311",
+  "MA2104",
+  "DSA3361",
+  "DSA4288",
+  "ST2131",
+  "ST4288",
+  "DSA4288S",
+  "DSA4288M",
+  "CS2109HS"
+ ]
+}

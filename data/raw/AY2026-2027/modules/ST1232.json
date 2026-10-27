@@ -1,0 +1,40 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "su": true
+ },
+ "department": "Statistics and Data Science",
+ "description": "This course introduces life science students to the basic principles and methods of biostatistics, and their applications and interpretation. A computer package is used to enhance learning and to enable students to analyze real life data sets. Topics include probability, probability distributions, sampling distributions, statistical inference for one and two sample problems, nonparametric tests, categorical data analysis, correlation and regression analysis, multi-sample inference. This course is essential to students of the Life Sciences.",
+ "faculty": "Science",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "ST1232",
+ "moduleCredit": "4",
+ "preclusion": "if undertaking an Undergraduate Degree then ( must not have completed 1 of \"DSC2008\"/\"EC2231\"/\"PR2103\"/\"ST1131A\"/CE2407/CN3421/EC2303/ST1131/ST2334 at a grade of at least D )",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) ST1131:D, ST1131A:D, ST2334:D, CE2407:D, CN3421:D, EC2303:D, EC2231:D, PR2103:D, DSC2008:D)",
+ "prerequisite": "if undertaking an Undergraduate Degree then ( must have completed 1 of 0006 / 0007 / 06 MATHEMATICS / 07 FURTHER MATHEMATICS / 21 PURE MATHEMATICS / 22 APPLIED MATHEMATICS at a grade of at least AO )",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (SUBJECTS (1) 06:AO, 0006:AO, 07:AO, 0007:AO, 21:AO, 22:AO)",
+ "title": "Statistics for Life Sciences",
+ "workload": [
+  3,
+  1,
+  0,
+  0,
+  6
+ ],
+ "semesterData": [],
+ "fulfillRequirements": [
+  "SPH3101",
+  "SPH3001",
+  "DSC3223",
+  "DSC3216",
+  "CS5346",
+  "CS4257",
+  "CS5332",
+  "CS5228",
+  "CS4246",
+  "CS5446",
+  "CS5340",
+  "CS5233",
+  "CS4243"
+ ]
+}

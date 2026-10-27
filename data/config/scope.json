@@ -1,0 +1,15 @@
+{
+  "_comment": "Which courses the pipeline fetches. Seed courses are expanded by prerequisite closure; courses named only in preclusions/corequisites are fetched but not expanded further.",
+  "acad_year": "2026-2027",
+  "seed_prefixes": ["CS"],
+  "seed_level_min": 1000,
+  "seed_level_max": 4999,
+  "seed_codes": [
+    "CS1101S", "CS1231S", "CS2030S", "CS2040S", "CS2100", "CS2101",
+    "CS2103T", "CS2106", "CS2109S", "CS3230",
+    "IS1108", "ES2660", "MA1521", "MA1522", "ST2334", "CP3880"
+  ],
+  "exclude_codes": [],
+  "fetch_preclusion_refs": true,
+  "fetch_corequisite_refs": true
+}

@@ -1,0 +1,46 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true
+ },
+ "department": "Electrical and Computer Engineering",
+ "description": "The goal of this course is to introduce students to the fundamental concepts underlying digital image processing and techniques for manipulating and analysing image data. This course will provide students with a foundation for computer vision and image processing, which is important for those intending to proceed to biomedical engineering, intelligent systems and multimedia signal processing. The following topics are taught: elements of a vision system, image acquisition, 2-D discrete Fourier transform, image enhancement techniques, theoretical basis and techniques for image compression, segmentation methods including edge detection, and feature extraction such as texture measurement.",
+ "faculty": "College of Design and Engineering",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "EE4704",
+ "moduleCredit": "4",
+ "preclusion": "(If undertaking a Graduate Degree Coursework THEN ( must not have completed 1 of CS4243/EE3206 at a grade of at least D)) OR (if undertaking an Undergraduate Degree THEN must not have completed 1 of CS4243/EE3206/EE3206E/TEE3206/TEE4704 at a grade of at least D)",
+ "preclusionRule": "(PROGRAM_TYPES IF_IN Graduate Degree Coursework THEN (COURSES (1) EE3206:D, CS4243:D)) OR (PROGRAM_TYPES IF_IN Undergraduate Degree THEN COURSES (1) CS4243:D, EE3206:D, EE3206E:D, TEE3206:D, TEE4704:D)",
+ "prerequisite": "If undertaking an Undergraduate Degree THEN ( must have completed 1 of CG2023/EE2023 at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) EE2023:D, CG2023:D)",
+ "title": "Image Processing and Analysis",
+ "workload": [
+  2.5,
+  1,
+  0.5,
+  1,
+  5
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1,
+   "examDate": "2026-11-25T09:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": {
+  "or": [
+   "EE2023:D",
+   "CG2023:D"
+  ]
+ },
+ "fulfillRequirements": [
+  "EE4604",
+  "EE4309",
+  "EE4212",
+  "EE5731"
+ ]
+}

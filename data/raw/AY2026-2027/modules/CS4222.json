@@ -1,0 +1,61 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "lab": true,
+  "mpes2": true
+ },
+ "department": "Computer Science",
+ "description": "This course aims to provide solid foundation for students in the area of wireless networks and introduces students to the emerging area of cyber-physical-system/Internet-of-Things. The course will cover wireless networking across all layers of the networking stack including physical, link, MAC, routing and application layers. Different network technologies with different characteristic will also be covered, including cellular networks, Wi-Fi, Bluetooth and ZigBee. Some key concepts that cut across all layers and network types are mobility management, energy efficiency, and integration of sensing and communications. The course emphasizes on exposing students to practical network system issues through building software prototypes.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS4222",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate DegreeTHEN( must not have completed CS5422 at a grade of at least D)",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CS5422:D)",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHEN( must have completed 1 of CS2105/EE3204/EE3204E/EE4204 at a grade of at least DANDmust have completed 1 of EE2012/EE2012A/MA2116/MA2116T/MA2216/ST2131/ST2334 at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) EE3204:D, EE3204E:D, EE4204:D, CS2105:D AND COURSES (1) EE2012A:D, EE2012:D, ST2131:D, ST2334:D, MA2116:D, MA2116T:D, MA2216:D)",
+ "title": "Wireless Networking",
+ "workload": [
+  2,
+  0,
+  2,
+  4,
+  2
+ ],
+ "aliases": [
+  "CS5422"
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-05-03T05:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": {
+  "and": [
+   {
+    "or": [
+     "EE3204:D",
+     "EE3204E:D",
+     "EE4204:D",
+     "CS2105:D"
+    ]
+   },
+   {
+    "or": [
+     "EE2012A:D",
+     "EE2012:D",
+     "ST2131:D",
+     "ST2334:D",
+     "MA2116:D",
+     "MA2116T:D",
+     "MA2216:D"
+    ]
+   }
+  ]
+ }
+}

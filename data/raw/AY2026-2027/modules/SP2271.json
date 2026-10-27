@@ -1,0 +1,37 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true,
+  "su": true
+ },
+ "department": "FoS Dean's Office",
+ "description": "Students in this course gain the skills to understand and analyse peer-reviewed scientific journal articles. Critically reading scientific papers involves analysing them against the existing body of scientific knowledge to determine a paper's merits and limitations, reliability, and significance. This skill is crucial for keeping abreast of scientific progress and making evidence-based decisions. Students will learn to analyse methodology, interpret results, and evaluate conclusions. Based on library research, they will evaluate a paper in the context of the field and substantiate, challenge or extend its conclusions. Students will learn to communicate their analysis constructively in multiple modes.",
+ "faculty": "Science",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "SP2271",
+ "moduleCredit": "4",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHEN( must have completed 2 of 06 MATHEMATICS/07 FURTHER MATHEMATICS/08 PHYSICS/ADD. PHYSICS/09 CHEMISTRY/ADD. CHEMISTRY/11 BIOLOGY/63 CHEMISTRY/64 PHYSICS at a grade of at least E)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (SUBJECTS (2) 11:E, 09:E, 08:E, 06:E, 07:E, 63:E, 64:E)",
+ "title": "Introduction to the Scientific Literature",
+ "workload": [
+  1,
+  3,
+  0,
+  4,
+  2
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2
+  }
+ ],
+ "fulfillRequirements": [
+  "SP3172",
+  "SP3176",
+  "SP3275"
+ ]
+}

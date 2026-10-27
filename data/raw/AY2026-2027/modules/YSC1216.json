@@ -1,0 +1,32 @@
+{
+ "acadYear": "2026/2027",
+ "department": "Yale-NUS College",
+ "description": "Calculus unites the study of instantaneous rates of change, area and optimisation, via the mathematical concepts of limit and infinity. This course provides a conceptual framework for Calculus. We eschew full mathematical rigour, but emphasise real world phenomena more than the rote formal calculations that make up a typical high school Calculus class. This course is suitable not only for those who have never learned Calculus before, but also for those who have completed a high school Calculus course. Students completing the course will be prepared for discipline-specific classes in the Sciences and Social Sciences which make use of Calculus.",
+ "faculty": "Yale-NUS College",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "YSC1216",
+ "moduleCredit": "5",
+ "preclusion": "if undertaking an Undergraduate Degree then ( must not have completed 1 of \"MA1102R\"/MA1505/MA1511/MA1521 at a grade of at least D )",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) MA1102R:D, MA1505:D, MA1511:D, MA1521:D)",
+ "title": "Calculus",
+ "workload": [
+  0,
+  4,
+  0,
+  3,
+  5.5
+ ],
+ "semesterData": [],
+ "fulfillRequirements": [
+  "YSC2237",
+  "YSC1213",
+  "YSC2203",
+  "YSC2232",
+  "YSC2243",
+  "YSC2252",
+  "YSC3264",
+  "YSC4206",
+  "CS4248",
+  "CS4243"
+ ]
+}

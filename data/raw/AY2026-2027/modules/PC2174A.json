@@ -1,0 +1,63 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true
+ },
+ "department": "Physics",
+ "description": "This course aims to give students the necessary mathematical skills for other physics courses. The topics to be covered include: complex numbers and hyperbolic functions; single-variable calculus; Taylor series; first order and second order ordinary differential equations; vectors and matrices; eigenvalues and eigenvectors; partial differentiation; multiple integrals; physical applications.",
+ "faculty": "Science",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "PC2174A",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate Degree THEN ( must not have completed 1 of MA1505/MA1507/MA1511/MA2104/PC2134 at a grade of at least D)",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) MA1505:D, MA1507:D, MA1511:D, MA2104:D, PC2134:D)",
+ "prerequisite": "If undertaking an Undergraduate Degree THEN ( must have completed 1 of 06 MATHEMATICS/07 FURTHER MATHEMATICS at a grade of at least E OR must have completed 1 of MA1301/MA1301X at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (SUBJECTS (1) 07:E, 06:E OR COURSES (1) MA1301:D, MA1301X:D)",
+ "title": "Mathematical Methods in Physics I",
+ "workload": [
+  3,
+  0,
+  0,
+  2,
+  5
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1,
+   "examDate": "2026-11-26T01:00:00.000Z",
+   "examDuration": 120
+  },
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-04-28T01:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": {
+  "or": [
+   "MA1301:D",
+   "MA1301X:D"
+  ]
+ },
+ "fulfillRequirements": [
+  "PC3261",
+  "PC3238",
+  "PC3441",
+  "PC2031",
+  "PC2130",
+  "PC2451",
+  "PC3236",
+  "PC3274A",
+  "PC2135",
+  "PC3442",
+  "PC3221",
+  "PC2032"
+ ]
+}

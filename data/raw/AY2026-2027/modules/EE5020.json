@@ -1,0 +1,31 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "lab": true,
+  "mpes2": true,
+  "sfs": true,
+  "ssgf": true
+ },
+ "department": "Electrical and Computer Engineering",
+ "description": "This course covers data science for the Internet of Things. The topics include data science fundamentals such as Bayesian statistics, classification, supervised learning, unsupervised learning, and deep learning. The course will also cover several basic machine learning algorithms such as decision trees, logistic regression, support vector machines, and neural networks. Students will visualize and analyze real-world data sets via practical IoT case studies.",
+ "faculty": "College of Design and Engineering",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "EE5020",
+ "moduleCredit": "2",
+ "title": "Data Science for Internet of Things",
+ "workload": [
+  3,
+  0,
+  0,
+  3,
+  4
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2
+  }
+ ]
+}

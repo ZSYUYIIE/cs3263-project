@@ -1,0 +1,65 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true
+ },
+ "department": "Electrical and Computer Engineering",
+ "description": "This is a first course that introduces fundamental digital logic, digital circuits, and programmable devices. This course provides students with an understanding of the building blocks of modern digital systems and methods of designing, simulating and realizing such systems. The emphasis of this course is on understanding the fundamentals of digital design across different levels of abstraction using hardware description languages, and developing a solid design perspective towards complex digital systems.",
+ "faculty": "College of Design and Engineering",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "EE2026",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate Degree THEN ( must not have completed EE2020 at a grade of at least D)",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) EE2020:D)",
+ "prerequisite": "If undertaking an Undergraduate Degree THEN ( must have completed 1 of CG1111A/EE1111A/EE1111B/EE2111A at a grade of at least D) AND ( must have completed 1 of CS1010/CS1010E at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) EE1111A:D, EE1111B:D, EE2111A:D, CG1111A:D) AND (COURSES (1) CS1010E:D, CS1010:D)",
+ "title": "Digital Design",
+ "workload": [
+  3,
+  1,
+  1,
+  1,
+  4
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1
+  },
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2
+  }
+ ],
+ "prereqTree": {
+  "and": [
+   {
+    "or": [
+     "EE1111A:D",
+     "EE1111B:D",
+     "EE2111A:D",
+     "CG1111A:D"
+    ]
+   },
+   {
+    "or": [
+     "CS1010E:D",
+     "CS1010:D"
+    ]
+   }
+  ]
+ },
+ "fulfillRequirements": [
+  "EE4216",
+  "EE4415",
+  "EE4434",
+  "EE3033",
+  "EE4218",
+  "CG3207"
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true,
+  "su": true
+ },
+ "department": "Economics",
+ "description": "This is an introductory course in statistics for economists. The goal of this course is to provide a rigorous foundation for students who intend to study econometrics. This course broadly covers descriptive statistics, probability and statistical inference, and bivariate linear regression. More specifically, it covers the following topics: (1) summarizing economic data, (2) classical probability theory, (3) random variables and probability distributions, (4) sampling distributions, (5) point and interval estimation, (6) hypothesis testing, and (7) bivariate linear regression analysis.",
+ "faculty": "Arts and Social Science",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "EC2303",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate Degree THEN must not have completed 1 of any Courses beginning with SA at a grade of at least D, any Courses beginning with ST1 at a grade of at least D, any Courses beginning with ST2 at a grade of at least D, any Courses beginning with ST3 at a grade of at least D, any Courses beginning with ST4 at a grade of at least D, BT1101/DSC1007/DSC1007X/MA2116 at a grade of at least D",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN COURSES (1) SA%:D, ST1%:D, ST2%:D, ST3%:D, ST4%:D, DSC1007:D, DSC1007X:D, BT1101:D, MA2116:D",
+ "title": "Foundations for Econometrics",
+ "workload": [
+  2,
+  1,
+  0,
+  4,
+  3
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1,
+   "examDate": "2026-11-26T09:00:00.000Z",
+   "examDuration": 120
+  },
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-04-29T05:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "fulfillRequirements": [
+  "SPH3101",
+  "SPH3001",
+  "EC3303",
+  "EC5387R",
+  "EC3305R",
+  "EC3305",
+  "BSS4003A",
+  "BSN4811",
+  "BT2201",
+  "BT2102",
+  "IS4241",
+  "BT2101",
+  "QF3103",
+  "QF2104"
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true
+ },
+ "department": "Computer Science",
+ "description": "This course examines the transition from AI-assisted coding to agentic software engineering, where AI agents operate as semi-autonomous collaborators throughout the software development lifecycle. Students will learn how to supervise, evaluate, and collaborate with increasingly autonomous AI systems in tasks such as design, implementation, testing, and maintenance. Emphasis is placed on engineering discipline: controlling and bounding agent behaviour, assessing AI-generated artifacts, ensuring safety and security, and developing effective human-AI collaboration practices. Students will critically examine both the capabilities and limitations of agentic AI in professional software engineering contexts.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS3227",
+ "moduleCredit": "4",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHENmust have completed 1 of CS2103/CS2103DE/CS2103T/CS2113 at a grade of at least D",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN COURSES (1) CS2103:D, CS2103T:D, CS2113:D, CS2103DE:D",
+ "title": "Agentic Software Engineering",
+ "workload": [
+  2,
+  0,
+  1,
+  5,
+  2
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1
+  },
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2
+  }
+ ],
+ "prereqTree": {
+  "or": [
+   "CS2103:D",
+   "CS2103T:D",
+   "CS2113:D",
+   "CS2103DE:D"
+  ]
+ }
+}

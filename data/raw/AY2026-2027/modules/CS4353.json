@@ -1,0 +1,67 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true
+ },
+ "department": "Computer Science",
+ "description": "This capstone, project-based HCI course integrates students’ prior training in design, prototyping, and evaluation. Working in multidisciplinary teams, students identify a real-world problem, conduct user research, and iteratively design, implement, and evaluate an interactive system. Emphasis is placed on end-to-end human-centered design: needfinding, ideation, prototyping, usability testing, and evidence-based refinement. Students apply ethical, inclusive, and accessibility principles while engaging stakeholders and reflecting on societal impact. The course culminates in a functional prototype, evaluation report, and public showcase. By synthesizing methods learned in earlier courses, students gain practical experience managing ambiguity, collaborating effectively, and delivering user-validated solutions suitable for real deployment contexts and professional practice.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS4353",
+ "moduleCredit": "4",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHEN(( must have completed 1 of CS2103/CS2103DE/CS2103T/CS2113 at a grade of at least DANDmust have completed CS3240 at a grade of at least D)OR( must have completed NM2207 at a grade of at least DAND( must have completed 1 of NM3243/NM4259 at a grade of at least DORmust have completed all of ID2116/ID3131 at a grade of at least D)))",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN ((COURSES (1) CS2103DE:D, CS2103:D, CS2103T:D, CS2113:D AND COURSES CS3240:D) OR (COURSES (1) NM2207:D AND (COURSES (1) NM3243:D, NM4259:D OR COURSES (2) ID2116:D, ID3131:D)))",
+ "title": "Interactive Systems Development Project",
+ "workload": [
+  0,
+  0,
+  0,
+  7,
+  3
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1
+  }
+ ],
+ "prereqTree": {
+  "or": [
+   {
+    "and": [
+     {
+      "or": [
+       "CS2103DE:D",
+       "CS2103:D",
+       "CS2103T:D",
+       "CS2113:D"
+      ]
+     },
+     "CS3240:D"
+    ]
+   },
+   {
+    "and": [
+     "NM2207:D",
+     {
+      "or": [
+       "NM3243:D",
+       "NM4259:D",
+       {
+        "nOf": [
+         2,
+         [
+          "ID2116:D",
+          "ID3131:D"
+         ]
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

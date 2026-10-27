@@ -1,0 +1,58 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true
+ },
+ "department": "Analytics and Operations",
+ "description": "This course introduces students to the theory, algorithms, and applications of optimisation. Optimisation methodologies include linear programming, integer programming, network optimisation, dynamic programming, and nonlinear programming. Problem formulation and interpretation of solutions will be emphasized. Throughout the course, references will be made wherever appropriate, to business applications, such as portfolio selection, options pricing, and vehicle routing. Students who are interested in computer and quantitative approaches in business will learn many useful techniques in large business system management from this course.",
+ "faculty": "NUS Business School",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "DBA3701",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate DegreeTHEN( must not have completed DSC3214 at a grade of at least DANDmust not have completed IE2110 at a grade of at least D)",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) DSC3214:D AND COURSES (1) IE2110:D)",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHEN( must have completed 1 of any Courses beginning with DAO2702 at a grade of at least DANDmust be in one of the cohorts from 2017 inclusive )",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) DAO2702%:D AND COHORT_YEARS MUST_BE_IN S:2017)",
+ "title": "Introduction to Optimization",
+ "workload": [
+  0,
+  3,
+  0,
+  3,
+  4
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1
+  },
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2
+  }
+ ],
+ "prereqTree": {
+  "and": [
+   "DAO2702%:D",
+   {
+    "cohort": {
+     "rule": "MUST_BE_IN",
+     "years": [
+      "S:2017"
+     ]
+    }
+   }
+  ]
+ },
+ "fulfillRequirements": [
+  "IE4214",
+  "MA4254",
+  "MA4264",
+  "MA4260"
+ ]
+}

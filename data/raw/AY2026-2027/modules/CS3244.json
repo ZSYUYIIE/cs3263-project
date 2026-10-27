@@ -1,0 +1,146 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true
+ },
+ "department": "Computer Science",
+ "description": "This course introduces basic concepts and algorithms in machine learning and neural networks. The main reason for studying computational learning is to make better use of powerful computers to learn knowledge (or regularities) from the raw data. The ultimate objective is to build self-learning systems to relieve human from some of already-too-many programming tasks. At the end of the course, students are expected to be familiar with the theories and paradigms of computational learning, and capable of implementing basic learning systems.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS3244",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate Degree THEN ( must not have completed 1 of BT4240/CG3201/CS2109HS/CS2109S/CS3264/DMX1401AI/EE3703/EE4802/IT3011 at a grade of at least D)",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CS3264:D, BT4240:D, CS2109S:D, CS2109HS:D, DMX1401AI:D, IT3011:D, CG3201:D, EE3703:D, EE4802:D)",
+ "prerequisite": "If undertaking an Undergraduate Degree THEN must have completed 1 of CS2040/CS2040C/CS2040DE/CS2040HS/CS2040S/YSC2229 at a grade of at least D AND must have completed 1 of EE2012/EE2012A/MA2116/MA2116T/MA2216/ST2131/ST2334/YSC2243 at a grade of at least D AND ( must have completed all of MA1511/MA1512 at a grade of at least D OR must have completed 1 of MA1101R/MA1311/MA1508E/MA1513/MA1522/MA2001 at a grade of at least D AND must have completed 1 of MA1102R/MA1505/MA1507/MA1521/MA2002 at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN COURSES (1) CS2040:D, CS2040C:D, CS2040S:D, CS2040DE:D, CS2040HS:D, YSC2229:D AND COURSES (1) EE2012A:D, EE2012:D, YSC2243:D, ST2131:D, ST2334:D, MA2116:D, MA2116T:D, MA2216:D AND (COURSES (2) MA1511:D, MA1512:D OR COURSES (1) MA2001:D, MA1522:D, MA1508E:D, MA1311:D, MA1513:D, MA1101R:D AND COURSES (1) MA2002:D, MA1521:D, MA1505:D, MA1507:D, MA1102R:D)",
+ "title": "Machine Learning",
+ "workload": [
+  2,
+  1,
+  0,
+  4,
+  3
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1,
+   "examDate": "2026-11-26T09:00:00.000Z",
+   "examDuration": 120
+  },
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-04-29T01:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": {
+  "and": [
+   {
+    "or": [
+     "CS2040:D",
+     "CS2040C:D",
+     "CS2040S:D",
+     "CS2040DE:D",
+     "CS2040HS:D",
+     "YSC2229:D"
+    ]
+   },
+   {
+    "or": [
+     "EE2012A:D",
+     "EE2012:D",
+     "YSC2243:D",
+     "ST2131:D",
+     "ST2334:D",
+     "MA2116:D",
+     "MA2116T:D",
+     "MA2216:D"
+    ]
+   },
+   {
+    "or": [
+     {
+      "nOf": [
+       2,
+       [
+        "MA1511:D",
+        "MA1512:D"
+       ]
+      ]
+     },
+     {
+      "and": [
+       {
+        "or": [
+         "MA2001:D",
+         "MA1522:D",
+         "MA1508E:D",
+         "MA1311:D",
+         "MA1513:D",
+         "MA1101R:D"
+        ]
+       },
+       {
+        "or": [
+         "MA2002:D",
+         "MA1521:D",
+         "MA1505:D",
+         "MA1507:D",
+         "MA1102R:D"
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "fulfillRequirements": [
+  "MLE4112",
+  "MLE4217",
+  "CS6284",
+  "IS5452",
+  "IS4152",
+  "CS6216",
+  "CS5246",
+  "CS5284",
+  "CS5339",
+  "CS5562",
+  "CS5242",
+  "CS5462",
+  "CS4262",
+  "CS4248",
+  "CS4354",
+  "DSA4299C",
+  "DSA4299",
+  "DSA4199",
+  "DSA4261",
+  "DSA4261A",
+  "DSA4261B",
+  "DSA4262A",
+  "DSA4262B",
+  "DSA4263A",
+  "DSA4263B",
+  "DSA4264",
+  "DSA4264A",
+  "DSA4264B",
+  "DSA4265A",
+  "DSA4265B",
+  "DSA4266",
+  "DSA4266A",
+  "DSA4266B",
+  "DSA4262",
+  "DSA4263",
+  "DSA4288",
+  "DSA4288S",
+  "DSA4288M",
+  "DSA4265"
+ ]
+}

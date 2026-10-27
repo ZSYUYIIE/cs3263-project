@@ -1,0 +1,73 @@
+{
+ "acadYear": "2026/2027",
+ "department": "Chemical and Biomolecular Engineering",
+ "description": "This module considers the classification of fluids and their properties, followed by the analysis of static fluid. The integral and differential forms of the fundamental equations – Continuity, Momentum and Energy equations are then studied. The concept of momentum transfer by the shear stress is introduced in this course. Dimensional analysis and model theory are studied. The concept about boundary layer theory, flow with pressure gradient, viscous flow and turbulence are also described. Practical aspect involves the consideration of flows in closed conduits. The concepts of flow through packed beds and fluidization are included. At the end of the course, basic concepts regarding fluid machinery is also covered.",
+ "faculty": "College of Design and Engineering",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CN2122",
+ "moduleCredit": "5",
+ "prerequisite": "if undertaking an Undergraduate Degree then ( ( must be in one of the cohorts to 2016 inclusive and must have completed all of \"MA1506\"/MA1505 at a grade of at least D ) or ( must be in one of the cohorts from 2017 inclusive and must have completed all of MA1511/MA1512 at a grade of at least D ) )",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN ((COHORT_YEARS MUST_BE_IN E:2016 AND COURSES (2) MA1505:D, MA1506:D) OR (COHORT_YEARS MUST_BE_IN S:2017 AND COURSES (2) MA1511:D, MA1512:D))",
+ "title": "Fluid Mechanics",
+ "workload": [
+  3.5,
+  1,
+  0,
+  0,
+  7
+ ],
+ "semesterData": [],
+ "prereqTree": {
+  "or": [
+   {
+    "and": [
+     {
+      "cohort": {
+       "rule": "MUST_BE_IN",
+       "years": [
+        "E:2016"
+       ]
+      }
+     },
+     {
+      "nOf": [
+       2,
+       [
+        "MA1505:D",
+        "MA1506:D"
+       ]
+      ]
+     }
+    ]
+   },
+   {
+    "and": [
+     {
+      "cohort": {
+       "rule": "MUST_BE_IN",
+       "years": [
+        "S:2017"
+       ]
+      }
+     },
+     {
+      "nOf": [
+       2,
+       [
+        "MA1511:D",
+        "MA1512:D"
+       ]
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "fulfillRequirements": [
+  "CN2108",
+  "CN3101",
+  "BN4202",
+  "CN3135",
+  "CN4122"
+ ]
+}

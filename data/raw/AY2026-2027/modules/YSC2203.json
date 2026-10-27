@@ -1,0 +1,36 @@
+{
+ "acadYear": "2026/2027",
+ "department": "Yale-NUS College",
+ "description": "The course discusses the principles of classical mechanics within a rigorous mathematical framework. Topics may include kinematics, conservative forces, central-force motion, small oscillations, rigid bodies, variational problems, the Lagrangian and Hamiltonian formalisms, non-inertial frames, and special relativity. This course is a prerequisite for most of the Major courses in Physics.",
+ "faculty": "Yale-NUS College",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "YSC2203",
+ "moduleCredit": "5",
+ "prerequisite": "if undertaking an Undergraduate Degree then ( must have completed all of YSC1213/YSC1216 at a grade of at least D )",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (2) YSC1213:D, YSC1216:D)",
+ "title": "Classical Mechanics",
+ "workload": [
+  0,
+  4,
+  0,
+  0,
+  8.5
+ ],
+ "semesterData": [],
+ "prereqTree": {
+  "nOf": [
+   2,
+   [
+    "YSC1213:D",
+    "YSC1216:D"
+   ]
+  ]
+ },
+ "fulfillRequirements": [
+  "YSC2232",
+  "YSC3210",
+  "YSC3246",
+  "YSC4222",
+  "YSC4223"
+ ]
+}

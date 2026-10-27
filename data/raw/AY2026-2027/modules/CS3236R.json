@@ -1,0 +1,23 @@
+{
+ "acadYear": "2026/2027",
+ "department": "Computer Science",
+ "description": "This 1-MC course adds a research component to the host course, enabling students to acquire more in-depth understanding of the research issues pertaining to the subject matter.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS3236R",
+ "moduleCredit": "1",
+ "title": "Introduction to Information Theory",
+ "workload": [
+  0,
+  0,
+  0,
+  2,
+  1
+ ],
+ "semesterData": [
+  {
+   "covidZones": [],
+   "semester": 1
+  }
+ ]
+}

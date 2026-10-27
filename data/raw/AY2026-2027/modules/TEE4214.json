@@ -1,0 +1,33 @@
+{
+ "acadYear": "2026/2027",
+ "department": "SCALE Dean's Office",
+ "description": "The objectives of this course are to present the theoretical foundations of real-time systems and to discuss the practical aspects of their implementation. It describes the characteristics of a real-time computing system and students are taught how to design a real-time embedded system using structured data flow methodology. Concepts of time-critical I/O and real-time deadlines are emphasized, as are the important aspects of real-time operating systems, scheduling and the practical implementation of embedded systems and firmware. Other topics covered include deadlock management and process communications. Various case studies on industrial real-time systems will be exhibited to give students a real-world feel for such systems. Students will undertake a mini project involving a real-time embedded system. Topics covered: Introduction to real-time and embedded systems; Time critical I/O handling; Real-time embedded software design; Concurrent programming; Real-time operating systems; Scheduling and time-critical processing; Deadlock management; Process communications; Case studies of real-time embedded systems.",
+ "faculty": "Cont and Lifelong Education",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "TEE4214",
+ "moduleCredit": "4",
+ "preclusion": "if undertaking an Undergraduate Degree then ( must not have completed 1 of EE4214E/TIC2401 at a grade of at least D )",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) EE4214E:D, TIC2401:D)",
+ "prerequisite": "if undertaking an Undergraduate Degree then ( ( must have completed TEE2101 ) and ( must have completed \"TEE2024\" or must have completed TEE2028 ) )",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN ((COURSES (1) TEE2101) AND (COURSES (1) TEE2024 OR COURSES (1) TEE2028))",
+ "title": "Real-Time Embedded Systems",
+ "workload": [
+  2,
+  0.5,
+  0.5,
+  3,
+  3
+ ],
+ "semesterData": [],
+ "prereqTree": {
+  "and": [
+   "TEE2101",
+   {
+    "or": [
+     "TEE2024",
+     "TEE2028"
+    ]
+   }
+  ]
+ }
+}

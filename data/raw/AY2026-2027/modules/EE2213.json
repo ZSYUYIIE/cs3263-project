@@ -1,0 +1,73 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true
+ },
+ "department": "Electrical and Computer Engineering",
+ "description": "This course provides a practical introduction to modern artificial intelligence (AI). Students will explore the fundamental concepts, practical techniques, and useful applications of AI. Topics covered include search algorithms, machine learning, optimisation, knowledge representation with applications to various domains. The course emphasises hands-on experience through programming assignments and projects, allowing students to apply their knowledge to real-world problems. The course will also cover the issues, limitations, and ethical concerns surrounding AI and its relation to society.",
+ "faculty": "College of Design and Engineering",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "EE2213",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate DegreeTHENmust not have completed CS2109S at a grade of at least D",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN COURSES (1) CS2109S:D",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHENmust have completed 1 of CS1010/CS1010A/CS1010E/CS1010J/CS1010S/CS1010X/CS1101S at a grade of at least D",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN COURSES (1) CS1010E:D, CS1010:D, CS1010X:D, CS1010S:D, CS1101S:D, CS1010S:D, CS1010J:D, CS1010A:D",
+ "title": "Introduction to Artificial Intelligence",
+ "workload": [
+  2,
+  2,
+  0,
+  3,
+  3
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1,
+   "examDate": "2026-11-30T01:00:00.000Z",
+   "examDuration": 120
+  },
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-05-04T05:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": {
+  "or": [
+   "CS1010E:D",
+   "CS1010:D",
+   "CS1010X:D",
+   "CS1010S:D",
+   "CS1101S:D",
+   "CS1010J:D",
+   "CS1010A:D"
+  ]
+ },
+ "fulfillRequirements": [
+  "IPM3102",
+  "EE4705",
+  "EE4314",
+  "BN3406",
+  "EE4211",
+  "PF3211",
+  "EE3703",
+  "EE4115",
+  "RB4301",
+  "EE4706",
+  "MLE4112",
+  "MLE4217",
+  "MLE4214",
+  "CN3105",
+  "ESP3201A",
+  "IE4280",
+  "CS4354",
+  "CG3201"
+ ]
+}

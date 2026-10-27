@@ -1,0 +1,34 @@
+{
+ "acadYear": "2026/2027",
+ "department": "Electrical and Computer Engineering",
+ "description": "The objectives of this module are to present the theoretical foundations of real-time systems and to discuss the practical aspects of their implementation. It describes the characteristics of a real-time computing system and students are taught how to design a real-time embedded system using structured data flow methodology. Concepts of time-critical I/O and real-time deadlines are emphasized, as are the important aspects of real-time operating systems, scheduling and the practical implementation of embedded systems and firmware. Other topics covered include deadlock management and process communications. Various case studies on industrial real-time systems will be exhibited to give students a real-world feel for such systems. Students will undertake a mini project involving a real-time embedded system. Topics covered: Introduction to real-time and embedded systems; Time critical I/O handling; Real-time embedded software design; Concurrent programming; Real-time operating systems; Scheduling and time-critical processing; Deadlock management; Process communications; Case studies of real-time embedded systems.",
+ "faculty": "College of Design and Engineering",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "EE4214",
+ "moduleCredit": "4",
+ "preclusion": "if undertaking an Undergraduate Degree then ( must not have completed EE4214E at a grade of at least D )",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) EE4214E:D)",
+ "prerequisite": "if undertaking an Undergraduate Degree then ( must have completed 1 of \"CG2007\"/\"EE2007\"/\"EE2007E\"/\"EE2024E\"/EE2024 at a grade of at least D )",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) EE2007:D, EE2007E:D, CG2007:D, EE2024:D, EE2024E:D)",
+ "title": "Real-Time Embedded Systems",
+ "workload": [
+  2.5,
+  0.5,
+  0.5,
+  0,
+  3
+ ],
+ "semesterData": [],
+ "prereqTree": {
+  "or": [
+   "EE2007:D",
+   "EE2007E:D",
+   "CG2007:D",
+   "EE2024:D",
+   "EE2024E:D"
+  ]
+ },
+ "fulfillRequirements": [
+  "CS4310"
+ ]
+}

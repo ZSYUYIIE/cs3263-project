@@ -1,0 +1,42 @@
+{
+ "acadYear": "2026/2027",
+ "department": "Yale-NUS College",
+ "description": "We cover basic data structures and algorithms with an emphasis on implementation, although theory (asymptotic analysis, including amortization) is also covered. Topics include lists, queues, stacks, union-find, binary heaps, red-black trees, hashtables, tries, binary search, efficient quicksort, graph representations, depth-first and breadth-first search, topological sort, Dijkstra’s, Prim’s and Kruskal’s, Huffman coding, and Knuth-Morris-Pratt. Additional topics may include: · Randomization (e.g. Bloom filters, Miller-Rabin, Rabin-Karp) · Time-space tradeoffs (e.g. range queries) · Parallel considerations (e.g. Map/Reduce, prefix-sum, quicksort) · Purely functional data structures (e.g. of red-black trees) · Approximation algorithms (e.g. vertex covering) · More sophisticated data structures and algorithms (e.g. leftist heaps, binomial heaps, splay trees)",
+ "faculty": "Yale-NUS College",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "YSC2229",
+ "moduleCredit": "5",
+ "preclusion": "if undertaking an Undergraduate Degree then ( must not have completed \"YSC2204\" at a grade of at least D )",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) YSC2204:D)",
+ "prerequisite": "if undertaking an Undergraduate Degree then ( must have completed YSC1212 at a grade of at least D )",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) YSC1212:D)",
+ "title": "Introductory Data Structures and Algorithms",
+ "workload": [
+  0,
+  4,
+  0,
+  2.5,
+  6
+ ],
+ "semesterData": [],
+ "prereqTree": "YSC1212:D",
+ "fulfillRequirements": [
+  "YSC3203",
+  "YSC3263",
+  "YSC4230",
+  "YSC4231",
+  "YSC4233",
+  "CS5469",
+  "CS2105",
+  "CS4269",
+  "CS3230",
+  "CS4236",
+  "CS3243",
+  "CS3244",
+  "CS3241",
+  "CS2102",
+  "CS2109S",
+  "CS4243",
+  "CS2109HS"
+ ]
+}

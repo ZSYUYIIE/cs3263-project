@@ -1,0 +1,51 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "lab": true,
+  "mpes1": true,
+  "mpes2": true
+ },
+ "department": "Computer Science",
+ "description": "This course covers the concepts and practice of software testing including unit testing, integration testing, and regression testing. Various testing coverage criteria will be discussed. Debugging methods for finding the root-cause of errors in failing test cases will also be investigated. The use of testing and analysis for performance prediction, performance clustering and performance debugging will be studied. Students will acquire crucial skills on testing and debugging through hands-on assignments.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS4218",
+ "moduleCredit": "4",
+ "prerequisite": "if undertaking Undergraduate Degree then ( either of CS3213/CS3219 at a grade of at least D )",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CS3213:D, CS3219:D)",
+ "title": "Software Testing",
+ "workload": [
+  1,
+  0,
+  1,
+  2,
+  6
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1,
+   "examDate": "2026-11-30T09:00:00.000Z",
+   "examDuration": 120
+  },
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-04-28T09:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": {
+  "or": [
+   "CS3213:D",
+   "CS3219:D"
+  ]
+ },
+ "fulfillRequirements": [
+  "CS6223"
+ ]
+}

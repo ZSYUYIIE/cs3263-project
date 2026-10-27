@@ -1,0 +1,43 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true,
+  "su": true
+ },
+ "department": "Management and Organisation",
+ "description": "The primary purpose of this course is to cultivate a mindset shift – to be an effective leader, one has to be an effective communicator. This course weighs heavily on oral communication skills, and is centred on real-life business examples to facilitate students’ understanding of the factors that are critical for business communication. The ability to communicate effectively affects one’s employability and career success. Achieving success in one’s career depends on one’s ability to develop relationships, collaborate across teams, present ideas clearly, ask thoughtful questions and listen skillfully. This course is for students pursuing the Bachelor of Business Administration (Accountancy) programme.",
+ "faculty": "NUS Business School",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "MNO2706",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate Degree THEN ( must not have completed 1 of ES1601/ES1601A/ES2002/IS2101/IS3103 at a grade of at least D)",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) ES2002:D, IS2101:D, IS3103:D, ES1601:D, ES1601A:D)",
+ "prerequisite": "If undertaking an Undergraduate Degree THEN (must be undertaking 0200ACCHON Bachelor of Business Administration (Accountancy) AND must be in one of the cohorts from 2017 inclusive )",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (PROGRAMS MUST_BE_IN (1) 0200ACCHON AND COHORT_YEARS MUST_BE_IN S:2017)",
+ "title": "Business Communication for Leaders (ACC)",
+ "workload": [
+  0,
+  3,
+  0,
+  4,
+  3
+ ],
+ "semesterData": [],
+ "prereqTree": {
+  "cohort": {
+   "rule": "MUST_BE_IN",
+   "years": [
+    "S:2017"
+   ]
+  }
+ },
+ "fulfillRequirements": [
+  "BSP3701",
+  "BSP3701X",
+  "BSP3701A",
+  "BSP3701B",
+  "BSP3701C",
+  "BSP3701D"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true
+ },
+ "department": "Computer Science",
+ "description": "This course introduces basic concepts in Artificial Intelligence (AI) and Machine Learning (ML). It adopts the perspective that planning, games, and learning are related types of search problems, and examines the underlying issues, challenges and techniques. Planning/games related topics include tree/graph search, A* search, local search, and adversarial search (e.g., games). Learning related topics include supervised and unsupervised learning, model validation, and neural networks.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS2109S",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate Degree THEN ( must not have completed 1 of CG3201/CS2109HS/CS3243/CS3244/DMX1401AI/EE2211/IT3011 at a grade of at least D)",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) DMX1401AI:D, IT3011:D, CS3243:D, CS3244:D, EE2211:D, CG3201:D, CS2109HS:D)",
+ "prerequisite": "If undertaking an Undergraduate Degree THEN ( must have completed 1 of CS2040/CS2040C/CS2040DE/CS2040HS/CS2040S/YSC2229 at a grade of at least D AND ( must have completed all of MA1511/MA1512 at a grade of at least D OR must have completed 1 of MA1102R/MA1312/MA1505/MA1507/MA1521/MA2002 at a grade of at least D))",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) YSC2229:D, CS2040S:D, CS2040C:D, CS2040HS:D, CS2040:D, CS2040DE:D AND (COURSES (2) MA1511:D, MA1512:D OR COURSES (1) MA1521:D, MA2002:D, MA1102R:D, MA1312:D, MA1507:D, MA1505:D))",
+ "title": "Introduction to AI and Machine Learning",
+ "workload": [
+  2,
+  1,
+  2,
+  3,
+  2
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1,
+   "examDate": "2026-11-26T09:00:00.000Z",
+   "examDuration": 120
+  },
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-05-03T09:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": {
+  "and": [
+   {
+    "or": [
+     "YSC2229:D",
+     "CS2040S:D",
+     "CS2040C:D",
+     "CS2040HS:D",
+     "CS2040:D",
+     "CS2040DE:D"
+    ]
+   },
+   {
+    "or": [
+     {
+      "nOf": [
+       2,
+       [
+        "MA1511:D",
+        "MA1512:D"
+       ]
+      ]
+     },
+     "MA1521:D",
+     "MA2002:D",
+     "MA1102R:D",
+     "MA1312:D",
+     "MA1507:D",
+     "MA1505:D"
+    ]
+   }
+  ]
+ },
+ "fulfillRequirements": [
+  "EE4115",
+  "MLE4112",
+  "MLE4217",
+  "CN3105",
+  "ESP3201A",
+  "IE4280",
+  "CS5246",
+  "CS3264",
+  "IS5006",
+  "CS5228",
+  "CS5242",
+  "CP4285",
+  "CS4248",
+  "CS3263",
+  "CS3268",
+  "CS4354"
+ ]
+}

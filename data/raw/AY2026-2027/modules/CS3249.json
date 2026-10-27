@@ -1,0 +1,31 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true
+ },
+ "department": "Computer Science",
+ "description": "This course provides students with technical skills and hands-on experience in conversational user interface development. It focuses on the design and implementation of the conversational user interface and its integration with the graphical user interface in multimodal systems. The topics train students to conceive, prototype, implement, and evaluate these interfaces, covering conversation-design principles, Large Language Models, dialogue management, and iterative usability testing. Selected advanced topics such as multi-agent interaction and intelligent user interfaces are also covered. Emphasis is placed on responsible AI considerations, including ethics, bias, and privacy, in the context of user interface design.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS3249",
+ "moduleCredit": "4",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHEN( must have completed CS2111 at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CS2111:D)",
+ "title": "Conversational User Interface",
+ "workload": [
+  2,
+  1,
+  0,
+  4,
+  3
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1
+  }
+ ],
+ "prereqTree": "CS2111:D"
+}

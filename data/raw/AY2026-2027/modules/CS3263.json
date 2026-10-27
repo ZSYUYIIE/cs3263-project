@@ -1,0 +1,93 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true
+ },
+ "department": "Computer Science",
+ "description": "Artificial intelligence is increasingly integrated in our everyday lives, and becoming a core engine to power social and economic growth. This course covers the core concepts in artificial intelligence that underlie solutions to these challenging, multi-facted problems. Topics covered include knowledge representation and reasoning with uncertainty, preference, and time, constraint satisfaction, games and optimized decisions, human factors, and new advances in integrative AI and responsible AI. The goal of this class is to introduce students to a variety of approaches for solving real-life problems using the tools of AI.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS3263",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate Degree THEN must not have completed CS3243 at a grade of at least D",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN COURSES (1) CS3243:D",
+ "prerequisite": "If undertaking an Undergraduate Degree THEN must have completed 1 of CS2109HS/CS2109S at a grade of at least D AND must have completed 1 of CS2040/CS2040C/CS2040DE/CS2040HS/CS2040S at a grade of at least D AND must have completed 1 of MA1101R/MA1508E/MA1513/MA1522/MA2001 at a grade of at least D AND must have completed 1 of EE2012/EE2012A/MA2116/MA2116T/MA2216/ST2131/ST2334 at a grade of at least D",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN COURSES (1) CS2109S:D, CS2109HS:D AND COURSES (1) CS2040:D, CS2040S:D, CS2040C:D, CS2040DE:D, CS2040HS:D AND COURSES (1) MA2001:D, MA1522:D, MA1513:D, MA1508E:D, MA1101R:D AND COURSES (1) EE2012A:D, EE2012:D, ST2131:D, MA2116:D, MA2116T:D, ST2334:D, MA2216:D",
+ "title": "Foundations of Artificial Intelligence",
+ "workload": [
+  2,
+  1,
+  0,
+  4,
+  3
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1,
+   "examDate": "2026-11-21T01:00:00.000Z",
+   "examDuration": 120
+  },
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2
+  }
+ ],
+ "prereqTree": {
+  "and": [
+   {
+    "or": [
+     "CS2109S:D",
+     "CS2109HS:D"
+    ]
+   },
+   {
+    "or": [
+     "CS2040:D",
+     "CS2040S:D",
+     "CS2040C:D",
+     "CS2040DE:D",
+     "CS2040HS:D"
+    ]
+   },
+   {
+    "or": [
+     "MA2001:D",
+     "MA1522:D",
+     "MA1513:D",
+     "MA1508E:D",
+     "MA1101R:D"
+    ]
+   },
+   {
+    "or": [
+     "EE2012A:D",
+     "EE2012:D",
+     "ST2131:D",
+     "MA2116:D",
+     "MA2116T:D",
+     "ST2334:D",
+     "MA2216:D"
+    ]
+   }
+  ]
+ },
+ "fulfillRequirements": [
+  "CS4244",
+  "CS5478",
+  "CS4278",
+  "CS6208",
+  "CS5284",
+  "CS5338",
+  "CS4246",
+  "CS5446",
+  "CS5340",
+  "CP4284",
+  "DSA4265"
+ ]
+}

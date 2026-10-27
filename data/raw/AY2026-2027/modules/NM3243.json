@@ -1,0 +1,44 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true,
+  "sfs": true
+ },
+ "department": "Communications and New Media",
+ "description": "This is an introductory course to the field of user experience (UX) design which involves the study, planning, and design of the interaction between people (users) and computers, and the resulting user experience. This course will cover the basics of relevant issues, theories, and insights about the human side, the technical side, and the interaction (interface) between the two, and the process involved in designing the user experience. The course involves both theoretical and practical work.",
+ "faculty": "Arts and Social Science",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "NM3243",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate Degree THEN ( must not have completed 1 of NM2213/NM4210 at a grade of at least D)",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) NM2213:D, NM4210:D)",
+ "title": "User Experience Design",
+ "workload": [
+  1,
+  2,
+  0,
+  5,
+  2
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "Unknown",
+    "C"
+   ],
+   "semester": 1
+  },
+  {
+   "covidZones": [
+    "C",
+    "Unknown"
+   ],
+   "semester": 2
+  }
+ ],
+ "fulfillRequirements": [
+  "CS4249",
+  "CS4353"
+ ]
+}

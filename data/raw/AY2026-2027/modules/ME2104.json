@@ -1,0 +1,29 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes2": true,
+  "su": true
+ },
+ "department": "Mechanical Engineering",
+ "description": "This is part 2 of a 2-course package that introduces students to what engineers do and the engineer's thought process. EPP2 focuses on how systems get energy and are controlled. The topics are mostly on electrical circuits as modern systems are typically electrified and controlled by electrical circuits. Through both theory and hands-on activities, students are introduced to the fundamental concepts of electrical circuits, sensors, and actuators. At the end of the course, students will develop a basic understanding of the major topics relevant to electrical circuits and components in mechanical engineering systems.",
+ "faculty": "College of Design and Engineering",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "ME2104",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate Degree THEN ( must not have completed EG1112 at a grade of at least D)",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) EG1112:D)",
+ "title": "Engineering Principles and Practice II",
+ "workload": [
+  0,
+  1,
+  3,
+  0,
+  6
+ ],
+ "semesterData": [],
+ "fulfillRequirements": [
+  "ME2143",
+  "EE4513",
+  "CG2027"
+ ]
+}

@@ -1,0 +1,53 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true
+ },
+ "department": "Computer Science",
+ "description": "The increasing scale of modern AI models, including large language models, presents significant systems challenges. This course explores the design of efficient and scalable machine learning systems, covering the fundamentals and cutting-edge topics required to support the full lifecycle of AI applications. Students will learn the core principles behind efficiently training, inference, and serving AI models, alongside key machine learning operations practices for robust deployment, automation, and monitoring. The course will delve into scaling techniques, memory optimization, and hardware acceleration to improve performance while minimizing resource consumption. Students will gain the foundational knowledge to address the unique engineering challenges of modern AI, preparing them for advanced work or research in machine learning systems.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS5462",
+ "moduleCredit": "4",
+ "preclusion": "(If undertaking an Undergraduate DegreeTHEN( must not have completed CS4262 at a grade of at least D))OR(if undertaking a Graduate Degree CourseworkTHEN( must not have completed CS4262 at a grade of at least D))OR(if undertaking a Graduate Degree ResearchTHEN( must not have completed CS4262 at a grade of at least D))",
+ "preclusionRule": "(PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES CS4262:D)) OR (PROGRAM_TYPES IF_IN Graduate Degree Coursework THEN (COURSES CS4262:D)) OR (PROGRAM_TYPES IF_IN Graduate Degree Research THEN (COURSES CS4262:D))",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHEN( must have completed 1 of CG2271/CS2106 at a grade of at least DANDmust have completed 1 of CG3201/CS3244/CS3264 at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CS2106:D, CG2271:D AND COURSES (1) CS3244:D, CS3264:D, CG3201:D)",
+ "title": "Machine Learning Systems",
+ "workload": [
+  2,
+  1,
+  0,
+  3,
+  4
+ ],
+ "aliases": [
+  "CS4262"
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2
+  }
+ ],
+ "prereqTree": {
+  "and": [
+   {
+    "or": [
+     "CS2106:D",
+     "CG2271:D"
+    ]
+   },
+   {
+    "or": [
+     "CS3244:D",
+     "CS3264:D",
+     "CG3201:D"
+    ]
+   }
+  ]
+ }
+}

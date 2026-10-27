@@ -1,0 +1,109 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true,
+  "su": true
+ },
+ "department": "Center for Engl Lang Comms",
+ "description": "In a context of prolific production and convenient access to content and innovation in the Information Age, how should one critically process and clearly communicate ideas to various audiences? Using established critical thinking and digital literacy frameworks, this course aims to help learners hone their abilities to (1) critically question, analyse, and evaluate issues related to their own discipline and profession from multiple perspectives; and (2) articulate critical analysis and evaluation in multimodal forms of communication.",
+ "faculty": "Center for Engl Lang Comms",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "ES2660",
+ "moduleCredit": "4",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHEN(( must have completed EP ENGLISH LANGUAGE PROFICIENCY TEST at a grade of at least N)AND(must be in one of the cohorts from 2016 inclusive )AND(must be undertaking 1 of 0300ISPHON Bachelor of Computing (Information Security) (Hons) Co-op, 0300ISHON Bachelor of Computing (Information Systems) (Hons), 0300BZAHON Bachelor of Science (Business Analytics) (Hons), 0300ISCHON Bachelor of Computing (Information Security) (Hons), 0300BZPHON Bachelor of Science (Business Analytics) (Hons) Co-op, 0300CSHON Bachelor of Computing (Computer Science) (Hons), 0300AIHON Bachelor of Computing (Artificial Intelligence) (Hons), 0300AISHON Bachelor of Computing (Business Artificial Intelligence Systems) (Hons)))",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN ((SUBJECTS (1) EP:N) AND (COHORT_YEARS MUST_BE_IN S:2016) AND (PROGRAMS MUST_BE_IN (1) 0300ISPHON, 0300ISHON, 0300BZAHON, 0300ISCHON, 0300BZPHON, 0300CSHON, 0300AIHON, 0300AISHON))",
+ "title": "Communicating in the Information Age",
+ "workload": [
+  0,
+  3,
+  0,
+  3,
+  4
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1
+  },
+  {
+   "covidZones": [
+    "Unknown"
+   ],
+   "semester": 2
+  }
+ ],
+ "prereqTree": {
+  "cohort": {
+   "rule": "MUST_BE_IN",
+   "years": [
+    "S:2016"
+   ]
+  }
+ },
+ "fulfillRequirements": [
+  "NHS2002",
+  "NHS2003",
+  "NHS2006",
+  "NHS2013",
+  "NHS2016",
+  "NHS2017",
+  "NHS2023",
+  "NHS2026",
+  "NHS2030",
+  "NHS2043",
+  "NHS2048",
+  "NHS2049",
+  "NHS2050",
+  "NHS2051",
+  "NHS2053",
+  "NHS2057",
+  "NHS2031",
+  "NHS2059",
+  "NHS2065",
+  "NHS2068",
+  "NHS2076",
+  "NHS2087",
+  "NHS2089",
+  "NHS2090",
+  "NHS2092",
+  "NHS2097",
+  "NHS2096",
+  "NHS2095",
+  "NHS2094",
+  "NEX3009",
+  "NHS2055",
+  "NHS2070",
+  "NHS2082",
+  "NHS2067",
+  "NEX3015",
+  "NEX3016",
+  "NHS2101",
+  "NHS2103",
+  "NHS2056",
+  "NHS2078",
+  "NHS2088",
+  "NHS2071",
+  "NHS2107",
+  "NEX3017",
+  "NHS2106",
+  "NHS2109",
+  "NEX3018",
+  "NHS2108",
+  "NHS2110",
+  "NHS2069",
+  "NHS2083",
+  "NHS2093",
+  "NHS2105",
+  "NHS2079",
+  "NHS2100",
+  "NHS2085",
+  "NHS2102",
+  "NHS2075",
+  "NHS2086",
+  "NHS2104",
+  "NHS2091"
+ ]
+}

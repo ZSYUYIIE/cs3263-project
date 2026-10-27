@@ -1,0 +1,63 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true
+ },
+ "department": "Information Systems and Analytics",
+ "description": "The course covers the concepts of software development life cycle and project management. It will also include hands-on learning sessions that cover the fundamentals of web development. The module focuses heavily on the development and deployment of web applications. It will be a project-based learning, and the course will cover the following topics: Stages of Software development life cycle Front-end development with HTML+CSS+Javascript Introduction to javascript frameworks like Vue js. Firebase Firestore and deployment with Firebase Version control Project Management methodologies, including SCRUM Introduction to DevOps",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "BT3103",
+ "moduleCredit": "4",
+ "prerequisite": "if undertaking an Undergraduate Degree then ( must have completed 1 of \"IS1112\"/\"IS1112FC\"/\"IS1112X\"/BT2102 at a grade of at least D )",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) BT2102:D, IS1112FC:D, IS1112:D, IS1112X:D)",
+ "title": "Application Systems Development for Business Analytics",
+ "workload": [
+  2,
+  0,
+  1,
+  3,
+  4
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1
+  },
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2
+  }
+ ],
+ "prereqTree": {
+  "or": [
+   "BT2102:D",
+   "IS1112FC:D",
+   "IS1112:D",
+   "IS1112X:D"
+  ]
+ },
+ "fulfillRequirements": [
+  "BT4103",
+  "IS5452",
+  "IS4262",
+  "IS4152",
+  "IS4236",
+  "IS4261",
+  "IS4248",
+  "IS4010",
+  "IS4242",
+  "IS4246",
+  "CP3880",
+  "CP3880E",
+  "CP3881",
+  "CP3880X",
+  "IS4403",
+  "BT4301"
+ ]
+}

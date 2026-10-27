@@ -1,0 +1,49 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "su": true
+ },
+ "department": "Economics",
+ "description": "This course introduces students to the fundamental concepts and tools of analytics and data science applications in business and non-profit organisations. Students will learn to apply basic analytics tools in a popular programming language, such as R, to real-life datasets across various contexts and develop effective interpretations of models and results for data-informed decision-making. The course covers both organisational and technical aspects of business analytics. It provides an overview of the considerations and strategies for implementing analytic methods in various organisational contexts and how to leverage different approaches to address specific issues and objectives.",
+ "faculty": "Arts and Social Science",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "BT1101HS",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate DegreeTHEN( must not have completed 1 of BT1101/DSA1101/DSE1101/EC2303/ST1131)",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) BT1101, EC2303, ST1131, DSE1101, DSA1101)",
+ "title": "Introduction to Business Analytics",
+ "workload": [
+  2,
+  1,
+  0,
+  2,
+  5
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C",
+    "Unknown"
+   ],
+   "semester": 1,
+   "examDate": "2026-11-21T05:00:00.000Z",
+   "examDuration": 120
+  },
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-04-27T09:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "fulfillRequirements": [
+  "BT2102",
+  "IS4241",
+  "IS4151",
+  "IS3221",
+  "BT3017",
+  "BT2101"
+ ]
+}

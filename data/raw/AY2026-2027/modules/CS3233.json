@@ -1,0 +1,51 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes2": true
+ },
+ "department": "Computer Science",
+ "description": "This course aims to prepare students in competitive problem solving. It covers techniques for attacking and solving challenging computational problems. Fundamental algorithmic solving techniques covered include divide and conquer, greedy, dynamic programming, backtracking and branch and bound. Domain specific techniques like number theory, computational geometry, string processing and graph theoretic will also be covered. Advanced AI search techniques like iterative deepening, A* and heuristic search will be included. The course also covers algorithmic and programming language toolkits used in problem solving supported by the solution of representative or well-known problems in the various algorithmic paradigms.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS3233",
+ "moduleCredit": "4",
+ "prerequisite": "If undertaking an Undergraduate Degree THEN (( must have completed 1 of CS2030/CS2030DE/CS2030HS/CS2030S at a grade of at least A- AND must have completed 1 of CS2040/CS2040C/CS2040DE/CS2040HS/CS2040S at a grade of at least A-))",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN ((COURSES (1) CS2030S:A-, CS2030:A-, CS2030DE:A-, CS2030HS:A- AND COURSES (1) CS2040S:A-, CS2040:A-, CS2040C:A-, CS2040DE:A-, CS2040HS:A-))",
+ "title": "Competitive Programming",
+ "workload": [
+  2,
+  1,
+  0,
+  3,
+  3
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2
+  }
+ ],
+ "prereqTree": {
+  "and": [
+   {
+    "or": [
+     "CS2030S:A-",
+     "CS2030:A-",
+     "CS2030DE:A-",
+     "CS2030HS:A-"
+    ]
+   },
+   {
+    "or": [
+     "CS2040S:A-",
+     "CS2040:A-",
+     "CS2040C:A-",
+     "CS2040DE:A-",
+     "CS2040HS:A-"
+    ]
+   }
+  ]
+ }
+}

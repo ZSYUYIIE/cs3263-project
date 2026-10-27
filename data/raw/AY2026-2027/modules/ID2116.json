@@ -1,0 +1,38 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "lab": true,
+  "su": true
+ },
+ "department": "Design",
+ "description": "This course introduces the elements of computational thinking and its application in Industrial Design. Students will acquire skills and knowledge of computational problem solving, including formulating a problem, designing a solution, and prototyping the solution in the use of computational tools, logic and methods such as the Arduino Integrated Development Environment. Students learn through a hands-on approach to decompose complex problems into smaller components, solve the smaller components using elemental algorithms, and combine the solutions to solve the task at hand. They will learn the concepts of abstraction, how to encapsulate complex data and behavior into objects through object-oriented programming.",
+ "faculty": "College of Design and Engineering",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "ID2116",
+ "moduleCredit": "4",
+ "title": "Computing for Design",
+ "workload": [
+  2,
+  2,
+  0,
+  0,
+  2
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1
+  },
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2
+  }
+ ],
+ "fulfillRequirements": [
+  "CS4353"
+ ]
+}

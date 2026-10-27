@@ -1,0 +1,32 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes2": true,
+  "su": true
+ },
+ "department": "Engineering Science Programme",
+ "description": "In this course, students are introduced to fundamental numerical methods and programming principles, acquiring the essential skills to apply them effectively in solving diverse engineering and science problems. The curriculum covers a range of topics, including error analysis, interpolation, numerical integration, the solution of linear and nonlinear equations and systems of equations, as well as the solution of ordinary and partial differential equations. Throughout, students will actively engage in writing and debugging their own codes using MATLAB, a widely used matrix-based language for technical computing. Through hands-on exercises and practical examples, students will develop the proficiency to address a wide spectrum of real-world challenges in engineering and science using numerical methods and programming.",
+ "faculty": "College of Design and Engineering",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "ESP2107",
+ "moduleCredit": "4",
+ "title": "Numerical Methods and Statistics",
+ "workload": [
+  2,
+  1,
+  0,
+  4,
+  3
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2
+  }
+ ],
+ "fulfillRequirements": [
+  "EE4204"
+ ]
+}

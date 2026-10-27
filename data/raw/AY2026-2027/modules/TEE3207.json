@@ -1,0 +1,28 @@
+{
+ "acadYear": "2026/2027",
+ "department": "SCALE Dean's Office",
+ "description": "This course teaches students the basics in the design of the various classes of microprocessors. Contents include design of simple micro-controllers, high performance CPU design using parallel techniques, memory organization and parallel processing systems. Topics also include the development of support tools to enable efficient usage of the developed microprocessor. The course emphasizes practical design and students are expected to be able to synthesize microprocessors at the gate level at the end of this course.",
+ "faculty": "Cont and Lifelong Education",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "TEE3207",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate Degree THEN ( must not have completed EE3207E at a grade of at least D)",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) EE3207E:D)",
+ "prerequisite": "If undertaking an Undergraduate Degree THEN ( must have completed 1 of TEE2024, TEE2028)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) TEE2024, TEE2028)",
+ "title": "Computer Architecture",
+ "workload": [
+  2,
+  0.5,
+  0.75,
+  2,
+  5
+ ],
+ "semesterData": [],
+ "prereqTree": {
+  "or": [
+   "TEE2024",
+   "TEE2028"
+  ]
+ }
+}

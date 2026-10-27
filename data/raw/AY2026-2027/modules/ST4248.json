@@ -1,0 +1,47 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes2": true
+ },
+ "department": "Statistics and Data Science",
+ "description": "Statistical Learning is a large collection of computer-based modelling and prediction tools with applications in diverse fields including business, medicine, astrophysics, and public policy. These two courses cover many popular approaches to a variety of statistical problems. There is heavy emphasis on the implementation of these methods on real-world datasets in the popular statistical software package R. Part II builds on the knowledge in Part I, introducing more tools as well as generalising and extending some tools covered in Part I using entirely different approaches. Topics include non-parametric smoothing methods, tree-based methods, support vector machines, neural networks and ensemble learning.",
+ "faculty": "Science",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "ST4248",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate DegreeTHEN( must not have completed YSC4216 at a grade of at least D)",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) YSC4216:D)",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHEN( must have completed all of ST3131/ST3248 at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (2) ST3131:D, ST3248:D)",
+ "title": "Statistical Learning II",
+ "workload": [
+  3,
+  1,
+  0,
+  3,
+  3
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-05-04T01:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": {
+  "nOf": [
+   2,
+   [
+    "ST3131:D",
+    "ST3248:D"
+   ]
+  ]
+ },
+ "fulfillRequirements": [
+  "CS5246",
+  "CS4248"
+ ]
+}

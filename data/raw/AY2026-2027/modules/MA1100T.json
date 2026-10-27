@@ -1,0 +1,71 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "su": true
+ },
+ "department": "Mathematics",
+ "description": "The objective of this course is to develop the learning capabilities and hone the problem solving skills of talented students at a mathematically deeper and more rigorous level. It is intended for students with strong mathematical inclination and motivation. The emphasis will be on rigour, depth, and conceptual understanding. The contents of this course will consist of those in the regular course (MA1100) and the following additional topics: axiomatic development of basic mathematics, equivalence relations, congruences.",
+ "faculty": "Science",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "MA1100T",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate Degree THEN ( must not have completed 1 of CS1231/CS1231S/MA1100/YSC2209 at a grade of at least D)",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CS1231:D, CS1231S:D, MA1100:D, YSC2209:D)",
+ "prerequisite": "If undertaking an Undergraduate Degree THEN (( must have completed 1 of 06 MATHEMATICS/07 FURTHER MATHEMATICS at a grade of at least E) OR ( must have completed 1 of MA1301/MA1301X at a grade of at least D))",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN ((SUBJECTS (1) 06:E, 07:E) OR (COURSES (1) MA1301:D, MA1301X:D))",
+ "title": "Basic Discrete Mathematics (T)",
+ "workload": [
+  3,
+  3,
+  0,
+  1,
+  3
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1,
+   "examDate": "2026-12-02T09:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": {
+  "or": [
+   "MA1301:D",
+   "MA1301X:D"
+  ]
+ },
+ "fulfillRequirements": [
+  "CS5469",
+  "CS5461",
+  "CS3234",
+  "CS5232",
+  "CS4261",
+  "CS4269",
+  "CS5430",
+  "CS4230",
+  "CS2040S",
+  "CS3230",
+  "CS4236",
+  "CS3231",
+  "CS3236",
+  "CS4263",
+  "CS2251",
+  "CS3243",
+  "CS2309",
+  "CS2102",
+  "MA2219",
+  "MA3205",
+  "MA2108S",
+  "MA2202",
+  "MA2214",
+  "MA2202S",
+  "MA2116T",
+  "MA2101",
+  "MA2101S",
+  "MA2108"
+ ]
+}

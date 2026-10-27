@@ -1,0 +1,44 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true
+ },
+ "department": "Computer Science",
+ "description": "CS3240 Interaction Design introduces students to the principles and practices of Human-Computer Interaction and User-Centered Design. The course focuses on understanding users, designing meaningful interactions, prototyping digital experiences, and evaluating usability through iterative design methods. Students will work collaboratively and individually on an integrated design project that simulates real-world UI/UX design workflows. The course emphasizes practical design thinking, user research, prototyping, evaluation, reflection, teamwork, and the responsible use of AI-assisted design practices. Throughout the course, students will learn how generative AI tools can support the design process, including ideation, user research, task analysis, prototyping, evaluation, and reflection. The course also discusses the limitations, ethical considerations, and best practices for effectively using AI tools in interaction design workflows.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS3240",
+ "moduleCredit": "4",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHEN( must have completed 1 of CS2111/NM2207 at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CS2111:D, NM2207:D)",
+ "title": "Interaction Design",
+ "workload": [
+  2,
+  1,
+  0,
+  4,
+  3
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1
+  }
+ ],
+ "prereqTree": {
+  "or": [
+   "CS2111:D",
+   "NM2207:D"
+  ]
+ },
+ "fulfillRequirements": [
+  "CS4240",
+  "CS5346",
+  "CS6206",
+  "CS4249",
+  "CS4353"
+ ]
+}

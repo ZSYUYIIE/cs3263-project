@@ -1,0 +1,45 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes2": true
+ },
+ "department": "Computer Science",
+ "description": "This course will provide the students with foundational knowledge and understanding of different aspects of software engineering including requirements, modelling, architecture, behavior, environment, software analysis, validation and verification. It will serve as a second software engineering course exposing the students to the mathematical foundations of software engineering while simultaneously supplementing and elaborating the foundations in the form of a semester long project.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS3213",
+ "moduleCredit": "4",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHEN( must have completed 1 of CS2103/CS2103DE/CS2103T/CS2113/CS2113T at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CS2103T:D, CS2103:D, CS2103DE:D, CS2113T:D, CS2113:D)",
+ "title": "Software Requirements Specification and Validation",
+ "workload": [
+  2,
+  0,
+  1,
+  4,
+  3
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-05-05T05:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": {
+  "or": [
+   "CS2103T:D",
+   "CS2103:D",
+   "CS2103DE:D",
+   "CS2113T:D",
+   "CS2113:D"
+  ]
+ },
+ "fulfillRequirements": [
+  "CS6223",
+  "CS4218"
+ ]
+}

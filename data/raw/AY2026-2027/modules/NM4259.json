@@ -1,0 +1,59 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true
+ },
+ "department": "Communications and New Media",
+ "description": "This course addresses the growth of mobile computing and the move of computing away from the desktop and into everyday lives, activities, and environments. This change poses a challenge for existing desktop-oriented evaluation methodologies and design practices. Students in this course will explore the theory and practice of such relevant concepts as situatedness, context, and mobile media in the context of designing for mobile platforms. At the end of this course, students will be able to participate in the research agenda of designing for mobile interaction.",
+ "faculty": "Arts and Social Science",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "NM4259",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate Degree THEN must not have completed 1 of NM3221/NM4259HM at a grade of at least D",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN COURSES (1) NM3221:D, NM4259HM:D",
+ "prerequisite": "If undertaking an Undergraduate Degree THEN must be in one of the cohorts from 2021 inclusive AND ( the student must have achieved at least 80 units prior to enrolment AND must have completed 7 of any Courses beginning with NM1 at a grade of at least D, any Courses beginning with NM2 at a grade of at least D, any Courses beginning with NM3 at a grade of at least D, any Courses beginning with NM4 at a grade of at least D)",
+ "prerequisiteAdvisory": "Cohort 2021 onwards: (Not applicable to SOC/SDE/ENG students) Completed 80 Units, including 28 Units in NM. (For SOC/SDE/ENG students) Completed 80 Units.",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN COHORT_YEARS MUST_BE_IN S:2021/22 AND (UNITS (80) AND COURSES (7) NM1%:D, NM2%:D, NM3%:D, NM4%:D)",
+ "title": "Mobile Interaction Design",
+ "workload": [
+  0,
+  3,
+  0,
+  4,
+  3
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1
+  }
+ ],
+ "prereqTree": {
+  "and": [
+   {
+    "cohort": {
+     "rule": "MUST_BE_IN",
+     "years": [
+      "S:2021/22"
+     ]
+    }
+   },
+   {
+    "nOf": [
+     7,
+     [
+      "NM1%:D",
+      "NM2%:D",
+      "NM3%:D",
+      "NM4%:D"
+     ]
+    ]
+   }
+  ]
+ },
+ "fulfillRequirements": [
+  "CS4353"
+ ]
+}

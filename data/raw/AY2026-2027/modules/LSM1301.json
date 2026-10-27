@@ -1,0 +1,69 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true,
+  "su": true
+ },
+ "department": "Biological Sciences",
+ "description": "This is an introductory course that explores what a living thing is, the basics of life, and the science behind it. The course will introduce the chemistry of life and the unit of life. The question of how traits are inherited will be discussed and the field of biotechnology, including its applications and the ethical issues involved be will introduced. The diversity of life on earth will be explored, with discussions how life on earth possibly came about and how biologists try to classify and make sense of the diversity. The course will also introduce the concept of life functions from cells to tissues and from organs to systems. The concept of how organisms maintain their internal constancy and organisation of major organ systems will be discussed. The focus will be to introduce the unifying concepts in biology and how they play a role in everyday life.",
+ "faculty": "Science",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "LSM1301",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate Degree THEN 11 BIOLOGY at a grade of at least E",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN SUBJECTS (1) 11:E, 0011:E",
+ "title": "General Biology",
+ "workload": [
+  2,
+  0.5,
+  2,
+  1.5,
+  4
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1
+  },
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2
+  }
+ ],
+ "fulfillRequirements": [
+  "LSM3228",
+  "LSM3245",
+  "LSM2291",
+  "LSM2106",
+  "LSM3242",
+  "LSM2212",
+  "LSM2233",
+  "LSM2302",
+  "LSM3258",
+  "ZB2201",
+  "LSM2241",
+  "LSM3256",
+  "LSM3260",
+  "LSM2234",
+  "LSM4352",
+  "LSM2252",
+  "LSM3236",
+  "ZB2101",
+  "LSM2213",
+  "LSM4202",
+  "LSM2105",
+  "LSM2107",
+  "LSM2251",
+  "LSM4255",
+  "FST1101B",
+  "LSM2252A",
+  "LSM1111",
+  "LSM3259",
+  "LSM3237"
+ ]
+}

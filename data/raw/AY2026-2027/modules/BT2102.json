@@ -1,0 +1,77 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true
+ },
+ "department": "Information Systems and Analytics",
+ "description": "This course aims to provide students with practical knowledge and understanding of basic issues and techniques in data management with relational and non-relational database management systems, as well as data visualisation principles, techniques and tools. The course covers data management concepts, conceptual and logical design, database management, relational and non-relational database management systems and tools, data visualisation concepts, visual perception and design principles, visualisation techniques and tools for temporal and spatial data, proportions and relationships, multivariate and complex data, etc.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "BT2102",
+ "moduleCredit": "4",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHEN( must have completed 1 of BT1101/BT1101HS/DSA1101/DSE1101/EC2303/ST1131 at a grade of at least DANDmust have completed 1 of CS1010/CS1010A/CS1010E/CS1010HS/CS1010J/CS1010S/CS1010X/CS1101S/UTC2851 at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) EC2303:D, BT1101:D, BT1101HS:D, ST1131:D, DSA1101:D, DSE1101:D AND COURSES (1) CS1010:D, CS1010X:D, CS1010E:D, CS1010J:D, CS1101S:D, CS1010S:D, CS1010A:D, CS1010HS:D, UTC2851:D)",
+ "title": "Data Management and Visualisation",
+ "workload": [
+  2,
+  0,
+  2,
+  3,
+  3
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1
+  },
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2
+  }
+ ],
+ "prereqTree": {
+  "and": [
+   {
+    "or": [
+     "EC2303:D",
+     "BT1101:D",
+     "BT1101HS:D",
+     "ST1131:D",
+     "DSA1101:D",
+     "DSE1101:D"
+    ]
+   },
+   {
+    "or": [
+     "CS1010:D",
+     "CS1010X:D",
+     "CS1010E:D",
+     "CS1010J:D",
+     "CS1101S:D",
+     "CS1010S:D",
+     "CS1010A:D",
+     "CS1010HS:D",
+     "UTC2851:D"
+    ]
+   }
+  ]
+ },
+ "fulfillRequirements": [
+  "BT3103",
+  "BT4015",
+  "BT4221",
+  "BT4016",
+  "IS3240",
+  "BT4222",
+  "IS4226",
+  "IS3107",
+  "BT4211",
+  "BT4014",
+  "IS4302"
+ ]
+}

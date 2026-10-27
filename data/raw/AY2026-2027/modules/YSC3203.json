@@ -1,0 +1,24 @@
+{
+ "acadYear": "2026/2027",
+ "department": "Yale-NUS College",
+ "description": "We study the design and rigorous analysis of algorithms and data structures. Topics may include dynamic programming, Fibonacci heaps, graph algorithms, string algorithms, parallel algorithms, and concurrent data structures.",
+ "faculty": "Yale-NUS College",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "YSC3203",
+ "moduleCredit": "5",
+ "prerequisite": "if undertaking an Undergraduate Degree then ( must have completed YSC2229 at a grade of at least D )",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) YSC2229:D)",
+ "title": "Advanced Algorithms and Data Structures",
+ "workload": [
+  0,
+  3,
+  0,
+  0,
+  9.5
+ ],
+ "semesterData": [],
+ "prereqTree": "YSC2229:D",
+ "fulfillRequirements": [
+  "CS4234"
+ ]
+}

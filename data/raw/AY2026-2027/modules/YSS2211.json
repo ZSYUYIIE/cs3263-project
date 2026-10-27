@@ -1,0 +1,42 @@
+{
+ "acadYear": "2026/2027",
+ "department": "Yale-NUS College",
+ "description": "Does going to college increase your earnings? Does height have an effect your wage? Do episodes like the haze 2013 in Singapore have a major impact to the economy? This course introduces students to the statistical methods that economists use to answer this and similar questions. More generally, this is an introduction to the methods used to test economic models and examine empirical relationships, primarily regression analysis. Although much of the course will focus on the mathematical development of the methodology, emphasis is placed on learning by studying and replicating specific case studies that address current economic questions.",
+ "faculty": "Yale-NUS College",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "YSS2211",
+ "moduleCredit": "5",
+ "prerequisite": "if undertaking an Undergraduate Degree then ( must have completed 1 of YSS1203/YSS2203 at a grade of at least D or must have completed all of 05 ECONOMICS / 06 MATHEMATICS at a grade of at least 3 )",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) YSS1203:D, YSS2203:D OR SUBJECTS (2) 06:3, 05:3)",
+ "title": "Econometrics",
+ "workload": [
+  1,
+  3,
+  0,
+  0,
+  8.5
+ ],
+ "semesterData": [],
+ "prereqTree": {
+  "or": [
+   "YSS1203:D",
+   "YSS2203:D"
+  ]
+ },
+ "fulfillRequirements": [
+  "YSC2232",
+  "YSS3204",
+  "YSS3207",
+  "YSS3220",
+  "YSS3244",
+  "YSS3257",
+  "YSS3258",
+  "YSS3265",
+  "YSS3291",
+  "YSS3307",
+  "YSS3329",
+  "YSS3333",
+  "YSS3345",
+  "YSS4227"
+ ]
+}

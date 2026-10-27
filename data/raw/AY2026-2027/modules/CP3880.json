@@ -1,0 +1,71 @@
+{
+ "acadYear": "2026/2027",
+ "department": "SoC Dean's Office",
+ "description": "This course enables students to apply the computing knowledge they have assimilated in class to industrial projects through six-month attachment to companies/organizations. Students under attachment will be jointly guided by supervisors from both the companies/organizations and the school. Their progress on projects will be monitored during attachment, and their performance will be assessed (on Satisfactory/Unsatisfactory (S/U) basis) at the end of the attachment, based on the interim and final project reports. During the attachment, students are not expected to take other courses offered by the university.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Completed Satisfactory/Unsatisfactory",
+ "moduleCode": "CP3880",
+ "moduleCredit": "12",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHEN( must have completed 1 of CS2101/ES1601/ES2002/ES2007D/ES2531/ES2631/IS2101/UWC2101% at a grade of at least D, any Courses beginning with NTW at a grade of at least D/any Courses beginning with UTW1001 at a grade of at least DANDmust have completed 1 of BT3103/CS2103/CS2103DE/CS2103T/CS2113/CS2113T/IS2108/IS3106 at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) IS2101:D, CS2101:D, ES1601:D, ES2002:D, ES2007D:D, ES2531:D, ES2631:D, UTW1001%:D, UWC2101%:D, NTW%:D AND COURSES (1) CS2103:D, CS2103T:D, CS2103DE:D, CS2113:D, CS2113T:D, IS3106:D, BT3103:D, IS2108:D)",
+ "title": "Advanced Technology Attachment Programme",
+ "workload": [
+  0,
+  0,
+  0,
+  30,
+  0
+ ],
+ "semesterData": [
+  {
+   "covidZones": [],
+   "semester": 1
+  },
+  {
+   "covidZones": [],
+   "semester": 2
+  },
+  {
+   "covidZones": [],
+   "semester": 3
+  },
+  {
+   "covidZones": [],
+   "semester": 4
+  }
+ ],
+ "prereqTree": {
+  "and": [
+   {
+    "or": [
+     "IS2101:D",
+     "CS2101:D",
+     "ES1601:D",
+     "ES2002:D",
+     "ES2007D:D",
+     "ES2531:D",
+     "ES2631:D",
+     "UTW1001%:D",
+     "UWC2101%:D",
+     "NTW%:D"
+    ]
+   },
+   {
+    "or": [
+     "CS2103:D",
+     "CS2103T:D",
+     "CS2103DE:D",
+     "CS2113:D",
+     "CS2113T:D",
+     "IS3106:D",
+     "BT3103:D",
+     "IS2108:D"
+    ]
+   }
+  ]
+ },
+ "fulfillRequirements": [
+  "IFS4201",
+  "CP3880X"
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "lab": true,
+  "mpes2": true
+ },
+ "department": "Information Systems and Analytics",
+ "description": "This course introduces students to key concepts in Big Data technologies, covering both foundational and emerging tools and practices. It explores the characteristics and challenges of handling large datasets in different environments. Students will develop practical skills in building and automating data pipelines, managing various forms of data processing, and applying advanced analytical techniques to derive business insights across diverse contexts. The course covers essential topics such as data storage, distributed processing and data streaming. By the end of the course, students will be equipped to apply advanced analytics using Big Data technologies to design and implement effective solutions.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "BT4221",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate DegreeTHENmust not have completed 1 of CS4225/CS5425 at a grade of at least D",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN COURSES (1) CS4225:D, CS5425:D",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHEN((( must have completed all of BT2101/BT2102 at a grade of at least DANDmust have completed 1 of CS1010/CS1010A/CS1010E/CS1010HS/CS1010J/CS1010S/CS1010X/CS1101S/UTC2851 at a grade of at least D))OR( must have completed all of DAO2702/DBA3803/IT3010 at a grade of at least D))",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (((COURSES (2) BT2101:D, BT2102:D AND COURSES (1) CS1010X:D, CS1101S:D, CS1010:D, CS1010S:D, CS1010J:D, CS1010E:D, CS1010A:D, CS1010HS:D, UTC2851:D)) OR (COURSES (3) DAO2702:D, DBA3803:D, IT3010:D))",
+ "title": "Advanced Analytics with Big Data Technologies",
+ "workload": [
+  3,
+  0,
+  0,
+  3,
+  4
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-04-24T05:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": {
+  "or": [
+   {
+    "and": [
+     {
+      "nOf": [
+       2,
+       [
+        "BT2101:D",
+        "BT2102:D"
+       ]
+      ]
+     },
+     {
+      "or": [
+       "CS1010X:D",
+       "CS1101S:D",
+       "CS1010:D",
+       "CS1010S:D",
+       "CS1010J:D",
+       "CS1010E:D",
+       "CS1010A:D",
+       "CS1010HS:D",
+       "UTC2851:D"
+      ]
+     }
+    ]
+   },
+   {
+    "nOf": [
+     3,
+     [
+      "DAO2702:D",
+      "DBA3803:D",
+      "IT3010:D"
+     ]
+    ]
+   }
+  ]
+ }
+}

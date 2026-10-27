@@ -1,0 +1,36 @@
+{
+ "acadYear": "2026/2027",
+ "department": "SCALE Dean's Office",
+ "description": "This course introduces computer systems to students from the perspective of a programmer. Students learn about the computer systems, focusing on the hardware and operating systems, and how they impact the design, implementation, and performance of a program. Topics covered include the C language, data representations, machine-level representations of C programmes, memory hierarchy, program optimisation, linking, interrupts and signals, memory management, system-level I/O, and concurrency.",
+ "faculty": "Cont and Lifelong Education",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "TCX3222",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate Degree THEN must not have completed TIC2401 at a grade of at least D",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN COURSES (1) TIC2401:D",
+ "prerequisite": "If undertaking an Undergraduate Degree THEN must have completed TCX2004 at a grade of at least D",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN COURSES (1) TCX2004:D",
+ "title": "Systems Programming",
+ "workload": [
+  2,
+  1,
+  0,
+  3,
+  4
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-05-04T01:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": "TCX2004:D",
+ "fulfillRequirements": [
+  "TCX3235",
+  "TCX3232"
+ ]
+}

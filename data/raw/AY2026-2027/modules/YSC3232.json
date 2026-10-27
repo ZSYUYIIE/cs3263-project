@@ -1,0 +1,32 @@
+{
+ "acadYear": "2026/2027",
+ "department": "Yale-NUS College",
+ "description": "This course will teach principles of software engineering and object oriented programming as well as UI and Android. In this course, students will first learn about the Java language and the object paradigm (field encapsulation, object, polymorphism), as well as useful tools for software development (e.g. version control, debugging). The next part of the course will focus on how to write code properly and work on larger scale projects using MVC framework. Finally, the last part of the course will cover User Interfaces in Java, Threads, synchronization and Android Programming.",
+ "faculty": "Yale-NUS College",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "YSC3232",
+ "moduleCredit": "5",
+ "preclusion": "if undertaking an Undergraduate Degree then ( must not have completed \"YSC3207\" at a grade of at least D )",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) YSC3207:D)",
+ "prerequisite": "if undertaking an Undergraduate Degree then ( must have completed 1 of YSC1212/YSC2221 at a grade of at least D )",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) YSC2221:D, YSC1212:D)",
+ "title": "Software Engineering",
+ "workload": [
+  0,
+  3,
+  0,
+  5.5,
+  4
+ ],
+ "semesterData": [],
+ "prereqTree": {
+  "or": [
+   "YSC2221:D",
+   "YSC1212:D"
+  ]
+ },
+ "fulfillRequirements": [
+  "CS3219",
+  "CS4211"
+ ]
+}

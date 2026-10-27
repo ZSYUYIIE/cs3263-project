@@ -1,0 +1,38 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes2": true
+ },
+ "department": "Computer Science",
+ "description": "This course aims to study measures of difficulty for problem solving in computing, such as the space and time complexities and complexity classes arising from them, including LOGSPACE, P, NP, coNP, PSPACE, and EXP. The course introduces reducibilities and classical complexity problems like STCONN, SAT, 3SAT, and QBF. Techniques for simulation (Savitch's theorem and complementation inside nondeterministic space classes) as well as techniques for separating complexity classes are studied. Further topics are the randomised complexity classes BPP, RP, ZPP, and probabilistic techniques to handle computationally complex problems. Besides the above, lecturers might cover additional topics in computational complexity.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS4430",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate DegreeTHENmust not have completed CS5230 at a grade of at least D",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN COURSES CS5230:D",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHENmust have completed CS3231 at a grade of at least D",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN COURSES CS3231:D",
+ "title": "Computational Complexity",
+ "workload": [
+  2,
+  1,
+  0,
+  3,
+  4
+ ],
+ "aliases": [
+  "CS5230"
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-04-27T05:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": "CS3231:D"
+}

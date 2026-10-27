@@ -1,0 +1,82 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true
+ },
+ "department": "Mathematics",
+ "description": "This is a course on the calculus of functions of several real variables, applications of which abound in mathematics, the physical sciences and engineering. The aim is for students to acquire computational skills, ability for 2- and 3-D visualisation and to understand conceptually fundamental results such as Green’s Theorem, Stokes’ Theorem and the Divergence Theorem. Major topics: Euclidean distance and elementary topological concepts in Rn, limit and continuity, implicit functions. Partial differentiation, differentiable functions, differentials, chain rules, directional derivatives, gradients, mean value theorem, Taylor’s formula, extreme value theorem, Lagrange multipliers. Multiple integrals and iterated integrals, change of order of integration, applications, Jacobian matrix, change of variables in multiple integrals. Line integrals and Green’s theorem. Surface integrals, Stokes’ Theorem, Divergence Theorem.",
+ "faculty": "Science",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "MA2104",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate DegreeTHEN(( must not have completed 1 of MA2311/PC2174A/YSC2252 at a grade of at least D))",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN ((COURSES (1) MA2311:D, YSC2252:D, PC2174A:D))",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHEN( must have completed 1 of MA1505/MA1511/MA1521/MA2002 at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) MA2002:D, MA1505:D, MA1511:D, MA1521:D)",
+ "title": "Multivariable Calculus",
+ "workload": [
+  3,
+  1,
+  0,
+  0,
+  6
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1,
+   "examDate": "2026-11-30T05:00:00.000Z",
+   "examDuration": 120
+  },
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-05-03T09:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": {
+  "or": [
+   "MA2002:D",
+   "MA1505:D",
+   "MA1511:D",
+   "MA1521:D"
+  ]
+ },
+ "fulfillRequirements": [
+  "MA3229",
+  "MA3227",
+  "MA4274",
+  "PC3238",
+  "PC3441",
+  "PC2031",
+  "MA3220",
+  "MA4271",
+  "MA3211S",
+  "MA3211",
+  "DSA4299C",
+  "DSA4299",
+  "DSA4199",
+  "MA2116T",
+  "DSA4212",
+  "QF3101",
+  "QF4103",
+  "MA3270",
+  "MA3236",
+  "MA3264",
+  "PC3236",
+  "PC3274A",
+  "DSA3102",
+  "DSA4288",
+  "ST4288",
+  "DSA4288S",
+  "DSA4288M",
+  "DSA4213",
+  "PC2032"
+ ]
+}

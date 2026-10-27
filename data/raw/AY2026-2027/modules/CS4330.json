@@ -1,0 +1,56 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "lab": true,
+  "mpes2": true
+ },
+ "department": "Computer Science",
+ "description": "CS4330 explores the combinatorial and algorithmic foundations of genome informatics. The course focuses on the mathematical abstractions and data structures used to reconstruct long genomic sequences from massive, fragmented datasets. Students will engage with the concepts, data structures, techniques, and algorithms that enable efficient sequence processing—from k-mer indexing and error modeling to graph-based assembly paradigms. By deconstructing the assembly pipeline, students will analyze the logic and scaling of algorithms required to transform raw biological data into high-fidelity genomic representations. A central theme is the rigorous evaluation of assembly quality , looking beyond simple continuity to address structural integrity, base-level accuracy, and biological completeness.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS4330",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate DegreeTHEN( must not have completed CS3225 at a grade of at least D)",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CS3225:D)",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHEN( must have completed 1 of CS2040/CS2040C/CS2040DE/CS2040HS/CS2040S at a grade of at least DANDmust have completed 1 of CS2220/LSM2104/LSM2241/ZB2101 at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CS2040C:D, CS2040:D, CS2040S:D, CS2040DE:D, CS2040HS:D AND COURSES (1) CS2220:D, LSM2104:D, LSM2241:D, ZB2101:D)",
+ "title": "Combinatorial Methods in Bioinformatics",
+ "workload": [
+  2,
+  1,
+  0,
+  4,
+  3
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-04-28T05:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": {
+  "and": [
+   {
+    "or": [
+     "CS2040C:D",
+     "CS2040:D",
+     "CS2040S:D",
+     "CS2040DE:D",
+     "CS2040HS:D"
+    ]
+   },
+   {
+    "or": [
+     "CS2220:D",
+     "LSM2104:D",
+     "LSM2241:D",
+     "ZB2101:D"
+    ]
+   }
+  ]
+ }
+}

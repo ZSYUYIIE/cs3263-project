@@ -1,0 +1,23 @@
+{
+ "acadYear": "2026/2027",
+ "department": "Yale-NUS College",
+ "description": "Calculus is the study of rates of changes and provides a framework for modelling systems and to find the effect of changing conditions of the systems being investigated. However, some of the most interesting systems cannot be modelled using just one variable. The aim of this course is to extend the knowledge of Calculus (YSC1216) to more complex systems, studying the rate of change, volumes and optimization for functions in more than one variable. This course gives the needed tools to apply knowledge of advanced calculus in Physical Sciences, Life Science, Economics and Statistics",
+ "faculty": "Yale-NUS College",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "YSC2252",
+ "moduleCredit": "5",
+ "preclusion": "if undertaking an Undergraduate Degree then ( must not have completed 1 of \"MA1507\"/MA2104 at a grade of at least D )",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) MA2104:D, MA1507:D)",
+ "prerequisite": "if undertaking an Undergraduate Degree then ( must have completed YSC1216 at a grade of at least D )",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) YSC1216:D)",
+ "title": "Multivariable Calculus",
+ "workload": [
+  0,
+  4,
+  0,
+  3,
+  5.5
+ ],
+ "semesterData": [],
+ "prereqTree": "YSC1216:D"
+}

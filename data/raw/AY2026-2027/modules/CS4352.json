@@ -1,0 +1,31 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true
+ },
+ "department": "Computer Science",
+ "description": "This course aims to familiarize students with the current cybersecurity landscape across industry and regulatory domains, and to illustrate relevance and gaps of classroom knowledge in real-world practices. Such awareness would help student make informed decisions when shaping their career paths. The course is delivered through a series of seminars led by guest speakers from industry, government agencies, and academia, coordinated by a faculty lecturer. Each mounting of the course centers around a specific theme, with seminar sessions grouped into coherent subtopics under that theme. The specific theme will be announced by the School of Computing.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Completed Satisfactory/Unsatisfactory",
+ "moduleCode": "CS4352",
+ "moduleCredit": "2",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHEN( must have completed CS2107 at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CS2107:D)",
+ "title": "Industry Seminar in Cybersecurity",
+ "workload": [
+  2,
+  0,
+  0,
+  1,
+  2
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1
+  }
+ ],
+ "prereqTree": "CS2107:D"
+}

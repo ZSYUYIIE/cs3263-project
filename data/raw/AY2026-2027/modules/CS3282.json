@@ -1,0 +1,28 @@
+{
+ "acadYear": "2026/2027",
+ "department": "Computer Science",
+ "description": "This course is the second part of a two-part series on the development of large-scaled computer systems to solve real-world problems under specific themes such as healthcare, security and surveillance, tourism, etc. Students with complementary technical expertise will form project teams to work on real-world projects under the supervision of CS professors and industrial partners. This second part focuses on the development of algorithms required for the systems, implementation and testing of the algorithms and the systems, and evaluation of the systems according to the users’ requirements.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS3282",
+ "moduleCredit": "4",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHEN( must have completed CS3281 at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CS3281:D)",
+ "title": "Software Engineering for Evolving Production Systems II",
+ "workload": [
+  2,
+  2,
+  0,
+  4,
+  2
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2
+  }
+ ],
+ "prereqTree": "CS3281:D"
+}

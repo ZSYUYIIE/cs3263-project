@@ -1,0 +1,65 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true,
+  "su": true
+ },
+ "department": "English,Ling.andTheatre Studies",
+ "description": "This course develops and applies the core strategies that underlie successful academic writing. These include writing with clarity and precision, analysing how authors argue, organizing and expressing ideas to guide readers through a line of reasoning, citing and documenting sources, revising the content, wording, and organization of a paper, as well as surface features such as spelling and punctuation. Students gain an appreciation of the basics of academic writing through three units, which correspond to the three stages of writing – introduction, body, and conclusion.",
+ "faculty": "Arts and Social Science",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "FAS1101",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate DegreeTHEN(( must not have completed 1 of ES1531/ES2531/ES2631/GEK1549/GET1021/SP1541/SP1541X/any Courses beginning with RVX100/any Courses beginning with UTW1001/any Courses beginning with UTW2001)ANDmust not be undertaking 1 of 0402ANRSPL UTown Resident-CAPT (UDEN), 0801TMBSPL UTown Resident - Tembusu (UMED), 0802ANRSPL UTown Resident - CAPT (UMED), 1501TMBSPL UTown College Programme - Tembusu, 1501TMRSPL UTown Resident - Tembusu, 1502ANGSPL UTown College Programme - CAPT, 1502ANRSPL UTown Resident - CAPT, 1520RVCSPL Ridge View Residential College Programme)",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN ((COURSES (1) ES1531, GEK1549, GET1021, ES2531, SP1541, SP1541X, UTW1001%, utw2001%, ES2631, RVX100%) AND SPECIAL_PROGRAMME MUST_NOT_BE_IN (1) 0402ANRSPL, 0801TMBSPL, 0802ANRSPL, 1501TMBSPL, 1501TMRSPL, 1502ANGSPL, 1502ANRSPL, 1520RVCSPL)",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHEN(must be in one of the cohorts from 2016 inclusiveAND(must be undertaking 1 of 1000NVBHON Bachelor of Environmental Studies - Biology (Hons), 0104ENHON Bachelor of Arts - English Lit (Hons), 0109PPEXDP Bachelor of Arts - Philosophy, Politics & Econs (Hons) XDP, 1001BESXDP Bachelor of Environmental Studies - Biology (Hons) XDP, 0109PPEHON Bachelor of Arts - Philosophy, Politics & Econs (Hons), 0101CHHON Bachelor of Arts - Chinese Studies (Hons), 0113SCHON Bachelor of Social Sciences - Sociology (Hons), 0109PHHON Bachelor of Arts - Philosophy (Hons), 0105NVGHON Bachelor of Environmental Studies - Geography (Hons), 0106HYHON Bachelor of Arts - History (Hons), 0112SWHON Bachelor of Social Sciences - Social Work (Hons), 0108MSHON Bachelor of Arts - Malay Studies (Hons), 0104ELHON Bachelor of Arts - English Language (Hons), 0107JSHON Bachelor of Arts - Japanese Studies (Hons), 0114SNHON Bachelor of Arts - South Asian Stud (Hons), 0105GEHON Bachelor of Social Sciences - Geography (Hons), 0110PSHON Bachelor of Social Sciences - Political Science (Hons), 0101CLHON Bachelor of Arts - Chinese Language [Hons], 0102NMHON Bachelor of Social Sciences - Comms & New Media (Hons), 0115SEHON Bachelor of Arts - S.E. Asian Studies (Hons), 0104TSHON Bachelor of Arts - Theatre Studies (Hons), 0110GLHON Bachelor of Arts - Global Studies (Hons), 0103ECHON Bachelor of Social Sciences - Economics (Hons), 0111PLHON Bachelor of Social Sciences - Psychology (Hons), 0113ANHON Bachelor of Social Sciences - Anthropology (Hons), 0104ELLHON Bachelor of Arts - English Language and Linguistics (Hons), 0104TPSHON Bachelor of Arts - Theatre and Performance Studies (Hons), 0105GIXDP Bachelor of Science - Geospatial Intelligence (Hons) XDP, 0101CLCHON Bachelor of Arts - Chinese Languages and Cultures [Hons], 0101CBLHON Bachelor of Arts - Chinese Studies (Bilingual) [Hons])ANDmust have completed EP ENGLISH LANGUAGE PROFICIENCY TEST at a grade of at least N)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COHORT_YEARS MUST_BE_IN S:2016 AND (PROGRAMS MUST_BE_IN (1) 1000NVBHON, 0104ENHON, 0109PPEXDP, 1001BESXDP, 0109PPEHON, 0101CHHON, 0113SCHON, 0109PHHON, 0105NVGHON, 0106HYHON, 0112SWHON, 0108MSHON, 0104ELHON, 0107JSHON, 0114SNHON, 0105GEHON, 0110PSHON, 0101CLHON, 0102NMHON, 0115SEHON, 0104TSHON, 0110GLHON, 0103ECHON, 0111PLHON, 0113ANHON, 0104ELLHON, 0104TPSHON, 0105GIXDP, 0101CLCHON, 0101CBLHON) AND SUBJECTS EP:N)",
+ "title": "Writing Academically: Arts and Social Sciences",
+ "workload": [
+  1,
+  2,
+  0,
+  4,
+  3
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1
+  },
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2
+  }
+ ],
+ "prereqTree": {
+  "cohort": {
+   "rule": "MUST_BE_IN",
+   "years": [
+    "S:2016"
+   ]
+  }
+ },
+ "fulfillRequirements": [
+  "NHS2026",
+  "NHS2030",
+  "NHS2043",
+  "NHS2049",
+  "NEX3009",
+  "NEX3015",
+  "NEX3016",
+  "NEX3017",
+  "NHS2109",
+  "NEX3018",
+  "NHS2108",
+  "NHS2110",
+  "NHS2069",
+  "NHS2083",
+  "NHS2085"
+ ]
+}

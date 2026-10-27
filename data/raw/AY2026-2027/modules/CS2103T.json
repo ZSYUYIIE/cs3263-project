@@ -1,0 +1,94 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true
+ },
+ "department": "Computer Science",
+ "description": "This course introduces the necessary conceptual and analytical tools for systematic and rigorous development of software systems. It covers four main areas of software development, namely object-oriented system analysis, object-oriented system modelling and design, implementation, and testing, with emphasis on system modelling and design and implementation of software courses that work cooperatively to fulfill the requirements of the system. Tools and techniques for software development, such as Unified Modelling Language (UML), program specification, and testing methods, will be taught. Major software engineering issues such as modularisation criteria, program correctness, and software quality will also be covered.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS2103T",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate Degree THEN (( must not have completed 1 of CS2103/CS2103DE/CS2113/CS2113T at a grade of at least D) AND must not have completed 1 of CG1413/EG1413/ES1601/ES2007D/ES2007S, ES2002/IS2101 at a grade of at least D)",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN ((COURSES (1) CS2103:D, CS2103DE:D, CS2113:D, CS2113T:D) AND COURSES (1) IS2101:D, ES2002:D, ES2007S, ES2007D, CG1413, EG1413, ES1601)",
+ "prerequisite": "If undertaking an Undergraduate Degree THEN ( must have completed 1 of CS2030/CS2030DE/CS2030HS/CS2030S at a grade of at least D AND must have completed 1 of CS2040/CS2040C/CS2040DE/CS2040HS/CS2040S at a grade of at least D AND must have completed EP ENGLISH LANGUAGE PROFICIENCY TEST at a grade of at least N AND must be undertaking 1 of 0300CSHON Bachelor of Computing (Computer Science) (Hons), 0300ISCHON Bachelor of Computing (Information Security) (Hons), 0300ISHON Bachelor of Computing (Information Systems) (Hons), 0300ISPHON Bachelor of Computing (Information Security) (Hons) Co-op, 2001CEGHON Bachelor of Engineering (Computer Engineering) (Hons), 0300AIHON Bachelor of Computing (Artificial Intelligence) (Hons), 0300AISHON Bachelor of Computing (Business Artificial Intelligence Systems) (Hons))",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CS2030:D, CS2030S:D, CS2030DE:D, CS2030HS:D AND COURSES (1) CS2040:D, CS2040S:D, CS2040C:D, CS2040DE:D, CS2040HS:D AND SUBJECTS (1) EP:N AND PROGRAMS MUST_BE_IN (1) 0300CSHON, 0300ISCHON, 0300ISHON, 0300ISPHON, 2001CEGHON, 0300AIHON, 0300AISHON)",
+ "title": "Software Engineering",
+ "workload": [
+  2,
+  1,
+  0,
+  5,
+  2
+ ],
+ "aliases": [
+  "CS2103"
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1,
+   "examDate": "2026-11-30T01:00:00.000Z",
+   "examDuration": 90
+  },
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-05-03T01:00:00.000Z",
+   "examDuration": 90
+  }
+ ],
+ "prereqTree": {
+  "and": [
+   {
+    "or": [
+     "CS2030:D",
+     "CS2030S:D",
+     "CS2030DE:D",
+     "CS2030HS:D"
+    ]
+   },
+   {
+    "or": [
+     "CS2040:D",
+     "CS2040S:D",
+     "CS2040C:D",
+     "CS2040DE:D",
+     "CS2040HS:D"
+    ]
+   }
+  ]
+ },
+ "fulfillRequirements": [
+  "CS5272",
+  "CS3217",
+  "CS3203",
+  "CS3202",
+  "CS3201",
+  "CP3101A",
+  "CS5439",
+  "CS4239",
+  "CS5232",
+  "CS5246",
+  "CS3219",
+  "CS3213",
+  "CS3227",
+  "CP3880",
+  "CP3880E",
+  "CP3881",
+  "CP3880X",
+  "CS3281",
+  "CS3216",
+  "CS4353",
+  "CS4211",
+  "BT3102",
+  "IS4302",
+  "CS4354",
+  "CG3002"
+ ]
+}

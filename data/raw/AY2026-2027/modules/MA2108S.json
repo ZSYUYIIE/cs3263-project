@@ -1,0 +1,69 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes2": true
+ },
+ "department": "Mathematics",
+ "description": "The objective of this course is to develop the learning capabilities and hone the problem solving skills of talented students at a mathematically deeper and more rigorous level. In addition to the classes of the regular course, one extra special hour each week will be devoted to solving challenging problems and studying some additional topics and those topics briefly mentioned in the regular course. The contents of this course will consist of those in the regular course (MA2108) and the following additional topics: conditions equivalent to the completeness axiom, rearrangement of series, trigonometric series.",
+ "faculty": "Science",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "MA2108S",
+ "moduleCredit": "5",
+ "preclusion": "If undertaking an Undergraduate Degree THEN ( must not have completed 1 of MA2108/YSC3206 at a grade of at least D)",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) MA2108:D, YSC3206:D)",
+ "prerequisite": "If undertaking an Undergraduate Degree THEN (( must have completed 1 of CS1231/CS1231S/MA1100/MA1100T at a grade of at least D) AND ( must have completed 1 of MA1505/MA1511/MA1521/MA2002 at a grade of at least D))",
+ "prerequisiteAdvisory": "Departmental approval is required",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN ((COURSES (1) CS1231:D, CS1231S:D, MA1100:D, MA1100T:D) AND (COURSES (1) MA1505:D, MA1511:D, MA1521:D, MA2002:D))",
+ "title": "Mathematical Analysis I (S)",
+ "workload": [
+  3,
+  2,
+  0,
+  0,
+  7.5
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-05-05T01:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": {
+  "and": [
+   {
+    "or": [
+     "CS1231:D",
+     "CS1231S:D",
+     "MA1100:D",
+     "MA1100T:D"
+    ]
+   },
+   {
+    "or": [
+     "MA1505:D",
+     "MA1511:D",
+     "MA1521:D",
+     "MA2002:D"
+    ]
+   }
+  ]
+ },
+ "fulfillRequirements": [
+  "MA3291",
+  "MA4207",
+  "MA3220",
+  "MA4229",
+  "MA3233",
+  "MA3211S",
+  "MA3211",
+  "MA3209",
+  "MA3238S",
+  "MA5210",
+  "MA3264",
+  "MA3210"
+ ]
+}

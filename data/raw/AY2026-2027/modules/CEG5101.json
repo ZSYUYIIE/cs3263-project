@@ -1,0 +1,36 @@
+{
+ "acadYear": "2026/2027",
+ "department": "Electrical and Computer Engineering",
+ "description": "This course introduces students to the concepts, design, techniques and protocols related to modern computer networks. The course first covers topics on internetworking, security, and end-to-data transport particularly in the context of Internet. It then introduces recent technologies emerged in modern networks that include virtualization, data center networks, software defined networking and network function virtualization. The course uses case studies to expose students to real-world networking problems. Students will be provided with network programming mini-projects and assignments which help them understand and appreciate practical uses.",
+ "faculty": "College of Design and Engineering",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CEG5101",
+ "moduleCredit": "4",
+ "prerequisiteAdvisory": "Knowledge of fundamentals of computer communication networks.",
+ "title": "Modern Computer Networking",
+ "workload": [
+  2,
+  1,
+  0,
+  2,
+  5
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1,
+   "examDate": "2026-11-24T09:00:00.000Z",
+   "examDuration": 120
+  },
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-04-26T01:00:00.000Z",
+   "examDuration": 120
+  }
+ ]
+}

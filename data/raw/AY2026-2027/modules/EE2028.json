@@ -1,0 +1,71 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true
+ },
+ "department": "Electrical and Computer Engineering",
+ "description": "This course teaches students how to programme microcontrollers and achieve computer interfacing using C programming and industry-standard protocols. This course covers C programming, microprocessor instruction sets, and how to programme microcontrollers to interface with other devices in order to build an embedded system. The course culminates in an assignment in which students design and build a complex embedded system (IoT node) that meets requirements and specifications.",
+ "faculty": "College of Design and Engineering",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "EE2028",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate DegreeTHEN( must not have completed 1 of CG2028/EE2024 at a grade of at least D)",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CG2028:D, EE2024:D)",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHEN(( must have completed 1 of CG1111A/EE1111B/EE2111A at a grade of at least D)AND( must have completed 1 of UTC2851 at a grade of at least D, any Courses beginning with CS1010 at a grade of at least D))",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN ((COURSES (1) CG1111A:D, EE1111B:D, EE2111A:D) AND (COURSES (1) CS1010%:D, UTC2851:D))",
+ "title": "Microcontroller Programming and Interfacing",
+ "workload": [
+  3,
+  1,
+  1,
+  2,
+  3
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C",
+    "Unknown"
+   ],
+   "semester": 1,
+   "examDate": "2026-11-26T05:00:00.000Z",
+   "examDuration": 120
+  },
+  {
+   "covidZones": [
+    "C",
+    "Unknown"
+   ],
+   "semester": 2,
+   "examDate": "2027-04-30T06:30:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": {
+  "and": [
+   {
+    "or": [
+     "CG1111A:D",
+     "EE1111B:D",
+     "EE2111A:D"
+    ]
+   },
+   {
+    "or": [
+     "CS1010%:D",
+     "UTC2851:D"
+    ]
+   }
+  ]
+ },
+ "fulfillRequirements": [
+  "EE4216",
+  "EE4218",
+  "CS2106",
+  "CS3237",
+  "CS3210",
+  "CG3002",
+  "CG3207"
+ ]
+}

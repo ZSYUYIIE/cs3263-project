@@ -1,0 +1,32 @@
+{
+ "acadYear": "2026/2027",
+ "department": "Yale-NUS College",
+ "description": "Machine learning is a collection of techniques where computers can learn from data without being explicitly programmed. For instance, when we train a program using human-face image data, it should be able to locate faces in an image; yet, if we train the same program using flower data, it should be able to locate flowers in an image, without explicitly changing the program itself. This course particularly will focus on statistical machine learning, which relies heavily on probabilistic and statistical analysis.",
+ "faculty": "Yale-NUS College",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "YSC4216",
+ "moduleCredit": "5",
+ "preclusion": "if undertaking an Undergraduate Degree then ( must not have completed \"YSC3227\" at a grade of at least D or must not have completed all of ST3248/ST4248 at a grade of at least D )",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) YSC3227:D OR COURSES (2) ST3248:D, ST4248:D)",
+ "prerequisite": "if undertaking an Undergraduate Degree then ( must have completed all of YSC2232/YSC2239 at a grade of at least D )",
+ "prerequisiteAdvisory": "It isrecommended that students have some programming skill in Python.",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (2) YSC2232:D, YSC2239:D)",
+ "title": "Machine Learning",
+ "workload": [
+  0,
+  3,
+  0,
+  0,
+  9.5
+ ],
+ "semesterData": [],
+ "prereqTree": {
+  "nOf": [
+   2,
+   [
+    "YSC2232:D",
+    "YSC2239:D"
+   ]
+  ]
+ }
+}

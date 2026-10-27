@@ -1,0 +1,105 @@
+{
+ "acadYear": "2026/2027",
+ "additionalInformation": "This course is open only to School of Computing students.",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true,
+  "su": true
+ },
+ "department": "Mathematics",
+ "description": "This course is targeted at students from School of Computing. It introduces basic concepts in linear algebra that are routinely applied in computer science, in the context of the Euclidean spaces, and will develop basic skills in computing with vectors and matrices with and without using computational software (MATLAB). Students are expected to acquire computational facilities and geometric intuition about vectors and matrices. Major topics: Systems of linear equations, matrices, determinants, Euclidean spaces, linear combinations and linear span, subspaces, linear independence, bases and dimension, rank of a matrix, inner products, eigenvalues and eigenvectors, diagonalisation, linear transformations between Euclidean spaces, applications.",
+ "faculty": "Science",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "MA1522",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate Degree THEN (( must not have completed 1 of MA1311/MA1508E/MA1513/MA2001/YSC2232 at a grade of at least D) AND (must not be undertaking 1 of 0601BMEHON Bachelor of Engineering (Biomedical Engineering) (Hons), 0602CHEHON Bachelor of Engineering (Chemical Engineering) (Hons), 0604ELEHON Bachelor of Engineering (Electrical Engineering) (Hons), 0605ESPHON Bachelor of Engineering (Engineering Science) (Hons), 0607ISEHON Bachelor of Engineering (Industrial and Systems Engineering) (Hons), 0608MSEHON Bachelor of Engineering (Materials Science and Engineering) (Hons), 0609MEHON Bachelor of Engineering (Mechanical Engineering) (Hons), 0611CHEHON Bachelor of Technology (Chemical Engineering) (Hons), 0611ELCHON Bachelor of Technology (Electronics Engineering) (Hons), 0611IMEHON Bachelor of Technology (Industrial & Mgt Engineering) (Hons), 0611MEHON Bachelor of Technology (Mechanical Engineering) (Hons), 0613CEHON Bachelor of Engineering (Civil Engineering) (Hons), 0613EVEHON Bachelor of Engineering (Environmental Engineering) (Hons), 1003MAHON Bachelor of Science - Mathematics (Hons), 1003QFNHON Bachelor of Science - Quantitative Finance (Hons), 1006DSAHON Bachelor of Science (Data Science and Analytics) (Hons), 1006DSEXDP Bachelor of Science - Data Sci & Econs (Hons) XDP, 1006STHON Bachelor of Science - Statistics (Hons), 2001CEGHON Bachelor of Engineering (Computer Engineering) (Hons)))",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN ((COURSES (1) MA1311:D, MA1508E:D, MA1513:D, MA2001:D, YSC2232:D) AND (PROGRAMS MUST_NOT_BE_IN (1) 0601BMEHON, 0602CHEHON, 0604ELEHON, 0605ESPHON, 0607ISEHON, 0608MSEHON, 0609MEHON, 0611CHEHON, 0611ELCHON, 0611IMEHON, 0611MEHON, 0613CEHON, 0613EVEHON, 1003MAHON, 1003QFNHON, 1006DSAHON, 1006DSEXDP, 1006STHON, 2001CEGHON))",
+ "prerequisite": "If undertaking an Undergraduate Degree THEN (( must have completed 1 of 06 MATHEMATICS/07 FURTHER MATHEMATICS at a grade of at least E) OR ( must have completed 1 of MA1301/MA1301X at a grade of at least D))",
+ "prerequisiteAdvisory": "IB Math AA HL or Polytechnic Diploma Plus (or Related) Certification in Mathematics or AP Calculus BC",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN ((SUBJECTS (1) 06:E, 07:E) OR (COURSES (1) MA1301:D, MA1301X:D))",
+ "title": "Linear Algebra for Computing",
+ "workload": [
+  3,
+  1,
+  1,
+  0,
+  5
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1,
+   "examDate": "2026-11-24T09:00:00.000Z",
+   "examDuration": 120
+  },
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-04-29T05:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": {
+  "or": [
+   "MA1301:D",
+   "MA1301X:D"
+  ]
+ },
+ "fulfillRequirements": [
+  "CS3242",
+  "CS4235",
+  "CS5241",
+  "CS5249",
+  "CS5478",
+  "CS6244",
+  "CS4278",
+  "CS4268",
+  "CS4261",
+  "CS4277",
+  "CS5477",
+  "CS5246",
+  "CS5332",
+  "BT3017",
+  "CS3264",
+  "CS5284",
+  "BT4240",
+  "CS4347",
+  "CS5275",
+  "CS5240",
+  "CS4234",
+  "CS2251",
+  "CP4282",
+  "IS2109",
+  "CS3244",
+  "CS3218",
+  "CS3263",
+  "CS4243",
+  "IT3011",
+  "CS2108",
+  "MA2219",
+  "MA3252",
+  "MA3220",
+  "MA2214",
+  "DSA2102",
+  "MA2213",
+  "ST3236",
+  "PC2130",
+  "MA3238",
+  "PC2451",
+  "DSA4212",
+  "QF2104",
+  "MA3270",
+  "MA2101",
+  "MA2101S",
+  "PC3236",
+  "PC3274A",
+  "DSA3102",
+  "DSA2101",
+  "DSA3361",
+  "PC3221"
+ ]
+}

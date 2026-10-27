@@ -1,0 +1,89 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true
+ },
+ "department": "Electrical and Computer Engineering",
+ "description": "This course introduces students to various machine learning concepts and applications, and the tools needed to understand them. Topics include supervised and unsupervised machine learning techniques, optimisation, overfitting, regularisation, cross-validation and evaluation metrics. The mathematical tools include basic topics in probability and statistics, linear algebra, and optimisation. These concepts will be illustrated through various machine-learning techniques and examples.",
+ "faculty": "College of Design and Engineering",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "EE2211",
+ "moduleCredit": "4",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHEN( must have completed 1 of UTC2851/any Courses beginning with CS1010 at a grade of at least D)AND( must have completed 1 of MA1505/MA1511 at a grade of at least D)AND( must have completed 1 of MA1508E/MA1513 at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CS1010%:D, UTC2851) AND (COURSES (1) MA1511:D, MA1505:D) AND (COURSES (1) MA1508E:D, MA1513:D)",
+ "title": "Introduction to Machine Learning",
+ "workload": [
+  2,
+  2,
+  0,
+  0,
+  6
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "Unknown",
+    "C"
+   ],
+   "semester": 1,
+   "examDate": "2026-11-21T01:00:00.000Z",
+   "examDuration": 120
+  },
+  {
+   "covidZones": [
+    "C",
+    "Unknown"
+   ],
+   "semester": 2,
+   "examDate": "2027-04-27T01:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": {
+  "and": [
+   {
+    "or": [
+     "CS1010%:D",
+     "UTC2851"
+    ]
+   },
+   {
+    "or": [
+     "MA1511:D",
+     "MA1505:D"
+    ]
+   },
+   {
+    "or": [
+     "MA1508E:D",
+     "MA1513:D"
+    ]
+   }
+  ]
+ },
+ "fulfillRequirements": [
+  "IPM3102",
+  "EE4705",
+  "EE4314",
+  "MLE4218",
+  "IE4108",
+  "BN3406",
+  "EE4211",
+  "PF3211",
+  "EE3703",
+  "MLE5218",
+  "EE4115",
+  "RB4301",
+  "EE4707",
+  "EE4706",
+  "MLE4112",
+  "MLE4217",
+  "MLE4214",
+  "CN3105",
+  "ESP3201A",
+  "IE4280",
+  "CS4354",
+  "CG3201"
+ ]
+}

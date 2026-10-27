@@ -1,0 +1,39 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "lab": true,
+  "mpes2": true
+ },
+ "department": "Computer Science",
+ "description": "This course provides an empirical framework for evaluating user experiences through scientific evidence, focusing on identifying problems via HCI theories and designing controlled experiments. Students learn to navigate the full experimental cycle: refining research questions, planning experiments, preparing precise surveys, programming interaction logs, managing participants within ethical considerations, collecting data, and performing statistical analysis. A central component is a semester-long group project with milestones aligned to the syllabus, allowing students to systematically compare interface designs by gathering compelling evidence to validate their design decisions. By mastering these techniques, students across various disciplines gain the knowledge and skills to communicate evidence-based justifications to stakeholders, providing the objective clarity needed to resolve design debates and inform user interface development.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS4249",
+ "moduleCredit": "4",
+ "prerequisite": "If undertaking an Undergraduate Degree THEN ( must have completed 1 of CS3240/NM2213/NM2216/NM3243 at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CS3240:D, NM2216:D, NM2213:D, NM3243:D)",
+ "title": "Quantitative Methods of Human-Computer Interaction",
+ "workload": [
+  2,
+  1,
+  0,
+  3,
+  4
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2
+  }
+ ],
+ "prereqTree": {
+  "or": [
+   "CS3240:D",
+   "NM2216:D",
+   "NM2213:D",
+   "NM3243:D"
+  ]
+ }
+}

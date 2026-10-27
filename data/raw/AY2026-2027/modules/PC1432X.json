@@ -1,0 +1,43 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "su": true
+ },
+ "department": "Physics",
+ "description": "This course introduces fundamental concepts of physics and is illustrated with many practical examples. Topics covered include a) Electricity and magnetism, where the basic concepts of electric and magnetic fields, forces on charged particles, electric potential, electromotive force, work and energy, are described. The properties of basic electrical circuits comprising resistors, inductors and capacitors are discussed, along with analysis of their transient and steady-state behaviour. Understanding the role of Maxwell's equations in electromagnetism is emphasized; b) Waves, introducing properties of waves, including geometric optics, propagation, interference and diffraction, and electromagnetic waves; and c) Quantum physics, where new physics concepts which led to the quantization of energy are introduced, leading to an explanation of atomic transitions, atomic spectra and the physical and the chemical properties of the atom. The uncertainty principle, wave-mechanics and wave particle duality concepts are covered, together with the use of wave functions in predicting the behaviour of trapped particles. The course is targeted essentially at Engineering students.",
+ "faculty": "Science",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "PC1432X",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate Degree THEN must not be undertaking 1005PCHON Bachelor of Science - Physics (Hons), 1005PCJDU FoS - Joint BSc with ANU Physics (Hons) AND must not be undertaking 1005PC2MJ Physics (2nd Major) AND must not have completed 1 of PC1143/PC1144/PC1432X at a grade of at least D",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN PROGRAMS MUST_NOT_BE_IN 1005PCHON, 1005PCJDU AND 2ND_MAJOR MUST_NOT_BE_IN 1005PC2MJ AND COURSES (1) PC1143:D, PC1144:D, PC1432X:D",
+ "prerequisite": "If undertaking an Undergraduate Degree THEN ( must have completed 1 of 08 PHYSICS/ADD. PHYSICS at a grade of at least E, 0008/64 PHYSICS at a grade of at least E OR must have completed 2 of PC1221/PC1221FC/PC1221X/PC1222/PC1222X at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (SUBJECTS (1) 08:E, 64:E, 0008:E OR COURSES (2) PC1221:D, PC1221FC:D, PC1221X:D, PC1222:D, PC1222X:D)",
+ "title": "Physics IIE",
+ "workload": [
+  3,
+  1,
+  0.5,
+  1.5,
+  4
+ ],
+ "semesterData": [],
+ "prereqTree": {
+  "nOf": [
+   2,
+   [
+    "PC1221:D",
+    "PC1221FC:D",
+    "PC1221X:D",
+    "PC1222:D",
+    "PC1222X:D"
+   ]
+  ]
+ },
+ "fulfillRequirements": [
+  "PC2267",
+  "PC3232B",
+  "SP2251",
+  "PC3295"
+ ]
+}

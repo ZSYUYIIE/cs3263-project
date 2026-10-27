@@ -1,0 +1,75 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true
+ },
+ "department": "Mathematics",
+ "description": "This course applies advanced calculus to practical mathematical problems, and is for students with advanced calculus background and with interest in the applications of calculus. Major topics: Sequences, series, power series. Vector algebra in R2 and R3. Scalar- and vector-valued functions of several variables. Partial derivatives, total differentials. Mean value Theorem. Taylor's formula. Jacobian. Chain rule. Lagrange multiplier. Multiple integrals.",
+ "faculty": "Science",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "MA2311",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate DegreeTHEN(( must not have completed 1 of MA1505/MA1511/MA2104/MA2108/MA2108S at a grade of at least D)AND(must not be undertaking 1 of 1003MAHON Bachelor of Science - Mathematics (Hons), 1003QFNHON Bachelor of Science - Quantitative Finance (Hons)))",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN ((COURSES (1) MA2104:D, MA1505:D, MA1511:D, MA2108:D, MA2108S:D) AND (PROGRAMS MUST_NOT_BE_IN (1) 1003MAHON, 1003QFNHON))",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHEN( must have completed 1 of MA1312/MA1521/MA2002 at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) MA2002:D, MA1312:D, MA1521:D)",
+ "title": "Techniques in Advanced Calculus",
+ "workload": [
+  3,
+  1,
+  0,
+  0,
+  6
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1,
+   "examDate": "2026-11-25T01:00:00.000Z",
+   "examDuration": 120
+  },
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-05-03T05:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": {
+  "or": [
+   "MA2002:D",
+   "MA1312:D",
+   "MA1521:D"
+  ]
+ },
+ "fulfillRequirements": [
+  "MA3229",
+  "MA3227",
+  "MA4274",
+  "PC3441",
+  "MA3220",
+  "MA4271",
+  "MA3211S",
+  "MA3211",
+  "DSA4299C",
+  "DSA4299",
+  "DSA4199",
+  "MA2116T",
+  "DSA4212",
+  "QF3101",
+  "QF4103",
+  "MA3270",
+  "MA3236",
+  "MA3264",
+  "DSA3102",
+  "DSA4288",
+  "ST4288",
+  "DSA4288S",
+  "DSA4288M",
+  "DSA4213"
+ ]
+}

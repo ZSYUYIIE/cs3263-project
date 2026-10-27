@@ -1,0 +1,31 @@
+{
+ "acadYear": "2026/2027",
+ "department": "Yale-NUS College",
+ "description": "Economists are mainly concerned with the study of choice: choices made by consumers (buy the latest gizmo or save the money?), firms (how much to produce and what price to charge?) and policy-makers (bailout the banks or reduce income tax rates?) are all within the purview of economic analysis. This course serves as an introduction to economics and the basic mathematical tools for economic analysis. It covers topics in microeconomics, macroeconomics, univariate calculus, and systems of equations.",
+ "faculty": "Yale-NUS College",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "YSS1203",
+ "moduleCredit": "5",
+ "preclusion": "if undertaking an Undergraduate Degree then ( must not have completed 06 MATHEMATICS at a grade of at least 3 and must not have completed 05 ECONOMICS at a grade of at least 3 )",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (SUBJECTS (1) 06:3 AND SUBJECTS (1) 05:3)",
+ "title": "Principles of Economics",
+ "workload": [
+  3,
+  1,
+  0,
+  4,
+  4.5
+ ],
+ "semesterData": [],
+ "fulfillRequirements": [
+  "YSS2203",
+  "YSS2211",
+  "YSS2214",
+  "YSS2233",
+  "YSS3264",
+  "YSS3299",
+  "YSS3306",
+  "YSS3315",
+  "YSS4278"
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true,
+  "su": true
+ },
+ "department": "Center for Engl Lang Comms",
+ "description": "This practice-driven course prepares computing students for workplace communication in AI-rich environments. Students learn active listening, strategic questioning, and calibrated responses; collaborate to elicit and synthesize diverse perspectives for problem framing and root-cause analysis; and integrate generative AI with human judgment to produce fast, clear, audience-tailored messages. Through case studies, feedback giving, reflections, students learn to craft workplace artefacts across diverse platforms while developing an authentic, credible presence. Metacognitive-inspired reflections strengthen students’ awareness of when to trust, verify, and refine AI outputs.",
+ "faculty": "Center for Engl Lang Comms",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS2101",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate Degree THEN must not have completed 1 of CS2101X/CS2103/CS2113/ES2002/ES2007D/IS2101 at a grade of at least D",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN COURSES (1) CS2103:D, CS2113:D, ES2002:D, ES2007D:D, IS2101:D, CS2101X:D",
+ "prerequisite": "If undertaking an Undergraduate Degree THEN must have completed EP ENGLISH LANGUAGE PROFICIENCY TEST at a grade of at least N AND must be undertaking 1 of 2001CEGHON Bachelor of Engineering (Computer Engineering) (Hons), 0300ISPHON Bachelor of Computing (Information Security) (Hons) Co-op, 0300ISHON Bachelor of Computing (Information Systems) (Hons), 0300ISCHON Bachelor of Computing (Information Security) (Hons), 0300CSHON Bachelor of Computing (Computer Science) (Hons), 0300AIHON Bachelor of Computing (Artificial Intelligence) (Hons)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN SUBJECTS EP:N AND PROGRAMS MUST_BE_IN (1) 2001CEGHON, 0300ISPHON, 0300ISHON, 0300ISCHON, 0300CSHON, 0300AIHON",
+ "title": "Effective Communication for Computing Professionals",
+ "workload": [
+  2,
+  2,
+  0,
+  4,
+  2
+ ],
+ "semesterData": [
+  {
+   "covidZones": [],
+   "semester": 1
+  },
+  {
+   "covidZones": [],
+   "semester": 2
+  }
+ ],
+ "fulfillRequirements": [
+  "IS3103",
+  "CP3880",
+  "CP3880E",
+  "CP3881",
+  "CP3880X"
+ ]
+}

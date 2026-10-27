@@ -1,0 +1,21 @@
+{
+ "acadYear": "2026/2027",
+ "department": "Computer Science",
+ "description": "This 1-Unit course adds a research component to the host course, enabling students to acquire more in-depth understanding of the research issues pertaining to the subject matter.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS2100R",
+ "moduleCredit": "1",
+ "preclusion": "If undertaking an Undergraduate DegreeTHENmust not be undertaking 0604ELEHON Bachelor of Engineering (Electrical Engineering) (Hons), 2001CEGHON Bachelor of Engineering (Computer Engineering) (Hons)",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN PROGRAMS MUST_NOT_BE_IN 0604ELEHON, 2001CEGHON",
+ "prerequisiteAdvisory": "Co-read with host course in current semester or pass host course in previous semester. Student selection process is enforced.",
+ "title": "Computer Organisation",
+ "workload": [
+  0,
+  0,
+  0,
+  2,
+  1
+ ],
+ "semesterData": []
+}

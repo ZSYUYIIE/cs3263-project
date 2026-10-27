@@ -1,0 +1,32 @@
+{
+ "acadYear": "2026/2027",
+ "department": "Yale-NUS College",
+ "description": "This course embarks on a deep study of the real numbers and functions of a single real variable. Fundamental properties of real numbers – arithmetic, distance, limit, convergence, order – are developed from scratch. From there, the course delves into the inner workings of calculus, the general notions of continuity, differentiability, measure, and integration, for functions of one real variable.",
+ "faculty": "Yale-NUS College",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "YSC3206",
+ "moduleCredit": "5",
+ "preclusion": "if undertaking an Undergraduate Degree then ( must not have completed all of \"MA3110\"/MA2108 at a grade of at least D )",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (2) MA2108:D, MA3110:D)",
+ "prerequisite": "if undertaking an Undergraduate Degree then ( must have completed 1 of YSC2209/YSC2232 at a grade of at least D )",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) YSC2209:D, YSC2232:D)",
+ "title": "Introduction to Real Analysis",
+ "workload": [
+  0,
+  4,
+  0,
+  0,
+  8.5
+ ],
+ "semesterData": [],
+ "prereqTree": {
+  "or": [
+   "YSC2209:D",
+   "YSC2232:D"
+  ]
+ },
+ "fulfillRequirements": [
+  "YSC4206",
+  "YSC4210"
+ ]
+}

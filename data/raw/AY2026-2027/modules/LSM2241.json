@@ -1,0 +1,33 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true
+ },
+ "department": "Biological Sciences",
+ "description": "Students will be introduced to the concepts, tools and techniques of bioinformatics, a field of immense importance for understanding molecular evolution, individualized medicine, and data intensive biology. The course includes a conceptual framework for modern bioinformatics, an introduction to key bioinformatics topics such as databases and software, sequence analysis, pairwise alignment, multiple sequence alignment, sequence database searches, and profile-based methods, molecular phylogenetics, visualization and basic homology modelling of molecular structure, pathway analysis and personal genomics. Concepts emphasized in the lectures are complemented by hands-on use of bioinformatics tools in the practicals.",
+ "faculty": "Science",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "LSM2241",
+ "moduleCredit": "4",
+ "prerequisite": "If undertaking an Undergraduate Degree THEN ( must have completed 11 BIOLOGY at a grade of at least E OR must have completed LSM1301 at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (SUBJECTS (1) 11:E, 0011:E OR COURSES LSM1301:D)",
+ "title": "Introductory Bioinformatics",
+ "workload": [
+  2,
+  0,
+  2,
+  1,
+  5
+ ],
+ "semesterData": [],
+ "prereqTree": "LSM1301:D",
+ "fulfillRequirements": [
+  "CS4220R",
+  "CS3225",
+  "CS4220",
+  "CS4330",
+  "LSM3241",
+  "MA3259",
+  "ZB3101"
+ ]
+}

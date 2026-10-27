@@ -1,0 +1,73 @@
+{
+ "acadYear": "2026/2027",
+ "corequisite": "If undertaking an Undergraduate Degree THEN must be enrolled in CN2116",
+ "corequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN COURSES CN2116",
+ "department": "Chemical and Biomolecular Engineering",
+ "description": "This module introduces model formulation for various chemical and environmental processes and numerical techniques in solving the associated algebraic and differential equations. Students also learn data sampling and analysis, hypothesis testing and experimental design essential for today?s chemical and environmental engineers. This course covers the formulation of process models and necessary numerical techniques for solving the model equations arising in thermodynamics, fluid mechanics, heat and mass transfer, reaction engineering, transport phenomena, and process systems engineering. The numerical techniques include methods for solving systems of linear and non-linear algebraic equations and systems of linear and non-linear ordinary and partial differential equations. Direct and iterative techniques, numerical differentiation and integration, error propagation, convergence and stability analysis are taught, followed by basic concepts of probability, discrete and continuous random variables, expected values, joint probability distributions, and independence. Hypothesis testing, least square regression, experimental design and sensitivity analysis are also introduced. This module is targeted at level 3 chemical and environmental engineering students.",
+ "faculty": "College of Design and Engineering",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CN3421",
+ "moduleCredit": "4",
+ "prerequisite": "If undertaking an Undergraduate Degree THEN ((must be in one of the cohorts prior to 2016 inclusive AND must have completed all of MA1505/MA1506 at a grade of at least D) OR (must be in one of the cohorts from 2017 inclusive AND must have completed all of MA1511/MA1512/MA1513 at a grade of at least D))",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN ((COHORT_YEARS MUST_BE_IN E:2016 AND COURSES (2) MA1505:D, MA1506:D) OR (COHORT_YEARS MUST_BE_IN S:2017 AND COURSES (3) MA1511:D, MA1512:D, MA1513:D))",
+ "title": "Process Modeling And Numerical Simulation",
+ "workload": [
+  3,
+  1,
+  0,
+  1.5,
+  5.5
+ ],
+ "semesterData": [],
+ "prereqTree": {
+  "or": [
+   {
+    "and": [
+     {
+      "cohort": {
+       "rule": "MUST_BE_IN",
+       "years": [
+        "E:2016"
+       ]
+      }
+     },
+     {
+      "nOf": [
+       2,
+       [
+        "MA1505:D",
+        "MA1506:D"
+       ]
+      ]
+     }
+    ]
+   },
+   {
+    "and": [
+     {
+      "cohort": {
+       "rule": "MUST_BE_IN",
+       "years": [
+        "S:2017"
+       ]
+      }
+     },
+     {
+      "nOf": [
+       3,
+       [
+        "MA1511:D",
+        "MA1512:D",
+        "MA1513:D"
+       ]
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "fulfillRequirements": [
+  "CN4123",
+  "CN4118R"
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "acadYear": "2026/2027",
+ "department": "Yale-NUS College",
+ "description": "This course covers the basics of calculus-based college-level physics, including conservation of energy and momentum, kinematics and Newton’s laws, and the basics of electric and magnetic fields. As a comprehensive introductory course, this is a gateway course for the Physical Sciences major that is also suitable for non-majors wishing to build physical intuition or enter medical programs. Several labs will connect theory to the physics that describes reality",
+ "faculty": "Yale-NUS College",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "YSC1213",
+ "moduleCredit": "5",
+ "preclusion": "if undertaking an Undergraduate Degree then ( must not have completed all of \"PC1221\"/\"PC1222\" at a grade of at least D )",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (2) PC1221:D, PC1222:D)",
+ "prerequisite": "if undertaking an Undergraduate Degree then ( must have completed YSC1216 at a grade of at least D )",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) YSC1216:D)",
+ "title": "General Physics",
+ "workload": [
+  0,
+  4,
+  0.5,
+  6,
+  2
+ ],
+ "semesterData": [],
+ "prereqTree": "YSC1216:D",
+ "fulfillRequirements": [
+  "YSC2225",
+  "YSC2237",
+  "YSC2203",
+  "YSC2246",
+  "YSC3213",
+  "YSC3224",
+  "YSC3246",
+  "YSC3259",
+  "YSC3262",
+  "YSC3264"
+ ]
+}

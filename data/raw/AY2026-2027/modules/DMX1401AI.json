@@ -1,0 +1,35 @@
+{
+ "acadYear": "2026/2027",
+ "department": "Office of the Provost",
+ "description": "Not Available",
+ "faculty": "Non-Faculty-based Departments",
+ "gradingBasisDescription": "Completed Satisfactory/Unsatisfactory",
+ "moduleCode": "DMX1401AI",
+ "moduleCredit": "4",
+ "title": "Design Your Own Course",
+ "workload": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "semesterData": [
+  {
+   "covidZones": [],
+   "semester": 1
+  },
+  {
+   "covidZones": [],
+   "semester": 2
+  },
+  {
+   "covidZones": [],
+   "semester": 3
+  },
+  {
+   "covidZones": [],
+   "semester": 4
+  }
+ ]
+}

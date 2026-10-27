@@ -1,0 +1,48 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true
+ },
+ "department": "Mathematics",
+ "description": "Optimisation principles are of undisputed importance in modern design and system operation. The objective of this course is to present these principles and illustrate how algorithms can be designed from the mathematical theories for solving optimisation problems. Major topics: Fundamentals, unconstrained optimisation: one-dimensional search, Newton-Raphson method, gradient method, constrained optimisation: Lagrangian multipliers method, Karush-Kuhn-Tucker optimality conditions, Lagrangian duality and saddle point optimality conditions, convex programming: Frank-Wolfe method.",
+ "faculty": "Science",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "MA3236",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate Degree THEN (( must not have completed 1 of DBA3701/DSA3102/DSN3701 at a grade of at least D) AND (must not be undertaking 1 of 1006DSAHON Bachelor of Science (Data Science and Analytics) (Hons), 1006DSEXDP Bachelor of Science - Data Sci & Econs (Hons) XDP))",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN ((COURSES (1) DSA3102:D, DBA3701:D, DSN3701:D) AND (PROGRAMS MUST_NOT_BE_IN (1) 1006DSAHON, 1006DSEXDP))",
+ "prerequisite": "If undertaking an Undergraduate Degree THEN ( must have completed 1 of MA1505/MA1511/MA2104/MA2311 at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) MA1505:D, MA1511:D, MA2104:D, MA2311:D)",
+ "title": "Non-Linear Programming",
+ "workload": [
+  3,
+  1,
+  0,
+  0,
+  6
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1,
+   "examDate": "2026-11-24T01:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": {
+  "or": [
+   "MA1505:D",
+   "MA1511:D",
+   "MA2104:D",
+   "MA2311:D"
+  ]
+ },
+ "fulfillRequirements": [
+  "MA4272",
+  "MA4264",
+  "MA5243",
+  "MA4260"
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "acadYear": "2026/2027",
+ "additionalInformation": "NIL",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true,
+  "su": true
+ },
+ "department": "Mechanical Engineering",
+ "description": "This course is designed to equip Mechanical Engineering students with essential knowledge and skills in Mechatronics and Automation. Key topics include circuit analysis, basic electronics, sequential circuits, sensors, signal conditioning, AC circuits, AC power, and electrical to mechanical energy conversion. By the end of the course, students will be capable of designing and constructing basic mechatronic systems. To enhance theoretical understanding, the course includes three laboratory sessions. These hands-on experiences allow students to work with mechatronic instruments, sensors, construct electrical circuits, and operate both DC and AC motors, thereby providing practical insights into the operation and integration of mechatronic components.",
+ "faculty": "College of Design and Engineering",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "ME2105",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate DegreeTHENmust not have completed ESP2111/ME2104/ME2143/TME2143 at a grade of at least D",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN COURSES ME2104:D, ME2143:D, TME2143:D, ESP2111:D",
+ "title": "Principles of Mechatronics and Automation",
+ "workload": [
+  3,
+  1,
+  1,
+  0,
+  5
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C",
+    "Unknown"
+   ],
+   "semester": 1,
+   "examDate": "2026-12-01T05:00:00.000Z",
+   "examDuration": 120
+  },
+  {
+   "covidZones": [
+    "Unknown",
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-05-03T01:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "fulfillRequirements": [
+  "EE4513",
+  "CG2027"
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true
+ },
+ "department": "Computer Science",
+ "description": "After the complete sequencing of a number of genomes, we are in the stage to understand the mystery of our body, that is, we need to understand the information encoded in the genome and its relationship with RNA and protein. This aim of this course is to cover algorithms related to this stage. In the course, we will cover the algorithms related to genome annotation, motif identification, proteomics, population genetics, microarray, etc.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS3225",
+ "moduleCredit": "4",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHEN( must have completed 1 of CS2220/LSM2104/LSM2241 at a grade of at least DANDmust have completed 1 of CS2040/CS2040C/CS2040DE/CS2040HS/CS2040S at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CS2220:D, LSM2104:D, LSM2241:D AND COURSES (1) CS2040:D, CS2040S:D, CS2040C:D, CS2040DE:D, CS2040HS:D)",
+ "title": "Combinatorial Methods in Bioinformatics",
+ "workload": [
+  2,
+  1,
+  0,
+  4,
+  3
+ ],
+ "semesterData": [],
+ "prereqTree": {
+  "and": [
+   {
+    "or": [
+     "CS2220:D",
+     "LSM2104:D",
+     "LSM2241:D"
+    ]
+   },
+   {
+    "or": [
+     "CS2040:D",
+     "CS2040S:D",
+     "CS2040C:D",
+     "CS2040DE:D",
+     "CS2040HS:D"
+    ]
+   }
+  ]
+ }
+}

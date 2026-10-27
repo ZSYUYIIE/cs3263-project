@@ -1,0 +1,58 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true
+ },
+ "department": "Computer Science",
+ "description": "This course examines fundamental aspects of computation that every computer scientist should know. What is a finite automaton and how does it relate to regular expressions (and searching a database)? What is a context-free language and how does it relate to parsing languages? What is the P vs. NP problem and why does it matter? How do we decide if a problem is easy or hard? This course introduces techniques for precisely formulating problems and studying their properties using a variety of commonly used reasoning techniques (e.g., model equivalence, non-determinism, digitalisation, simulation and reduction).",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS3231",
+ "moduleCredit": "4",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHEN( must have completed 1 of CS1231/CS1231S/MA1100/MA1100T at a grade of at least DANDmust have completed 1 of CS2040/CS2040C/CS2040DE/CS2040HS/CS2040S at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CS1231:D, CS1231S:D, MA1100T:D, MA1100:D AND COURSES (1) CS2040:D, CS2040S:D, CS2040C:D, CS2040DE:D, CS2040HS:D)",
+ "title": "Theory of Computation",
+ "workload": [
+  2,
+  1,
+  0,
+  3,
+  4
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1,
+   "examDate": "2026-11-21T01:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": {
+  "and": [
+   {
+    "or": [
+     "CS1231:D",
+     "CS1231S:D",
+     "MA1100T:D",
+     "MA1100:D"
+    ]
+   },
+   {
+    "or": [
+     "CS2040:D",
+     "CS2040S:D",
+     "CS2040C:D",
+     "CS2040DE:D",
+     "CS2040HS:D"
+    ]
+   }
+  ]
+ },
+ "fulfillRequirements": [
+  "CS5236",
+  "CS5230",
+  "CS4430"
+ ]
+}

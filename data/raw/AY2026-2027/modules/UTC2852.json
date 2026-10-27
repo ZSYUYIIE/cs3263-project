@@ -1,0 +1,43 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "su": true
+ },
+ "department": "Acacia College",
+ "description": "With Artificial Intelligence (AI) increasingly shaping the world, understanding computational thinking and reasoning is becoming more essential. This course aims to empower students with the ability to model thought processes using computational thinking and reasoning methods. By combining theoretical discussions with hands-on problem-solving exercises, the course encourages critical reflection on how machines simulate human reasoning. Students will learn fundamental concepts in symbolic logic and computational models of thought through an easy-to-learn declarative language, and examples from their respective disciplines. The course is suitable for students from the arts, humanities, social sciences, business, law, medicine, and related disciplines.",
+ "faculty": "Residential College",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "UTC2852",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate DegreeTHEN( must not have completed UTC2851 at a grade of at least D)",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) UTC2851:D)",
+ "title": "Computational Thinking with AI",
+ "workload": [
+  0,
+  0,
+  0,
+  7,
+  3
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "Unknown"
+   ],
+   "semester": 1,
+   "examDate": "2026-11-23T01:00:00.000Z",
+   "examDuration": 120
+  },
+  {
+   "covidZones": [
+    "Unknown"
+   ],
+   "semester": 2,
+   "examDate": "2027-05-04T05:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "fulfillRequirements": [
+  "NM2228"
+ ]
+}

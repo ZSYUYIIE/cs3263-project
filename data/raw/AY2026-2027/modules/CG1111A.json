@@ -1,0 +1,40 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "su": true
+ },
+ "department": "Computing and Engineering Programme",
+ "description": "This course is the first of the two Engineering Principles and Practice (EPP) courses taken by computer engineering students, which aim to inculcate in them the computer engineer's way of thinking. They are first taught the fundamental principles of electronic circuits through experiential learning, along which they also build up their hands-on circuit designing, building, and debugging skills. They are then guided to apply these principles and skills to build a sensor-assisted autonomous robotic vehicle as a grand finale challenge. Upon completing the course, they can appreciate the importance of circuits, signals, and sensors in system implementation.",
+ "faculty": "Multi-Disciplinary Prog (CEG)",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CG1111A",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate DegreeTHENmust not have completed 1 of BN2111/EE1111B/EE2111A/ESP2111/ME2104/ME2105/RB2101",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN COURSES (1) BN2111, EE1111B, EE2111A, ME2104, ESP2111, ME2105, RB2101",
+ "title": "Engineering Principles and Practice I",
+ "workload": [
+  0,
+  1,
+  5,
+  1.5,
+  2.5
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C",
+    "Unknown"
+   ],
+   "semester": 1
+  }
+ ],
+ "fulfillRequirements": [
+  "EE2027",
+  "EE2022",
+  "EE2026",
+  "EE2028",
+  "EE4513",
+  "CG2027"
+ ]
+}

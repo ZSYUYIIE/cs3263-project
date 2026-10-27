@@ -1,0 +1,61 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true
+ },
+ "department": "Computer Science",
+ "description": "The Internet of Things (IoT), where a large number of physical objects embedded with computing power and sensors connect to the network for seamless cooperation between the cyber domain and the physical world, is revolutionizing our lives. This course will serve as an introduction to the IoT and provide a holistic view of the entire spectrum of the IoT system architecture from the devices to the fog and the cloud computing. The focus will be on designing IoT systems that balance both the functional and non-functional (communication bandwidth, security, safety, power) requirements. The course will have a significant project component.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS3237",
+ "moduleCredit": "4",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHEN( must have completed 1 of CG2028/CS2100/CS2100DE/CS2100HS/EE2024/EE2028 at a grade of at least DANDmust have completed 1 of CS1010/CS1010A/CS1010E/CS1010HS/CS1010J/CS1010S/CS1010X/CS1101S/UTC2851 at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) EE2028:D, EE2024:D, CG2028:D, CS2100:D, CS2100DE:D, CS2100HS:D AND COURSES (1) CS1010:D, CS1101S:D, CS1010X:D, CS1010E:D, CS1010J:D, CS1010S:D, CS1010A:D, CS1010HS:D, UTC2851:D)",
+ "title": "Introduction to Internet of Things",
+ "workload": [
+  2,
+  0,
+  2,
+  3,
+  3
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1
+  }
+ ],
+ "prereqTree": {
+  "and": [
+   {
+    "or": [
+     "EE2028:D",
+     "EE2024:D",
+     "CG2028:D",
+     "CS2100:D",
+     "CS2100DE:D",
+     "CS2100HS:D"
+    ]
+   },
+   {
+    "or": [
+     "CS1010:D",
+     "CS1101S:D",
+     "CS1010X:D",
+     "CS1010E:D",
+     "CS1010J:D",
+     "CS1010S:D",
+     "CS1010A:D",
+     "CS1010HS:D",
+     "UTC2851:D"
+    ]
+   }
+  ]
+ },
+ "fulfillRequirements": [
+  "CS4276",
+  "CS5476"
+ ]
+}

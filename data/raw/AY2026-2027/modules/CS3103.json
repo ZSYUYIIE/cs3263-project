@@ -1,0 +1,41 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true
+ },
+ "department": "Computer Science",
+ "description": "This course aims to provide an opportunity for the students to learn commonly-used network protocols in greater technical depth with their implementation details than a basic networking course. Students will perform hands-on experiments in configuring and interconnecting LANs using networking devices/technologies (e.g., routers, switches, SDN switches, and hubs), networking protocols (e.g., DHCP, DNS, RIP, OSPF, ICMP, TCP, UDP, wireless LAN, VLAN protocols, SIP, SSL, IPSec-VPN) and networking tools (e.g, tcpdump, netstat, ping, traceroute). Students will learn higher-layer network protocols and develop network applications (client/server, P2P) via socket programming.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS3103",
+ "moduleCredit": "4",
+ "prerequisite": "if undertaking an Undergraduate Degree then ( must have completed 1 of \"EE3204\"/\"EE3204E\"/CS2105/EE4204 at a grade of at least D )",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CS2105:D, EE3204:D, EE3204E:D, EE4204:D)",
+ "title": "Computer Networks Practice",
+ "workload": [
+  2,
+  0,
+  2,
+  4,
+  2
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1
+  }
+ ],
+ "prereqTree": {
+  "or": [
+   "CS2105:D",
+   "EE3204:D",
+   "EE3204E:D",
+   "EE4204:D"
+  ]
+ },
+ "fulfillRequirements": [
+  "CS4344"
+ ]
+}

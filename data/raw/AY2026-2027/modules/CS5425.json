@@ -1,0 +1,53 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "lab": true,
+  "mpes1": true,
+  "mpes2": true
+ },
+ "department": "Computer Science",
+ "description": "Data science incorporates varying elements and builds on techniques and theories from many fields, including statistics, data engineering, data mining, visualization, data warehousing, and high-performance computing systems with the goal of extracting meaning from big data and creating data products. Data science needs advanced computing systems such as Apache Hadoop and Spark to address big data challenges. In this course, students will learn various computing systems and optimization techniques that are used in data science with emphasis on the system building and algorithmic optimizations of these techniques.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS5425",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate Degree, Graduate Degree Coursework or Graduate Degree Research THEN ( must not have completed 1 of BT4221/CS4225 at a grade of at least D)",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree, Graduate Degree Coursework, Graduate Degree Research THEN (COURSES (1) BT4221:D, CS4225:D)",
+ "prerequisite": "If undertaking an Undergraduate Degree THEN ( must have completed 1 of CS2102/IT2002 at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CS2102:D, IT2002:D)",
+ "title": "Big Data Systems for Data Science",
+ "workload": [
+  2,
+  1,
+  0,
+  3,
+  4
+ ],
+ "aliases": [
+  "CS4225"
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1,
+   "examDate": "2026-11-28T01:00:00.000Z",
+   "examDuration": 120
+  },
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-04-29T05:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": {
+  "or": [
+   "CS2102:D",
+   "IT2002:D"
+  ]
+ }
+}

@@ -1,0 +1,60 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "lab": true,
+  "mpes1": true
+ },
+ "department": "Computer Science",
+ "description": "This course equips students with the knowledge and practical skills needed to understand and apply cryptography correctly in real-world systems and applications. By the end of the course, students will be able to analyse application requirements involving cryptographic components, identify appropriate primitives, select suitable library implementations, and use them securely with proper parameters. Students will learn to translate application-level security requirements into concrete cryptographic designs, including the selection of primitives and protocols. The course also explores the role and significance of cryptography in modern domains such as blockchain and trustworthy machine learning.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS4236",
+ "moduleCredit": "4",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHEN( must have completed 1 of CS2040/CS2040C/CS2040DE/CS2040HS/CS2040S/YSC2229 at a grade of at least DANDmust have completed CS2107 at a grade of at least DANDmust have completed 1 of CS1231/CS1231S/MA1100/MA1100T at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) YSC2229:D, CS2040:D, CS2040S:D, CS2040C:D, CS2040DE:D, CS2040HS:D AND COURSES (1) CS2107:D AND COURSES (1) CS1231:D, CS1231S:D, MA1100T:D, MA1100:D)",
+ "title": "Cryptography in Practice: Systems and Applications",
+ "workload": [
+  2,
+  1,
+  0,
+  3,
+  4
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1,
+   "examDate": "2026-11-27T06:30:00.000Z",
+   "examDuration": 150
+  }
+ ],
+ "prereqTree": {
+  "and": [
+   {
+    "or": [
+     "YSC2229:D",
+     "CS2040:D",
+     "CS2040S:D",
+     "CS2040C:D",
+     "CS2040DE:D",
+     "CS2040HS:D"
+    ]
+   },
+   "CS2107:D",
+   {
+    "or": [
+     "CS1231:D",
+     "CS1231S:D",
+     "MA1100T:D",
+     "MA1100:D"
+    ]
+   }
+  ]
+ },
+ "fulfillRequirements": [
+  "CS6230",
+  "CS6231"
+ ]
+}

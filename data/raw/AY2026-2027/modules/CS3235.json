@@ -1,0 +1,68 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true
+ },
+ "department": "Computer Science",
+ "description": "The objective of this course is to provide a broad understanding of computer security with some indepth discussions on selected topics in system and network security. This course covers the following topics: intrusion detection, DNS security, electronic mail security, authentication, access control, buffer overflow, memory and stack protection, selected topics in application security, for instance, web security, and well-known attacks.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS3235",
+ "moduleCredit": "4",
+ "prerequisite": "If undertaking an Undergraduate Degree THEN ( must have completed 1 of CS2105/EE3204/EE4204 at a grade of at least D AND must have completed 1 of CG2271/CS2106/YSC3217 at a grade of at least D AND must have completed CS2107 at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CS2105:D, EE3204:D, EE4204:D AND COURSES (1) CS2106:D, YSC3217:D, CG2271:D AND COURSES (1) CS2107:D)",
+ "title": "Computer Security",
+ "workload": [
+  2,
+  1,
+  0,
+  0,
+  3
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1
+  },
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2
+  }
+ ],
+ "prereqTree": {
+  "and": [
+   {
+    "or": [
+     "CS2105:D",
+     "EE3204:D",
+     "EE4204:D"
+    ]
+   },
+   {
+    "or": [
+     "CS2106:D",
+     "YSC3217:D",
+     "CG2271:D"
+    ]
+   },
+   "CS2107:D"
+  ]
+ },
+ "fulfillRequirements": [
+  "CS5231",
+  "IFS4205",
+  "IFS4102",
+  "CS4238",
+  "CS5331",
+  "CS5439",
+  "CS4239",
+  "CS6231",
+  "CS5321",
+  "IFS4103"
+ ]
+}

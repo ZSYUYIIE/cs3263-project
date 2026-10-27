@@ -1,0 +1,46 @@
+{
+ "acadYear": "2026/2027",
+ "department": "Yale-NUS College",
+ "description": "A first course in linear algebra of finite-dimensional real and complex vector spaces, balancing theoretical and computational material. The course covers vectors and linear transformations, building geometric intuition, algebraic aptitude, and computational proficiency. Topics include spaces and subspaces, linear maps, linear independence and spanning, basis, and representations by coordinates and matrices. The theory of linear operators is developed, including eigenvalues and eigenvectors, self-adjoint operators, the spectral theorem, and the singular value decomposition. Some topics from numerical linear algebra, especially implementation of algorithms and assessment of their efficiency are included. Applications to statistics, economics, engineering and science are presented.",
+ "faculty": "Yale-NUS College",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "YSC2232",
+ "moduleCredit": "5",
+ "preclusion": "if undertaking an Undergraduate Degree then ( must not have completed 1 of \"MA1101R\"/\"YSC3205\"/MA1508E/MA1513 at a grade of at least D )",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) YSC3205:D, MA1101R:D, MA1508E:D, MA1513:D)",
+ "prerequisite": "if undertaking an Undergraduate Degree then ( must have completed 1 of YSC1212/YSC1216/YSC2203/YSC2209/YSC2239/YSS2211 at a grade of at least D )",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) YSC1212:D, YSC1216:D, YSC2203:D, YSC2209:D, YSC2239:D, YSS2211:D)",
+ "title": "Linear Algebra",
+ "workload": [
+  0,
+  3,
+  0,
+  0,
+  9.5
+ ],
+ "semesterData": [],
+ "prereqTree": {
+  "or": [
+   "YSC1212:D",
+   "YSC1216:D",
+   "YSC2203:D",
+   "YSC2209:D",
+   "YSC2239:D",
+   "YSS2211:D"
+  ]
+ },
+ "fulfillRequirements": [
+  "YSC3206",
+  "YSC3267",
+  "YSC4206",
+  "YSC4216",
+  "YSC4220",
+  "YSC4227",
+  "YSC4235",
+  "YSC4236",
+  "YSC4238",
+  "YSC4242",
+  "CS4234",
+  "CS4243"
+ ]
+}

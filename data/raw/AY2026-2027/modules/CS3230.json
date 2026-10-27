@@ -1,0 +1,82 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true
+ },
+ "department": "Computer Science",
+ "description": "This course introduces different techniques of designing and analysing algorithms. Students will learn about the framework for algorithm analysis, for example, lower bound arguments, average case analysis, and the theory of NP-completeness. In addition, students are exposed to various algorithm design paradigms. The course serves two purposes: to improve the students' ability to design algorithms in different areas, and to prepare students for the study of more advanced algorithms. The course covers lower and upper bounds, recurrences, basic algorithm paradigms (such as prune-and-search, dynamic programming, branch-and-bound, graph traversal, and randomised approaches), amortized analysis, NP-completeness, and some selected advanced topics.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS3230",
+ "moduleCredit": "4",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHEN( must have completed 1 of CS2040/CS2040C/CS2040DE/CS2040HS/CS2040S/YSC2229 at a grade of at least DANDmust have completed 1 of CS1231/CS1231S/MA1100/MA1100T at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) YSC2229:D, CS2040S:D, CS2040:D, CS2040C:D, CS2040DE:D, CS2040HS:D AND COURSES (1) CS1231:D, CS1231S:D, MA1100T:D, MA1100:D)",
+ "title": "Design and Analysis of Algorithms",
+ "workload": [
+  2,
+  1,
+  0,
+  3,
+  3
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1,
+   "examDate": "2026-11-26T01:00:00.000Z",
+   "examDuration": 150
+  },
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-04-24T01:00:00.000Z",
+   "examDuration": 150
+  }
+ ],
+ "prereqTree": {
+  "and": [
+   {
+    "or": [
+     "YSC2229:D",
+     "CS2040S:D",
+     "CS2040:D",
+     "CS2040C:D",
+     "CS2040DE:D",
+     "CS2040HS:D"
+    ]
+   },
+   {
+    "or": [
+     "CS1231:D",
+     "CS1231S:D",
+     "MA1100T:D",
+     "MA1100:D"
+    ]
+   }
+  ]
+ },
+ "fulfillRequirements": [
+  "CS5237",
+  "CS4235",
+  "CS5238",
+  "CS6210",
+  "CS6215",
+  "CS6235",
+  "CS6244",
+  "CS4231",
+  "CS4268",
+  "CS5430",
+  "CS4230",
+  "CS4257",
+  "CS5234",
+  "CS5275",
+  "CS5562",
+  "CS5330",
+  "CS4234"
+ ]
+}

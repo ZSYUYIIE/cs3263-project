@@ -1,0 +1,50 @@
+{
+ "acadYear": "2026/2027",
+ "additionalInformation": "Those with A-level or H2 pass in Physics or who have passed any of the PC-coded courses are not allowed to read this course.",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true,
+  "su": true
+ },
+ "department": "Physics",
+ "description": "This course aims to bridge the gap between ‘O’-level physics and first-year-level university physics. The course covers two branches of fundamental physics: mechanics and electricity & magnetism. Topics included in mechanics are linear motion, circular motion, Newton’s laws of motion, work and energy, conservation of energy, linear momentum, and simple harmonic motion. Topics included in electricity & magnetism are electric force, field & potential, current & resistance, DC circuits, electromagnetism and electromagnetic induction.",
+ "faculty": "Science",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "PC1201",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate DegreeTHEN( 1 of 08 PHYSICS/ADD. PHYSICS/10 PHYSICS WITH CHEMISTRY/PHY SCI/64 PHYSICS at a grade of at least EANDmust not have completed PC1101 at a grade of at least D)",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (SUBJECTS (1) 08:E, 10:E, 64:E AND COURSES (1) PC1101:D)",
+ "prerequisiteAdvisory": "Pass in ‘O’-level pass in Physics or Combined Science (Physics & Chemistry OR Physics & Biology).",
+ "title": "Fundamentals of Physics",
+ "workload": [
+  3,
+  1,
+  0,
+  2,
+  4
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1,
+   "examDate": "2026-11-25T05:00:00.000Z",
+   "examDuration": 120
+  },
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-04-30T01:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "fulfillRequirements": [
+  "MLE2101",
+  "CS3242",
+  "PC1431",
+  "PC1432"
+ ]
+}

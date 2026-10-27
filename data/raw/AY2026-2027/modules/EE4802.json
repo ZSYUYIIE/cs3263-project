@@ -1,0 +1,60 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes2": true
+ },
+ "department": "Electrical and Computer Engineering",
+ "description": "This course teaches students data analytics and machine learning techniques for solving large scale engineering problems. The course covers statistics and machine learning concepts and algorithms such as linear regression, support vector machine, decision trees, feature engineering, deep learning, and reinforcement learning. How these algorithms are scaled up and incorporated in data engineering pipelines to tackle large scale problems will be covered. Students will be exposed to practical case studies of engineering problems with realistic datasets or streaming data, and perform data engineering operations using software tools.",
+ "faculty": "College of Design and Engineering",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "EE4802",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate DegreeTHEN( must not have completed 1 of CG3201/CS3244/EE4211/IE4213/IT3011 at a grade of at least D)",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) IE4213:D, EE4211:D, CS3244:D, IT3011:D, CG3201:D)",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHEN( must have completed 1 of IT1007 at a grade of at least D, any Courses beginning with CS1010 at a grade of at least DANDmust have completed 1 of BN2102/CE2407/CE2407A/EE2012/EE2012A/ST1131/ST2131/ST2334 at a grade of at least D)",
+ "prerequisiteAdvisory": "1. Minor in Data Engineering students should take EE3801 before EE4802 2. Engineering students should take EE4802/IE4213 3. Familiarity with scientific programming language such as Python. All assignments in class will be done in Python.",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CS1010%:D, IT1007:D AND COURSES (1) EE2012:D, EE2012A:D, ST2334:D, ST1131:D, ST2131:D, CE2407:D, CE2407A:D, BN2102:D)",
+ "title": "Learning from Data",
+ "workload": [
+  3,
+  1,
+  0,
+  2,
+  4
+ ],
+ "aliases": [
+  "IE4213"
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-04-28T01:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": {
+  "and": [
+   {
+    "or": [
+     "CS1010%:D",
+     "IT1007:D"
+    ]
+   },
+   {
+    "or": [
+     "EE2012:D",
+     "EE2012A:D",
+     "ST2334:D",
+     "ST1131:D",
+     "ST2131:D",
+     "CE2407:D",
+     "CE2407A:D",
+     "BN2102:D"
+    ]
+   }
+  ]
+ }
+}

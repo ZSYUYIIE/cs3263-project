@@ -1,0 +1,40 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true,
+  "su": true,
+  "sfs": true,
+  "ssgf": true
+ },
+ "department": "Communications and New Media",
+ "description": "Communication, including scientific and corporate endeavours, is deeply intertwined with the world of computing. From social media to public relations campaigns, from data reporting to web design, from business decision-making to news, from democratic participation to interactive art – the ability to understand and interpret computational media is of fundamental importance. This course offers a hands-on introduction to essential concepts in computational media, focusing on web development and data visualization. Non-programmers are introduced to the fundamentals of industry-standard programming languages, tools, and best practices for web development and data analysis, through hands-on tutorials and programming exercises.",
+ "faculty": "Arts and Social Science",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "NM2207",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate Degree THEN ( must not have completed 1 of any Courses (Modules) beginning with CS1010 at a grade of at least D, CS1101S/NM2207Y at a grade of at least D)",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CS1010%:D, CS1101%:D, NM2207Y:D)",
+ "title": "Computational Media Literacy",
+ "workload": [
+  1,
+  2,
+  0,
+  4,
+  3
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2
+  }
+ ],
+ "fulfillRequirements": [
+  "NM2228",
+  "CS3240",
+  "CS2111",
+  "CS4353"
+ ]
+}

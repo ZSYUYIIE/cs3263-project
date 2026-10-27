@@ -1,0 +1,59 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true
+ },
+ "department": "Computing and Engineering Programme",
+ "description": "This course introduces students to the operation and design of microprocessors and computer hardware, as well as how software interacts with hardware at a low level. Topics include an overview of digital design, CPU microarchitecture, performance enhancement techniques such as pipelining and parallel processing, and memory and I/O systems. The course places a strong emphasis on hands-on experience, with students working in small groups to implement a pipelined processor on an FPGA.",
+ "faculty": "Multi-Disciplinary Prog (CEG)",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CG3207",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate DegreeTHEN( must not have completed TEE3207)",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES TEE3207)",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHEN( must have completed EE2026 at a grade of at least D)AND( must have completed 1 of CG2028/EE2028 at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES EE2026:D) AND (COURSES (1) CG2028:D, EE2028:D)",
+ "title": "Computer Architecture",
+ "workload": [
+  2,
+  1,
+  1,
+  2,
+  4
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1,
+   "examDate": "2026-12-01T05:00:00.000Z",
+   "examDuration": 120
+  },
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-05-04T09:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": {
+  "and": [
+   "EE2026:D",
+   {
+    "or": [
+     "CG2028:D",
+     "EE2028:D"
+    ]
+   }
+  ]
+ },
+ "fulfillRequirements": [
+  "EE5902",
+  "CS4223R",
+  "CS4223"
+ ]
+}

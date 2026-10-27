@@ -1,0 +1,59 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "lab": true,
+  "mpes2": true
+ },
+ "department": "Computer Science",
+ "description": "This course will introduce basics of quantum computing and cover various well known algorithms e.g. Deutsch-Jozsa algorithm, Simon’s algorithms, quantum Fourier transform, phase estimation, order finding, Shor’s algorithm and Grover’s algorithm. The course will also cover some basics in quantum information theory, cryptography and error correction.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS4268",
+ "moduleCredit": "4",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHEN( must have completed CS3230 at a grade of at least DANDmust have completed 1 of EE2012/EE2012A/MA2116/MA2116T/MA2216/ST2131/ST2334 at a grade of at least DANDmust have completed 1 of MA1101R/MA1311/MA1508E/MA1513/MA1522/MA2001 at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CS3230:D AND COURSES (1) EE2012A:D, EE2012:D, ST2131:D, MA2216:D, ST2334:D, MA2116:D, MA2116T:D AND COURSES (1) MA1101R:D, MA1311:D, MA1508E:D, MA1513:D, MA1522:D, MA2001:D)",
+ "title": "Quantum Computing",
+ "workload": [
+  2,
+  1,
+  0,
+  3,
+  4
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-04-26T09:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": {
+  "and": [
+   "CS3230:D",
+   {
+    "or": [
+     "EE2012A:D",
+     "EE2012:D",
+     "ST2131:D",
+     "MA2216:D",
+     "ST2334:D",
+     "MA2116:D",
+     "MA2116T:D"
+    ]
+   },
+   {
+    "or": [
+     "MA1101R:D",
+     "MA1311:D",
+     "MA1508E:D",
+     "MA1513:D",
+     "MA1522:D",
+     "MA2001:D"
+    ]
+   }
+  ]
+ }
+}

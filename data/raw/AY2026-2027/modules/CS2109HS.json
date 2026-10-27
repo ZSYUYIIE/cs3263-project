@@ -1,0 +1,70 @@
+{
+ "acadYear": "2026/2027",
+ "additionalInformation": "Courses that depend on CS2109S would expect that students have been exposed to the following: An evaluation of the machine learning part, so that students have some basic knowledge of what to look out for when deploying machine learning An introduction to transformers for the deep learning part, as it has become the dominant architecture in practice”",
+ "department": "FoS Dean's Office",
+ "description": "This course introduces basic concepts in artificial intelligence and machine learning and examines the associated techniques. Topics covered include search algorithms, optimisation tools, introductions to supervised and unsupervised learning, including neural networks and model validation. Applications and ethical considerations will be discussed.",
+ "faculty": "Science",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS2109HS",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate Degree THEN ( must not have completed 1 of CG3201/CS2109S/CS3243/CS3244/DMX1401AI/EE2211/IT3011 at a grade of at least D) AND ((must not be undertaking 0300CS2MJ Computer Science (2nd Major)) AND (must not be undertaking 0300CSMIN Computer Science (Minor)) AND (must not be undertaking 0300CSHON Bachelor of Computing (Computer Science) (Hons)))",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CG3201:D, CS3243:D, CS3244:D, DMX1401AI:D, EE2211:D, IT3011:D, CS2109S:D) AND ((2ND_MAJOR MUST_NOT_BE_IN 0300CS2MJ) AND (MINOR MUST_NOT_BE_IN 0300CSMIN) AND (PROGRAMS MUST_NOT_BE_IN 0300CSHON))",
+ "prerequisite": "If undertaking an Undergraduate Degree THEN ( must have completed 1 of CS2040/CS2040C/CS2040DE/CS2040HS/CS2040S/YSC2229 at a grade of at least D AND ( must have completed all of MA1511/MA1512 at a grade of at least D OR must have completed 1 of MA1312/MA1505/MA1521/MA1531/MA2002 at a grade of at least D))",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CS2040:D, CS2040C:D, CS2040DE:D, CS2040HS:D, CS2040S:D, YSC2229:D AND (COURSES (2) MA1511:D, MA1512:D OR COURSES (1) MA1312:D, MA1505:D, MA1521:D, MA2002:D, MA1531:D))",
+ "title": "Introduction to AI and Machine Learning",
+ "workload": [
+  2,
+  2,
+  0,
+  3,
+  3
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1,
+   "examDate": "2026-11-30T01:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": {
+  "and": [
+   {
+    "or": [
+     "CS2040:D",
+     "CS2040C:D",
+     "CS2040DE:D",
+     "CS2040HS:D",
+     "CS2040S:D",
+     "YSC2229:D"
+    ]
+   },
+   {
+    "or": [
+     {
+      "nOf": [
+       2,
+       [
+        "MA1511:D",
+        "MA1512:D"
+       ]
+      ]
+     },
+     "MA1312:D",
+     "MA1505:D",
+     "MA1521:D",
+     "MA2002:D",
+     "MA1531:D"
+    ]
+   }
+  ]
+ },
+ "fulfillRequirements": [
+  "CP4285",
+  "CS4248",
+  "CS3263",
+  "CS3268"
+ ]
+}

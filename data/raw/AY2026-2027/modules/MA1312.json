@@ -1,0 +1,47 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes2": true,
+  "su": true
+ },
+ "department": "Mathematics",
+ "description": "This course contains the main ideas of calculus that are often encountered in the formulation and solution of practical problems. The approach of this course is intuitive and heuristic. The objective is to develop a competent working knowledge of the main concepts and methods introduced. This course is also designed for students who intend to do a minor in mathematics or for those who are keen to pick up some mathematical skills that might be useful in their own areas of studies.",
+ "faculty": "Science",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "MA1312",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate Degree THEN (( must not have completed 1 of MA1505/MA1511/MA1521/MA2002 at a grade of at least D) AND (must not be undertaking 1 of 0601BMEHON Bachelor of Engineering (Biomedical Engineering) (Hons), 0602CHEHON Bachelor of Engineering (Chemical Engineering) (Hons), 0604ELEHON Bachelor of Engineering (Electrical Engineering) (Hons), 0605ESPHON Bachelor of Engineering (Engineering Science) (Hons), 0607ISEHON Bachelor of Engineering (Industrial and Systems Engineering) (Hons), 0608MSEHON Bachelor of Engineering (Materials Science and Engineering) (Hons), 0609MEHON Bachelor of Engineering (Mechanical Engineering) (Hons), 0611CHEHON Bachelor of Technology (Chemical Engineering) (Hons), 0611ELCHON Bachelor of Technology (Electronics Engineering) (Hons), 0611IMEHON Bachelor of Technology (Industrial & Mgt Engineering) (Hons), 0611MEHON Bachelor of Technology (Mechanical Engineering) (Hons), 0613CEHON Bachelor of Engineering (Civil Engineering) (Hons), 0613EVEHON Bachelor of Engineering (Environmental Engineering) (Hons), 2001CEGHON Bachelor of Engineering (Computer Engineering) (Hons)))",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN ((COURSES (1) MA1505:D, MA1521:D, MA1511:D, MA2002:D) AND (PROGRAMS MUST_NOT_BE_IN (1) 0600ENGMAJ, 0601BMEHON, 0602CHEHON, 0604CPEHON, 0604ELEHON, 0605ESPHON, 0607ISEHON, 0608MSEHON, 0609MEHON, 0611CHEHON, 0611ELCHON, 0611IMEHON, 0611MEHON, 0613CEHON, 0613EVEHON, 2001CEGHON))",
+ "prerequisite": "If undertaking an Undergraduate Degree THEN (( must have completed 1 of 06 MATHEMATICS/07 FURTHER MATHEMATICS at a grade of at least E) OR ( must have completed 1 of MA1301/MA1301X at a grade of at least D))",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN ((SUBJECTS (1) 06:E, 07:E) OR (COURSES (1) MA1301:D, MA1301X:D))",
+ "title": "Calculus with Applications",
+ "workload": [
+  3,
+  1,
+  0,
+  0,
+  6
+ ],
+ "semesterData": [],
+ "prereqTree": {
+  "or": [
+   "MA1301:D",
+   "MA1301X:D"
+  ]
+ },
+ "fulfillRequirements": [
+  "ESE1001",
+  "IS4242",
+  "CS2251",
+  "CS2109S",
+  "MA2312",
+  "DSA2102",
+  "MA2213",
+  "ST2334",
+  "MA2116",
+  "MA2311",
+  "DSA3361",
+  "ST2131",
+  "CS2109HS"
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "grsu": true,
+  "mpes1": true
+ },
+ "department": "Electrical and Computer Engineering",
+ "description": "The aim of this course is to provide a comprehensive introduction of various topics in computer vision, including: image formation, object recognition, image features, camera calibration, epipolar geometry, depth from stereo and video, Markov random fields, motion analysis, and some low-level vision. The course focuses on both the principles of these vision topics and their associated mathematical and computational tools. By the end of the course, students are expected to understand and to be able to implement some computer vision algorithms from the low level to high level.",
+ "faculty": "College of Design and Engineering",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "EE5731",
+ "moduleCredit": "4",
+ "preclusion": "(If undertaking a Graduate Degree Coursework OR if undertaking an Undergraduate Degree OR if undertaking a Graduate Degree Research) THEN ( must not have completed 1 of EE4212/EE5731R/EE6904 at a grade of at least D)",
+ "preclusionRule": "(PROGRAM_TYPES IF_IN Graduate Degree Coursework OR PROGRAM_TYPES IF_IN Undergraduate Degree OR PROGRAM_TYPES IF_IN Graduate Degree Research) THEN (COURSES (1) EE6904:D, EE5731R:D, EE4212:D)",
+ "prerequisite": "If undertaking an Undergraduate Degree THEN ( must have completed EE4704 at a grade of at least D)",
+ "prerequisiteAdvisory": "Advisory to UG level students: EE4704. Advisory: require skill in Matlab programming; or Advisory to GD level students: Requires knowledge in Math (Linear Algebra, Calculus, Statistic/Probabilistic) and skill in Matlab programming.",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES EE4704:D)",
+ "title": "Visual Computing",
+ "workload": [
+  3,
+  0,
+  0,
+  3,
+  4
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1,
+   "examDate": "2026-11-25T05:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": "EE4704:D",
+ "fulfillRequirements": [
+  "EE6901",
+  "EE6903",
+  "EE6733",
+  "EE6934"
+ ]
+}

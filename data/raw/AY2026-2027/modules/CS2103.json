@@ -1,0 +1,95 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true
+ },
+ "department": "Computer Science",
+ "description": "This course introduces the necessary conceptual and analytical tools for systematic and rigorous development of software systems. It covers four main areas of software development, namely object-oriented system analysis, object-oriented system modelling and design, implementation, and testing, with emphasis on system modelling and design and implementation of software courses that work cooperatively to fulfill the requirements of the system. Tools and techniques for software development, such as Unified Modelling Language (UML), program specification, and testing methods, will be taught. Major software engineering issues such as modularisation criteria, program correctness, and software quality will also be covered.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS2103",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate Degree THEN ( must not have completed 1 of CS2103DE/CS2103T/CS2113/CS2113T at a grade of at least D)",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CS2103T:D, CS2103DE:D, CS2113:D, CS2113T:D)",
+ "prerequisite": "If undertaking an Undergraduate Degree THEN (( must have completed 1 of CS2030/CS2030DE/CS2030HS/CS2030S at a grade of at least D) AND ( must have completed 1 of CS2040/CS2040C/CS2040DE/CS2040HS/CS2040S at a grade of at least D))",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN ((COURSES (1) CS2030S:D, CS2030:D, CS2030DE:D, CS2030HS:D) AND (COURSES (1) CS2040S:D, CS2040:D, CS2040C:D, CS2040HS:D, CS2040DE:D))",
+ "title": "Software Engineering",
+ "workload": [
+  2,
+  1,
+  0,
+  3,
+  4
+ ],
+ "aliases": [
+  "CS2103T"
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1,
+   "examDate": "2026-11-30T01:00:00.000Z",
+   "examDuration": 90
+  },
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-05-03T01:00:00.000Z",
+   "examDuration": 90
+  }
+ ],
+ "prereqTree": {
+  "and": [
+   {
+    "or": [
+     "CS2030S:D",
+     "CS2030:D",
+     "CS2030DE:D",
+     "CS2030HS:D"
+    ]
+   },
+   {
+    "or": [
+     "CS2040S:D",
+     "CS2040:D",
+     "CS2040C:D",
+     "CS2040HS:D",
+     "CS2040DE:D"
+    ]
+   }
+  ]
+ },
+ "fulfillRequirements": [
+  "CS5272",
+  "CS6880",
+  "CS3217",
+  "CS3203",
+  "CS3202",
+  "CS3201",
+  "CP3101A",
+  "CS5439",
+  "CS4239",
+  "CS5232",
+  "CS5246",
+  "CS3219",
+  "CS3213",
+  "CS3227",
+  "CP3880",
+  "CP3880E",
+  "CP3881",
+  "CP3880X",
+  "CS3281",
+  "CS3216",
+  "CS4353",
+  "CS4211",
+  "BT3102",
+  "IS4302",
+  "CS4354",
+  "CG3002"
+ ]
+}

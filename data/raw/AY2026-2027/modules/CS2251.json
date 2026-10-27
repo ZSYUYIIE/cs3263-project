@@ -1,0 +1,87 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true
+ },
+ "department": "Computer Science",
+ "description": "Optimization is central to modern machine learning and artificial intelligence. This course provides a comprehensive introduction to the mathematical and theoretical foundations of optimization. Students will learn to formulate and analyse machine learning and optimization problems, such as regression, neural networks, and linear and quadratic programs. The Support Vector Machines problem will be discussed as a well-known example of convex optimization with inequality constraints. Students will explore a variety of gradient-based optimization techniques, including gradient descent, stochastic gradient descent, and more. The course provides the essential background for advanced study and research in machine learning and artificial intelligence.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS2251",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate DegreeTHENmust not have completed DSA3102 at a grade of at least D",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN COURSES DSA3102:D",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHENmust have completed 1 of MA1508E/MA1513/MA1522/MA2001 at a grade of at least DANDmust have completed 1 of CS1231/CS1231S/MA1100/MA1100T at a grade of at least DAND( must have completed 1 of MA1312/MA1521/MA2002 at a grade of at least DORmust have completed all of MA1511/MA1512 at a grade of at least D)AND( must have completed ST2334 at a grade of at least DOR( must have completed 1 of MA2116/MA2116T/ST2131 at a grade of at least DANDmust have completed ST2132 at a grade of at least D))",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN COURSES (1) MA1522:D, MA1513:D, MA1508E:D, MA2001:D AND COURSES (1) CS1231:D, CS1231S:D, MA1100:D, MA1100T:D AND (COURSES (1) MA1312:D, MA1521:D, MA2002:D OR COURSES (2) MA1511:D, MA1512:D) AND (COURSES (1) ST2334:D OR (COURSES (1) ST2131:D, MA2116:D, MA2116T:D AND COURSES (1) ST2132:D))",
+ "title": "Optimization for Machine Learning",
+ "workload": [
+  2,
+  1,
+  0,
+  4,
+  3
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1,
+   "examDate": "2026-11-24T01:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": {
+  "and": [
+   {
+    "or": [
+     "MA1522:D",
+     "MA1513:D",
+     "MA1508E:D",
+     "MA2001:D"
+    ]
+   },
+   {
+    "or": [
+     "CS1231:D",
+     "CS1231S:D",
+     "MA1100:D",
+     "MA1100T:D"
+    ]
+   },
+   {
+    "or": [
+     "MA1312:D",
+     "MA1521:D",
+     "MA2002:D",
+     {
+      "nOf": [
+       2,
+       [
+        "MA1511:D",
+        "MA1512:D"
+       ]
+      ]
+     }
+    ]
+   },
+   {
+    "or": [
+     "ST2334:D",
+     {
+      "and": [
+       {
+        "or": [
+         "ST2131:D",
+         "MA2116:D",
+         "MA2116T:D"
+        ]
+       },
+       "ST2132:D"
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,36 @@
+{
+ "acadYear": "2026/2027",
+ "department": "Yale-NUS College",
+ "description": "Computer science has improved human life dramatically in the last 50 years. This course explains how computational tasks are solved and computers are programmed. You will learn how to be a more careful and methodical thinker. Moreover, millions of people around the world enjoy programming and you can too!",
+ "faculty": "Yale-NUS College",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "YSC1212",
+ "moduleCredit": "5",
+ "prerequisite": "if undertaking an Undergraduate Degree then ( must have completed YCC1122 at a grade of at least CS )",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) YCC1122:CS)",
+ "title": "Introduction to Computer Science",
+ "workload": [
+  0,
+  3,
+  0,
+  5,
+  4.5
+ ],
+ "semesterData": [],
+ "prereqTree": "YCC1122:CS",
+ "fulfillRequirements": [
+  "YSC2227",
+  "YSC2229",
+  "YSC2232",
+  "YSC2244",
+  "YSC3217",
+  "YSC3232",
+  "YSC3236",
+  "YSC4217",
+  "YSC4231",
+  "YSC4232",
+  "CS2107",
+  "CS2100",
+  "CS2100HS"
+ ]
+}

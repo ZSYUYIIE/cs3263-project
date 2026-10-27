@@ -1,0 +1,57 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "lab": true,
+  "mpes2": true
+ },
+ "department": "Information Systems and Analytics",
+ "description": "This course provides a comprehensive coverage of methods and tools for predictive data analytics. Various techniques from data mining, statistics and artificial intelligence will be discussed. The emphasis will be on more recent developments in machine learning methods such as neural networks and support vector machines that have been shown to be very effective in discovering reliable patterns from past data and making accurate predictions of future outcomes. Applications of predictive analytics in business will also be discussed.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "BT4240",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate Degree THEN ( must not have completed 1 of CS3244/IS4240/IT3011 at a grade of at least D)",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) IT3011:D, CS3244:D, IS4240:D)",
+ "prerequisite": "If undertaking an Undergraduate Degree THEN ( must have completed 1 of MA1101R/MA1311/MA1508E/MA1513/MA1522/MA2001 at a grade of at least D AND must have completed 1 of MA1102R/MA1521/MA2002 at a grade of at least D AND must have completed BT2101 at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) MA1311:D, MA1101R:D, MA2001:D, MA1522:D, MA1508E:D, MA1513:D AND COURSES (1) MA2002:D, MA1521:D, MA1102R:D AND COURSES (1) BT2101:D)",
+ "title": "Machine Learning for Predictive Data Analytics",
+ "workload": [
+  2,
+  1,
+  0,
+  0,
+  4
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-04-24T01:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": {
+  "and": [
+   {
+    "or": [
+     "MA1311:D",
+     "MA1101R:D",
+     "MA2001:D",
+     "MA1522:D",
+     "MA1508E:D",
+     "MA1513:D"
+    ]
+   },
+   {
+    "or": [
+     "MA2002:D",
+     "MA1521:D",
+     "MA1102R:D"
+    ]
+   },
+   "BT2101:D"
+  ]
+ }
+}

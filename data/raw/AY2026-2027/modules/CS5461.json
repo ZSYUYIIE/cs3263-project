@@ -1,0 +1,77 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "lab": true,
+  "mpes1": true
+ },
+ "department": "Computer Science",
+ "description": "Recent years have seen a dramatic rise in the use of algorithms for solving problems involving strategic decision makers. Deployed algorithms now assist in a variety of economic interactions: assigning medical residents to schools, allocating students to courses, allocating security resources in airports, allocating computational resources and dividing rent. We will explore foundational topics at the intersection of economics and computation, starting with the foundations of game theory: Nash equilibria, the theory of cooperative games, before proceeding to covering more advanced topics: matching algorithms, allocation of indivisible goods, and mechanism design.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS5461",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate Degree, Graduate Degree Coursework or Graduate Degree ResearchTHEN( must not have completed CS4261 at a grade of at least D)",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree, Graduate Degree Coursework, Graduate Degree Research THEN (COURSES CS4261:D)",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHEN( must have completed 1 of EE2012/EE2012A/MA2116/MA2116T/MA2216/ST2131/ST2334 at a grade of at least DANDmust have completed 1 of CS2010/CS2020/CS2040/CS2040C/CS2040S at a grade of at least DANDmust have completed 1 of CS1231/CS1231S/MA1100/MA1100T at a grade of at least DANDmust have completed 1 of MA1101R/MA1311/MA1508E/MA1513/MA2001 at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) EE2012A:D, EE2012:D, ST2131:D, MA2216:D, ST2334:D, MA2116:D, MA2116T:D AND COURSES (1) CS2010:D, CS2020:D, CS2040:D, CS2040S:D, CS2040C:D AND COURSES (1) MA1100:D, MA1100T:D, CS1231S:D, CS1231:D AND COURSES (1) MA2001:D, MA1101R:D, MA1311:D, MA1508E:D, MA1513:D)",
+ "title": "Algorithmic Mechanism Design",
+ "workload": [
+  2,
+  1,
+  0,
+  4,
+  3
+ ],
+ "aliases": [
+  "CS4261"
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1
+  }
+ ],
+ "prereqTree": {
+  "and": [
+   {
+    "or": [
+     "EE2012A:D",
+     "EE2012:D",
+     "ST2131:D",
+     "MA2216:D",
+     "ST2334:D",
+     "MA2116:D",
+     "MA2116T:D"
+    ]
+   },
+   {
+    "or": [
+     "CS2010:D",
+     "CS2020:D",
+     "CS2040:D",
+     "CS2040S:D",
+     "CS2040C:D"
+    ]
+   },
+   {
+    "or": [
+     "MA1100:D",
+     "MA1100T:D",
+     "CS1231S:D",
+     "CS1231:D"
+    ]
+   },
+   {
+    "or": [
+     "MA2001:D",
+     "MA1101R:D",
+     "MA1311:D",
+     "MA1508E:D",
+     "MA1513:D"
+    ]
+   }
+  ]
+ }
+}

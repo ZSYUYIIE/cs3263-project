@@ -1,0 +1,72 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true
+ },
+ "department": "Information Systems and Analytics",
+ "description": "To drive innovation and transformation, technology leaders must identify key business drivers and align technologies with business objectives. This course provides foundational knowledge in information systems (IS) leadership and management essential for successful digital transformation. It aims to equip students with the skills to identify digital innovation opportunities, digitise business processes, and design effective human-AI solutions. Through experiential learning, students will develop the ability to manage digital disruptions and facilitate technology-enabled organisational change. Additionally, students will acquire change leadership communication skills to ensure effective collaboration between business and technology stakeholders.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "IS3103",
+ "moduleCredit": "4",
+ "prerequisite": "If undertaking an Undergraduate Degree THEN ( must have completed IS1108 at a grade of at least D AND must have completed 1 of any Courses beginning with NTW at a grade of at least D, CS2101/ES2002/IS2101/UWC2101% at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) IS1108:D AND COURSES (1) CS2101:D, IS2101:D, ES2002:D, UWC2101%:D, NTW%:D)",
+ "title": "Digital Transformation and Leadership Communication",
+ "workload": [
+  3,
+  3,
+  0,
+  2,
+  2
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1
+  },
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2
+  }
+ ],
+ "prereqTree": {
+  "and": [
+   "IS1108:D",
+   {
+    "or": [
+     "CS2101:D",
+     "IS2101:D",
+     "ES2002:D",
+     "UWC2101%:D",
+     "NTW%:D"
+    ]
+   }
+  ]
+ },
+ "fulfillRequirements": [
+  "IS4204",
+  "IS5110",
+  "IS5111",
+  "IS5114",
+  "IS4228",
+  "IS4233",
+  "IS5116",
+  "IS4236",
+  "IS4108",
+  "IS4234",
+  "IS4261",
+  "IS5117",
+  "IS5128",
+  "IS4243",
+  "IS4010",
+  "IS4246",
+  "IS4238",
+  "IS5003",
+  "IS5002"
+ ]
+}

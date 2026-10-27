@@ -1,0 +1,84 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true,
+  "su": true
+ },
+ "department": "Computer Science",
+ "description": "This course introduces mathematical tools required in the study of computer science. Topics include: (1) Logic and proof techniques: propositions, conditionals, quantifications. (2) Relations and Functions: Equivalence relations and partitions. Partially ordered sets. Well-Ordering Principle. Function equality. Boolean/identity/inverse functions. Bijection. (3) Mathematical formulation of data models (linear model, trees, graphs). (4) Counting and Combinatoric: Pigeonhole Principle. Inclusion-Exclusion Principle. Number of relations on a set, number of injections from one finite set to another, Diagonalization proof: An infinite countable set has an uncountable power set; Algorithmic proof: An infinite set has a countably infinite subset. Subsets of countable sets are countable.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS1231S",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate Degree THEN ( must not have completed 1 of CS1231/MA1100/MA1100T at a grade of at least D)",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) MA1100T:D, MA1100:D, CS1231:D)",
+ "prerequisite": "If undertaking an Undergraduate Degree THEN ( must have completed 1 of 06 MATHEMATICS/07 FURTHER MATHEMATICS/21 PURE MATHEMATICS/22 APPLIED MATHEMATICS at a grade of at least E OR must have completed 1 of MA1301/MA1301X at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (SUBJECTS (1) 06:E, 07:E, 21:E, 22:E OR COURSES (1) MA1301X:D, MA1301:D)",
+ "title": "Discrete Structures",
+ "workload": [
+  3,
+  1,
+  0,
+  3,
+  3
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C",
+    "Unknown"
+   ],
+   "semester": 1,
+   "examDate": "2026-11-26T01:00:00.000Z",
+   "examDuration": 120
+  },
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-05-03T09:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": {
+  "or": [
+   "MA1301X:D",
+   "MA1301:D"
+  ]
+ },
+ "fulfillRequirements": [
+  "CS5241",
+  "CS5249",
+  "CS5469",
+  "CS5461",
+  "CS3234",
+  "CS5232",
+  "CS4261",
+  "CS4269",
+  "CS5430",
+  "CS4230",
+  "CS2040S",
+  "CS3230",
+  "CS4236",
+  "CS3231",
+  "CS3236",
+  "CS4263",
+  "CS2251",
+  "CS3243",
+  "CS2309",
+  "CS2102",
+  "MA3219",
+  "MA2219",
+  "MA3205",
+  "MA2108S",
+  "MA2202",
+  "MA2214",
+  "MA2202S",
+  "MA2116T",
+  "MA2101",
+  "MA2101S",
+  "MA2108"
+ ]
+}

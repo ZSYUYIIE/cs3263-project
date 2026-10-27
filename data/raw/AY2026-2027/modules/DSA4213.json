@@ -1,0 +1,49 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true
+ },
+ "department": "Statistics and Data Science",
+ "description": "This course provides a comprehensive exploration of Natural Language Processing (NLP) techniques, with a focus on their practical applications in data science. Students will gain a strong foundation in text preprocessing, tokenization, and text analytics, and progress to advanced topics such as named entity recognition, text classification, and sequence to sequence modeling. The course also delves into Large Language Models (LLMs), covering their architecture, training methodologies, and real-world applications. Students will learn to develop NLP applications and harness LLMs to automate tasks, generate content, and tackle complex language-related challenges. This course equips students with the skills needed to excel in data science and leverage NLP in various industries.",
+ "faculty": "Science",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "DSA4213",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate DegreeTHEN( must not have completed CS4248 at a grade of at least D)",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES CS4248:D)",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHEN( must have completed MA2001 at a grade of at least DANDmust have completed 1 of MA2104/MA2311 at a grade of at least DANDmust have completed 1 of ST2137 at a grade of at least D, any Courses beginning with CS2040 at a grade of at least D)AND(must be undertaking 1 of 1006DAIHON Bachelor of Science - Data Science and Applied AI (Honours), 1006DSAHON Bachelor of Science - Data Science and Analytics (Hons), 1006STHON Bachelor of Science - Statistics (Hons), 1005AISCWK Master of Science (AI for Science))",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) MA2001:D AND COURSES (1) MA2104:D, MA2311:D AND COURSES (1) CS2040%:D, ST2137:D) AND (PROGRAMS MUST_BE_IN (1) 1006DAIHON, 1006DSAHON, 1006STHON, 1005AISCWK)",
+ "title": "Natural Language Processing for Data Science",
+ "workload": [
+  3,
+  1,
+  0,
+  2,
+  4
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1
+  }
+ ],
+ "prereqTree": {
+  "and": [
+   "MA2001:D",
+   {
+    "or": [
+     "MA2104:D",
+     "MA2311:D"
+    ]
+   },
+   {
+    "or": [
+     "CS2040%:D",
+     "ST2137:D"
+    ]
+   }
+  ]
+ }
+}

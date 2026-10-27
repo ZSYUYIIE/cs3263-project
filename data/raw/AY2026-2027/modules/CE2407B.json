@@ -1,0 +1,37 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes2": true,
+  "su": true
+ },
+ "department": "Civil and Environmental Engineering",
+ "description": "This course is designed to equip engineering students with mathematical tools to efficiently solve engineering problems as well as to prepare them for more advanced study on the topic of numerical methods. A bridge is built from principle to applications. The focus is on numerical methods for linear algebraic problems and differential equations with an emphasis in engineering problems. The topic start from modelling progressing through to history, errors, various algorithms, and methods of solving from an engineering perspective. Examples discussed will be solved numerically which include use of digital tools.",
+ "faculty": "College of Design and Engineering",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CE2407B",
+ "moduleCredit": "2",
+ "preclusion": "if undertaking an Undergraduate Degree then ( must not have completed 1 of CE2407/TCE2407 at a grade of at least D )",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CE2407:D, TCE2407:D)",
+ "title": "Introduction to Numerical Methods for Engineers",
+ "workload": [
+  3,
+  1,
+  0,
+  2,
+  4
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-04-29T01:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "fulfillRequirements": [
+  "IE4211",
+  "CG2023"
+ ]
+}

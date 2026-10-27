@@ -1,0 +1,59 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true
+ },
+ "department": "Computer Science",
+ "description": "This course introduces students to parallel computing, with an emphasis on hands-on programming on various types of parallel computers, such as multi-core, GPU, and multi-node systems. Topics include parallel computation models, parallel hardware architectures, performance analysis, and energy efficiency. Students experiment with parallel programs on differing hardware and learn to analyze their performance in terms of speedup, scalability, and resource utilization.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS3210",
+ "moduleCredit": "4",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHEN( must have completed 1 of CG2007/CG2028/CS2100/CS2100DE/CS2100HS/EE2024/EE2028 at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CS2100:D, CS2100DE:D, CS2100HS:D, CG2007:D, EE2028:D, CG2028:D, EE2024:D)",
+ "title": "Parallel Computing",
+ "workload": [
+  2,
+  1,
+  0,
+  3,
+  4
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1,
+   "examDate": "2026-12-01T09:00:00.000Z",
+   "examDuration": 120
+  },
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-05-05T09:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": {
+  "or": [
+   "CS2100:D",
+   "CS2100DE:D",
+   "CS2100HS:D",
+   "CG2007:D",
+   "EE2028:D",
+   "CG2028:D",
+   "EE2024:D"
+  ]
+ },
+ "fulfillRequirements": [
+  "CS4223R",
+  "CS6285",
+  "CS4231",
+  "CS4223",
+  "CS4310"
+ ]
+}

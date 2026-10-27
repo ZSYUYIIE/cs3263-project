@@ -1,0 +1,89 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes2": true
+ },
+ "department": "Electrical and Computer Engineering",
+ "description": "This course introduces students to the design and implementation of fundamental data structures and algorithms. The course covers basic data structures (linked lists, stacks, queues, hash tables, binary heaps, trees, and graphs), searching and sorting algorithms, and basic analysis of algorithms. Students will be implementing these in Java.",
+ "faculty": "College of Design and Engineering",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS2040DE",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate Degree THEN (( must not have completed 1 of CS2040/CS2040C/CS2040S at a grade of at least D) AND (must not be undertaking 0300CSMIN Computer Science (Minor)) AND (must not be undertaking 0300CS2MJ Computer Science (2nd Major)))",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN ((COURSES (1) CS2040:D, CS2040C:D, CS2040S:D) AND (MINOR MUST_NOT_BE_IN 0300CSMIN) AND (2ND_MAJOR MUST_NOT_BE_IN 0300CS2MJ))",
+ "prerequisite": "If undertaking an Undergraduate Degree THEN ( must have completed 1 of CS1010/CS1010A/CS1010E/CS1010J/CS1010S/CS1010X/CS1101S at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CS1010:D, CS1010E:D, CS1010X:D, CS1101S:D, CS1010S:D, CS1010J:D, CS1010A:D)",
+ "title": "Data Structures and Algorithms",
+ "workload": [
+  1,
+  2,
+  2,
+  1,
+  4
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1,
+   "examDate": "2026-11-24T01:00:00.000Z",
+   "examDuration": 120
+  },
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-04-24T05:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": {
+  "or": [
+   "CS1010:D",
+   "CS1010E:D",
+   "CS1010X:D",
+   "CS1101S:D",
+   "CS1010S:D",
+   "CS1010J:D",
+   "CS1010A:D"
+  ]
+ },
+ "fulfillRequirements": [
+  "CS2103DE",
+  "CS2113T",
+  "CS3225",
+  "CS3223",
+  "CS3245",
+  "CS2105",
+  "CS2220",
+  "CS4261",
+  "BT4015",
+  "CS4269",
+  "CS4330",
+  "CS2113",
+  "CS4277",
+  "CS3230",
+  "CS3264",
+  "CS4236",
+  "CS3231",
+  "CS4263",
+  "CS3243",
+  "CS3244",
+  "CS4215",
+  "CS3241",
+  "CS3233",
+  "CS3218",
+  "CS2309",
+  "CS2103T",
+  "CS2103",
+  "CS2102",
+  "CS3263",
+  "CS2109S",
+  "CP3107",
+  "CS4243",
+  "CS2108",
+  "CS2109HS"
+ ]
+}

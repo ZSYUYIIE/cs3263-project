@@ -1,0 +1,32 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "su": true
+ },
+ "department": "Center for Engl Lang Comms",
+ "description": "The ES2007D Professional Communication course is a customized core course for Real Estate students. This course has been designed to help students develop their writing and oral skills to prepare them effectively for their prospective career in an increasingly global and competitive environment. Students learn to generate and organize ideas for clear, convincing and effective oral and written messages, present these ideas with linguistic and graphic competence and deliver messages appropriate to their audience, context and purpose. Topics include the fundamentals of interpersonal and intercultural communication, em ail/letter writing skills, report/proposal writing skills, meeting/negotiation skills, and oral presentation skills. Evaluation of competency is based on continual assessment.",
+ "faculty": "Center for Engl Lang Comms",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "ES2007D",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate Degree THEN must not have completed 1 of CS2101/ES2002/ES2007D/IS2101 at a grade of at least D",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN COURSES (1) ES2002:D, IS2101:D, CS2101:D, ES2007D:D",
+ "prerequisite": "If undertaking an Undergraduate Degree THEN must have completed EP ENGLISH LANGUAGE PROFICIENCY TEST at a grade of at least N AND must be undertaking 1 of 2001CEGHON Bachelor of Engineering (Computer Engineering) (Hons), 0607ISEHON Bachelor of Engineering (Industrial and Systems Engineering) (Hons), 0609MEHON Bachelor of Engineering (Mechanical Engineering) (Hons), 0613EVEHON Bachelor of Engineering (Environmental Engineering) (Hons), 0200RSTHON Bachelor of Science (Real Estate) (Hons), 0605ESPHON Bachelor of Engineering (Engineering Science) (Hons), 0601BMEHON Bachelor of Engineering (Biomedical Engineering) (Hons), 0604ELEHON Bachelor of Engineering (Electrical Engineering) (Hons), 0608MSEHON Bachelor of Engineering (Materials Science and Engineering) (Hons), 0613CEHON Bachelor of Engineering (Civil Engineering) (Hons), 0602CHEHON Bachelor of Engineering (Chemical Engineering) (Hons)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN SUBJECTS EP:N AND PROGRAMS MUST_BE_IN (1) 2001CEGHON, 0607ISEHON, 0609MEHON, 0613EVEHON, 0200RSTHON, 0605ESPHON, 0601BMEHON, 0604ELEHON, 0608MSEHON, 0613CEHON, 0602CHEHON",
+ "title": "Professional Communication",
+ "workload": [
+  0,
+  3,
+  0,
+  4,
+  3
+ ],
+ "semesterData": [],
+ "fulfillRequirements": [
+  "CP3880",
+  "CP3880E",
+  "CP3881",
+  "CP3880X"
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes2": true
+ },
+ "department": "Electrical and Computer Engineering",
+ "description": "This course offers a comprehensive introduction to computer vision, a key domain within Artiﬁcial Intelligence (AI) that focuses on comprehending images and videos. Its primary objective is to extract visual information from various media, with a specific emphasis on images and videos. It will delve into fundamental computer vision algorithms, covering image formation, filtering, features, textures, segmentation, and 3D geometry. Additionally, there will be a concise overview of the application of deep learning techniques to computer vision. By immersing themselves in these topics, students will acquire a robust foundation in the essentials of computer vision, preparing them for in-depth exploration in this dynamic field.",
+ "faculty": "College of Design and Engineering",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "EE4212",
+ "moduleCredit": "4",
+ "preclusion": "(If undertaking a Graduate Degree Coursework THEN ( must not have completed 1 of CS4243/EE5731 at a grade of at least D)) OR (if undertaking an Undergraduate Degree THEN must not have completed 1 of CS4243/EE5731 at a grade of at least D)",
+ "preclusionRule": "(PROGRAM_TYPES IF_IN Graduate Degree Coursework THEN (COURSES (1) CS4243:D, EE5731:D)) OR (PROGRAM_TYPES IF_IN Undergraduate Degree THEN COURSES (1) CS4243:D, EE5731:D)",
+ "prerequisite": "If undertaking an Undergraduate Degree THEN ( must have completed MA1508E at a grade of at least D AND must have completed 1 of EE3731C/EE4704 at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) MA1508E:D AND COURSES (1) EE3731C:D, EE4704:D)",
+ "title": "Computer Vision",
+ "workload": [
+  3,
+  0,
+  0,
+  4,
+  3
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-05-03T01:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": {
+  "and": [
+   "MA1508E:D",
+   {
+    "or": [
+     "EE3731C:D",
+     "EE4704:D"
+    ]
+   }
+  ]
+ },
+ "fulfillRequirements": [
+  "EE6901"
+ ]
+}

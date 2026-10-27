@@ -1,0 +1,41 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "lab": true,
+  "mpes2": true
+ },
+ "department": "Computer Science",
+ "description": "The advent of high throughput technologies (e.g., DNA chips, microarray), biologists are being overloaded with information (e.g., gene expression data). A systematic way is needed to analyze the data to make sense of them. This course is introduced to provide students with knowledge of techniques that can be used to analyse biological data to enable them to discover new knowledge. At the end of the course, students will be able to identify the relevant techniques for different biological data to uncover new information. Topics include: Clustering analysis, classification, association rule mining; support vector machines; Hidden Markov Models.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS4220",
+ "moduleCredit": "4",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHEN( must have completed 1 of CS2220/LSM2104/LSM2241/ZB2101 at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CS2220:D, LSM2104:D, LSM2241:D, ZB2101:D)",
+ "title": "Knowledge Discovery Methods in Bioinformatics",
+ "workload": [
+  2,
+  1,
+  0,
+  4,
+  3
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-04-30T01:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": {
+  "or": [
+   "CS2220:D",
+   "LSM2104:D",
+   "LSM2241:D",
+   "ZB2101:D"
+  ]
+ }
+}

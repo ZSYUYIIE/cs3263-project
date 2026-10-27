@@ -1,0 +1,112 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true
+ },
+ "department": "Mathematics",
+ "description": "The objective of this course is to develop the learning capabilities and hone the problem-solving skills of talented students at a mathematically deeper and more rigorous level. It is intended for students with strong mathematical inclinations and motivation. The emphasis will be on rigour, depth, and conceptual understanding. The contents of this course will consist of those in the regular course (MA2116/ST2131) and the following additional topics: Multivariate normal distribution, modes of convergence, Borel-Cantelli lemma, strong law of large numbers, moment generating functions and Fourier transforms of random variables, central limit theorem and Poisson limit theorem, basic large deviations.",
+ "faculty": "Science",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "MA2116T",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate DegreeTHEN( must not have completed 1 of EC2303/MA2116/MA2301/ST2131/ST2334/YSC2243 at a grade of at least D)",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) MA2116:D, ST2131:D, ST2334:D, YSC2243:D, MA2301:D, EC2303:D)",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHEN(( must have completed 1 of CS1231/CS1231S/MA1100/MA1100T at a grade of at least D)AND( must have completed 1 of MA2104/MA2311 at a grade of at least D))",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN ((COURSES (1) CS1231:D, CS1231S:D, MA1100:D, MA1100T:D) AND (COURSES (1) MA2104:D, MA2311:D))",
+ "title": "Probability (T)",
+ "workload": [
+  3,
+  1,
+  0,
+  0,
+  6
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1,
+   "examDate": "2026-11-28T01:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": {
+  "and": [
+   {
+    "or": [
+     "CS1231:D",
+     "CS1231S:D",
+     "MA1100:D",
+     "MA1100T:D"
+    ]
+   },
+   {
+    "or": [
+     "MA2104:D",
+     "MA2311:D"
+    ]
+   }
+  ]
+ },
+ "fulfillRequirements": [
+  "EC3312",
+  "CS4278",
+  "CS4268",
+  "CS5461",
+  "CS4261",
+  "BT4015",
+  "CS4226",
+  "CS5430",
+  "CS4230",
+  "CS5239",
+  "CS5246",
+  "CS4257",
+  "CS5332",
+  "IS4240",
+  "CS3264",
+  "IS4242",
+  "CS5228",
+  "CS5338",
+  "CS5275",
+  "CS5339",
+  "CS5562",
+  "CS4246",
+  "CS5242",
+  "CS5446",
+  "CS5340",
+  "CS5240",
+  "CS4222",
+  "CS5422",
+  "CS3236",
+  "CS2251",
+  "CS3244",
+  "CS4248",
+  "CS3263",
+  "CS3268",
+  "CS4243",
+  "IT3011",
+  "MA5260",
+  "DSA4199",
+  "MA3238S",
+  "ST3236",
+  "ST3239",
+  "ST2137",
+  "ST3244",
+  "ST3247",
+  "MA3238",
+  "DSE4212",
+  "QF4212",
+  "QF2104",
+  "MA3270",
+  "MA4270",
+  "DSA2101",
+  "DSA3361",
+  "DSA4288",
+  "ST3131",
+  "ST2132",
+  "ST4288",
+  "DSA4288S",
+  "DSA4288M"
+ ]
+}

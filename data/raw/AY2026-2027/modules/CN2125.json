@@ -1,0 +1,29 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "su": true
+ },
+ "corequisite": "if undertaking an Undergraduate Degree then ( must be enrolled in 1 of CN2122/CN2122A )",
+ "corequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CN2122, CN2122A)",
+ "department": "Chemical and Biomolecular Engineering",
+ "description": "This course considers three modes of heat transfer, namely, conduction, convection, and radiation. For heat conduction, both steady and unsteady states are examined. These are followed by analyses for convective heat transfer and heat transfer with phase change, and subsequently radiative heat transfer. Heat exchangers and their design are discussed. Steady and unsteady-state molecular diffusion is studied, while convective mass transfer is analyzed using exact and approximate integral analysis. Finally, analogies between mass, heat and momentum transfer are discussed leading to the concept of transport phenomena.",
+ "faculty": "College of Design and Engineering",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CN2125",
+ "moduleCredit": "4",
+ "title": "Heat & Mass Transfer",
+ "workload": [
+  3,
+  1,
+  0,
+  2.5,
+  6
+ ],
+ "semesterData": [],
+ "fulfillRequirements": [
+  "CN3101",
+  "CN3108",
+  "CN3101A",
+  "CN3132"
+ ]
+}

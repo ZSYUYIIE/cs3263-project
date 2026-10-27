@@ -1,0 +1,44 @@
+{
+ "acadYear": "2026/2027",
+ "department": "Electrical and Computer Engineering",
+ "description": "This course provides students with the experience of programming devices and computer interfaces. The course builds upon the C language programming skills the students have learnt in the previous semester and teaches them how to utilize programming to build simple digital systems. The course culminates in an open-ended project in which students will have the opportunity to design and build a digital system of their choice.",
+ "faculty": "College of Design and Engineering",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "EE2024",
+ "moduleCredit": "5",
+ "preclusion": "if undertaking an Undergraduate Degree then ( must not have completed 1 of \"CG2007\"/\"EE2007\"/\"EE2024E\" at a grade of at least D )",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) EE2007:D, CG2007:D, EE2024E:D)",
+ "prerequisite": "if undertaking an Undergraduate Degree then ( must have completed EE2020 at a grade of at least D and must have completed 1 of \"CS1010FC\"/CS1010/CS1010E/CS1010X at a grade of at least D )",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) EE2020:D AND COURSES (1) CS1010E:D, CS1010FC:D, CS1010:D, CS1010X:D)",
+ "title": "Programming for Computer Interfaces",
+ "workload": [
+  3,
+  1,
+  2,
+  0,
+  4.5
+ ],
+ "semesterData": [],
+ "prereqTree": {
+  "and": [
+   "EE2020:D",
+   {
+    "or": [
+     "CS1010E:D",
+     "CS1010FC:D",
+     "CS1010:D",
+     "CS1010X:D"
+    ]
+   }
+  ]
+ },
+ "fulfillRequirements": [
+  "EE3032",
+  "EE3208",
+  "EE4214",
+  "CS2106",
+  "CS3237",
+  "CS3210",
+  "CG3002"
+ ]
+}

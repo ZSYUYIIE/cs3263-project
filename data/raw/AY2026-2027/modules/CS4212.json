@@ -1,0 +1,45 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "lab": true,
+  "mpes2": true
+ },
+ "department": "Computer Science",
+ "description": "The objective of this course is to introduce the principal ideas behind program compilation, and discusses various techniques for program parsing, program analysis, program optimisation, and run-time organisation required for program execution. Topics covered include regular expressions, context-free grammars, lexical analysis, syntax analysis; different algorithms for parsing codes, such as top-down parsing, bottom-up parsing; translation to abstract syntax using modern parser generator technology, intermediate representation, semantics analysis, type system, un-optimised code generation, code optimisation, data-flow analysis, instruction scheduling.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS4212",
+ "moduleCredit": "4",
+ "prerequisite": "if undertaking an Undergraduate Degree then ( must have completed 1 of \"CS3212\"/CS2104 at a grade of at least D )",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CS2104:D, CS3212:D)",
+ "title": "Compiler Design",
+ "workload": [
+  2,
+  1,
+  0,
+  3,
+  3
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-04-28T01:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": {
+  "or": [
+   "CS2104:D",
+   "CS3212:D"
+  ]
+ },
+ "fulfillRequirements": [
+  "CS5218",
+  "CS5271",
+  "CS6202",
+  "CS6215"
+ ]
+}

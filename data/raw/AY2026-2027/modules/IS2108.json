@@ -1,0 +1,56 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true
+ },
+ "department": "Information Systems and Analytics",
+ "description": "Modern business Artificial Intelligence (AI) solutions are characterised by the seamless integration of software applications, data and AI models. This course aims to train students to be conversant in full-stack software engineering involving both backend and frontend development. Students will acquire competency in creating smart software applications that automate business processes and decision making with AI models. Contemporary development techniques such as Service-Oriented Architecture, Microservices Architecture, Application Programming Interfaces (APIs) and Object Mapping will be taught. Students will focus on developing server-side web applications using Python, the general-purpose programming language for AI development.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "IS2108",
+ "moduleCredit": "4",
+ "prerequisite": "If undertaking an Undergraduate Degree THEN must have completed 1 of CS2030/CS2030DE/CS2030HS/CS2030S at a grade of at least D",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN COURSES (1) CS2030:D, CS2030S:D, CS2030DE:D, CS2030HS:D",
+ "title": "Full-stack Software Engineering for AI Solutions I",
+ "workload": [
+  2,
+  0,
+  2,
+  3,
+  3
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1,
+   "examDate": "2026-11-27T06:30:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": {
+  "or": [
+   "CS2030:D",
+   "CS2030S:D",
+   "CS2030DE:D",
+   "CS2030HS:D"
+  ]
+ },
+ "fulfillRequirements": [
+  "IS4100",
+  "IS4236",
+  "IS4301",
+  "IS4108",
+  "IS4151",
+  "IS4261",
+  "IS4010",
+  "IS3108",
+  "IS4246",
+  "CP3880",
+  "CP3880E",
+  "CP3881",
+  "CP3880X",
+  "IS4403"
+ ]
+}

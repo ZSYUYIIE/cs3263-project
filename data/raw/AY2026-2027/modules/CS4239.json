@@ -1,0 +1,50 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "lab": true,
+  "mpes1": true
+ },
+ "department": "Computer Science",
+ "description": "Software engineering processes need to include security considerations in the modern world. This course familiarizes students to security issues in different stages of the software life-cycle. At the end of the course, the students are expected to understand secure programming practices, be able to analyse and check for impact of malicious inputs in programs, and employ specific testing techniques which can help detect software vulnerabilities.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS4239",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate DegreeTHEN( must not have completed CS5439 at a grade of at least D)",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CS5439:D)",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHEN( must have completed CS3235 at a grade of at least DANDmust have completed 1 of CS2103/CS2103DE/CS2103T/CS2113/CS2113T at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CS3235:D AND COURSES (1) CS2103T:D, CS2103:D, CS2103DE:D, CS2113:D, CS2113T:D)",
+ "title": "Software Security",
+ "workload": [
+  2,
+  1,
+  0,
+  0,
+  5
+ ],
+ "aliases": [
+  "CS5439"
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1
+  }
+ ],
+ "prereqTree": {
+  "and": [
+   "CS3235:D",
+   {
+    "or": [
+     "CS2103T:D",
+     "CS2103:D",
+     "CS2103DE:D",
+     "CS2113:D",
+     "CS2113T:D"
+    ]
+   }
+  ]
+ }
+}

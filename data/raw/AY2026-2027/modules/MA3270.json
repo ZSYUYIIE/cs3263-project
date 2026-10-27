@@ -1,0 +1,65 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true
+ },
+ "department": "Mathematics",
+ "description": "This course provides a comprehensive foundation in the essential mathematical concepts and techniques for understanding and developing artificial intelligence (AI) systems. It covers a range of fundamental topics at the interface of mathematics with AI and machine learning. The main topics covered are: learning via Euclidean geometry, random walks and networks, Markov chains and language models, random sampling, gradient descent and neural networks, high-dimensional geometry and learning with sparsity, and optimal transport.",
+ "faculty": "Science",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "MA3270",
+ "moduleCredit": "4",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHEN(( must have completed 1 of MA1508E/MA1513/MA1522/MA2001 at a grade of at least D)AND( must have completed 1 of MA1505/MA1511/MA2104/MA2311 at a grade of at least D)AND( must have completed 1 of MA2116/MA2116T/ST2131/ST2334 at a grade of at least D))",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN ((COURSES (1) MA1508E:D, MA1513:D, MA1522:D, MA2001:D) AND (COURSES (1) MA1505:D, MA1511:D, MA2104:D, MA2311:D) AND (COURSES (1) MA2116:D, MA2116T:D, ST2131:D, ST2334:D))",
+ "title": "Mathematics for Artificial Intelligence",
+ "workload": [
+  3,
+  1,
+  0,
+  3,
+  3
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1,
+   "examDate": "2026-12-01T09:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": {
+  "and": [
+   {
+    "or": [
+     "MA1508E:D",
+     "MA1513:D",
+     "MA1522:D",
+     "MA2001:D"
+    ]
+   },
+   {
+    "or": [
+     "MA1505:D",
+     "MA1511:D",
+     "MA2104:D",
+     "MA2311:D"
+    ]
+   },
+   {
+    "or": [
+     "MA2116:D",
+     "MA2116T:D",
+     "ST2131:D",
+     "ST2334:D"
+    ]
+   }
+  ]
+ },
+ "fulfillRequirements": [
+  "CS5246",
+  "CS4248",
+  "MA4275"
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true
+ },
+ "department": "Mechanical Engineering",
+ "description": "Primarily a foundational course for mechanical engineering students, this course introduces the basic principles and characteristics of various sensors for the measurement of mechanical quantities such as position, velocity, acceleration, force, and temperature. Topics that are also introduced are actuators for achieving motion, primarily various types of electric motors. This course also covers the generalised measurement and instrumentation system, the associated electronics, drivers and power supplies for the processing of the signals from the sensors and transducers and for driving the various actuators. Emphasis is placed on the knowledge required for the application of these sensors and actuators rather than on their design.",
+ "faculty": "College of Design and Engineering",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "ME2143",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate DegreeTHENmust not have completed ME2105/TME2143 at a grade of at least D",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN COURSES ME2105:D, TME2143:D",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHENmust have completed ME2104 at a grade of at least D",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN COURSES ME2104:D",
+ "title": "Sensors and Actuators",
+ "workload": [
+  3,
+  0.5,
+  2,
+  0,
+  4.5
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "Unknown",
+    "C"
+   ],
+   "semester": 1,
+   "examDate": "2026-11-25T01:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": "ME2104:D",
+ "fulfillRequirements": [
+  "TME4256",
+  "ME4256",
+  "RB4301"
+ ]
+}

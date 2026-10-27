@@ -1,0 +1,46 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "su": true
+ },
+ "department": "Civil and Environmental Engineering",
+ "description": "Many engineering problems involve natural processes and phenomena that are inherently random. Engineers have to evaluate the risk-benefits trade-offs, in order to make decisions in design and planning under conditions of uncertainties. This course covers the fundamental principles and tools of probability and statistics, and how engineers can employ these tools to evaluate problems involving uncertainty. Topics include: basic probability concepts, random variables and functions thereof, probability distributions, statistical inference, hypothesis testing, and regression analysis. Students will also be taught how to use computational tools such as Matlab to perform Monte Carlo simulations, to solve engineering problems involving uncertainty.",
+ "faculty": "College of Design and Engineering",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CE2407A",
+ "moduleCredit": "2",
+ "preclusion": "if undertaking an Undergraduate Degree then ( must not have completed 1 of CE2407/TCE2407 at a grade of at least D )",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CE2407:D, TCE2407:D)",
+ "title": "Uncertainty Analysis for Engineers",
+ "workload": [
+  3,
+  1,
+  0,
+  0,
+  4
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1,
+   "examDate": "2026-11-30T05:00:00.000Z",
+   "examDuration": 90
+  }
+ ],
+ "fulfillRequirements": [
+  "EE4210",
+  "EE3801",
+  "EE4211",
+  "EE4802",
+  "IE4213",
+  "IE3101",
+  "EE5907",
+  "CE3121",
+  "IE3103",
+  "IE4243",
+  "IE4211"
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true
+ },
+ "department": "Computer Science",
+ "description": "This course covers the fundamental concepts, theory, and algorithms in machine learning, and a variety of modeling techniques to extract information from raw data. The class will cover topics in both supervised and unsupervised learning, including problems in classification and regression, computational learning theory, reinforcement learning, probabilistic inference, ensemble learning, and more advanced topics. The class will cover both the underlying mathematical tools, as well as practical frameworks for solving real-world problems. At the end of the course, students are expected to be familiar with the theories and paradigms of computational learning, and capable of implementing basic learning systems.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS3264",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate DegreeTHEN( must not have completed 1 of CG3201/CS3244 at a grade of at least D)",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CS3244:D, CG3201:D)",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHENmust have completed CS2109S at a grade of at least DANDmust have completed 1 of CS2040/CS2040C/CS2040DE/CS2040HS/CS2040S at a grade of at least DANDmust have completed 1 of MA1101R/MA1311/MA1508E/MA1513/MA1522/MA2001 at a grade of at least DANDmust have completed 1 of EE2012/EE2012A/MA2116/MA2116T/MA2216/ST2131/ST2334 at a grade of at least D",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN COURSES (1) CS2109S:D AND COURSES (1) CS2040:D, CS2040S:D, CS2040C:D, CS2040DE:D, CS2040HS:D AND COURSES (1) MA1101R:D, MA1311:D, MA1513:D, MA1508E:D, MA2001:D, MA1522:D AND COURSES (1) EE2012A:D, EE2012:D, ST2131:D, MA2116:D, MA2116T:D, ST2334:D, MA2216:D",
+ "title": "Foundations of Machine Learning",
+ "workload": [
+  2,
+  1,
+  0,
+  4,
+  3
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1,
+   "examDate": "2026-11-25T09:00:00.000Z",
+   "examDuration": 120
+  },
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-04-26T05:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": {
+  "and": [
+   "CS2109S:D",
+   {
+    "or": [
+     "CS2040:D",
+     "CS2040S:D",
+     "CS2040C:D",
+     "CS2040DE:D",
+     "CS2040HS:D"
+    ]
+   },
+   {
+    "or": [
+     "MA1101R:D",
+     "MA1311:D",
+     "MA1513:D",
+     "MA1508E:D",
+     "MA2001:D",
+     "MA1522:D"
+    ]
+   },
+   {
+    "or": [
+     "EE2012A:D",
+     "EE2012:D",
+     "ST2131:D",
+     "MA2116:D",
+     "MA2116T:D",
+     "ST2334:D",
+     "MA2216:D"
+    ]
+   }
+  ]
+ },
+ "fulfillRequirements": [
+  "CS6284",
+  "CS6216",
+  "CS5284",
+  "CS5339",
+  "CS5562",
+  "CS5462",
+  "CS4262",
+  "CP4283",
+  "DSA4265"
+ ]
+}

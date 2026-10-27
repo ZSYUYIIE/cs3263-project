@@ -1,0 +1,70 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "su": true
+ },
+ "department": "Mathematics",
+ "description": "This course introduces the basic concepts in matrix algebra which has applications in science, engineering, statistics, economics and operations research. The main objective is to equip students with the basic skills in computing with real vectors and matrices. Specially designed for students not majoring in mathematics, in particular those who read a minor in mathematics, it is also suitable for students who are keen to pick up mathematical skills that will be useful in their own areas of studies. Major topics: Gaussian elimination, solutions to simultaneous equations, matrices, vectors, special matrices, matrix inverses, linear independence, rank, determinants, vectors in geometry, and cross product, introduction to eigenvalues and eigenvectors.",
+ "faculty": "Science",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "MA1311",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate Degree THEN ( must not have completed 1 of MA1101R/MA1506/MA1508 at a grade of at least D AND must not be undertaking 1 of 0601BMEHON Bachelor of Engineering (Biomedical Engineering) (Hons), 0602CHEHON Bachelor of Engineering (Chemical Engineering) (Hons), 0604ELEHON Bachelor of Engineering (Electrical Engineering) (Hons), 0605ESPHON Bachelor of Engineering (Engineering Science) (Hons), 0607ISEHON Bachelor of Engineering (Industrial and Systems Engineering) (Hons), 0608MSEHON Bachelor of Engineering (Materials Science and Engineering) (Hons), 0609MEHON Bachelor of Engineering (Mechanical Engineering) (Hons), 0611CHEHON Bachelor of Technology (Chemical Engineering) (Hons), 0611ELCHON Bachelor of Technology (Electronics Engineering) (Hons), 0611IMEHON Bachelor of Technology (Industrial & Mgt Engineering) (Hons), 0611MEHON Bachelor of Technology (Mechanical Engineering) (Hons), 0613CEHON Bachelor of Engineering (Civil Engineering) (Hons), 0613EVEHON Bachelor of Engineering (Environmental Engineering) (Hons), 2001CEGHON Bachelor of Engineering (Computer Engineering) (Hons))",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) MA1101R:D, MA1506:D, MA1508:D AND PROGRAMS MUST_NOT_BE_IN (1) 0601BMEHON, 0602CHEHON, 0604CPEHON, 0604ELEHON, 0605ESPHON, 0607ISEHON, 0608MSEHON, 0609MEHON, 0611CHEHON, 0611ELCHON, 0611IMEHON, 0611MEHON, 0613CEHON, 0613EVEHON, 2001CEGHON)",
+ "prerequisite": "If undertaking an Undergraduate Degree THEN ( must have completed 1 of 0006/06 MATHEMATICS at a grade of at least AO, 0007/07 FURTHER MATHEMATICS at a grade of at least AO, 21 PURE MATHEMATICS/22 APPLIED MATHEMATICS/99 O-LEVEL ADDITIONAL MATHEMATICS at a grade of at least AO OR must have completed 1 of MA1301/MA1301FC/MA1301X at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (SUBJECTS (1) 06:AO, 0006:AO, 07:AO, 0007:AO, 21:AO, 22:AO, 99:AO OR COURSES (1) MA1301:D, MA1301FC:D, MA1301X:D)",
+ "title": "Matrix Algebra",
+ "workload": [
+  3,
+  1,
+  0,
+  0,
+  6
+ ],
+ "semesterData": [],
+ "prereqTree": {
+  "or": [
+   "MA1301:D",
+   "MA1301FC:D",
+   "MA1301X:D"
+  ]
+ },
+ "fulfillRequirements": [
+  "DSC3214",
+  "CS3242",
+  "CS4235",
+  "CS5241",
+  "CS5249",
+  "CS5478",
+  "CS6244",
+  "CS4278",
+  "CS4268",
+  "CS5461",
+  "CS4261",
+  "CS4277",
+  "CS5477",
+  "CS5246",
+  "CS5332",
+  "BT3017",
+  "CS3264",
+  "CS5284",
+  "BT4240",
+  "CS4347",
+  "CS5647",
+  "CS5275",
+  "CS5240",
+  "CS4234",
+  "IS2109",
+  "CS3244",
+  "CS3218",
+  "CS4243",
+  "IT3011",
+  "CS2108",
+  "MA2312",
+  "MA3252",
+  "MA3220",
+  "MA2214",
+  "DSA2101",
+  "DSA3361"
+ ]
+}

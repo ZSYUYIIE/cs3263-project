@@ -1,0 +1,114 @@
+{
+ "acadYear": "2026/2027",
+ "additionalInformation": "This course is open only to Engineering students.",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true,
+  "su": true
+ },
+ "department": "Mathematics",
+ "description": "This is a seven-week course specially designed for students majoring in Engineering. It introduces the basic concepts in one variable and several variable calculus with applications in engineering. Main topics: One variable calculus. Power series. Partial differentiation. Multiple integrals. Vector Calculus.",
+ "faculty": "Science",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "MA1511",
+ "moduleCredit": "2",
+ "preclusion": "If undertaking an Undergraduate DegreeTHEN( must not have completed 1 of MA1312/MA1505/MA1521/MA2002/MA2311/PC2134/PC2174A/YSC1216 at a grade of at least D)",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) MA1312:D, MA1505:D, MA1521:D, MA2002:D, MA2311:D, PC2134:D, YSC1216:D, PC2174A:D)",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHEN(( must have completed 1 of 06 MATHEMATICS/07 FURTHER MATHEMATICS at a grade of at least E)OR( must have completed 1 of MA1301/MA1301X at a grade of at least D))",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN ((SUBJECTS (1) 06:E, 07:E) OR (COURSES (1) MA1301:D, MA1301X:D))",
+ "title": "Engineering Calculus",
+ "workload": [
+  3,
+  2,
+  0,
+  0,
+  5
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "Unknown",
+    "C"
+   ],
+   "semester": 1,
+   "examDate": "2026-10-10T01:00:00.000Z",
+   "examDuration": 90
+  },
+  {
+   "covidZones": [
+    "C",
+    "Unknown"
+   ],
+   "semester": 2,
+   "examDate": "2027-03-13T01:00:00.000Z",
+   "examDuration": 90
+  }
+ ],
+ "prereqTree": {
+  "or": [
+   "MA1301:D",
+   "MA1301X:D"
+  ]
+ },
+ "fulfillRequirements": [
+  "CN2122",
+  "CN3421",
+  "CN2122A",
+  "EE2012A",
+  "CN2104",
+  "CN2106",
+  "CN3121",
+  "CN3421A",
+  "EE2012",
+  "CN2109",
+  "EE2211",
+  "ME4291",
+  "CS3242",
+  "CS5241",
+  "CS5249",
+  "CS5478",
+  "CS4278",
+  "CS5332",
+  "CS5284",
+  "IS4242",
+  "CS4347",
+  "CS5647",
+  "CS5240",
+  "CS2251",
+  "CP4282",
+  "CS3244",
+  "CS3218",
+  "CS4248",
+  "CS2109S",
+  "CS4243",
+  "IT3011",
+  "MA3229",
+  "MA2219",
+  "MA3227",
+  "MA4274",
+  "PC3238",
+  "MA2108S",
+  "PC3441",
+  "PC2031",
+  "MA3220",
+  "DSA2102",
+  "MA2213",
+  "ST2334",
+  "PC2020",
+  "MA4275",
+  "QF3101",
+  "MA3270",
+  "MA2108",
+  "MA2116",
+  "MA3236",
+  "MA3264",
+  "PC3236",
+  "PC3274A",
+  "DSA3102",
+  "MA2104",
+  "DSA3361",
+  "ST2131",
+  "PC2032",
+  "CS2109HS"
+ ]
+}

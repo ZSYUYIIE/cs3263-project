@@ -1,0 +1,78 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true
+ },
+ "department": "Electrical and Computer Engineering",
+ "description": "This module covers the mathematical fundamentals of probability and statistics which are necessary in the study of integrated circuits, communications, communication networks, control systems, signal processing, energy and new media. There is a strong emphasis on the application of these concepts to electrical and computer engineering problems, such as the Gaussian distribution in communications, random variable distributions for system reliability, Bayes theorem in parameter estimation, and hypothesis testing for signal detection.",
+ "faculty": "College of Design and Engineering",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "EE2012A",
+ "moduleCredit": "3",
+ "preclusion": "if undertaking an Undergraduate Degree then ( must not have completed 1 of EE2012/ST2131/ST2334 at a grade of at least D )",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) EE2012:D, ST2334:D, ST2131:D)",
+ "prerequisite": "if undertaking an Undergraduate Degree then ( must have completed 2 of MA1505/MA1511/MA1512 at a grade of at least D )",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (2) MA1511:D, MA1512:D, MA1505:D)",
+ "title": "Analytical Methods in Electrical and Computer Engineering",
+ "workload": [
+  3,
+  1,
+  0,
+  0,
+  4
+ ],
+ "semesterData": [],
+ "prereqTree": {
+  "nOf": [
+   2,
+   [
+    "MA1511:D",
+    "MA1512:D",
+    "MA1505:D"
+   ]
+  ]
+ },
+ "fulfillRequirements": [
+  "EE4113",
+  "EE5310",
+  "EE5135",
+  "EE3731C",
+  "EE5137",
+  "EE4204",
+  "EE5139",
+  "EE4802",
+  "IE4213",
+  "EE5907",
+  "IE4211",
+  "CS5346",
+  "CS5478",
+  "CS4278",
+  "CS4268",
+  "CS5461",
+  "CS4261",
+  "CS4226",
+  "CS5246",
+  "CS4257",
+  "CS5332",
+  "CS3264",
+  "CS5228",
+  "CS5275",
+  "CS5339",
+  "CS5562",
+  "CS4246",
+  "CS5242",
+  "CS5446",
+  "CS5340",
+  "CS5240",
+  "CS5233",
+  "CS4222",
+  "CS5422",
+  "CS3236",
+  "CS3244",
+  "CS4248",
+  "CS3263",
+  "CS4243",
+  "IT3011"
+ ]
+}

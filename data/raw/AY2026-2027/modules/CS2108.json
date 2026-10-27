@@ -1,0 +1,61 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes2": true
+ },
+ "department": "Computer Science",
+ "description": "This course introduces students to (i) the fundamental principles, theory, algorithms, and data structures behind digital representation, compression, and processing of image, audio, and text data types, and (ii) challenges and issues in developing media-rich applications, such as media streaming and media retrieval. After taking the course, students should be confident enough in developing media applications and make appropriate trade-off and design decisions when dealing in media data in their software. The course will require the students to use AI tools.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS2108",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate Degree THEN ( must not have completed CS3246 at a grade of at least D)",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CS3246:D)",
+ "prerequisite": "If undertaking an Undergraduate Degree THEN (( must have completed 1 of CS2040/CS2040C/CS2040DE/CS2040HS/CS2040S at a grade of at least D) AND ( must have completed 1 of MA1311/MA1508E/MA1513/MA1522/MA2001 at a grade of at least D))",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN ((COURSES (1) CS2040:D, CS2040S:D, CS2040C:D, CS2040DE:D, CS2040HS:D) AND (COURSES (1) MA1522:D, MA2001:D, MA1513:D, MA1311:D, MA1508E:D))",
+ "title": "Introduction to Media Computing",
+ "workload": [
+  2,
+  1,
+  0,
+  3,
+  4
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-04-28T05:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": {
+  "and": [
+   {
+    "or": [
+     "CS2040:D",
+     "CS2040S:D",
+     "CS2040C:D",
+     "CS2040DE:D",
+     "CS2040HS:D"
+    ]
+   },
+   {
+    "or": [
+     "MA1522:D",
+     "MA2001:D",
+     "MA1513:D",
+     "MA1311:D",
+     "MA1508E:D"
+    ]
+   }
+  ]
+ },
+ "fulfillRequirements": [
+  "CS4242",
+  "CS4347",
+  "CS5647"
+ ]
+}

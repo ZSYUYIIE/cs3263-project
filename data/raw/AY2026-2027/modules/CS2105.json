@@ -1,0 +1,63 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true
+ },
+ "department": "Computer Science",
+ "description": "This course aims to provide a broad introduction to computer networks and network application programming. It covers the main concepts, the fundamental principles, and the high-level workings of important protocols in each of the Internet protocol layer. Topics include the Web and Web applications, DNS services, socket programming, reliable protocols, transport and network layer protocols, secure communication, LAN, and data communication. Practical assignments and handson exercises expose students to network application programming and various networking tools and utilities.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS2105",
+ "moduleCredit": "4",
+ "preclusion": "Must not be undertaking 0604ELEHON Bachelor of Engineering (Electrical Engineering) (Hons), 2001CEGHON Bachelor of Engineering (Computer Engineering) (Hons)",
+ "preclusionRule": "PROGRAMS MUST_NOT_BE_IN 0604ELEHON, 2001CEGHON",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHEN( must have completed 1 of CS2040/CS2040C/CS2040DE/CS2040HS/CS2040S/YSC2229 at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) YSC2229:D, CS2040:D, CS2040S:D, CS2040C:D, CS2040DE:D, CS2040HS:D)",
+ "title": "Introduction to Computer Networks",
+ "workload": [
+  2,
+  1,
+  0,
+  3,
+  4
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1,
+   "examDate": "2026-11-23T05:00:00.000Z",
+   "examDuration": 120
+  },
+  {
+   "covidZones": [
+    "Unknown",
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-04-24T01:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": {
+  "or": [
+   "YSC2229:D",
+   "CS2040:D",
+   "CS2040S:D",
+   "CS2040C:D",
+   "CS2040DE:D",
+   "CS2040HS:D"
+  ]
+ },
+ "fulfillRequirements": [
+  "CS3103",
+  "CS3235",
+  "CS6211",
+  "CS6219",
+  "CS4226",
+  "CS4222",
+  "CS5422"
+ ]
+}

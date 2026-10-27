@@ -1,0 +1,34 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "su": true
+ },
+ "corequisite": "if undertaking an Undergraduate Degree then ( must be enrolled in CN2125 )",
+ "corequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CN2125)",
+ "department": "Chemical and Biomolecular Engineering",
+ "description": "The module begins with a revision of chemical kinetics and thermodynamics emphasizing on the different definitions of reaction rates, rate expressions, and simple and complex reactions. The design equations for ideal reactors are then introduced followed by the general methods of analysis of rate data. Reactor sequencing, yield versus productivity considerations in multiple reactions, and nonisothermal operations round up the first half of the course. More advanced topics such as residence time distributions in reactors, kinetics of catalytic reactions and catalyst deactivation, coupling of chemical reactions with transport processes, form the bulk of the second half of the course.",
+ "faculty": "College of Design and Engineering",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CN2116",
+ "moduleCredit": "4",
+ "title": "Chemical Kinetics & Reactor Design",
+ "workload": [
+  3,
+  1,
+  0,
+  0,
+  3
+ ],
+ "semesterData": [],
+ "fulfillRequirements": [
+  "CN3101",
+  "CN3108",
+  "CN4211R",
+  "CN4246R",
+  "CN4250",
+  "CN3101A",
+  "CN4122",
+  "CN4240R",
+  "CN4247R"
+ ]
+}

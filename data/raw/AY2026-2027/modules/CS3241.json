@@ -1,0 +1,65 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true
+ },
+ "department": "Computer Science",
+ "description": "This course teaches some graphics hardware devices, reviews the mathematics related to the understanding, and discusses the fundamental areas of computer graphics. After completing the course, students are expected to understand the basic computer graphics terminology and concepts, and to be able to design and implement simple 2D and 3D interactive computer graphics related programs. As an enrichment part of the course, students are introduced the state-of-the-art development in computer graphics by viewing interesting video clips and experimenting with demo program made available in the course web.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS3241",
+ "moduleCredit": "4",
+ "prerequisite": "If undertaking an Undergraduate Degree THEN ( must have completed 1 of CS2030/CS2030DE/CS2030HS/CS2030S/CS2113/CS2113T at a grade of at least D AND must have completed 1 of CS2040/CS2040C/CS2040DE/CS2040HS/CS2040S/YSC2229 at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CS2030S:D, CS2030:D, CS2030DE:D, CS2030HS:D, CS2113:D, CS2113T:D AND COURSES (1) CS2040:D, YSC2229:D, CS2040S:D, CS2040C:D, CS2040DE:D, CS2040HS:D)",
+ "title": "Computer Graphics",
+ "workload": [
+  2,
+  1,
+  0,
+  3,
+  3
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1,
+   "examDate": "2026-11-25T05:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": {
+  "and": [
+   {
+    "or": [
+     "CS2030S:D",
+     "CS2030:D",
+     "CS2030DE:D",
+     "CS2030HS:D",
+     "CS2113:D",
+     "CS2113T:D"
+    ]
+   },
+   {
+    "or": [
+     "CS2040:D",
+     "YSC2229:D",
+     "CS2040S:D",
+     "CS2040C:D",
+     "CS2040DE:D",
+     "CS2040HS:D"
+    ]
+   }
+  ]
+ },
+ "fulfillRequirements": [
+  "CS3242",
+  "CS4247",
+  "CS4345",
+  "CS4351",
+  "CS3247",
+  "CP4281",
+  "CP4282"
+ ]
+}

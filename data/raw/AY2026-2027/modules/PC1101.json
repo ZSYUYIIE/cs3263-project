@@ -1,0 +1,70 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true,
+  "su": true
+ },
+ "department": "Physics",
+ "description": "This course offers a thematic overview of the frontiers of physics, with a central focus on light due to its ubiquitous presence in the development of modern physics. It covers the classical wave description of light, from the history of its discovery to the basic mathematical notions, the speed of light and special relativity, as well as light's impact on the development of quantum theory, highlighting some fundamental quantum processes involving one or two photons. It also explores light-based technologies and considers the historical and philosophical context of these scientific concepts, laying a solid foundation for further study in physics.",
+ "faculty": "Science",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "PC1101",
+ "moduleCredit": "4",
+ "preclusion": "(If undertaking an Undergraduate Degree AND if in one of the cohorts prior to 2020 inclusive ) THEN ( must not have completed 1 of any Courses beginning with PC20 at a grade of at least D, any Courses beginning with PC21 at a grade of at least D, any Courses beginning with PC22 at a grade of at least D, PC1144/PC1432/PC1432X at a grade of at least D)",
+ "preclusionRule": "(PROGRAM_TYPES IF_IN Undergraduate Degree AND COHORT_YEARS IF_IN E:2020) THEN (COURSES (1) PC1432:D, PC1432X:D, PC20%:D, PC21%:D, PC22%:D, PC1144:D)",
+ "prerequisite": "If undertaking an Undergraduate Degree THEN (( must have completed 1 of 06 MATHEMATICS/07 FURTHER MATHEMATICS at a grade of at least E) OR ( must have completed 1 of MA1301/MA1301X at a grade of at least D))",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN ((SUBJECTS (1) 06:E, 07:E) OR (COURSES (1) MA1301:D, MA1301X:D))",
+ "title": "Frontiers of Physics",
+ "workload": [
+  3,
+  0,
+  0,
+  4,
+  3
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1,
+   "examDate": "2026-11-30T05:00:00.000Z",
+   "examDuration": 120
+  },
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-04-30T01:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": {
+  "or": [
+   "MA1301:D",
+   "MA1301X:D"
+  ]
+ },
+ "fulfillRequirements": [
+  "PC2193",
+  "PC2267",
+  "PC3422",
+  "CM4254",
+  "SP2251",
+  "PC2031",
+  "PC2422",
+  "PC2421",
+  "PC2288",
+  "PC2288R",
+  "PC2289",
+  "PC2289R",
+  "PC3235B",
+  "PC2423",
+  "PC2031S",
+  "PC2032S",
+  "PC2032",
+  "PC3421"
+ ]
+}

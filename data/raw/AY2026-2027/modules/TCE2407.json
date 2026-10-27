@@ -1,0 +1,33 @@
+{
+ "acadYear": "2026/2027",
+ "department": "SCALE Dean's Office",
+ "description": "This course is designed to equip undergraduate civil engineering students with mathematical and statistical tools for fast and efficient solutions of various practical engineering problems in their further education and in their professional life. A bridge is built from mathematics and statistics to engineering applications based on a reasonable depth in fundamental knowledge. The focus is on numerical solution methods for linear algebraic problems and differential equations as well as on probability theory and statistics. The subjects are discussed and demonstrated in the context of practical civil engineering problems. This allows students to solve problems in many fields and disciplines. Application areas include but are not limited to stability problems, dynamics/vibrations, linear and nonlinear structural analysis, reliability and risk analysis, structural and system analysis under uncertainty, and design of processes and structures under uncertainty.",
+ "faculty": "Cont and Lifelong Education",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "TCE2407",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate DegreeTHEN( must not have completed 1 of CE2407/CE2407A/CE2407B at a grade of at least D)",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CE2407:D, CE2407A:D, CE2407B:D)",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHENmust have completed TTG1401 at a grade of at least D",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN COURSES (1) TTG1401:D",
+ "title": "Engineering & Uncertainty Analyses",
+ "workload": [
+  3,
+  1,
+  0,
+  2,
+  4
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 3
+  }
+ ],
+ "prereqTree": "TTG1401:D",
+ "fulfillRequirements": [
+  "TCE3121"
+ ]
+}

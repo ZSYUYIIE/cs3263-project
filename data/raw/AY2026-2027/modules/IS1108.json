@@ -1,0 +1,55 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true,
+  "su": true
+ },
+ "department": "Information Systems and Analytics",
+ "description": "Course is designed to introduce students to the issues of AI and digital ethics faced by individuals and organisations. It covers the ethical principles governing the behaviors and beliefs about how we use technology, and how we collect and process personal information in a manner that aligns with individual and organisational expectations for security and confidentiality. It will address challenges in balancing technological desirability with social and environmental responsibility while developing digital products and services. Key topics include Professional Ethics, Artificial Intelligence Ethics and Governance, Automation and Autonomous Systems, Digital Ethics by Design, Data Protection in ICT, Human Machine Interaction, Computing for Social Good, Digital Intellectual Property Rights, and Digital Divide, Equity, Accessibility, and Inclusion.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "IS1108",
+ "moduleCredit": "4",
+ "title": "Digital and AI Ethics",
+ "workload": [
+  2,
+  2,
+  0,
+  2,
+  4
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C",
+    "Unknown"
+   ],
+   "semester": 1,
+   "examDate": "2026-11-28T05:00:00.000Z",
+   "examDuration": 120
+  },
+  {
+   "covidZones": [
+    "C",
+    "Unknown"
+   ],
+   "semester": 2,
+   "examDate": "2027-05-03T05:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "fulfillRequirements": [
+  "IS4250",
+  "IS4233",
+  "IS4241",
+  "IS3240",
+  "IS4100",
+  "IS4301",
+  "IS4234",
+  "IS4240",
+  "IS3103",
+  "IS3221",
+  "IS3251"
+ ]
+}

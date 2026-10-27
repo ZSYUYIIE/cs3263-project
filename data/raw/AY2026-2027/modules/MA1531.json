@@ -1,0 +1,54 @@
+{
+ "acadYear": "2026/2027",
+ "additionalInformation": "This course is open only to students who are majoring in DSAI and DSE.",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true,
+  "su": true
+ },
+ "department": "Mathematics",
+ "description": "This course develops calculus as a mathematical foundation for data science. It covers functions and limits, derivatives and approximations, optimisation and gradient-based learning, integration and expectation, vectors and high-dimensional geometry, multivariable calculus, gradients, Hessians, Lagrange multipliers, double integrals, transformations, Jacobians, and multivariate probability. Emphasis is placed on conceptual understanding, computational thinking, and the interpretation of calculus tools in modelling, loss minimisation, probability, and learning algorithms.",
+ "faculty": "Science",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "MA1531",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate DegreeTHEN(( must not have completed 1 of YSC1216, MA1312/MA1505/MA1511/MA1521/MA2002/MA2104 at a grade of at least D)AND(must not be undertaking 1 of 1003MAHON Bachelor of Science - Mathematics (Hons), 1003QFNHON Bachelor of Science - Quantitative Finance (Hons), 1006STHON Bachelor of Science - Statistics (Hons), 0601BMEHON Bachelor of Engineering (Biomedical Engineering) (Hons), 0602CHEHON Bachelor of Engineering (Chemical Engineering) (Hons), 0604ELEHON Bachelor of Engineering (Electrical Engineering) (Hons), 0613CEHON Bachelor of Engineering (Civil Engineering) (Hons), 0605ESPHON Bachelor of Engineering (Engineering Science) (Hons), 0613EVEHON Bachelor of Engineering (Environmental Engineering) (Hons), 0607ISEHON Bachelor of Engineering (Industrial and Systems Engineering) (Hons), 0608MSEHON Bachelor of Engineering (Materials Science and Engineering) (Hons), 0609MEHON Bachelor of Engineering (Mechanical Engineering) (Hons), 0616IPMHON BEng (Infrastructure and Project Management) (Hons), 2001CEGHON Bachelor of Engineering (Computer Engineering) (Hons), 0300CSHON Bachelor of Computing (Computer Science) (Hons), 0300ISCHON Bachelor of Computing (Information Security) (Hons), 0300ISHON Bachelor of Computing (Information Systems) (Hons), 0300BZAHON Bachelor of Science (Business Analytics) (Hons)))",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN ((COURSES (1) MA1312:D, MA1505:D, MA1511:D, MA1521:D, MA2002:D, MA2104:D, YSC1216) AND (PROGRAMS MUST_NOT_BE_IN (1) 1003MAHON, 1003QFNHON, 1006STHON, 0601BMEHON, 0602CHEHON, 0604ELEHON, 0613CEHON, 0605ESPHON, 0613EVEHON, 0607ISEHON, 0608MSEHON, 0609MEHON, 0616IPMHON, 2001CEGHON, 0300CSHON, 0300ISCHON, 0300ISHON, 0300BZAHON))",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHEN(( must have completed 1 of 06 MATHEMATICS/07 FURTHER MATHEMATICS at a grade of at least E)OR( must have completed 1 of MA1301/MA1301X at a grade of at least D))",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN ((SUBJECTS (1) 06:E, 07:E) OR (COURSES (1) MA1301:D, MA1301X:D))",
+ "title": "Calculus for Data Science",
+ "workload": [
+  4,
+  0,
+  0,
+  2,
+  4
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1,
+   "examDate": "2026-11-21T01:00:00.000Z",
+   "examDuration": 120
+  },
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-04-30T01:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": {
+  "or": [
+   "MA1301:D",
+   "MA1301X:D"
+  ]
+ },
+ "fulfillRequirements": [
+  "CS2109HS"
+ ]
+}

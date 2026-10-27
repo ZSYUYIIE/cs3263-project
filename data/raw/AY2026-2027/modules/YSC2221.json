@@ -1,0 +1,23 @@
+{
+ "acadYear": "2026/2027",
+ "department": "Yale-NUS College",
+ "description": "This course introduces Python, a widely used high-level programming language. Its popularity is comparable to Java or C/C++. This means Python is practically useful and convenient to program and learn, since there are many resources/communities on the internet and many supporting libraries. Python was designed to be easy to learn, though many serious applications have been built based on it.",
+ "faculty": "Yale-NUS College",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "YSC2221",
+ "moduleCredit": "2.5",
+ "title": "Introduction to Python",
+ "workload": [
+  0,
+  3,
+  0,
+  0,
+  3.25
+ ],
+ "semesterData": [],
+ "fulfillRequirements": [
+  "YSC2227",
+  "YSC3217",
+  "YSC3232"
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "acadYear": "2026/2027",
+ "department": "Civil and Environmental Engineering",
+ "description": "This course is designed to equip undergraduate civil engineering students with mathematical and statistical tools for fast and efficient solutions of various practical engineering problems in their further education and in their professional life. A bridge is built from mathematics and statistics to engineering applications based on a reasonable depth in fundamental knowledge. The focus is on numerical solution methods for linear algebraic problems and differential equations as well as on probability theory and statistics. The subjects are discussed and demonstrated in the context of practical civil engineering problems. This allows students to solve problems in many fields and disciplines. Application areas include but are not limited to stability problems, dynamics/vibrations, linear and nonlinear structural analysis, reliability and risk analysis, structural and system analysis under uncertainty, and design of processes and structures under uncertainty.",
+ "faculty": "College of Design and Engineering",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CE2407",
+ "moduleCredit": "4",
+ "preclusion": "if undertaking an Undergraduate Degree then ( must not have completed TCE2407 at a grade of at least D )",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) TCE2407:D)",
+ "prerequisite": "if undertaking an Undergraduate Degree then ( must have completed all of MA1505 at a grade of at least D, MA1505 at a grade of at least S )",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (2) MA1505:D, MA1505:S)",
+ "title": "Engineering & Uncertainty Analyses",
+ "workload": [
+  3,
+  1,
+  0,
+  0,
+  6
+ ],
+ "semesterData": [],
+ "prereqTree": {
+  "nOf": [
+   2,
+   [
+    "MA1505:D",
+    "MA1505:S"
+   ]
+  ]
+ },
+ "fulfillRequirements": [
+  "CE5701A",
+  "CE5702",
+  "IE2130",
+  "EE3801",
+  "EE4802",
+  "IE4213",
+  "EE5907",
+  "CE3121"
+ ]
+}

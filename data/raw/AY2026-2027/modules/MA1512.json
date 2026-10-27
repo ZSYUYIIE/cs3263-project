@@ -1,0 +1,97 @@
+{
+ "acadYear": "2026/2027",
+ "additionalInformation": "This course is open only to Engineering students.",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true,
+  "su": true
+ },
+ "department": "Mathematics",
+ "description": "This is a seven-week course specially designed for students majoring in Engineering. It introduces the basic concepts in the study of differential equations, with an emphasis on applications in engineering and other fields. Major topics include modelling with differential equations, first-order ordinary differential equations, higher-order linear differential equations, the Laplace transform, and partial differential equations.",
+ "faculty": "Science",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "MA1512",
+ "moduleCredit": "2",
+ "preclusion": "If undertaking an Undergraduate Degree THEN ( must not have completed PC2134 at a grade of at least D)",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES PC2134:D)",
+ "prerequisite": "If undertaking an Undergraduate Degree THEN (( must have completed 1 of 06 MATHEMATICS/07 FURTHER MATHEMATICS at a grade of at least E) OR ( must have completed 1 of MA1301/MA1301X at a grade of at least D))",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN ((SUBJECTS (1) 06:E, 07:E) OR (COURSES (1) MA1301:D, MA1301X:D))",
+ "title": "Differential Equations for Engineering",
+ "workload": [
+  3,
+  2,
+  0,
+  0,
+  5
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1,
+   "examDate": "2026-11-23T09:00:00.000Z",
+   "examDuration": 90
+  },
+  {
+   "covidZones": [
+    "C",
+    "Unknown"
+   ],
+   "semester": 2,
+   "examDate": "2027-04-26T09:00:00.000Z",
+   "examDuration": 90
+  }
+ ],
+ "prereqTree": {
+  "or": [
+   "MA1301:D",
+   "MA1301X:D"
+  ]
+ },
+ "fulfillRequirements": [
+  "CN2122",
+  "CN3421",
+  "CN2122A",
+  "EE2012A",
+  "CN3121",
+  "CN3421A",
+  "ME2142",
+  "ME3291",
+  "ME3142",
+  "EE2023",
+  "CN3104",
+  "CN4101",
+  "EE2012",
+  "CN2109",
+  "ME4291",
+  "CS3242",
+  "CS5241",
+  "CS5249",
+  "CS5478",
+  "CS4278",
+  "CS5332",
+  "CS5284",
+  "IS4242",
+  "CS4347",
+  "CS5647",
+  "CS5240",
+  "CS2251",
+  "CP4282",
+  "CS3244",
+  "CS3218",
+  "CS4248",
+  "CS2109S",
+  "CS4243",
+  "IT3011",
+  "PC3238",
+  "PC3441",
+  "PC2031",
+  "PC2020",
+  "PC3236",
+  "PC3274A",
+  "PC2032",
+  "CS2109HS",
+  "CG2023"
+ ]
+}

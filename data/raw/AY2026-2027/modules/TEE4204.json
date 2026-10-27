@@ -1,0 +1,38 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "lab": true,
+  "sfs": true,
+  "ssgf": true
+ },
+ "department": "SCALE Dean's Office",
+ "description": "This course provides an in-depth treatment of fundamental topics of network design based on the Internet protocol stack model. It is aimed at making students understand how networks work through understanding of the underlying principles of sound network design. This course covers topics including network requirements, architecture, protocol stack models, Ethernet Token Ring, Wireless, and FDDI networks, bridges, switching and routing in IP and ATM networks, and internetworking. Apart from learning the concepts in networks, the students will gain expertise in analyzing and designing networking protocols through mini-projects.",
+ "faculty": "Cont and Lifelong Education",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "TEE4204",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate Degree THEN ( must not have completed 1 of CS2105/CS3103/EE3204E/EE4204E/TEE3204 at a grade of at least D)",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CS2105:D, CS3103:D, TEE3204:D, EE3204E:D, EE4204E:D)",
+ "prerequisite": "If undertaking an Undergraduate Degree THEN must have completed TEE2003 at a grade of at least D",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN COURSES TEE2003:D",
+ "title": "Computer Networks",
+ "workload": [
+  2,
+  1,
+  1,
+  1.5,
+  4.5
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "Unknown",
+    "C"
+   ],
+   "semester": 1,
+   "examDate": "2026-11-30T01:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": "TEE2003:D"
+}

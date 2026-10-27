@@ -1,0 +1,32 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes2": true,
+  "su": true
+ },
+ "department": "Biomedical Engineering",
+ "description": "This course is the second of a set of two courses: Engineering Principle and Practice I and II (EPP I and EPP II). EPP courses aim to introduce first year students to the biomedical engineer’s way of thinking and addressing problems. A real-life medical technology will be used to demonstrate the fundamental knowledge and skills that a biomedical engineer is expected to possess. In EPP II, students will be exposed to key engineering problems such as how systems are controlled, powered and optimised.",
+ "faculty": "College of Design and Engineering",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "BN2111",
+ "moduleCredit": "4",
+ "title": "Biomedical Engineering Principles and Practice II",
+ "workload": [
+  2,
+  0,
+  3,
+  0,
+  5
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "Unknown"
+   ],
+   "semester": 2
+  }
+ ],
+ "fulfillRequirements": [
+  "CG2027"
+ ]
+}

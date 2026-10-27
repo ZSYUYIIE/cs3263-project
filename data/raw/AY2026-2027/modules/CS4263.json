@@ -1,0 +1,53 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true
+ },
+ "department": "Computer Science",
+ "description": "This course covers core Artificial Intelligence methodologies while emphasising design, integration, and independent inquiry. Students will study search, constraint satisfaction, adversarial reasoning, logical representations, automated planning, and sequential decision‑making using Markov Decision Processes. Students are expected to design and extend AI solutions, explore alternative representations, and critically investigate open‑ended problem settings with a substantial project component within the context of responsible use of AI.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS4263",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate DegreeTHENmust not have completed CS2109S/CS3243/CS3263 at a grade of at least D",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN COURSES CS3263:D, CS3243:D, CS2109S:D",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHEN(( must have completed 1 of CS2040/CS2040C/CS2040DE/CS2040HS/CS2040S at a grade of at least D)AND( must have completed 1 of CS1231/CS1231S/MA1100/MA1100T at a grade of at least D))",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN ((COURSES (1) CS2040:D, CS2040C:D, CS2040S:D, CS2040DE:D, CS2040HS:D) AND (COURSES (1) CS1231:D, CS1231S:D, MA1100:D, MA1100T:D))",
+ "title": "Artificial Intelligence Principles",
+ "workload": [
+  2,
+  1,
+  0,
+  4,
+  3
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1
+  }
+ ],
+ "prereqTree": {
+  "and": [
+   {
+    "or": [
+     "CS2040:D",
+     "CS2040C:D",
+     "CS2040S:D",
+     "CS2040DE:D",
+     "CS2040HS:D"
+    ]
+   },
+   {
+    "or": [
+     "CS1231:D",
+     "CS1231S:D",
+     "MA1100:D",
+     "MA1100T:D"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "su": true
+ },
+ "department": "Engineering Science Programme",
+ "description": "Students will learn engineering fundamentals like forces and equilibrium, dynamics and understand how materials and structures work and fail. They will also learn the transport phenomena which includes the principles of heat transfer by conduction and convection as well as the mass transfer by diffusion and convection. They will learn the importance of safety in conducting engineering activities, units and dimensions, significant numbers, how to make good guesses to solve engineering problems, vector mechanics and create engineering drawings. The students apply these concepts through building a wooden tower, taking full control of its design, modelling and construction. They will test their towers on a shake-table, and the team with the best design, based on a pre-determined set of metrics, will be given due recognition. They will also conduct a few simple experiments to appreciate the heat and mass transfer processes in different materials. Finally, they apply their knowledge of coupled heat and mass transfer processes for the design, fabrication and testing of a small-scale dryer for the drying of potato slices.",
+ "faculty": "College of Design and Engineering",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "ESP1111",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate Degree THEN must not have completed ME1102 at a grade of at least D",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN COURSES ME1102:D",
+ "title": "Engineering Principles In-Action",
+ "workload": [
+  0,
+  0,
+  3,
+  2,
+  5
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1
+  }
+ ],
+ "fulfillRequirements": [
+  "ESP2110",
+  "ME2121",
+  "EE4513",
+  "PC3235B",
+  "PC2130B"
+ ]
+}

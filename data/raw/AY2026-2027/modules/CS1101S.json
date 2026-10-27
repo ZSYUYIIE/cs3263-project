@@ -1,0 +1,93 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true,
+  "su": true
+ },
+ "department": "Computer Science",
+ "description": "This course introduces the concepts of programming and computational problem solving, and is the first and foremost introductory course to computing. Starting from a small core of fundamental abstractions, the course introduces programming as a method for communicating computational processes. The course begins with purely functional programming based on a simple substitution-based execution model, and ends with a powerful modern imperative language based on a realistic environment-based execution model. Topics covered include: functional abstraction, recursion, higher-order functions, data abstraction, algorithmic strategies, state mutation, loops and arrays, evaluation strategies, sorting and searching, debugging and testing.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS1101S",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate DegreeTHEN( must not have completed 1 of CS1010/CS1010A/CS1010E/CS1010HS/CS1010J/CS1010S/CS1010X/UTC2851 at a grade of at least D)",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CS1010:D, CS1010J:D, CS1010S:D, CS1010E:D, CS1010X:D, CS1010A:D, CS1010HS:D, UTC2851:D)",
+ "title": "Programming Methodology",
+ "workload": [
+  3,
+  1,
+  2,
+  2,
+  2
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C",
+    "Unknown"
+   ],
+   "semester": 1,
+   "examDate": "2026-11-25T01:00:00.000Z",
+   "examDuration": 120
+  },
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-04-30T06:30:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "fulfillRequirements": [
+  "CS2100DE",
+  "EE2213",
+  "CS2030DE",
+  "CS2040DE",
+  "EE3703",
+  "EE5907",
+  "CS2040HS",
+  "GI3102",
+  "GI4101",
+  "GI4102",
+  "FIN4719",
+  "BT2102",
+  "IS4241",
+  "CS2040",
+  "CS2107",
+  "IT2001",
+  "IT2002",
+  "IT3010",
+  "CP2106",
+  "CP2107",
+  "CS2040C",
+  "BT4221",
+  "CS2040S",
+  "IS3221",
+  "BT3017",
+  "BT4222",
+  "BT4212",
+  "CS2111",
+  "CS2100",
+  "CS3237",
+  "IS2109",
+  "CS2030S",
+  "IT3011",
+  "CS2030",
+  "MA3269",
+  "ZB3288",
+  "ZB3288R",
+  "ST3247",
+  "ZB3101",
+  "QF3101",
+  "DSA3102",
+  "DSA2111",
+  "DSA2112",
+  "QF2103",
+  "CS2100HS",
+  "CS2030HS",
+  "CG2028",
+  "NST2056"
+ ]
+}

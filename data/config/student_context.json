@@ -1,0 +1,15 @@
+{
+  "_comment": "The student every non-course condition is resolved against. Change this and re-run `python -m m1_data build` to regenerate for a different student. Field meanings: docs/DATA_SCHEMA.md#student-context.",
+  "program_type": "Undergraduate Degree",
+  "programs": ["0300CSHON"],
+  "second_major": [],
+  "minor": [],
+  "special_programme": [],
+  "cohort": 2024,
+  "subjects_held": ["06", "0006", "07", "0007", "21", "22", "EP"],
+  "subject_level": "H2",
+  "acad_level": null,
+  "units_completed": null,
+  "gpa": null,
+  "unknown_policy": "assume_true"
+}

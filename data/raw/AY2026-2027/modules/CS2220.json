@@ -1,0 +1,51 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true
+ },
+ "department": "Computer Science",
+ "description": "This course aims to develop flexible and logical problem solving skills, understanding of main bioinformatics problems, and appreciation of main techniques and approaches to bioinformatics. Through case studies and hands-on exercises, the student will (i) master the basic tools and approaches for analysis of DNA sequences, protein sequences, gene expression profiles, etc. (ii) understand important problems and applications of computational biology, including identifying functional features in DNA and protein sequences, predicting protein function, and deriving diagnostic models from gene expression profiles, (iii) be confident to propose new solutions to both existing and emerging problems in computational biology.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS2220",
+ "moduleCredit": "4",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHEN( must have completed 1 of CS2040/CS2040C/CS2040DE/CS2040HS/CS2040S at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CS2040:D, CS2040S:D, CS2040C:D, CS2040DE:D, CS2040HS:D)",
+ "title": "Introduction to Computational Biology",
+ "workload": [
+  2,
+  1,
+  0,
+  3,
+  4
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1,
+   "examDate": "2026-12-01T05:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": {
+  "or": [
+   "CS2040:D",
+   "CS2040S:D",
+   "CS2040C:D",
+   "CS2040DE:D",
+   "CS2040HS:D"
+  ]
+ },
+ "fulfillRequirements": [
+  "CS4220R",
+  "CS6222",
+  "CS3225",
+  "CS4220",
+  "CS4330",
+  "ZB3288",
+  "ZB3288R",
+  "ZB4171"
+ ]
+}

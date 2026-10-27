@@ -1,0 +1,30 @@
+{
+ "acadYear": "2026/2027",
+ "department": "Yale-NUS College",
+ "description": "While YSC3207 focused on programming in different languages and tools to help software development, students at this point do not really understand how an Operating System works. Operating Systems are also actually programs and as such, follow the same rules and logic on a lower level. Computer Scientists should have enough knowledge to understand these low level mechanisms in order to be able to develop on any given platform.",
+ "faculty": "Yale-NUS College",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "YSC3217",
+ "moduleCredit": "5",
+ "prerequisite": "if undertaking an Undergraduate Degree then ( must have completed 1 of YSC1212/YSC2221 at a grade of at least D )",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) YSC2221:D, YSC1212:D)",
+ "title": "Programming Operating Systems, Interfaces & eXtras",
+ "workload": [
+  0,
+  3,
+  0,
+  7,
+  2.5
+ ],
+ "semesterData": [],
+ "prereqTree": {
+  "or": [
+   "YSC2221:D",
+   "YSC1212:D"
+  ]
+ },
+ "fulfillRequirements": [
+  "YSC4234",
+  "CS3235"
+ ]
+}

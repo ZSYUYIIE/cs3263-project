@@ -1,0 +1,72 @@
+{
+ "acadYear": "2026/2027",
+ "additionalInformation": "Those with A-level or H2 pass in Mathematics or H2 pass in Further Mathematics or who have passed any of the MA-coded courses are not allowed to read this course.",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true,
+  "su": true
+ },
+ "department": "Mathematics",
+ "description": "This course serves as a bridging course for students without GCE Advanced (A) Level Mathematics. It aims to equip students with appropriate mathematical knowledge and skills so as to prepare them for further study of mathematics-related disciplines. At the end of the course, students are expected to attain a level of proficiency in algebra and calculus equivalent to GCE A Level Mathematics. Major topics include: Sets, functions and graphs, polynomials and rational functions, inequalities in one variable, logarithmic and exponential functions, trigonometric functions, sequences and series, techniques of differentiation, applications of differentiation, maxima and minima, increasing and decreasing functions, curve sketching, techniques of integration, applications of integration, areas, volumes of solids of revolution, solution of first-order ordinary differential equations by separation of variables and by integrating factor, complex numbers and vectors.",
+ "faculty": "Science",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "MA1301",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate Degree THEN (( 1 of 06 MATHEMATICS/07 FURTHER MATHEMATICS at a grade of at least E) AND ( must not have completed 1 of any Courses beginning with MA at a grade of at least D))",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN ((SUBJECTS (1) 06:E, 07:E) AND (COURSES (1) MA%:D))",
+ "prerequisiteAdvisory": "Pass in GCE ‘O’ Level Additional Mathematics or GCE ‘AO’ Level or H1 Mathematics",
+ "title": "Introductory Mathematics",
+ "workload": [
+  3,
+  1,
+  0,
+  0,
+  6
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1,
+   "examDate": "2026-11-27T01:00:00.000Z",
+   "examDuration": 120
+  },
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-05-05T01:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "fulfillRequirements": [
+  "CS1231S",
+  "CS4240",
+  "CS1231",
+  "MA1311",
+  "MA2301",
+  "MA1312",
+  "LSM4231",
+  "DSE1101",
+  "MA1100",
+  "MA1100T",
+  "MA1508E",
+  "MA2001",
+  "QF1100",
+  "MA1505",
+  "MA1512",
+  "MA1513",
+  "MA1521",
+  "MA1522",
+  "MA2002",
+  "PC1101",
+  "PC2174A",
+  "MA1511",
+  "DSA1101",
+  "MA1531",
+  "PC2174S",
+  "ST1131"
+ ]
+}

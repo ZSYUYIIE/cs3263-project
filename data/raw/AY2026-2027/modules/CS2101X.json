@@ -1,0 +1,34 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true,
+  "su": true
+ },
+ "department": "Center for Engl Lang Comms",
+ "description": "This practice-driven course prepares computing students for workplace communication in AI-rich environments. Students learn active listening, strategic questioning, and calibrated responses; collaborate to elicit and synthesize diverse perspectives for problem framing and root-cause analysis; and integrate generative AI with human judgment to produce fast, clear, audience-tailored messages. Through case studies, feedback giving, reflections, students learn to craft workplace artefacts across diverse platforms while developing an authentic, credible presence. Metacognitive-inspired reflections strengthen students’ awareness of when to trust, verify, and refine AI outputs.",
+ "faculty": "Center for Engl Lang Comms",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS2101X",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate DegreeTHENmust not have completed 1 of CS2101/CS2103/CS2103T/CS2113/CS2113T/ES2002/ES2007D/IS2101 at a grade of at least D",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN COURSES (1) CS2103:D, CS2103T:D, CS2113:D, CS2113T:D, ES2002:D, ES2007D:D, IS2101:D, CS2101:D",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHENmust have completed EP ENGLISH LANGUAGE PROFICIENCY TEST at a grade of at least NANDmust be undertaking 0300AIHON Bachelor of Computing (Artificial Intelligence) (Hons)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN SUBJECTS EP:N AND PROGRAMS MUST_BE_IN 0300AIHON",
+ "title": "Effective Communication for Computing Professionals",
+ "workload": [
+  2,
+  2,
+  0,
+  4,
+  2
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2
+  }
+ ]
+}

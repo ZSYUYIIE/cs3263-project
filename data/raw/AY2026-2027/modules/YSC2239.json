@@ -1,0 +1,29 @@
+{
+ "acadYear": "2026/2027",
+ "department": "Yale-NUS College",
+ "description": "Data science has revolutionised modern life and technology using a broad spectrum of methods from Mathematics, Statistics and Computer Science. Intrinsically, mathematical and statistical techniques are married to modern computing power to provide accurate and complex tools to capture real life phenomena. In this course we develop an introduction to methods used in data science, at a level requiring basic mathematics and statistics.",
+ "faculty": "Yale-NUS College",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "YSC2239",
+ "moduleCredit": "5",
+ "preclusion": "if undertaking an Undergraduate Degree then ( must not have completed DSA1101 at a grade of at least D )",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) DSA1101:D)",
+ "prerequisite": "if undertaking an Undergraduate Degree then ( must have completed YCC1122 at a grade of at least CS and must have completed 06 MATHEMATICS at a grade of at least 3 )",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) YCC1122:CS AND SUBJECTS (1) 06:3)",
+ "title": "Introduction to Data Science",
+ "workload": [
+  0,
+  2,
+  1,
+  5,
+  4.5
+ ],
+ "semesterData": [],
+ "prereqTree": "YCC1122:CS",
+ "fulfillRequirements": [
+  "YSC2232",
+  "YSC4216",
+  "YSC4224",
+  "YSC4228"
+ ]
+}

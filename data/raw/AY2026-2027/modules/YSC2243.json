@@ -1,0 +1,31 @@
+{
+ "acadYear": "2026/2027",
+ "department": "Yale-NUS College",
+ "description": "This is an introductory course in probability theory, which is essential for many MCS courses, as well as in other scientific disciplines such as biology and economics. The course covers the basic principles of the theory of probability and its applications.",
+ "faculty": "Yale-NUS College",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "YSC2243",
+ "moduleCredit": "5",
+ "preclusion": "if undertaking an Undergraduate Degree then ( must not have completed 1 of \"MA2216\"/ST2131 at a grade of at least D )",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) ST2131:D, MA2216:D)",
+ "prerequisite": "if undertaking an Undergraduate Degree then ( must have completed YSC1216 at a grade of at least D )",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) YSC1216:D)",
+ "title": "Probability",
+ "workload": [
+  0,
+  1.5,
+  1.5,
+  0,
+  9.5
+ ],
+ "semesterData": [],
+ "prereqTree": "YSC1216:D",
+ "fulfillRequirements": [
+  "YSC3249",
+  "YSC3252",
+  "YSC4225",
+  "CS3244",
+  "CS4248",
+  "CS4243"
+ ]
+}

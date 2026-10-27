@@ -1,0 +1,62 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes2": true
+ },
+ "department": "FoS Dean's Office",
+ "description": "This course is a follow-up to the basic programming methodology course. It explores two modern programming paradigms – object-oriented programming and functional programming. Through a series of integrated assignments, students will learn to develop medium-scale software programmes using object-oriented design principles and advanced programming constructs available in the two paradigms. Topics include objects and classes, composition, association, inheritance, interface, polymorphism, abstract classes, dynamic binding, generics, exception handling, lambda expressions, side-effect-free programming, first-class functions, closures, continuations, monads, etc.",
+ "faculty": "Science",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS2030HS",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate Degree THEN ( must not have completed 1 of CS2030/CS2030DE/CS2030S at a grade of at least D) AND ((must not be undertaking 0300CSHON Bachelor of Computing (Computer Science) (Hons)) AND (must not be undertaking 0300CS2MJ Computer Science (2nd Major)) AND (must not be undertaking 0300CSMIN Computer Science (Minor)))",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CS2030:D, CS2030S:D, CS2030DE:D) AND ((PROGRAMS MUST_NOT_BE_IN 0300CSHON) AND (2ND_MAJOR MUST_NOT_BE_IN 0300CS2MJ) AND (MINOR MUST_NOT_BE_IN 0300CSMIN))",
+ "prerequisite": "If undertaking an Undergraduate Degree THEN must have completed 1 of CS1010/CS1010A/CS1010E/CS1010HS/CS1010J/CS1010X/CS1101S/UTC2851 at a grade of at least D",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN COURSES (1) CS1010:D, CS1010A:D, CS1010E:D, CS1010HS:D, CS1010J:D, CS1010X:D, CS1101S:D, UTC2851:D",
+ "title": "Programming Methodology II",
+ "workload": [
+  1,
+  1,
+  2,
+  3,
+  3
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2
+  }
+ ],
+ "prereqTree": {
+  "or": [
+   "CS1010:D",
+   "CS1010A:D",
+   "CS1010E:D",
+   "CS1010HS:D",
+   "CS1010J:D",
+   "CS1010X:D",
+   "CS1101S:D",
+   "UTC2851:D"
+  ]
+ },
+ "fulfillRequirements": [
+  "CS4215",
+  "CS3241",
+  "CS3233",
+  "CS3226",
+  "CS3218",
+  "CS2309",
+  "CS2104",
+  "CS2103T",
+  "CS2103",
+  "CS2102",
+  "BT3102",
+  "CP3107",
+  "IS4302",
+  "IS2108",
+  "IS2103",
+  "CS4243"
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "acadYear": "2026/2027",
+ "department": "Computer Science",
+ "description": "This 1-MC course adds a research component to the host course, enabling students to acquire more in-depth understanding of the research issues pertaining to the subject matter.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS3230R",
+ "moduleCredit": "1",
+ "prerequisiteAdvisory": "Co-read with host course in current semester or pass host course in previous semester. Student selection process is enforced.",
+ "title": "Design and Analysis of Algorithms",
+ "workload": [
+  0,
+  0,
+  0,
+  2,
+  1
+ ],
+ "semesterData": [
+  {
+   "covidZones": [],
+   "semester": 1
+  }
+ ]
+}

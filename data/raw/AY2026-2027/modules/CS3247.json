@@ -1,0 +1,34 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes2": true
+ },
+ "department": "Computer Science",
+ "description": "The objective of this course is to introduce techniques for electronic game design and programming. This course covers a range of important topics including 3D maths, game physics, game AI, sound, as well as user interface for computer games. Furthermore, it will give an overview of computer game design to the students. Through laboratory programming exercises, the students will have hands-on programming experience with popular game engines and will develop basic games using those engines.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS3247",
+ "moduleCredit": "4",
+ "prerequisite": "if undertaking an Undergraduate Degree then ( must have completed CS3241 at a grade of at least D )",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CS3241:D)",
+ "title": "Game Development",
+ "workload": [
+  2,
+  1,
+  1,
+  3,
+  3
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2
+  }
+ ],
+ "prereqTree": "CS3241:D",
+ "fulfillRequirements": [
+  "CS4350"
+ ]
+}

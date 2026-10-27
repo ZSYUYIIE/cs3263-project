@@ -1,0 +1,54 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true
+ },
+ "department": "Electrical and Computer Engineering",
+ "description": "This course provides a comprehensive introduction to machine learning and deep learning, focusing on both fundamental concepts and practical applications. The course will cover machine learning algorithms and techniques, including supervised learning, unsupervised learning, and reinforcement learning. The course will also cover neural network architectures, such as multilayer perceptron feedforward networks. During the course, students will apply this knowledge to real-world problems in various domains, including healthcare, computer vision, natural language processing, robotics, and cybersecurity. Through hands-on projects and assignments, students will gain practical experience in building and deploying machine learning models.",
+ "faculty": "College of Design and Engineering",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "EE3703",
+ "moduleCredit": "4",
+ "prerequisite": "If undertaking an Undergraduate Degree THEN must have completed 1 of CS1010/CS1010A/CS1010E/CS1010J/CS1010S/CS1010X/CS1101S at a grade of at least D AND ( must have completed EE2211 at a grade of at least D) AND ( must have completed EE2213 at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN COURSES (1) CS1010E:D, CS1010:D, CS1010X:D, CS1010S:D, CS1101S:D, CS1010S:D, CS1010J:D, CS1010A:D AND (COURSES (1) EE2211:D) AND (COURSES (1) EE2213:D)",
+ "title": "Machine Learning with Applications",
+ "workload": [
+  2,
+  1,
+  0,
+  4,
+  3
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1
+  },
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2
+  }
+ ],
+ "prereqTree": {
+  "and": [
+   {
+    "or": [
+     "CS1010E:D",
+     "CS1010:D",
+     "CS1010X:D",
+     "CS1010S:D",
+     "CS1101S:D",
+     "CS1010J:D",
+     "CS1010A:D"
+    ]
+   },
+   "EE2211:D",
+   "EE2213:D"
+  ]
+ }
+}

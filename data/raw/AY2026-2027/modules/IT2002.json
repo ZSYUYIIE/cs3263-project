@@ -1,0 +1,50 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes2": true
+ },
+ "department": "Computer Science",
+ "description": "The aim of this course is to provide students with practical knowledge and understanding of basic issues and techniques in data management, with sufficient theory to understand the reasons for these techniques. Topics include conceptual (entity relationship model) and logical design (relational model) of database models, relational database management (data definition, data manipulation, SQL, visual interactive query interfaces), and their use in application development (in particular, data extraction from DBMS to spreadsheets application and data extraction to Web applications). Projects in developing a database within an application form an essential component of this course.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "IT2002",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate DegreeTHENmust not be undertaking 1 of 0300CSHON Bachelor of Computing (Computer Science) (Hons), 0300ISCHON Bachelor of Computing (Information Security) (Hons), 0300ISPHON Bachelor of Computing (Information Security) (Hons) Co-op, 0300ISHON Bachelor of Computing (Information Systems) (Hons), 0300BZPHON Bachelor of Science (Business Analytics) (Hons) Co-op, 0300BZAHON Bachelor of Science (Business Analytics) (Hons), 2001CEGHON Bachelor of Engineering (Computer Engineering) (Hons)ANDmust not have completed CS2102 at a grade of at least D",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN PROGRAMS MUST_NOT_BE_IN (1) 0300CSHON, 0300ISCHON, 0300ISPHON, 0300ISHON, 0300BZPHON, 0300BZAHON, 2001CEGHON AND COURSES (1) CS2102:D",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHEN( must have completed 1 of CS1010/CS1010A/CS1010E/CS1010HS/CS1010J/CS1010S/CS1010X/CS1101S/UTC2851 at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CS1010:D, CS1010X:D, CS1010E:D, CS1010S:D, CS1010J:D, CS1101S:D, CS1010A:D, CS1010HS:D, UTC2851:D)",
+ "title": "Database Technology and Management",
+ "workload": [
+  2,
+  1,
+  0.5,
+  2,
+  3
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2
+  }
+ ],
+ "prereqTree": {
+  "or": [
+   "CS1010:D",
+   "CS1010X:D",
+   "CS1010E:D",
+   "CS1010S:D",
+   "CS1010J:D",
+   "CS1101S:D",
+   "CS1010A:D",
+   "CS1010HS:D",
+   "UTC2851:D"
+  ]
+ },
+ "fulfillRequirements": [
+  "CS3223",
+  "CS4225",
+  "CS5425"
+ ]
+}

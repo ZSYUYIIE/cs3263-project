@@ -1,0 +1,35 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "grsu": true
+ },
+ "department": "Electrical and Computer Engineering",
+ "description": "This course introduces students to the fundamental principles and concepts of computer communication networks. The course covers four main layers of the network protocol stack: link, network, transport and application. The fundamental design principles of each layer are presented. Issues related to the performance of each layer are explored in detail. The course uses case studies to expose students to real-world networking protocols and presents the design principles that motivated the development of these protocols. The course also includes an examination of the security aspects of each layer.",
+ "faculty": "College of Design and Engineering",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "EE5310",
+ "moduleCredit": "4",
+ "preclusion": "( if undertaking a Graduate Degree Coursework then ( must not have completed EE6310 at a grade of at least D ) ) or ( if undertaking an Undergraduate Degree then must not have completed EE6310 at a grade of at least D )",
+ "preclusionRule": "(PROGRAM_TYPES IF_IN Graduate Degree Coursework THEN (COURSES (1) EE6310:D)) OR (PROGRAM_TYPES IF_IN Undergraduate Degree THEN COURSES (1) EE6310:D)",
+ "prerequisite": "if undertaking an Undergraduate Degree then ( must have completed 1 of \"EE3204\"/EE2012/EE2012A/EE4204/EE4210/ST2334 at a grade of at least D )",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) EE2012:D, EE2012A:D, ST2334:D, EE3204:D, EE4204:D, EE4210:D)",
+ "title": "Communication Networking Fundamentals",
+ "workload": [
+  3,
+  0,
+  0,
+  2,
+  5
+ ],
+ "semesterData": [],
+ "prereqTree": {
+  "or": [
+   "EE2012:D",
+   "EE2012A:D",
+   "ST2334:D",
+   "EE3204:D",
+   "EE4204:D",
+   "EE4210:D"
+  ]
+ }
+}

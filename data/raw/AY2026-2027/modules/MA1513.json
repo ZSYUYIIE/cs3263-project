@@ -1,0 +1,111 @@
+{
+ "acadYear": "2026/2027",
+ "additionalInformation": "This course is open only to Engineering students.",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true,
+  "su": true
+ },
+ "department": "Mathematics",
+ "description": "This is a seven-week course specially designed for students majoring in Engineering. It introduces the basic concepts in linear algebra with applications in engineering. Major topics: Matrix algebra, linear system of equations, vector spaces, linear independence, basis, orthogonality, rank, linear transformations, eigenvalues and eigenvectors, diagonalisation, linear systems of differential equations, linearisation of nonlinear systems.",
+ "faculty": "Science",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "MA1513",
+ "moduleCredit": "2",
+ "preclusion": "If undertaking an Undergraduate Degree THEN ( must not have completed 1 of MA1311/MA1508E/MA1522/MA2001/YSC2232 at a grade of at least D)",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) MA1311:D, MA1508E:D, MA1522:D, MA2001:D, YSC2232:D)",
+ "prerequisite": "If undertaking an Undergraduate Degree THEN (( must have completed 1 of 06 MATHEMATICS/07 FURTHER MATHEMATICS at a grade of at least E) OR ( must have completed 1 of MA1301/MA1301X at a grade of at least D))",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN ((SUBJECTS (1) 06:E, 07:E) OR (COURSES (1) MA1301:D, MA1301X:D))",
+ "title": "Linear Algebra with Differential Equations",
+ "workload": [
+  3,
+  2,
+  0,
+  0,
+  5
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1,
+   "examDate": "2026-10-10T05:00:00.000Z",
+   "examDuration": 90
+  },
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-03-13T05:00:00.000Z",
+   "examDuration": 90
+  }
+ ],
+ "prereqTree": {
+  "or": [
+   "MA1301:D",
+   "MA1301X:D"
+  ]
+ },
+ "fulfillRequirements": [
+  "CN3421",
+  "CN3121",
+  "CN3421A",
+  "ME2142",
+  "ME3291",
+  "ME3142",
+  "RB2203",
+  "CN3104",
+  "CN4101",
+  "RB2202",
+  "EE2211",
+  "EE4115",
+  "CS3242",
+  "CS4235",
+  "CS5249",
+  "CS4278",
+  "CS4268",
+  "CS5461",
+  "CS4261",
+  "CS5246",
+  "CS5332",
+  "CS3264",
+  "BT4240",
+  "CS4347",
+  "CS5647",
+  "CS5275",
+  "CS5240",
+  "CS4234",
+  "CS2251",
+  "CP4282",
+  "CS3244",
+  "CS3218",
+  "CS3263",
+  "CS4243",
+  "IT3011",
+  "CS2108",
+  "MA3229",
+  "MA2219",
+  "MA3252",
+  "PC3441",
+  "MA3220",
+  "MA2214",
+  "DSA2102",
+  "MA2213",
+  "PC2130",
+  "MA3238",
+  "PC2451",
+  "DSA4212",
+  "QF2104",
+  "MA3270",
+  "MA2101",
+  "MA2101S",
+  "PC3236",
+  "PC3274A",
+  "DSA3102",
+  "DSA2101",
+  "DSA3361",
+  "PC3221"
+ ]
+}

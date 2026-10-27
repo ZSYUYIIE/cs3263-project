@@ -1,0 +1,34 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "su": true
+ },
+ "department": "Computer Science",
+ "description": "This 1-Unit course adds a research component to the host course, enabling students to acquire more in-depth understanding of the research issues pertaining to the subject matter.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS1231R",
+ "moduleCredit": "1",
+ "title": "Discrete Structures",
+ "workload": [
+  0,
+  0,
+  0,
+  2,
+  1
+ ],
+ "semesterData": [
+  {
+   "covidZones": [],
+   "semester": 1
+  },
+  {
+   "covidZones": [],
+   "semester": 2
+  }
+ ],
+ "fulfillRequirements": [
+  "CS5241",
+  "CS5249"
+ ]
+}

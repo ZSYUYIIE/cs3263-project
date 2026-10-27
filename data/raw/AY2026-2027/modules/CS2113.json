@@ -1,0 +1,84 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true
+ },
+ "department": "Computer Science",
+ "description": "This course introduces the necessary skills for systematic and rigorous development of software systems. It covers requirements, design, implementation, quality assurance, and project management aspects of small-to-medium size multi-person software projects. The course uses the Object Oriented Programming paradigm. Students of this course will receive hands-on practice of tools commonly used in the industry, such as test automation tools, build automation tools, and code revisioning tools will be covered.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS2113",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate DegreeTHEN( must not have completed 1 of CS2103/CS2103DE/CS2103T/CS2113T at a grade of at least D)",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CS2103:D, CS2103T:D, CS2103DE:D, CS2113T:D)",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHEN( must have completed 1 of CS2040/CS2040C/CS2040DE/CS2040HS/CS2040S at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CS2040C:D, CS2040S:D, CS2040:D, CS2040HS:D, CS2040DE:D)",
+ "title": "Software Engineering & Object-Oriented Programming",
+ "workload": [
+  2,
+  1,
+  0,
+  3,
+  4
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1,
+   "examDate": "2026-11-30T09:00:00.000Z",
+   "examDuration": 90
+  },
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-05-03T01:00:00.000Z",
+   "examDuration": 90
+  }
+ ],
+ "prereqTree": {
+  "or": [
+   "CS2040C:D",
+   "CS2040S:D",
+   "CS2040:D",
+   "CS2040HS:D",
+   "CS2040DE:D"
+  ]
+ },
+ "fulfillRequirements": [
+  "CS5272",
+  "CS3217",
+  "CS5439",
+  "CS4239",
+  "CS5232",
+  "CS5239",
+  "CS5246",
+  "CS3219",
+  "CS3213",
+  "CS3227",
+  "CP3880",
+  "CP3880E",
+  "CP3881",
+  "CP3880X",
+  "CS3281",
+  "CS3216",
+  "CS4353",
+  "CS4211",
+  "CS4215",
+  "CS3241",
+  "CS3226",
+  "CS2309",
+  "CS2104",
+  "BT3102",
+  "CP3107",
+  "IS4302",
+  "CS4243",
+  "CS4354",
+  "CG3002",
+  "CG4002"
+ ]
+}

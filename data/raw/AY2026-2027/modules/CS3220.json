@@ -1,0 +1,27 @@
+{
+ "acadYear": "2026/2027",
+ "department": "Computer Science",
+ "description": "The objective of this course is concerned with design techniques involving the use of parallelism to improve the performance of computer systems. The course is divided into three parts. Part I considers the fundamental methods to improve the performance of single processor systems. Topics include the design principle of instruction set, memory hierarchy, pipeline design techniques, RISC and vector computer. In Part II, multi-processor systems using shared memory are examined in detail, and Part III, multi-processor systems that do not use shared memory are examined.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS3220",
+ "moduleCredit": "4",
+ "prerequisite": "If undertaking an Undergraduate Degree THEN ( must have completed CS2106 at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CS2106:D)",
+ "title": "Computer Architecture",
+ "workload": [
+  2,
+  1,
+  0,
+  3,
+  4
+ ],
+ "semesterData": [],
+ "prereqTree": "CS2106:D",
+ "fulfillRequirements": [
+  "CS4223R",
+  "CS5222",
+  "CS5271",
+  "CS4223"
+ ]
+}

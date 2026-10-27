@@ -1,0 +1,130 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true
+ },
+ "department": "Economics",
+ "description": "Econometrics combines economic theory with mathematical and statistical tools to provide estimates that help answer important economic questions. This course will focus on the theoretical underpinnings, practical implementation and interpretation of results from the multiple regression model in cross-sectional data settings. It will also introduce students to panel data, fixed effects regression, and instrumental variables regression.",
+ "faculty": "Arts and Social Science",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "EC3303",
+ "moduleCredit": "4",
+ "preclusion": "If undertaking an Undergraduate Degree THEN must not have completed ST3131 at a grade of at least D",
+ "preclusionRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN COURSES ST3131:D",
+ "prerequisite": "If undertaking an Undergraduate Degree THEN ( must have completed 1 of BSP1005/BSP1703/BSP1703X/EC1101E/EC1301/RE1704 at a grade of at least D) AND ( must have completed 1 of any Courses (Modules) beginning with SA at a grade of at least D, any Courses (Modules) beginning with ST at a grade of at least D, BT1101/DSC1007/DSC1007X/EC2303/MA2216 at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) EC1101E:D, EC1301:D, BSP1005:D, BSP1703:D, BSP1703X:D, RE1704:D) AND (COURSES (1) EC2303:D, DSC1007:D, DSC1007X:D, BT1101:D, SA%:D, ST%:D, MA2216:D)",
+ "title": "Econometrics I",
+ "workload": [
+  2,
+  1,
+  0,
+  2,
+  5
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C",
+    "Unknown"
+   ],
+   "semester": 1,
+   "examDate": "2026-11-24T09:00:00.000Z",
+   "examDuration": 120
+  },
+  {
+   "covidZones": [
+    "C",
+    "Unknown"
+   ],
+   "semester": 2,
+   "examDate": "2027-04-30T06:30:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": {
+  "and": [
+   {
+    "or": [
+     "EC1101E:D",
+     "EC1301:D",
+     "BSP1005:D",
+     "BSP1703:D",
+     "BSP1703X:D",
+     "RE1704:D"
+    ]
+   },
+   {
+    "or": [
+     "EC2303:D",
+     "DSC1007:D",
+     "DSC1007X:D",
+     "BT1101:D",
+     "SA%:D",
+     "ST%:D",
+     "MA2216:D"
+    ]
+   }
+  ]
+ },
+ "fulfillRequirements": [
+  "EC4304HM",
+  "EC4391HM",
+  "EC4322HM",
+  "EC4355HM",
+  "EC4362HM",
+  "EC4361HM",
+  "EC4323HM",
+  "EC4373HM",
+  "EC4351HM",
+  "EC4363HM",
+  "EC4352HM",
+  "EC4384HM",
+  "EC4880AHM",
+  "EC4881HM",
+  "EC4882HM",
+  "EC4883HM",
+  "EC3361",
+  "EC3371",
+  "EC4322",
+  "EC4323",
+  "EC4353",
+  "EC4355",
+  "EC4363",
+  "EC4373",
+  "EC4384",
+  "EC4387",
+  "EC4391",
+  "EC4399",
+  "EC4880A",
+  "EC4881",
+  "EC4882",
+  "EC4883",
+  "EC4343HM",
+  "EC4354HM",
+  "EC4371HM",
+  "EC4342HM",
+  "EC4372HM",
+  "EC4332",
+  "EC4332HM",
+  "EC3394",
+  "EC4304",
+  "EC4305",
+  "EC4362",
+  "EC4342",
+  "EC4351",
+  "EC4382",
+  "EC4352",
+  "EC4361",
+  "EC4354",
+  "EC4343",
+  "EC3304",
+  "EC4371",
+  "EC4398",
+  "EC4383",
+  "EC4377",
+  "EC4372",
+  "BSN4811A",
+  "BSS4003B"
+ ]
+}

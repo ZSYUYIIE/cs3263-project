@@ -1,0 +1,68 @@
+{
+ "acadYear": "2026/2027",
+ "attributes": {
+  "mpes1": true,
+  "mpes2": true
+ },
+ "department": "Computer Science",
+ "description": "This system-oriented course provides an in-depth study of the concepts and implementation issues related to database management systems. It first covers the physical implementation of the relational data model, which includes storage management, access methods, query processing, and optimisation. Then it covers issues and techniques dealing with multi-user application environments, namely, transactions, concurrency control, and recovery. The third part covers advanced topics such as on-line analytical processing, in-memory databases, and column stores.",
+ "faculty": "Computing",
+ "gradingBasisDescription": "Graded",
+ "moduleCode": "CS3223",
+ "moduleCredit": "4",
+ "prerequisite": "If undertaking an Undergraduate DegreeTHEN( must have completed 1 of CS2040/CS2040C/CS2040DE/CS2040HS/CS2040S at a grade of at least DANDmust have completed 1 of CS2102/IT2002 at a grade of at least D)",
+ "prerequisiteRule": "PROGRAM_TYPES IF_IN Undergraduate Degree THEN (COURSES (1) CS2040S:D, CS2040:D, CS2040C:D, CS2040DE:D, CS2040HS:D AND COURSES (1) CS2102:D, IT2002:D)",
+ "title": "Database Systems Implementation",
+ "workload": [
+  2,
+  1,
+  0,
+  3,
+  4
+ ],
+ "semesterData": [
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 1,
+   "examDate": "2026-11-25T05:00:00.000Z",
+   "examDuration": 120
+  },
+  {
+   "covidZones": [
+    "C"
+   ],
+   "semester": 2,
+   "examDate": "2027-04-27T05:00:00.000Z",
+   "examDuration": 120
+  }
+ ],
+ "prereqTree": {
+  "and": [
+   {
+    "or": [
+     "CS2040S:D",
+     "CS2040:D",
+     "CS2040C:D",
+     "CS2040DE:D",
+     "CS2040HS:D"
+    ]
+   },
+   {
+    "or": [
+     "CS2102:D",
+     "IT2002:D"
+    ]
+   }
+  ]
+ },
+ "fulfillRequirements": [
+  "CS4221",
+  "CS5226",
+  "CS5421",
+  "CS5322",
+  "CS6203",
+  "CS4224"
+ ]
+}
