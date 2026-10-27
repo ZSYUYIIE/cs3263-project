@@ -9,7 +9,7 @@ This file covers what you need to avoid mistakes.
 1. **Course facts come from the data, never from memory.** Prerequisites and preclusions change
    every year. Your training data is likely an older AY. Look the course up in
    `data/processed/AY2026-2027/catalog.json` (or `COURSES.md`) and cite the AY.
-2. **Do not edit `data/processed/` or `data/raw/`.** They are generated. To change an output,
+2. **Do not edit `data/processed/`, `data/raw/` or `docs/diagrams/`.** They are generated. To change an output,
    fix the parser in `m1_data/` or add an entry with a `reason` to `data/manual/overrides.json`,
    then run `python -m m1_data build`.
 3. **After any change to `m1_data/`, run `python -m m1_data build` and `python -m pytest -q`.**
@@ -31,6 +31,8 @@ This file covers what you need to avoid mistakes.
 | Is X ruled out forever? | `Catalog.reachable(code, completed)` |
 | Courses that need X | `courses[X]["unlocks"]` |
 | All relations as a table | `edges.csv` |
+| Traverse the graph (and/or kept) | `graph.json` (nodes `course` / `all` / `any` / `n_of`; edges `prereq` / `arg` / `excludes`) |
+| Show a person a course | `data/processed/AY2026-2027/diagrams/<CODE>.html` |
 | Why a rule was read a certain way | `courses[X]["assumptions"]`, `["warnings"]`, and `docs/DATA_SCHEMA.md#interpretation-decisions` |
 | Raw NUSMods text | `courses[X]["prereq"]["source_text"]`, `["source"]["prerequisiteRule"]` |
 

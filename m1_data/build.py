@@ -293,6 +293,14 @@ def build() -> dict:
     write_courses_md(out / "COURSES.md", catalog)
     write_spot_check_md(paths.MANUAL / "SPOT_CHECK.md", catalog)
     write_report_md(out / "PARSE_REPORT.md", catalog, crosscheck, parse_errors)
+    from .graph import build_graph, write_graphml
+    graph = build_graph(catalog)
+    (out / "graph.json").write_text(dumps(graph), encoding="utf-8", newline="\n")
+    write_graphml(out / "course_graph.graphml", catalog, graph)
+    from .diagrams import write_diagrams
+    write_diagrams(out / "diagrams", catalog, graph)
+    from .overviews import write_overviews
+    write_overviews(paths.ROOT / "docs" / "diagrams", catalog)
     print(f"[build] wrote {out} :: " + ", ".join(f"{k}={v}" for k, v in stats.items()))
     return catalog
 

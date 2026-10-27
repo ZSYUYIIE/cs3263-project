@@ -117,3 +117,27 @@ def test_doc_t1_sample(cat):
     done = {"CS1101S", "CS1231S", "CS2030S", "CS2040S", "MA1521", "MA1522", "ST2334"}
     ok, why = cat.can_take("CS3263", done)
     assert not ok and "CS2109S or CS2109HS" in why[0]
+
+
+# --- graph + diagrams (needs a built catalogue) ---------------------------
+def test_graph_edges_resolve(cat):
+    import json
+    from m1_data import paths
+    g = json.loads((paths.processed_dir(cat.data["acad_year"]) / "graph.json").read_text(encoding="utf-8"))
+    ids = {n["id"] for n in g["nodes"]}
+    assert all(e["source"] in ids and e["target"] in ids for e in g["edges"])
+    kinds = {n["id"]: n["kind"] for n in g["nodes"]}
+    assert kinds["CS3263"] == "course"
+    # CS3263's prereq is an "all" node with four "any" children.
+    root = [e["target"] for e in g["edges"] if e["source"] == "CS3263" and e["kind"] == "prereq"]
+    assert len(root) == 1 and kinds[root[0]] == "all"
+    assert sum(1 for e in g["edges"] if e["source"] == root[0]) == 4
+
+
+def test_every_full_course_has_a_page(cat):
+    from m1_data import paths
+    d = paths.processed_dir(cat.data["acad_year"]) / "diagrams"
+    full = [c for c, v in cat.courses.items() if v["details"] == "full"]
+    assert all((d / f"{c}.html").exists() for c in full)
+    html = (d / "CS3263.html").read_text(encoding="utf-8")
+    assert 'role="img"' in html and "cs3263-title" in html and "EXCLUDES" in html

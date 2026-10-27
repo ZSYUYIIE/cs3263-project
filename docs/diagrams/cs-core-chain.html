@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BComp CS path to CS3263</title>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Geist', system-ui, sans-serif; background: #f5f5f5; color: #2d3142; padding: 3rem 2rem; }
+.frame { max-width: 1040px; margin: 0 auto; }
+.diagram-container { width: 100%; overflow-x: auto; }
+svg { width: 100%; min-width: 960px; display: block; }
+svg a:hover text { fill: #2e5aa8; }
+.eyebrow { font-family: 'Geist Mono', ui-monospace, monospace; font-size: .66rem; font-weight: 500; letter-spacing: .18em;
+  text-transform: uppercase; color: #4f5d75; margin-bottom: .5rem; }
+.eyebrow a { color: #4f5d75; }
+h1 { font-family: 'Instrument Serif', serif; font-size: clamp(1.5rem, 2.4vw + .75rem, 2rem); font-weight: 400;
+  letter-spacing: -.02em; line-height: 1.15; margin-bottom: 1.5rem; }
+h2 { font-family: 'Instrument Serif', serif; font-weight: 400; font-size: 1.35rem; margin: 2rem 0 .75rem; }
+dl { display: grid; grid-template-columns: 11rem 1fr; gap: .55rem 1.25rem; font-size: .9rem;
+  border-top: 1px solid rgba(45,49,66,.12); padding-top: 1rem; }
+dt { font-family: 'Geist Mono', ui-monospace, monospace; font-size: .7rem; letter-spacing: .12em; text-transform: uppercase;
+  color: #4f5d75; padding-top: .15rem; }
+dd { line-height: 1.5; }
+code, .mono { font-family: 'Geist Mono', ui-monospace, monospace; font-size: .82rem; }
+a { color: #2e5aa8; text-decoration: none; } a:hover { text-decoration: underline; }
+.muted { color: #4f5d75; }
+table { width: 100%; border-collapse: collapse; font-size: .86rem; }
+th { text-align: left; font-family: 'Geist Mono', ui-monospace, monospace; font-size: .66rem; letter-spacing: .14em;
+  text-transform: uppercase; color: #4f5d75; font-weight: 500; padding: .5rem .5rem;
+  border-bottom: 1px solid rgba(45,49,66,.25); }
+td { padding: .4rem .5rem; border-bottom: 1px solid rgba(45,49,66,.08); vertical-align: top; }
+td.num { font-family: 'Geist Mono', ui-monospace, monospace; text-align: right; }
+input { font: inherit; font-size: .9rem; padding: .45rem .7rem; border: 1px solid rgba(45,49,66,.25);
+  border-radius: 6px; background: #fff; width: min(24rem, 100%); margin-bottom: 1rem; }
+.overviews { display: grid; grid-template-columns: 1.1fr 1fr .9fr; gap: 12px; margin-bottom: 2rem; }
+.overviews a { display: block; background: #fff; border: 1px solid rgba(45,49,66,.12); border-radius: 6px;
+  padding: .9rem 1rem; color: #2d3142; }
+.overviews a:hover { border-color: #2d3142; text-decoration: none; }
+.overviews b { display: block; font-weight: 600; margin-bottom: .25rem; }
+.overviews span { font-size: .82rem; color: #4f5d75; }
+@media (max-width: 720px) { dl { grid-template-columns: 1fr; } .overviews { grid-template-columns: 1fr; } }
+@media print { .diagram-container { overflow-x: visible; } svg { min-width: 0; } }
+</style>
+</head>
+<body>
+<div class="frame">
+<p class="eyebrow">Dependency graph · AY2026/27 · M1 data</p>
+<h1>From year 1 to CS3263: the BComp CS path</h1><div class="diagram-container"><svg viewBox="0 0 960 600" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="cs-core-chain-title cs-core-chain-desc"><title id="cs-core-chain-title">BComp CS path to CS3263</title><desc id="cs-core-chain-desc">Ranked dependency graph from CS3263 down to year-1 courses; CS2040S and MA1521 are the shared dependencies, each needed by two courses.</desc><defs><marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#4f5d75"/></marker><marker id="arrow-accent" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#bf4520"/></marker></defs><rect width="100%" height="100%" fill="#f5f5f5"/><text x="40" y="112" fill="#4f5d75" font-size="8" font-family="'Geist Mono', ui-monospace, monospace" letter-spacing="0.18em">RANK 0</text>
+<text x="40" y="232" fill="#4f5d75" font-size="8" font-family="'Geist Mono', ui-monospace, monospace" letter-spacing="0.18em">RANK 1</text>
+<text x="40" y="352" fill="#4f5d75" font-size="8" font-family="'Geist Mono', ui-monospace, monospace" letter-spacing="0.18em">RANK 2</text>
+<text x="40" y="472" fill="#4f5d75" font-size="8" font-family="'Geist Mono', ui-monospace, monospace" letter-spacing="0.18em">RANK 3</text>
+<path d="M 432,136 V 144 Q 432,152 424,152 H 248 Q 240,152 240,160 V 200" fill="none" stroke="#4f5d75" stroke-width="1" marker-end="url(#arrow)"/>
+<path d="M 480,136 V 200" fill="none" stroke="#4f5d75" stroke-width="1" marker-end="url(#arrow)"/>
+<path d="M 496,136 V 156 Q 496,164 504,164 H 660 Q 668,164 668,172 V 320" fill="none" stroke="#4f5d75" stroke-width="1" marker-end="url(#arrow)"/>
+<path d="M 528,136 V 144 Q 528,152 536,152 H 792 Q 800,152 800,160 V 200" fill="none" stroke="#4f5d75" stroke-width="1" marker-end="url(#arrow)"/>
+<path d="M 292,256 V 320" fill="none" stroke="#4f5d75" stroke-width="1" marker-end="url(#arrow)"/>
+<path d="M 452,256 V 264 Q 452,272 444,272 H 356 Q 348,272 348,280 V 320" fill="none" stroke="#4f5d75" stroke-width="1" marker-end="url(#arrow)"/>
+<path d="M 508,256 V 264 Q 508,272 516,272 H 604 Q 612,272 612,280 V 320" fill="none" stroke="#4f5d75" stroke-width="1" marker-end="url(#arrow)"/>
+<path d="M 600,376 V 440" fill="none" stroke="#4f5d75" stroke-width="1" marker-end="url(#arrow)"/>
+<path d="M 668,376 V 384 Q 668,392 676,392 H 792 Q 800,392 800,400 V 440" fill="none" stroke="#4f5d75" stroke-width="1" marker-end="url(#arrow)"/>
+<a href="../../data/processed/AY2026-2027/diagrams/CS3263.html"><rect x="400" y="80" width="160" height="56" rx="6" fill="#f5f5f5"/><rect x="400" y="80" width="160" height="56" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/><rect x="408" y="86" width="40" height="12" rx="2" fill="transparent" stroke="rgba(45,49,66,0.40)" stroke-width="0.8"/><text x="428" y="95" fill="#2d3142" font-size="7" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle" letter-spacing="0.08em">TARGET</text><rect x="524" y="88" width="28" height="12" rx="2" fill="transparent" stroke="rgba(45,49,66,0.40)" stroke-width="0.8"/><text x="538" y="97" fill="#2d3142" font-size="8" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle">0 IN</text><text x="480" y="112" fill="#2d3142" font-size="12" font-weight="600" font-family="'Geist', system-ui, sans-serif" text-anchor="middle">CS3263</text><text x="480" y="128" fill="#4f5d75" font-size="9" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle">Foundations of AI</text></a>
+<a href="../../data/processed/AY2026-2027/diagrams/ST2334.html"><rect x="160" y="200" width="160" height="56" rx="6" fill="#f5f5f5"/><rect x="160" y="200" width="160" height="56" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/><rect x="168" y="206" width="36" height="12" rx="2" fill="transparent" stroke="rgba(45,49,66,0.40)" stroke-width="0.8"/><text x="186" y="215" fill="#2d3142" font-size="7" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle" letter-spacing="0.08em">STATS</text><rect x="284" y="208" width="28" height="12" rx="2" fill="transparent" stroke="rgba(45,49,66,0.40)" stroke-width="0.8"/><text x="298" y="217" fill="#2d3142" font-size="8" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle">1 IN</text><text x="240" y="232" fill="#2d3142" font-size="12" font-weight="600" font-family="'Geist', system-ui, sans-serif" text-anchor="middle">ST2334</text><text x="240" y="248" fill="#4f5d75" font-size="9" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle">Probability &amp; Statistics</text></a>
+<a href="../../data/processed/AY2026-2027/diagrams/CS2109S.html"><rect x="400" y="200" width="160" height="56" rx="6" fill="#f5f5f5"/><rect x="400" y="200" width="160" height="56" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/><rect x="408" y="206" width="20" height="12" rx="2" fill="transparent" stroke="rgba(45,49,66,0.40)" stroke-width="0.8"/><text x="418" y="215" fill="#2d3142" font-size="7" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle" letter-spacing="0.08em">AI</text><rect x="524" y="208" width="28" height="12" rx="2" fill="transparent" stroke="rgba(45,49,66,0.40)" stroke-width="0.8"/><text x="538" y="217" fill="#2d3142" font-size="8" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle">1 IN</text><text x="480" y="232" fill="#2d3142" font-size="12" font-weight="600" font-family="'Geist', system-ui, sans-serif" text-anchor="middle">CS2109S</text><text x="480" y="248" fill="#4f5d75" font-size="9" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle">Intro to AI &amp; ML</text></a>
+<a href="../../data/processed/AY2026-2027/diagrams/MA1522.html"><rect x="720" y="200" width="160" height="56" rx="6" fill="#f5f5f5"/><rect x="720" y="200" width="160" height="56" rx="6" fill="rgba(45,49,66,0.05)" stroke="#4f5d75" stroke-width="0.8"/><rect x="728" y="206" width="28" height="12" rx="2" fill="transparent" stroke="rgba(45,49,66,0.40)" stroke-width="0.8"/><text x="742" y="215" fill="#2d3142" font-size="7" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle" letter-spacing="0.08em">MATH</text><rect x="844" y="208" width="28" height="12" rx="2" fill="transparent" stroke="rgba(45,49,66,0.40)" stroke-width="0.8"/><text x="858" y="217" fill="#2d3142" font-size="8" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle">1 IN</text><text x="800" y="232" fill="#2d3142" font-size="12" font-weight="600" font-family="'Geist', system-ui, sans-serif" text-anchor="middle">MA1522</text><text x="800" y="248" fill="#4f5d75" font-size="9" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle">Linear Algebra</text></a>
+<a href="../../data/processed/AY2026-2027/diagrams/MA1521.html"><rect x="240" y="320" width="160" height="56" rx="6" fill="#f5f5f5"/><rect x="240" y="320" width="160" height="56" rx="6" fill="rgba(45,49,66,0.05)" stroke="#4f5d75" stroke-width="0.8"/><rect x="248" y="326" width="28" height="12" rx="2" fill="transparent" stroke="rgba(45,49,66,0.40)" stroke-width="0.8"/><text x="262" y="335" fill="#2d3142" font-size="7" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle" letter-spacing="0.08em">MATH</text><rect x="364" y="328" width="28" height="12" rx="2" fill="transparent" stroke="rgba(45,49,66,0.40)" stroke-width="0.8"/><text x="378" y="337" fill="#2d3142" font-size="8" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle">2 IN</text><text x="320" y="352" fill="#2d3142" font-size="12" font-weight="600" font-family="'Geist', system-ui, sans-serif" text-anchor="middle">MA1521</text><text x="320" y="368" fill="#4f5d75" font-size="9" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle">Calculus for Computing</text></a>
+<a href="../../data/processed/AY2026-2027/diagrams/CS2040S.html"><rect x="560" y="320" width="160" height="56" rx="6" fill="#f5f5f5"/><rect x="560" y="320" width="160" height="56" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/><rect x="568" y="326" width="28" height="12" rx="2" fill="transparent" stroke="rgba(45,49,66,0.40)" stroke-width="0.8"/><text x="582" y="335" fill="#2d3142" font-size="7" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle" letter-spacing="0.08em">CORE</text><rect x="684" y="328" width="28" height="12" rx="2" fill="transparent" stroke="rgba(45,49,66,0.40)" stroke-width="0.8"/><text x="698" y="337" fill="#2d3142" font-size="8" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle">2 IN</text><text x="640" y="352" fill="#2d3142" font-size="12" font-weight="600" font-family="'Geist', system-ui, sans-serif" text-anchor="middle">CS2040S</text><text x="640" y="368" fill="#4f5d75" font-size="9" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle">Data Structures &amp; Algos</text></a>
+<a href="../../data/processed/AY2026-2027/diagrams/CS1101S.html"><rect x="520" y="440" width="160" height="56" rx="6" fill="#f5f5f5"/><rect x="520" y="440" width="160" height="56" rx="6" fill="rgba(45,49,66,0.05)" stroke="#4f5d75" stroke-width="0.8"/><rect x="528" y="446" width="28" height="12" rx="2" fill="transparent" stroke="rgba(45,49,66,0.40)" stroke-width="0.8"/><text x="542" y="455" fill="#2d3142" font-size="7" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle" letter-spacing="0.08em">CORE</text><rect x="644" y="448" width="28" height="12" rx="2" fill="transparent" stroke="rgba(45,49,66,0.40)" stroke-width="0.8"/><text x="658" y="457" fill="#2d3142" font-size="8" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle">1 IN</text><text x="600" y="472" fill="#2d3142" font-size="12" font-weight="600" font-family="'Geist', system-ui, sans-serif" text-anchor="middle">CS1101S</text><text x="600" y="488" fill="#4f5d75" font-size="9" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle">Programming Methodology</text></a>
+<a href="../../data/processed/AY2026-2027/diagrams/CS1231S.html"><rect x="720" y="440" width="160" height="56" rx="6" fill="#f5f5f5"/><rect x="720" y="440" width="160" height="56" rx="6" fill="rgba(45,49,66,0.05)" stroke="#4f5d75" stroke-width="0.8"/><rect x="728" y="446" width="28" height="12" rx="2" fill="transparent" stroke="rgba(45,49,66,0.40)" stroke-width="0.8"/><text x="742" y="455" fill="#2d3142" font-size="7" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle" letter-spacing="0.08em">CORE</text><rect x="844" y="448" width="28" height="12" rx="2" fill="transparent" stroke="rgba(45,49,66,0.40)" stroke-width="0.8"/><text x="858" y="457" fill="#2d3142" font-size="8" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle">1 IN</text><text x="800" y="472" fill="#2d3142" font-size="12" font-weight="600" font-family="'Geist', system-ui, sans-serif" text-anchor="middle">CS1231S</text><text x="800" y="488" fill="#4f5d75" font-size="9" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle">Discrete Structures</text></a>
+<line x1="40" y1="524" x2="920" y2="524" stroke="rgba(45,49,66,0.10)" stroke-width="0.8"/>
+<text x="40" y="540" fill="#4f5d75" font-size="8" font-family="'Geist Mono', ui-monospace, monospace" letter-spacing="0.18em">LEGEND</text>
+<rect x="40" y="552" width="16" height="12" rx="2" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+<text x="64" y="561" fill="#4f5d75" font-size="8.5" font-family="'Geist', system-ui, sans-serif">Course with prerequisites</text>
+<rect x="220" y="552" width="16" height="12" rx="2" fill="rgba(45,49,66,0.05)" stroke="#4f5d75" stroke-width="0.8"/>
+<text x="244" y="561" fill="#4f5d75" font-size="8.5" font-family="'Geist', system-ui, sans-serif">Entry course (nothing needed for an H2 Maths student)</text>
+<text x="544" y="561" fill="#4f5d75" font-size="8.5" font-family="'Geist', system-ui, sans-serif">N IN = arrows into it here</text>
+<text x="40" y="580" fill="#4f5d75" font-size="8.5" font-family="'Geist', system-ui, sans-serif">Arrows show the option a BComp CS Hons student takes from each “any 1 of” group (CS2109S, since CS2109HS is closed to CS Hons). Click a box to open its page.</text></svg></div>
+</div>
+</body>
+</html>

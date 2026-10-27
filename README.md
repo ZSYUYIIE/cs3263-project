@@ -30,7 +30,8 @@ NUSMods API ──fetch──▶ data/raw/AY2026-2027/modules/*.json      (verba
 data/processed/AY2026-2027/
     catalog.json        ◀── load this (one record per course)
     COURSES.md          ◀── read this (one block per course)
-    edges.csv  PARSE_REPORT.md  rules_literal.json
+    diagrams/index.html ◀── look at this (one dependency diagram per course)
+    graph.json  course_graph.graphml  edges.csv  PARSE_REPORT.md  rules_literal.json
 ```
 
 ### Use the data
@@ -53,6 +54,19 @@ cat.reachable("CS3263", {"CS3244", "CS2040S", "MA1521", "MA1522", "ST2334"})
 ```
 
 Without Python, open `data/processed/AY2026-2027/COURSES.md` and search for `### CS3263`.
+
+### See it as a graph
+
+- **Open `data/processed/AY2026-2027/diagrams/index.html` in a browser.** It has one dependency diagram
+  per course: what it needs, what needs it, and what it excludes. Click through course to course.
+- **Overviews for the report:** [`docs/diagrams/cs-core-chain.html`](docs/diagrams/cs-core-chain.html)
+  (year 1 → CS3263) and [`docs/diagrams/exclusion-trap.html`](docs/diagrams/exclusion-trap.html)
+  (why completing CS3244 makes CS3263 impossible).
+- **For code:** `graph.json` is a node-link graph that keeps the and/or structure.
+  `course_graph.graphml` opens in yEd, Gephi or Cytoscape.
+
+The diagrams follow the diagram-design skill (dependency-graph type, default skin) and pass its
+`self_check.py` and `verify-geometry.py`.
 
 **Field reference and every interpretation decision: [`docs/DATA_SCHEMA.md`](docs/DATA_SCHEMA.md).**
 
@@ -89,7 +103,7 @@ data/config/        scope.json, student_context.json
 data/raw/           NUSMods responses, kept so results are reproducible (data drifts year to year)
 data/processed/     generated outputs (do not edit)
 data/manual/        overrides.json, SPOT_CHECK.md
-docs/               DATA_SCHEMA.md
+docs/               DATA_SCHEMA.md, diagrams/ (hand-laid overviews)
 tests/              pytest
 AGENTS.md           orientation for AI coding agents working in this repo
 ```

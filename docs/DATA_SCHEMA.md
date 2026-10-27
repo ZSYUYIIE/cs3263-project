@@ -18,6 +18,10 @@ does not change without a version bump.
 | `data/processed/AY2026-2027/edges.csv` | spreadsheets, graphs | `course, relation, other, other_in_ay` with relation `needs_prereq` / `needs_coreq` / `precluded_by`. |
 | `data/processed/AY2026-2027/PARSE_REPORT.md` | M1, reviewers | Counts, cross-check against NUSMods' own tree, warnings, asymmetric preclusions. |
 | `data/processed/AY2026-2027/rules_literal.json` | auditing | The rule strings parsed into trees *before* any assumption was applied. |
+| `data/processed/AY2026-2027/graph.json` | code, agents | The whole catalogue as a node-link graph, with and/or nodes kept (see [Graph](#graph)). |
+| `data/processed/AY2026-2027/course_graph.graphml` | yEd, Gephi, Cytoscape | Courses only, with `needs` / `excludes` edges. Open it to explore or lay out the full web. |
+| `data/processed/AY2026-2027/diagrams/` | people | One dependency diagram per course plus `index.html`. **Open `index.html` in a browser.** |
+| `docs/diagrams/*.html` | report, slides | Hand-laid overview diagrams (BComp CS core chain, the CS3244 trap). |
 | `data/manual/overrides.json` | M1 | Hand fixes, applied last, each with a reason. |
 | `data/manual/SPOT_CHECK.md` | everyone | Hand-verification checklist against nusmods.com. |
 | `data/config/scope.json` | M1 | Which courses are fetched. |
@@ -147,6 +151,46 @@ and is visible in the output. Raise disagreements with M1.
 7. **Grades are ignored.** Every in-scope threshold is D, and "completed" means passed.
 8. **Not offered = not available.** A course with no semester this AY can't be planned. Most of
    these are Yale-NUS (YSC) courses.
+
+## Graph
+
+`graph.json` is the same data as `catalog.json`, shaped for traversal:
+
+```jsonc
+{"nodes": [
+   {"id": "CS3263", "kind": "course", "title": "...", "mc": 4, "offered": [1, 2],
+    "available": true, "exists_in_ay": true, "details": "full",
+    "fan_in": 4,        // courses whose prerequisite mentions it
+    "depth": 3},        // longest hard-prerequisite chain below it (cheapest option at each OR)
+   {"id": "CS3263#p0", "kind": "all", "of": "CS3263", "role": "prereq"},
+   {"id": "CS3263#p1", "kind": "any", "of": "CS3263", "role": "prereq"},
+   {"id": "X#p3", "kind": "n_of", "n": 2, ...}],
+ "edges": [
+   {"source": "CS3263",    "target": "CS3263#p0", "kind": "prereq"},   // course -> its requirement
+   {"source": "CS3263#p0", "target": "CS3263#p1", "kind": "arg"},      // logic -> sub-logic
+   {"source": "CS3263#p1", "target": "CS2109S",   "kind": "arg"},      // logic -> course
+   {"source": "CS3263",    "target": "CS3243",    "kind": "excludes"}]}  // mutual, listed once
+```
+
+A requirement that is a single course is a direct `prereq` edge with no logic node.
+`course_graph.graphml` flattens the logic. Every course in a prerequisite becomes a `needs`
+edge, so use it for pictures and centrality, not for eligibility.
+
+### Diagrams
+
+Every course with full data has a page at `data/processed/AY2026-2027/diagrams/<CODE>.html`.
+It is drawn with the diagram-design skill (dependency-graph type, default skin):
+
+- top row: courses that need it (`N IN` = how many courses need that course);
+- middle: the course, with a dashed `EXCLUDES` edge to its mutually exclusive courses;
+- bottom row: one box per requirement group (`ANY 1 OF`, `2 OF`, or a single course).
+
+Codes are links. **Struck through** means the course can't be planned this AY: it is closed to this
+student, not offered, or retired. **Grey** means the course exists but is outside the fetched scope.
+If there are more than 9 nodes, the extras collapse into a `+N more` box, and the full lists sit
+under the diagram. Pages are regenerated on every build. The two overview diagrams are laid out by
+hand, but every edge they draw is checked against the catalogue on each build, so they fail
+loudly if the data changes under them.
 
 ## Overrides
 
