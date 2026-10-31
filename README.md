@@ -122,6 +122,9 @@ from solver.run import run
 answer = run(json.load(open("spec.json")), Catalog.load())
 ```
 
+Solver reference (inputs, outputs, rules, optimality, variants): [`docs/SOLVER_GUIDE.md`](docs/SOLVER_GUIDE.md)
+Pipeline B translation guide and prompt: [`docs/TRANSLATION_GUIDE.md`](docs/TRANSLATION_GUIDE.md)
+
 ### Spec fields
 
 | Field | Used by | Meaning |
@@ -238,7 +241,7 @@ data/config/        scope.json, student_context.json
 data/raw/           NUSMods responses, kept so results are reproducible (data drifts year to year)
 data/processed/     generated outputs (do not edit)
 data/manual/        overrides.json, SPOT_CHECK.md
-docs/               DATA_SCHEMA.md, diagrams/ (hand-laid overviews)
+docs/               DATA_SCHEMA.md, SOLVER_GUIDE.md, TRANSLATION_GUIDE.md, diagrams/ (hand-laid overviews)
 tests/              pytest
 AGENTS.md           orientation for AI coding agents working in this repo
 ```
