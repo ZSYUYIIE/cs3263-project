@@ -1,0 +1,16 @@
+{
+  "query": "plan",
+  "current_sem": 5,
+  "completed": ["CS1101S", "CS1231S", "CS2030S", "CS2040S", "CS2100", "MA1521", "MA1522", "ST2334", "CS2109S", "CS2103T", "CS2101"],
+  "must_take": ["CS4248", "CS3219", "CS4218", "CS4243", "CS3263", "CS3230", "CS2106"],
+  "mc_max": 8,
+  "sem_caps": {"6": 1},
+  "atap_sems": [6],
+  "objective": "earliest_graduation",
+  "early": ["CS3230"],
+  "rules": [
+    {"type": "in_sem", "course": "CS3219", "sem": 5, "strength": "must"},
+    {"type": "in_sem", "course": "CS4218", "sem": 5, "strength": "must"},
+    {"type": "in_sem", "course": "CS2106", "sem": 8, "strength": "prefer"}
+  ]
+}

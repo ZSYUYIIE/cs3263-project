@@ -1,0 +1,6 @@
+{
+  "query": "eligible",
+  "target": "CS3263",
+  "current_sem": 3,
+  "completed": ["CS1101S", "CS1231S", "CS2030S", "CS2040S", "MA1521", "MA1522", "ST2334"]
+}
